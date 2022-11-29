@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov 27 13:41:34 2022
+# Process ID: 38784
+# Current directory: D:/FPGA_study/projects/0001_project_beep/0001_project_beep.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/FPGA_study/projects/0001_project_beep/0001_project_beep.sim/sim_1/behav/xsim/xsim.dir/beep_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/FPGA_study/projects/0001_project_beep/0001_project_beep.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/FPGA_study/projects/0001_project_beep/0001_project_beep.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/FPGA_study/projects/0001_project_beep/0001_project_beep.sim/sim_1/behav/xsim/xsim.dir/beep_behav/webtalk/xsim_webtalk.tcl -notrace

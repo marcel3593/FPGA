@@ -1,0 +1,66 @@
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {tb_beep_simulate.do}
+# vsim -do "do {tb_beep_simulate.do}" -l simulate.log 
+# Start time: 15:24:48 on Nov 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.tb_beep(fast)
+# Loading work.beep(fast)
+# Loading work.key_press(fast)
+# Loading work.pwm_gen(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Causality operation skipped due to absence of debug database file
+add wave -position insertpoint  \
+sim:/tb_beep/u_beep/TIMEOUT \
+sim:/tb_beep/u_beep/sys_clk \
+sim:/tb_beep/u_beep/sys_rst_n \
+sim:/tb_beep/u_beep/pl_key_0 \
+sim:/tb_beep/u_beep/pl_key_1 \
+sim:/tb_beep/u_beep/beep \
+sim:/tb_beep/u_beep/pl_led_0 \
+sim:/tb_beep/u_beep/pl_led_1 \
+sim:/tb_beep/u_beep/key_pulse \
+sim:/tb_beep/u_beep/key_pulse_1 \
+sim:/tb_beep/u_beep/signal_pwm \
+sim:/tb_beep/u_beep/beep_flag \
+sim:/tb_beep/u_beep/pwm_rst_n \
+sim:/tb_beep/u_beep/duty_cycle \
+sim:/tb_beep/u_beep/freq_div \
+sim:/tb_beep/u_beep/pwm_state_cnt \
+sim:/tb_beep/u_beep/pwm_mode
+add wave -position end  sim:/tb_beep/u_beep/u_pwm_gen_1/cnt_max
+add wave -position end  sim:/tb_beep/u_beep/u_pwm_gen_1/cnt_high_max
+add wave -position end  sim:/tb_beep/u_beep/u_pwm_gen_1/pwm_cnt
+run
+add wave -position 17  sim:/tb_beep/u_beep/u_key_press_0/key_cnt
+add wave -position 22  sim:/tb_beep/u_beep/u_key_press_1/key_cnt
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.tb_beep(fast)
+# Loading work.beep(fast)
+# Loading work.key_press(fast)
+# Loading work.pwm_gen(fast)
+# Loading work.glbl(fast)
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/FPGA_study/projects/0001_project_beep/0001_project_beep.sim/sim_1/behav/modelsim/beep.do
+# End time: 15:52:34 on Nov 29,2022, Elapsed time: 0:27:46
+# Errors: 0, Warnings: 1

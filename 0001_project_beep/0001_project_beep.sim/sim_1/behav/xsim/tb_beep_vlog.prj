@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../0001_project_beep.srcs/sources_1/new/beep.v" \
+"../../../../0001_project_beep.srcs/sources_1/new/keypress.v" \
+"../../../../0001_project_beep.srcs/sources_1/new/pwm.v" \
+"../../../../0001_project_beep.srcs/sim_1/new/tb_beep.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

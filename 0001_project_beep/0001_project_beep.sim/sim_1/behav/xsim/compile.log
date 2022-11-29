@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_study/projects/0001_project_beep/0001_project_beep.srcs/sources_1/new/beep.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module beep
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_study/projects/0001_project_beep/0001_project_beep.srcs/sources_1/new/keypress.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keypress
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_study/projects/0001_project_beep/0001_project_beep.srcs/sources_1/new/pwm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pwm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_study/projects/0001_project_beep/0001_project_beep.srcs/sim_1/new/tb_beep.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_beep
