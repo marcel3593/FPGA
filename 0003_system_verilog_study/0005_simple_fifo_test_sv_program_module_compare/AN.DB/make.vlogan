@@ -1,0 +1,27 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l comp.log -full64 -sverilog -timescale=1ns/1ps +incdir+./src/ -full64
+
+all :		_VCSgd_8QRc7_1.db \
+	_VCSgd_1nm3c_1.db \
+	_VCSgd_OuFtCe_1.db \
+	_VCSgd_hAJX1d_1.db \
+
+
+
+_VCSgd_8QRc7_1.db :	./src/rpt_pkg.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/rpt_pkg.sv
+
+
+_VCSgd_1nm3c_1.db :	./src/simple_pkg.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/simple_pkg.sv
+
+
+_VCSgd_OuFtCe_1.db :	./src/simple_fifo.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/simple_fifo.v
+
+
+_VCSgd_hAJX1d_1.db :	./src/tb1.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/tb1.sv
+
+
