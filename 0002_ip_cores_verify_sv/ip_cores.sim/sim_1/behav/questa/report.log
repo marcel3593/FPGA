@@ -1,0 +1,44 @@
+@165000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          0, rd_data = 1010, wr_id =          0, wr_data = 1010, wr_raw_id =          0, wr_raw_data = 1010
+
+@285000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          1, rd_data = 0011, wr_id =          1, wr_data = 0011, wr_raw_id =          1, wr_raw_data = 0011
+
+@315000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          2, rd_data = 1000, wr_id =          2, wr_data = 1000, wr_raw_id =          2, wr_raw_data = 1000
+
+@325000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          3, rd_data = 1000, wr_id =          3, wr_data = 1000, wr_raw_id =          3, wr_raw_data = 1000
+
+@355000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          4, rd_data = 1010, wr_id =          4, wr_data = 1010, wr_raw_id =          4, wr_raw_data = 1010
+
+@365000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          5, rd_data = 0010, wr_id =          5, wr_data = 0010, wr_raw_id =          5, wr_raw_data = 0010
+
+@375000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          6, rd_data = 1000, wr_id =          6, wr_data = 1000, wr_raw_id =          6, wr_raw_data = 1000
+
+@385000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          7, rd_data = 1101, wr_id =          7, wr_data = 1101, wr_raw_id =          7, wr_raw_data = 1101
+
+@435000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          8, rd_data = 0011, wr_id =          8, wr_data = 0011, wr_raw_id =          8, wr_raw_data = 0011
+
+@465000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          9, rd_data = 1100, wr_id =          9, wr_data = 1100, wr_raw_id =          9, wr_raw_data = 1100
+
+@485000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         10, rd_data = 0111, wr_id =         10, wr_data = 0111, wr_raw_id =         10, wr_raw_data = 0111
+
+@535000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         11, rd_data = 0110, wr_id =         11, wr_data = 0110, wr_raw_id =         11, wr_raw_data = 0110
+
+@575000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         12, rd_data = 0111, wr_id =         12, wr_data = 0111, wr_raw_id =         12, wr_raw_data = 0111
+
+@595000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         13, rd_data = 1101, wr_id =         13, wr_data = 1101, wr_raw_id =         13, wr_raw_data = 1101
+
+@695000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         14, rd_data = 0101, wr_id =         14, wr_data = 0101, wr_raw_id =         14, wr_raw_data = 0101
+
+@775000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         15, rd_data = 1100, wr_id =         15, wr_data = 1100, wr_raw_id =         15, wr_raw_data = 1100
+
+@785000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         16, rd_data = 0001, wr_id =         16, wr_data = 0001, wr_raw_id =         16, wr_raw_data = 0001
+
+@825000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         17, rd_data = 1011, wr_id =         17, wr_data = 1011, wr_raw_id =         17, wr_raw_data = 1011
+
+@845000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         18, rd_data = 1111, wr_id =         18, wr_data = 1111, wr_raw_id =         18, wr_raw_data = 1111
+
+@865000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         19, rd_data = 1001, wr_id =         19, wr_data = 1001, wr_raw_id =         19, wr_raw_data = 1001
+
+@905000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         20, rd_data = 1110, wr_id =         20, wr_data = 1110, wr_raw_id =         20, wr_raw_data = 1110
+
+@985000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         21, rd_data = 0001, wr_id =         21, wr_data = 0001, wr_raw_id =         21, wr_raw_data = 0001
+

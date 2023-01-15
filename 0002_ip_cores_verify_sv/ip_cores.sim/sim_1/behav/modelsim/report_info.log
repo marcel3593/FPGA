@@ -1,0 +1,393 @@
+@0 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           0
+rd_en[          0] = 1
+rd_en[          1] = 1
+rd_en[          2] = 1
+rd_en[          3] = 0
+rd_en[          4] = 0
+rd_en[          5] = 0
+rd_en[          6] = 1
+rd_en[          7] = 1
+rd_en[          8] = 0
+rd_en[          9] = 0
+rd_en[         10] = 1
+rd_en[         11] = 0
+===================================
+@0 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           0
+wr_en[          0] = 1, din[          0] = ac 
+wr_en[          1] = 1, din[          1] = a5 
+wr_en[          2] = 0, din[          2] = ff 
+wr_en[          3] = 1, din[          3] = 2e 
+wr_en[          4] = 0, din[          4] = ff 
+wr_en[          5] = 1, din[          5] = 44 
+wr_en[          6] = 1, din[          6] = 44 
+wr_en[          7] = 1, din[          7] = b6 
+===================================
+@0 [INFO] [write_action] -->
+wr_en = 1, wr_data=ac@50001 [INFO] [write_action] -->
+wr_en = 1, wr_data=a5@110001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@125000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           0
+rd_en[          0] = 1
+rd_en[          1] = 1
+rd_en[          2] = 1
+rd_en[          3] = 0
+rd_en[          4] = 0
+rd_en[          5] = 0
+rd_en[          6] = 1
+rd_en[          7] = 1
+rd_en[          8] = 0
+rd_en[          9] = 0
+rd_en[         10] = 1
+rd_en[         11] = 0
+===================================
+@125000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           1
+rd_en[          0] = 1
+rd_en[          1] = 1
+rd_en[          2] = 0
+rd_en[          3] = 0
+rd_en[          4] = 1
+rd_en[          5] = 0
+rd_en[          6] = 1
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 0
+rd_en[         10] = 0
+rd_en[         11] = 0
+===================================
+@130000 [INFO] [write_action] -->
+wr_en = 1, wr_data=2e@190001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@210000 [INFO] [write_action] -->
+wr_en = 1, wr_data=44@255000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           1
+rd_en[          0] = 1
+rd_en[          1] = 1
+rd_en[          2] = 0
+rd_en[          3] = 0
+rd_en[          4] = 1
+rd_en[          5] = 0
+rd_en[          6] = 1
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 0
+rd_en[         10] = 0
+rd_en[         11] = 0
+===================================
+@255000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           2
+rd_en[          0] = 1
+===================================
+@270001 [INFO] [write_action] -->
+wr_en = 1, wr_data=44@275000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           2
+rd_en[          0] = 1
+===================================
+@275000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           3
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 0
+===================================
+@325000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           3
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 0
+===================================
+@325000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           4
+rd_en[          0] = 1
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 1
+rd_en[          4] = 0
+rd_en[          5] = 0
+rd_en[          6] = 0
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 1
+rd_en[         10] = 0
+rd_en[         11] = 0
+rd_en[         12] = 0
+===================================
+@330001 [INFO] [write_action] -->
+wr_en = 1, wr_data=b6@390001 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           0
+wr_en[          0] = 1, din[          0] = ac 
+wr_en[          1] = 1, din[          1] = a5 
+wr_en[          2] = 0, din[          2] = ff 
+wr_en[          3] = 1, din[          3] = 2e 
+wr_en[          4] = 0, din[          4] = ff 
+wr_en[          5] = 1, din[          5] = 44 
+wr_en[          6] = 1, din[          6] = 44 
+wr_en[          7] = 1, din[          7] = b6 
+===================================
+@390001 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           1
+wr_en[          0] = 0, din[          0] = ff 
+wr_en[          1] = 1, din[          1] = 0b 
+wr_en[          2] = 1, din[          2] = 8b 
+wr_en[          3] = 0, din[          3] = ff 
+===================================
+@390001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@410000 [INFO] [write_action] -->
+wr_en = 1, wr_data=0b@465000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           4
+rd_en[          0] = 1
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 1
+rd_en[          4] = 0
+rd_en[          5] = 0
+rd_en[          6] = 0
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 1
+rd_en[         10] = 0
+rd_en[         11] = 0
+rd_en[         12] = 0
+===================================
+@465000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           5
+rd_en[          0] = 1
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 0
+rd_en[          4] = 0
+rd_en[          5] = 1
+rd_en[          6] = 0
+rd_en[          7] = 1
+rd_en[          8] = 0
+rd_en[          9] = 0
+===================================
+@470001 [INFO] [write_action] -->
+wr_en = 1, wr_data=8b@530001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@550000 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           1
+wr_en[          0] = 0, din[          0] = ff 
+wr_en[          1] = 1, din[          1] = 0b 
+wr_en[          2] = 1, din[          2] = 8b 
+wr_en[          3] = 0, din[          3] = ff 
+===================================
+@550000 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           2
+wr_en[          0] = 0, din[          0] = ff 
+wr_en[          1] = 1, din[          1] = dc 
+wr_en[          2] = 0, din[          2] = ff 
+wr_en[          3] = 1, din[          3] = ce 
+wr_en[          4] = 0, din[          4] = ff 
+===================================
+@550000 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@570000 [INFO] [write_action] -->
+wr_en = 1, wr_data=dc@575000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           5
+rd_en[          0] = 1
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 0
+rd_en[          4] = 0
+rd_en[          5] = 1
+rd_en[          6] = 0
+rd_en[          7] = 1
+rd_en[          8] = 0
+rd_en[          9] = 0
+===================================
+@575000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           6
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 1
+rd_en[          4] = 1
+===================================
+@630001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@635000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           6
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 1
+rd_en[          4] = 1
+===================================
+@635000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           7
+rd_en[          0] = 1
+rd_en[          1] = 0
+rd_en[          2] = 0
+===================================
+@650000 [INFO] [write_action] -->
+wr_en = 1, wr_data=ce@675000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           7
+rd_en[          0] = 1
+rd_en[          1] = 0
+rd_en[          2] = 0
+===================================
+@675000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           8
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 1
+rd_en[          4] = 1
+rd_en[          5] = 1
+rd_en[          6] = 0
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 0
+rd_en[         10] = 1
+===================================
+@710001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@730000 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           2
+wr_en[          0] = 0, din[          0] = ff 
+wr_en[          1] = 1, din[          1] = dc 
+wr_en[          2] = 0, din[          2] = ff 
+wr_en[          3] = 1, din[          3] = ce 
+wr_en[          4] = 0, din[          4] = ff 
+===================================
+@730000 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           3
+wr_en[          0] = 1, din[          0] = 7a 
+wr_en[          1] = 0, din[          1] = ff 
+wr_en[          2] = 1, din[          2] = 28 
+wr_en[          3] = 0, din[          3] = ff 
+===================================
+@730000 [INFO] [write_action] -->
+wr_en = 1, wr_data=7a@790001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@795000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           8
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 1
+rd_en[          4] = 1
+rd_en[          5] = 1
+rd_en[          6] = 0
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 0
+rd_en[         10] = 1
+===================================
+@795000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           9
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 1
+rd_en[          4] = 0
+rd_en[          5] = 1
+rd_en[          6] = 1
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 1
+rd_en[         10] = 0
+rd_en[         11] = 1
+rd_en[         12] = 0
+rd_en[         13] = 0
+===================================
+@810000 [INFO] [write_action] -->
+wr_en = 1, wr_data=28@870001 [INFO] [write_action] -->
+wr_en = 0, wr_data=ff@890000 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           3
+wr_en[          0] = 1, din[          0] = 7a 
+wr_en[          1] = 0, din[          1] = ff 
+wr_en[          2] = 1, din[          2] = 28 
+wr_en[          3] = 0, din[          3] = ff 
+===================================
+@890000 [INFO] [write_trans] -->
+===================================
+write_trans object info, pkg_id:           4
+wr_en[          0] = 1, din[          0] = 5d 
+wr_en[          1] = 1, din[          1] = a7 
+wr_en[          2] = 0, din[          2] = ff 
+wr_en[          3] = 1, din[          3] = c3 
+wr_en[          4] = 1, din[          4] = 36 
+wr_en[          5] = 0, din[          5] = ff 
+wr_en[          6] = 1, din[          6] = 0c 
+wr_en[          7] = 1, din[          7] = 50 
+===================================
+@890000 [INFO] [write_action] -->
+wr_en = 1, wr_data=5d@945000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:           9
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 0
+rd_en[          3] = 1
+rd_en[          4] = 0
+rd_en[          5] = 1
+rd_en[          6] = 1
+rd_en[          7] = 0
+rd_en[          8] = 1
+rd_en[          9] = 1
+rd_en[         10] = 0
+rd_en[         11] = 1
+rd_en[         12] = 0
+rd_en[         13] = 0
+===================================
+@945000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:          10
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 1
+===================================
+@950001 [INFO] [write_action] -->
+wr_en = 1, wr_data=a7@995000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:          10
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 1
+===================================
+@995000 [INFO] [read_trans] -->
+===================================
+read_trans object info, pkg_id:          11
+rd_en[          0] = 0
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 0
+rd_en[          4] = 1
+rd_en[          5] = 1
+rd_en[          6] = 0
+rd_en[          7] = 1
+rd_en[          8] = 1
+rd_en[          9] = 1
+rd_en[         10] = 1
+rd_en[         11] = 0
+rd_en[         12] = 1
+rd_en[         13] = 0
+===================================

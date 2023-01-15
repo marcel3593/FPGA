@@ -1,0 +1,45 @@
+# do {tb_fifo_elaborate.do}
+# QuestaSim-64 vopt 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:10:21 on Jan 01,2023
+# vopt "+acc=npr" -L fifo_generator_v13_2_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -work xil_defaultlib xil_defaultlib.tb_fifo xil_defaultlib.glbl -o tb_fifo_opt 
+# 
+# Top level modules:
+# 	tb_fifo
+# 	glbl
+# 
+# Analyzing design...
+# -- Loading module tb_fifo
+# -- Importing package access_pkg
+# -- Importing package rpt_pkg
+# -- Importing package checker_pkg
+# -- Importing package test_pkg
+# -- Loading interface read_intf
+# -- Loading interface write_intf
+# -- Loading module fifo
+# -- Loading module dfifo_1
+# -- Loading module glbl
+# -- Loading module fifo_generator_v13_2_3.fifo_generator_vlog_beh
+# -- Loading module fifo_generator_v13_2_3.fifo_generator_v13_2_3_CONV_VER
+# -- Loading module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_as
+# -- Loading module fifo_generator_v13_2_3.fifo_generator_v13_2_3_sync_stage
+# Optimizing 18 design-units (inlining 1/16 module instances):
+# -- Optimizing module fifo_generator_v13_2_3.fifo_generator_vlog_beh(fast)
+# -- Optimizing module dfifo_1(fast)
+# -- Optimizing module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_as(fast)
+# -- Optimizing module fifo_generator_v13_2_3.fifo_generator_v13_2_3_CONV_VER(fast)
+# -- Optimizing interface write_intf(fast)
+# -- Optimizing module tb_fifo(fast)
+# -- Optimizing interface read_intf(fast)
+# -- Optimizing module glbl(fast)
+# -- Optimizing module fifo_generator_v13_2_3.fifo_generator_v13_2_3_sync_stage(fast)
+# -- Optimizing module fifo_generator_v13_2_3.fifo_generator_v13_2_3_sync_stage(fast__1)
+# -- Optimizing module fifo(fast)
+# -- Optimizing package test_pkg(fast)
+# -- Optimizing package checker_pkg(fast)
+# -- Optimizing package access_pkg(fast)
+# -- Optimizing interface read_intf(fast)
+# -- Optimizing interface write_intf(fast)
+# -- Optimizing package rpt_pkg(fast)
+# Optimized design name is tb_fifo_opt
+# End time: 13:10:22 on Jan 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

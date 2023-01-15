@@ -1,0 +1,20 @@
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Start time: 15:02:29 on Jan 15,2023
+vlog -reportprogress 300 -novopt -lint -l comp.txt -timescale 1ns/1ps ../src/sim/rpt_pkg.sv ../src/sim/uart_dv_pkg.sv ../src/sim/tb_uart.sv ../src/rtl/parameters_def.v ../src/rtl/uart.v 
+-- Compiling package rpt_pkg
+-- Compiling package uart_dv_pkg
+-- Importing package rpt_pkg
+-- Compiling interface tx_interface
+-- Compiling interface rx_interface
+-- Compiling module tb_uart
+** Warning: ../src/sim/tb_uart.sv(26): (vlog-2605) empty port name in port list.
+-- Importing package uart_dv_pkg
+-- Compiling module uart_top
+-- Compiling module uart_tx
+-- Compiling module uart_rx
+-- Compiling module uart_control
+
+Top level modules:
+	tb_uart
+End time: 15:02:29 on Jan 15,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1

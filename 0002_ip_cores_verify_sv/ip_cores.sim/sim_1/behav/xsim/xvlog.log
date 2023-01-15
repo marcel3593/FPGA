@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_study/projects/ip_cores/ip_cores.srcs/sim_1/new/tb_fifo/access_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_study/projects/ip_cores/ip_cores.srcs/sim_1/new/tb_fifo/rpt_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_study/projects/ip_cores/ip_cores.srcs/sim_1/new/tb_fifo/checker_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_study/projects/ip_cores/ip_cores.srcs/sim_1/new/tb_fifo/test_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_study/projects/ip_cores/ip_cores.srcs/sim_1/new/tb_fifo/tb_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fifo
