@@ -1,0 +1,192 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA_study/projects/0006_UART_RS232/questasim_proj
+vdisplay_buffer
+Z0 !s110 1675836270
+!i10b 1
+!s100 0CZ=HZdn^[f7:ddG4^AcW2
+IbFWGe8<TnKA5ZO1GC?`BC1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/FPGA_study/projects/0007_LCD_Display/questasim_proj
+Z3 w1675751875
+Z4 8D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v
+Z5 FD:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v
+L0 166
+Z6 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z7 !s108 1675836270.000000
+Z8 !s107 D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vdisplay_control
+R0
+!i10b 1
+!s100 @KEGe7`MOhaE631n=l2Fn0
+I8Bc_I_nVJD3AU0@BdLBeI1
+R1
+R2
+R3
+R4
+R5
+L0 67
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdisplay_hvscan
+R0
+!i10b 1
+!s100 TjnO>iRZ>Lja]fD5Aba6a0
+I560[`QBk^PX1]g4ZZcUok1
+R1
+R2
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vlcd_display
+R0
+!i10b 1
+!s100 am^4[ifiU4Fnili0C1Oo61
+IEz78Pj;bj8RK3aScSh`bW3
+R1
+R2
+w1675594432
+8D:/FPGA_study/projects/0007_LCD_Display/src/rtl/lcd_display.v
+FD:/FPGA_study/projects/0007_LCD_Display/src/rtl/lcd_display.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA_study/projects/0007_LCD_Display/src/rtl/lcd_display.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0007_LCD_Display/src/rtl/lcd_display.v|
+!i113 0
+R10
+R11
+Ylcd_interface
+Z12 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+!i10b 1
+!s100 BcThfnaa:A6?iJJVFck]E0
+IC4I6ce9TQKIYWoE<L5BHL2
+R1
+Z13 !s105 tb_lcd_display_sv_unit
+S1
+R2
+Z14 w1675836262
+Z15 8D:/FPGA_study/projects/0007_LCD_Display/src/sim/tb_lcd_display.sv
+Z16 FD:/FPGA_study/projects/0007_LCD_Display/src/sim/tb_lcd_display.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+Z17 !s107 D:/FPGA_study/projects/0007_LCD_Display/src/sim/tb_lcd_display.sv|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/FPGA_study/projects/0007_LCD_Display/src/sim/tb_lcd_display.sv|
+!i113 0
+Z19 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R11
+Xlcd_pkg
+!s115 lcd_interface
+R12
+Z20 DXx4 work 7 rpt_pkg 0 22 ;ZJAa?XZzF?<FBHoN<4f62
+R0
+!i10b 1
+!s100 S_UQ5IY5<?KSo8KC2DXPR0
+I5Lie[M8=oAo8k`Q1aBb`10
+V5Lie[M8=oAo8k`Q1aBb`10
+S1
+R2
+w1675836210
+8D:/FPGA_study/projects/0007_LCD_Display/src/sim/lcd_pkg.sv
+FD:/FPGA_study/projects/0007_LCD_Display/src/sim/lcd_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA_study/projects/0007_LCD_Display/src/sim/lcd_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/FPGA_study/projects/0007_LCD_Display/src/sim/lcd_pkg.sv|
+!i113 0
+R19
+R11
+Xrpt_pkg
+R12
+!s110 1675835276
+!i10b 1
+!s100 ]Wo?6AmTfO<Z:D]3JVhBB2
+I;ZJAa?XZzF?<FBHoN<4f62
+V;ZJAa?XZzF?<FBHoN<4f62
+S1
+R2
+w1673336318
+8D:/FPGA_study/projects/0007_LCD_Display/src/sim/rpt_pkg.sv
+FD:/FPGA_study/projects/0007_LCD_Display/src/sim/rpt_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1675835276.000000
+!s107 D:/FPGA_study/projects/0007_LCD_Display/src/sim/rpt_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/FPGA_study/projects/0007_LCD_Display/src/sim/rpt_pkg.sv|
+!i113 0
+R19
+R11
+vtb_lcd_display
+R12
+R20
+DXx4 work 7 lcd_pkg 0 22 5Lie[M8=oAo8k`Q1aBb`10
+R0
+!i10b 1
+!s100 HCHMGgkz42I14Lo_jfg:_3
+I4;M4@If]8]SK:[[YWmzzJ2
+R1
+R13
+S1
+R2
+R14
+R15
+R16
+L0 17
+R6
+r1
+!s85 0
+31
+R7
+R17
+R18
+!i113 0
+R19
+R11

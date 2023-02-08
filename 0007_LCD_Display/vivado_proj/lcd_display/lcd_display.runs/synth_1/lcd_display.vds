@@ -1,0 +1,517 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Feb  8 16:04:01 2023
+# Process ID: 95880
+# Current directory: D:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display/lcd_display.runs/synth_1
+# Command line: vivado.exe -log lcd_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lcd_display.tcl
+# Log file: D:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display/lcd_display.runs/synth_1/lcd_display.vds
+# Journal file: D:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display/lcd_display.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lcd_display.tcl -notrace
+Command: synth_design -top lcd_display -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 65796 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 430.820 ; gain = 98.047
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lcd_display' [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/lcd_display.v:1]
+INFO: [Synth 8-6157] synthesizing module 'display_hvscan' [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v:2]
+	Parameter HSYNC_T bound to: 128 - type: integer 
+	Parameter HBPH_T bound to: 88 - type: integer 
+	Parameter HLBD_T bound to: 0 - type: integer 
+	Parameter HDATA_T bound to: 800 - type: integer 
+	Parameter HRBD_T bound to: 0 - type: integer 
+	Parameter HFPH_T bound to: 40 - type: integer 
+	Parameter VSYNC_T bound to: 2 - type: integer 
+	Parameter VBPH_T bound to: 33 - type: integer 
+	Parameter VTBD_T bound to: 0 - type: integer 
+	Parameter VDATA_T bound to: 480 - type: integer 
+	Parameter VBBD_T bound to: 0 - type: integer 
+	Parameter VFPH_T bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'display_control' [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v:67]
+	Parameter HSYNC_T bound to: 128 - type: integer 
+	Parameter HBPH_T bound to: 88 - type: integer 
+	Parameter HLBD_T bound to: 0 - type: integer 
+	Parameter HDATA_T bound to: 800 - type: integer 
+	Parameter HRBD_T bound to: 0 - type: integer 
+	Parameter HFPH_T bound to: 40 - type: integer 
+	Parameter VSYNC_T bound to: 2 - type: integer 
+	Parameter VBPH_T bound to: 33 - type: integer 
+	Parameter VTBD_T bound to: 0 - type: integer 
+	Parameter VDATA_T bound to: 480 - type: integer 
+	Parameter VBBD_T bound to: 0 - type: integer 
+	Parameter VFPH_T bound to: 10 - type: integer 
+	Parameter HSYNC_END_CNT bound to: 127 - type: integer 
+	Parameter HDATA_START_CNT bound to: 215 - type: integer 
+	Parameter HDATA_END_CNT bound to: 1015 - type: integer 
+	Parameter H_CNT_MAX bound to: 1055 - type: integer 
+	Parameter VSYNC_END_CNT bound to: 1 - type: integer 
+	Parameter VDATA_START_CNT bound to: 34 - type: integer 
+	Parameter VDATA_END_CNT bound to: 514 - type: integer 
+	Parameter V_CNT_MAX bound to: 524 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'display_control' (1#1) [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v:67]
+INFO: [Synth 8-6157] synthesizing module 'display_buffer' [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v:166]
+	Parameter HDATA_T bound to: 800 - type: integer 
+	Parameter section_0 bound to: 200 - type: integer 
+	Parameter section_1 bound to: 400 - type: integer 
+	Parameter section_2 bound to: 600 - type: integer 
+	Parameter section_3 bound to: 800 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'display_buffer' (2#1) [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v:166]
+INFO: [Synth 8-6155] done synthesizing module 'display_hvscan' (3#1) [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/display.v:2]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (4#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_BASE' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41124]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 32 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 20.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 48 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.000000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_BASE' (5#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41124]
+INFO: [Synth 8-6155] done synthesizing module 'lcd_display' (6#1) [D:/FPGA_study/projects/0007_LCD_Display/src/rtl/lcd_display.v:1]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[15]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[14]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[13]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[12]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[11]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 505.418 ; gain = 172.645
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 505.418 ; gain = 172.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 505.418 ; gain = 172.645
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display.xdc]
+Finished Parsing XDC File [D:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lcd_display_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lcd_display_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 930.004 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 930.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  PLLE2_BASE => PLLE2_ADV: 1 instances
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 930.035 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 930.035 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vs_cnt" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------+------------+----------+
+|      |RTL Partition       |Replication |Instances |
++------+--------------------+------------+----------+
+|1     |display_buffer__GB0 |           1|     34392|
+|2     |display_buffer__GB1 |           1|     11664|
+|3     |display_buffer__GB2 |           1|     11568|
+|4     |display_control     |           1|       730|
+|5     |lcd_display__GC0    |           1|         8|
++------+--------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
++---Registers : 
+	               24 Bit    Registers := 801   
+	               16 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module lcd_display 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module display_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module display_buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 801   
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[799][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[798][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[797][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[796][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[795][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[794][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[793][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[792][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[791][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[790][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[789][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[788][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[787][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[786][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[785][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[784][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[783][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[782][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[781][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[780][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[779][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[778][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[777][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[776][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[775][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[774][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[773][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[772][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[771][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[770][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[769][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[768][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[767][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[766][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[765][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[764][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[763][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[762][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[761][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[760][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[759][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[758][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[757][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[756][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[755][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[754][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[753][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[752][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[751][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[750][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[749][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[748][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[747][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[746][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[745][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[744][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[743][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[742][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[741][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[740][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[739][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[738][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[737][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[736][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[735][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[734][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[733][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[732][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[731][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[730][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[729][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[728][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[727][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[675][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[674][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[673][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[672][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[671][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[670][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[669][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[668][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[667][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[666][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[665][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[664][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[663][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[662][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[661][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[660][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[659][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[658][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[657][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[656][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[655][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[654][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[653][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[652][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[651][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[650][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[649][0] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[0]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[1]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[2]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[3]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[4]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[5]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[6]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[8]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[9]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[10]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[11]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[12]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[13]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[16]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[20]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[17]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[18]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[19]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[20]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[21]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u1_display_hvscani_1/rgb_data_reg[22]' (FDCE) to 'u1_display_hvscani_1/rgb_data_reg[23]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------+------------+----------+
+|      |RTL Partition       |Replication |Instances |
++------+--------------------+------------+----------+
+|1     |display_buffer__GB0 |           1|        45|
+|2     |display_control     |           1|       183|
+|3     |lcd_display__GC0    |           1|         7|
++------+--------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------+------------+----------+
+|      |RTL Partition       |Replication |Instances |
++------+--------------------+------------+----------+
+|1     |display_buffer__GB0 |           1|        45|
+|2     |display_control     |           1|       179|
+|3     |lcd_display__GC0    |           1|         7|
++------+--------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |    11|
+|3     |LUT1       |     2|
+|4     |LUT2       |     4|
+|5     |LUT3       |    18|
+|6     |LUT4       |     8|
+|7     |LUT5       |    23|
+|8     |LUT6       |    22|
+|9     |MUXF7      |     1|
+|10    |PLLE2_BASE |     1|
+|11    |FDCE       |    50|
+|12    |IBUF       |     2|
+|13    |OBUF       |    30|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-----------------------+----------------+------+
+|      |Instance               |Module          |Cells |
++------+-----------------------+----------------+------+
+|1     |top                    |                |   175|
+|2     |  u1_display_hvscan    |display_hvscan  |   136|
+|3     |    u1_display_control |display_control |   125|
+|4     |    u2_display_buffer  |display_buffer  |    11|
++------+-----------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 930.035 ; gain = 172.645
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 930.035 ; gain = 597.262
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 930.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  PLLE2_BASE => PLLE2_ADV: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+148 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 930.035 ; gain = 609.918
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 930.035 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display/lcd_display.runs/synth_1/lcd_display.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lcd_display_utilization_synth.rpt -pb lcd_display_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb  8 16:04:35 2023...

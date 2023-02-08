@@ -1,0 +1,229 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA_study/projects/0007_LCD_Display/vivado_proj/lcd_display/lcd_display.sim/sim_1/behav/questa
+vdisplay_buffer
+Z1 !s10a 1675751875
+Z2 !s110 1675836308
+!i10b 1
+!s100 0CZ=HZdn^[f7:ddG4^AcW2
+I7iD633>U>hg60czLoMKEW2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1675751875
+Z5 8../../../../../../src/rtl/display.v
+Z6 F../../../../../../src/rtl/display.v
+L0 166
+Z7 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z8 !s108 1675836308.000000
+Z9 !s107 ../../../../../../src/rtl/lcd_display.v|../../../../../../src/rtl/display.v|
+Z10 !s90 -64|-incr|-work|xil_defaultlib|../../../../../../src/rtl/display.v|../../../../../../src/rtl/lcd_display.v|
+!i113 0
+Z11 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vdisplay_control
+R1
+R2
+!i10b 1
+!s100 @KEGe7`MOhaE631n=l2Fn0
+I5i1_bP2K`2HZCbXI8=SP73
+R3
+R0
+R4
+R5
+R6
+L0 67
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vdisplay_hvscan
+R1
+R2
+!i10b 1
+!s100 TjnO>iRZ>Lja]fD5Aba6a0
+I29Eb7fhc=3Y4zjCUYT3`D0
+R3
+R0
+R4
+R5
+R6
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vglbl
+!s110 1675841914
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R3
+R0
+w1544155481
+8glbl.v
+Fglbl.v
+L0 6
+R7
+r1
+!s85 0
+31
+!s108 1675841914.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R11
+R12
+vlcd_display
+!s110 1675841913
+!i10b 1
+!s100 =zB0QoP5E?JhG<95b2Dhh0
+I8Mea=eFF7Z_UfH=WeoKYL3
+R3
+R0
+w1675841898
+8../../../../../../src/rtl/lcd_display.v
+F../../../../../../src/rtl/lcd_display.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1675841913.000000
+R9
+R10
+!i113 0
+R11
+R12
+Ylcd_interface
+Z13 !s10a 1675836262
+Z14 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R2
+!i10b 1
+!s100 BcThfnaa:A6?iJJVFck]E0
+I82T>D:^0nR[B;?@FPDhNn2
+R3
+Z15 !s105 tb_lcd_display_sv_unit
+S1
+R0
+Z16 w1675836262
+Z17 8../../../../../../src/sim/tb_lcd_display.sv
+Z18 F../../../../../../src/sim/tb_lcd_display.sv
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+Z19 !s107 ../../../../../../src/sim/tb_lcd_display.sv|../../../../../../src/sim/lcd_pkg.sv|../../../../../../src/sim/rpt_pkg.sv|
+Z20 !s90 -64|-incr|-sv|-work|xil_defaultlib|../../../../../../src/sim/rpt_pkg.sv|../../../../../../src/sim/lcd_pkg.sv|../../../../../../src/sim/tb_lcd_display.sv|
+!i113 0
+Z21 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+Xlcd_pkg
+!s10a 1675841614
+!s115 lcd_interface
+R14
+Z22 DXx4 work 7 rpt_pkg 0 22 61=hXz_R:7mmo7NmATFV^3
+Z23 !s110 1675841333
+!i10b 1
+!s100 kEifFj6OzTSC<JENif[zm0
+IMH6DIMO0]d5ibffHA;aWS0
+VMH6DIMO0]d5ibffHA;aWS0
+S1
+R0
+w1675841328
+8../../../../../../src/sim/lcd_pkg.sv
+F../../../../../../src/sim/lcd_pkg.sv
+L0 1
+R7
+r1
+!s85 0
+31
+Z24 !s108 1675841333.000000
+R19
+R20
+!i113 0
+R21
+R12
+Xrpt_pkg
+!s10a 1675837187
+R14
+R2
+!i10b 1
+!s100 ]Wo?6AmTfO<Z:D]3JVhBB2
+I61=hXz_R:7mmo7NmATFV^3
+V61=hXz_R:7mmo7NmATFV^3
+S1
+R0
+w1673336318
+8../../../../../../src/sim/rpt_pkg.sv
+F../../../../../../src/sim/rpt_pkg.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R19
+R20
+!i113 0
+R21
+R12
+vtb_lcd_display
+R13
+R14
+R22
+DXx4 work 7 lcd_pkg 0 22 MH6DIMO0]d5ibffHA;aWS0
+R23
+!i10b 1
+!s100 HCHMGgkz42I14Lo_jfg:_3
+I:NY;4S7J^UZT4Q1JMlhoU0
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 17
+R7
+r1
+!s85 0
+31
+R24
+R19
+R20
+!i113 0
+R21
+R12
+Ttb_lcd_display_opt
+!s110 1675841915
+VoT798NP?N1@`KFf0I7b]K0
+04 14 4 work tb_lcd_display fast 0
+04 4 4 work glbl fast 0
+o+acc=npr -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib
+R12
+ntb_lcd_display_opt
+OL;O;10.6c;65
