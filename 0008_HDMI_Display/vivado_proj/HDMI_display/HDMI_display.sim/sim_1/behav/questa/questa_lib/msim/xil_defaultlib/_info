@@ -1,0 +1,228 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.sim/sim_1/behav/questa
+vdisplay_buffer
+Z1 !s10a 1676191603
+Z2 !s110 1676189921
+!i10b 1
+!s100 0CZ=HZdn^[f7:ddG4^AcW2
+I7iD633>U>hg60czLoMKEW2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1675843150
+Z5 8../../../../../../src/rtl/display.v
+Z6 F../../../../../../src/rtl/display.v
+L0 166
+Z7 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z8 !s108 1676189921.000000
+Z9 !s107 ../../../../../../src/rtl/top.v|../../../../../../src/rtl/tmds_encoder.v|../../../../../../src/rtl/serializer.v|../../../../../../src/rtl/display.v|../../../../../../src/rtl/HDMI_top.v|
+Z10 !s90 -64|-incr|-work|xil_defaultlib|../../../../../../src/rtl/HDMI_top.v|../../../../../../src/rtl/display.v|../../../../../../src/rtl/serializer.v|../../../../../../src/rtl/tmds_encoder.v|../../../../../../src/rtl/top.v|
+!i113 0
+Z11 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vdisplay_control
+R1
+R2
+!i10b 1
+!s100 @KEGe7`MOhaE631n=l2Fn0
+I5i1_bP2K`2HZCbXI8=SP73
+R3
+R0
+R4
+R5
+R6
+L0 67
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vdisplay_hvscan
+Z13 !s110 1676192400
+!i10b 1
+!s100 ao;IJLY7gHV3^BzLV807j1
+IzG9ig;hn9OX3PQ2P^HWjC0
+R3
+R0
+w1676191603
+R5
+R6
+L0 2
+R7
+r1
+!s85 0
+31
+Z14 !s108 1676192400.000000
+R9
+R10
+!i113 0
+R11
+R12
+vglbl
+R13
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R3
+R0
+w1544155481
+8glbl.v
+Fglbl.v
+L0 6
+R7
+r1
+!s85 0
+31
+R14
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R11
+R12
+vHDMI_top
+!s10a 1676190472
+!s110 1676190483
+!i10b 1
+!s100 `K7AKLbMJJZ?iNklfV>5>0
+IR4?L0IEQma:gJ`Sg4nF361
+R3
+R0
+w1676190472
+8../../../../../../src/rtl/HDMI_top.v
+F../../../../../../src/rtl/HDMI_top.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1676190483.000000
+R9
+R10
+!i113 0
+R11
+R12
+n@h@d@m@i_top
+vserializer
+!s10a 1676189224
+R2
+!i10b 1
+!s100 8_iURMD[<<lAc[A0Ed2cG1
+I3ON=adPzARBoVSoA2BS@93
+R3
+R0
+w1676189224
+8../../../../../../src/rtl/serializer.v
+F../../../../../../src/rtl/serializer.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vtb
+!s10a 1676189869
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1676189997
+!i10b 1
+!s100 bUcgUdzPBoQdaS?jOAPgA2
+I@1=ENBi21g6h_M2Coi]A`1
+R3
+!s105 tb_sv_unit
+S1
+R0
+w1676189869
+8../../../../../../src/sim/tb.sv
+F../../../../../../src/sim/tb.sv
+L0 4
+R7
+r1
+!s85 0
+31
+!s108 1676189997.000000
+!s107 ../../../../../../src/sim/tb.sv|
+!s90 -64|-incr|-sv|-work|xil_defaultlib|../../../../../../src/sim/tb.sv|
+!i113 0
+o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+Ttb_opt
+!s110 1676192401
+V5[Kn9aYX;G]6ePSYlDQ2?1
+04 2 4 work tb fast 0
+Z15 04 4 4 work glbl fast 0
+Z16 o+acc=npr -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib
+R12
+ntb_opt
+Z17 OL;O;10.6c;65
+vtmds_encoder
+!s10a 1676188566
+R2
+!i10b 1
+!s100 WoZQ`ffD69TaihWIFRA_]1
+Il7HzzAWV`9Eo1IEAhz>z21
+R3
+R0
+w1676188566
+8../../../../../../src/rtl/tmds_encoder.v
+F../../../../../../src/rtl/tmds_encoder.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vtop
+R13
+!i10b 1
+!s100 =ne[zh?42S8`fW?5RiciL0
+IJ7LTN9X:K<TGAI<cAKCD<1
+R3
+R0
+w1676192058
+8../../../../../../src/rtl/top.v
+F../../../../../../src/rtl/top.v
+L0 1
+R7
+r1
+!s85 0
+31
+R14
+R9
+R10
+!i113 0
+R11
+R12
+Ttop_opt
+!s110 1676189923
+VR@3K;OS9g8zMMmk7FM<al3
+04 3 4 work top fast 0
+R15
+R16
+R12
+ntop_opt
+R17
+R0

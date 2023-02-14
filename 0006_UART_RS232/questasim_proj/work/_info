@@ -1,0 +1,243 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dd:/questasim64_10.6c/examples
+Xrd_wr_pkg_sv_unit
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1673329367
+!i10b 1
+!s100 `gM8KHXlZ]_o2T_1^FH?Y0
+Il25k?eoW4coHjzJ:k7gdi1
+Vl25k?eoW4coHjzJ:k7gdi1
+!i103 1
+S1
+Z1 dD:/FPGA_study/projects/0006_UART_RS232/questasim_proj
+w1673329361
+8D:/FPGA_study/projects/0006_UART_RS232/src/sim/rd_wr_pkg.sv
+FD:/FPGA_study/projects/0006_UART_RS232/src/sim/rd_wr_pkg.sv
+FD:\FPGA_study\projects\0006_UART_RS232\src\sim\..\rtl\parameters_def.v
+L0 4
+Z2 OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1673329367.000000
+!s107 D:\FPGA_study\projects\0006_UART_RS232\src\sim\..\rtl\parameters_def.v|D:/FPGA_study/projects/0006_UART_RS232/src/sim/rd_wr_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/FPGA_study/projects/0006_UART_RS232/src/sim/rd_wr_pkg.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z3 tCvgOpt 0
+Xrpt_pkg
+R0
+Z4 !s110 1673766149
+!i10b 1
+!s100 >k^Ca83<Ee>W_PVg3Bc^G2
+I1N310eWB4REK98b[hjEBn0
+V1N310eWB4REK98b[hjEBn0
+S1
+R1
+w1673336318
+8../src/sim/rpt_pkg.sv
+F../src/sim/rpt_pkg.sv
+L0 1
+R2
+r1
+!s85 0
+31
+Z5 !s108 1673766149.000000
+!s107 ..\src\rtl\parameters_def.v|..\src\sim\..\rtl\parameters_def.v|../src/rtl/uart.v|../src/rtl/parameters_def.v|../src/sim/tb_uart.sv|../src/sim/uart_dv_pkg.sv|../src/sim/rpt_pkg.sv|
+Z6 !s90 -reportprogress|300|-novopt|-lint|-l|comp.txt|-timescale|1ns/1ps|../src/sim/rpt_pkg.sv|../src/sim/uart_dv_pkg.sv|../src/sim/tb_uart.sv|../src/rtl/parameters_def.v|../src/rtl/uart.v|
+!i113 1
+Z7 o-lint -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Yrx_interface
+R0
+R4
+!i10b 1
+!s100 WadQD:mJ^QaoHBM^nQ7[<2
+I95BO>ImGb;JfK9Db<3Q6j3
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 !s105 tb_uart_sv_unit
+S1
+R1
+Z10 w1673423652
+Z11 8../src/sim/tb_uart.sv
+Z12 F../src/sim/tb_uart.sv
+L0 16
+R2
+r1
+!s85 0
+31
+R5
+Z13 !s107 ..\src\rtl\parameters_def.v|..\src\sim\..\rtl\parameters_def.v|../src/rtl/uart.v|../src/rtl/parameters_def.v|../src/sim/tb_uart.sv|../src/sim/uart_dv_pkg.sv|../src/sim/rpt_pkg.sv|
+R6
+!i113 1
+R7
+R3
+vtb_uart
+R0
+Z14 DXx4 work 7 rpt_pkg 0 22 1N310eWB4REK98b[hjEBn0
+DXx4 work 11 uart_dv_pkg 0 22 FHYjHLomIo8f@=odcIOkG3
+R4
+!i10b 1
+!s100 Zl94[a<PXmH5f4c6Z32930
+Idfg3iF7BAUfBC]ljae6O]1
+R8
+R9
+S1
+R1
+R10
+R11
+R12
+L0 26
+R2
+r1
+!s85 0
+31
+R5
+R13
+R6
+!i113 1
+R7
+R3
+Ytx_interface
+R0
+R4
+!i10b 1
+!s100 fSInc5`e90PPHY4S<FejL1
+ILT?hGnh=^jT5ocmYk68o@3
+R8
+R9
+S1
+R1
+R10
+R11
+R12
+L0 6
+R2
+r1
+!s85 0
+31
+R5
+R13
+R6
+!i113 1
+R7
+R3
+vuart_control
+R4
+!i10b 1
+!s100 OdScM`ZKlc1EBhb>FTKfT3
+IZF8XE]i`XPC4^j?cl_iSQ2
+R8
+R1
+Z15 w1673766105
+Z16 8../src/rtl/uart.v
+Z17 F../src/rtl/uart.v
+L0 257
+R2
+r1
+!s85 0
+31
+R5
+R13
+R6
+!i113 1
+R7
+R3
+Xuart_dv_pkg
+!s115 rx_interface
+!s115 tx_interface
+R0
+R14
+R4
+!i10b 1
+!s100 Fg2PMK60^GdPS`E`dd4jk2
+IFHYjHLomIo8f@=odcIOkG3
+VFHYjHLomIo8f@=odcIOkG3
+S1
+R1
+w1673766129
+8../src/sim/uart_dv_pkg.sv
+F../src/sim/uart_dv_pkg.sv
+F..\src\sim\..\rtl\parameters_def.v
+L0 1
+R2
+r1
+!s85 0
+31
+R5
+R13
+R6
+!i113 1
+R7
+R3
+vuart_rx
+R4
+!i10b 1
+!s100 Kb`ZOBPIeFLUVFG1NR<Nl3
+IQ2VlTMbb0AOEVfjEaLG@F2
+R8
+R1
+R15
+R16
+R17
+L0 150
+R2
+r1
+!s85 0
+31
+R5
+R13
+R6
+!i113 1
+R7
+R3
+vuart_top
+R4
+!i10b 1
+!s100 []Cnj0eRfE`ikJ3SJ5Y3D3
+I<fiW0F:POO=zeYHjMGWKZ3
+R8
+R1
+R15
+R16
+R17
+L0 3
+R2
+r1
+!s85 0
+31
+R5
+R13
+R6
+!i113 1
+R7
+R3
+vuart_tx
+R4
+!i10b 1
+!s100 Vl4a4ES9AddBPQAiajc@02
+IC[fIm24^gEge[OWFk4QDl2
+R8
+R1
+R15
+R16
+R17
+L0 67
+R2
+r1
+!s85 0
+31
+R5
+R13
+R6
+!i113 1
+R7
+R3

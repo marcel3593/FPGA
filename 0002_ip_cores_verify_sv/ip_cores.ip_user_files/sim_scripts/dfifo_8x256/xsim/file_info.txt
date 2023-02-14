@@ -1,0 +1,2 @@
+dfifo_8x256.v,verilog,xil_defaultlib,../../../ip/dfifo_8x256/sim/dfifo_8x256.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

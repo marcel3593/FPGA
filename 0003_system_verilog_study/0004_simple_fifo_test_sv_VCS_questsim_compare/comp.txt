@@ -1,0 +1,17 @@
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Start time: 15:28:16 on Jan 02,2023
+vlog -reportprogress 300 -novopt -lint -l comp.txt -timescale 1ns/1ps src/simple_fifo.v src/rpt_pkg.sv src/simple_pkg.sv src/tb1.sv 
+-- Compiling module sp_fifo
+-- Compiling package rpt_pkg
+-- Compiling package simple_pkg
+-- Importing package rpt_pkg
+-- Compiling interface read_interface
+-- Compiling interface write_interface
+-- Compiling module tb1
+** Warning: src/tb1.sv(34): (vlog-2605) empty port name in port list.
+-- Importing package simple_pkg
+
+Top level modules:
+	tb1
+End time: 15:28:16 on Jan 02,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1

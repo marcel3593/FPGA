@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Dec  6 13:08:19 2022
+# Process ID: 44412
+# Current directory: D:/FPGA_study/projects/ip_cores/ip_cores.runs/sfifo_8x256_synth_1
+# Command line: vivado.exe -log sfifo_8x256.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sfifo_8x256.tcl
+# Log file: D:/FPGA_study/projects/ip_cores/ip_cores.runs/sfifo_8x256_synth_1/sfifo_8x256.vds
+# Journal file: D:/FPGA_study/projects/ip_cores/ip_cores.runs/sfifo_8x256_synth_1\vivado.jou
+#-----------------------------------------------------------
+source sfifo_8x256.tcl -notrace

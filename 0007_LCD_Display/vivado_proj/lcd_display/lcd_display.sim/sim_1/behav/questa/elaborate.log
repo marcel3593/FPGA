@@ -1,0 +1,29 @@
+# do {tb_lcd_display_elaborate.do}
+# QuestaSim-64 vopt 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:38:35 on Feb 08,2023
+# vopt "+acc=npr" -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.tb_lcd_display xil_defaultlib.glbl -o tb_lcd_display_opt 
+# 
+# Top level modules:
+# 	tb_lcd_display
+# 	glbl
+# 
+# Analyzing design...
+# -- Loading module tb_lcd_display
+# -- Importing package lcd_pkg
+# -- Importing package rpt_pkg
+# -- Loading module lcd_display
+# -- Loading module display_hvscan
+# -- Loading module display_control
+# -- Loading module display_buffer
+# -- Loading module unisims_ver.BUFG
+# -- Loading module unisims_ver.PLLE2_BASE
+# -- Loading module unisims_ver.PLLE2_ADV
+# -- Loading interface lcd_interface
+# -- Loading module glbl
+# Incremental compilation check found 11 design-units (out of 13) may be reused.
+# Optimizing 2 design-units (inlining 0/11 module instances):
+# -- Optimizing module lcd_display(fast)
+# -- Optimizing module tb_lcd_display(fast)
+# Optimized design name is tb_lcd_display_opt
+# End time: 15:38:35 on Feb 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

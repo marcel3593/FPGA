@@ -1,0 +1,27 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+===================================
+read_trans object info, pkg_id:           0
+rd_en[          0] = 1
+rd_en[          1] = 0
+rd_en[          2] = 1
+rd_en[          3] = 1
+rd_en[          4] = 0
+rd_en[          5] = 0
+rd_en[          6] = 1
+rd_en[          7] = 1
+rd_en[          8] = 0
+rd_en[          9] = 1
+rd_en[         10] = 0
+===================================
+
+===================================
+write_trans object info, pkg_id:           0
+===================================
+
+ERROR: File: /proj/simdev/tapodyu/CR_testcases/2018.3/991987/std.sv Line: 84 : Accessing non-static members of a null object is not allowed.
+Time: 0 ps  Iteration: 0  Process: /std/mailbox(singular=read_trans_access_pkg)::get
+  File: /proj/simdev/tapodyu/CR_testcases/2018.3/991987/std.sv
+
+HDL Line: /proj/simdev/tapodyu/CR_testcases/2018.3/991987/std.sv:85

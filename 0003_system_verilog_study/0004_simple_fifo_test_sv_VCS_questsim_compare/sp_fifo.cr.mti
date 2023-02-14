@@ -1,0 +1,12 @@
+D:/FPGA_study/projects/0004_simple_fifo_test_sv/src/tb1.sv {1 {vlog -work work -vopt -sv -stats=none D:/FPGA_study/projects/0004_simple_fifo_test_sv/src/tb1.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling interface read_interface
+-- Compiling interface write_interface
+-- Compiling module tb1
+-- Importing package rpt_pkg
+-- Importing package simple_pkg
+
+Top level modules:
+	tb1
+
+} {} {}}

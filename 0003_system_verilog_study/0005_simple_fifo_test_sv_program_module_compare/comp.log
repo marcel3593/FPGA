@@ -1,0 +1,6 @@
+Command: vlogan -full64 -sverilog -timescale=1ns/1ps -nc -l comp.log +incdir+./src/ \
+./src/simple_fifo.v ./src/rpt_pkg.sv ./src/simple_pkg.sv ./src/tb1.sv
+Parsing design file './src/simple_fifo.v'
+Parsing design file './src/rpt_pkg.sv'
+Parsing design file './src/simple_pkg.sv'
+Parsing design file './src/tb1.sv'

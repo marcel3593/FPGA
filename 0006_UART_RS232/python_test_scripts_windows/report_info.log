@@ -1,0 +1,11 @@
+{'baudrate': 9600, 'bytesize': 8, 'parity': 'O', 'stopbits': 1, 'xonxoff': False, 'dsrdtr': False, 'rtscts': False, 'timeout': None, 'write_timeout': None, 'inter_byte_timeout': None}
+[0.015] 8000 bytes was writing
+[1.113] 1000 bytes have been written
+[2.320] 1000 bytes have been written
+[3.520] 1000 bytes have been written
+[4.726] 1000 bytes have been written
+[5.928] 1000 bytes have been written
+[7.131] 1000 bytes have been written
+[8.341] 1000 bytes have been written
+[9.546] 1000 bytes have been written
+[9.620] 8000 bytes have been read

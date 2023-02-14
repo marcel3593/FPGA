@@ -1,0 +1,1 @@
+-wto "add9384767d34e3d982e307a79996a5a" --incr --debug "typical" --relax --mt "2" -L "fifo_generator_v13_2_3" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "tb_fifo_behav" "xil_defaultlib.tb_fifo" "xil_defaultlib.glbl" -log "elaborate.log" 

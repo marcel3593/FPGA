@@ -1,0 +1,35 @@
+# do {tb_elaborate.do}
+# QuestaSim-64 vopt 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:00:01 on Feb 12,2023
+# vopt "+acc=npr" -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.tb xil_defaultlib.glbl -o tb_opt 
+# 
+# Top level modules:
+# 	tb
+# 	glbl
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module top
+# -- Loading module display_hvscan
+# -- Loading module display_control
+# -- Loading module display_buffer
+# -- Loading module HDMI_top
+# -- Loading module tmds_encoder
+# -- Loading module serializer
+# -- Loading module unisims_ver.ODDR
+# -- Loading module unisims_ver.OBUFDS
+# -- Loading module unisims_ver.BUFG
+# -- Loading module unisims_ver.PLLE2_BASE
+# -- Loading module unisims_ver.PLLE2_ADV
+# -- Loading module glbl
+# Incremental compilation check found 10 design-units (out of 16) may be reused.
+# Optimizing 6 design-units (inlining 0/27 module instances):
+# -- Optimizing module unisims_ver.PLLE2_ADV(fast)
+# -- Optimizing module display_control(fast)
+# -- Optimizing module top(fast)
+# -- Optimizing module unisims_ver.PLLE2_BASE(fast)
+# -- Optimizing module display_buffer(fast)
+# -- Optimizing module display_hvscan(fast)
+# Optimized design name is tb_opt
+# End time: 17:00:01 on Feb 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

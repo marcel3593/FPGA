@@ -1,0 +1,127 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Feb 12 17:43:03 2023
+# Process ID: 15556
+# Current directory: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24020 D:\FPGA_study\projects\0008_HDMI_Display\vivado_proj\HDMI_display\HDMI_display.xpr
+# Log file: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/vivado.log
+# Journal file: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Feb 12 17:43:19 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Sun Feb 12 17:44:42 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Feb 12 17:45:37 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Feb 12 18:04:33 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+close_hw
+launch_runs impl_1 -jobs 8
+[Sun Feb 12 18:15:43 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Feb 12 18:21:44 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Feb 12 18:24:37 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 12 18:27:09 2023...

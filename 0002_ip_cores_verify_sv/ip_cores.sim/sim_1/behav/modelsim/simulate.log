@@ -1,0 +1,550 @@
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {tb_fifo_simulate.do}
+# vsim -do "do {tb_fifo_simulate.do}" -l simulate.log 
+# Start time: 13:09:29 on Jan 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt3
+# 
+# Loading sv_std.std
+# Loading work.rpt_pkg(fast)
+# Loading work.access_pkg(fast)
+# Loading work.checker_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.tb_fifo(fast)
+# Loading work.read_intf(fast__1)
+# Loading work.write_intf(fast__1)
+# Loading work.fifo(fast)
+# Loading work.dfifo_1(fast)
+# Loading fifo_generator_v13_2_3.fifo_generator_vlog_beh(fast)
+# Loading fifo_generator_v13_2_3.fifo_generator_v13_2_3_CONV_VER(fast)
+# Loading fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_as(fast)
+# Loading fifo_generator_v13_2_3.fifo_generator_v13_2_3_sync_stage(fast)
+# Loading fifo_generator_v13_2_3.fifo_generator_v13_2_3_sync_stage(fast__1)
+# Loading work.glbl(fast)
+# Loading work.read_intf(fast)
+# Loading work.write_intf(fast)
+# 1
+# 1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: marcel  Hostname: MARCEL_002  ProcessID: 13720
+# 
+#           Attempting to use alternate WLF file "./wlftyyc5gv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftyyc5gv
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# run test TESTNAME=read_write_test
+# @0 [INFO] [msg] : run test TESTNAME=read_write_test
+# @0 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           0
+# rd_en[          0] = 1
+# rd_en[          1] = 1
+# rd_en[          2] = 1
+# rd_en[          3] = 0
+# rd_en[          4] = 0
+# rd_en[          5] = 0
+# rd_en[          6] = 1
+# rd_en[          7] = 1
+# rd_en[          8] = 0
+# rd_en[          9] = 0
+# rd_en[         10] = 1
+# rd_en[         11] = 0
+# ===================================
+# 
+# @0 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           0
+# wr_en[          0] = 1, din[          0] = ac 
+# wr_en[          1] = 1, din[          1] = a5 
+# wr_en[          2] = 0, din[          2] = ff 
+# wr_en[          3] = 1, din[          3] = 2e 
+# wr_en[          4] = 0, din[          4] = ff 
+# wr_en[          5] = 1, din[          5] = 44 
+# wr_en[          6] = 1, din[          6] = 44 
+# wr_en[          7] = 1, din[          7] = b6 
+# ===================================
+# 
+# @0 [INFO] [write_action] -->
+# wr_en = 1, wr_data=ac
+# @50001 [INFO] [write_action] -->
+# wr_en = 1, wr_data=a5
+# @110001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @125000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           0
+# rd_en[          0] = 1
+# rd_en[          1] = 1
+# rd_en[          2] = 1
+# rd_en[          3] = 0
+# rd_en[          4] = 0
+# rd_en[          5] = 0
+# rd_en[          6] = 1
+# rd_en[          7] = 1
+# rd_en[          8] = 0
+# rd_en[          9] = 0
+# rd_en[         10] = 1
+# rd_en[         11] = 0
+# ===================================
+# 
+# @125000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           1
+# rd_en[          0] = 1
+# rd_en[          1] = 1
+# rd_en[          2] = 0
+# rd_en[          3] = 0
+# rd_en[          4] = 1
+# rd_en[          5] = 0
+# rd_en[          6] = 1
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 0
+# rd_en[         10] = 0
+# rd_en[         11] = 0
+# ===================================
+# 
+# @130000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=2e
+# @135000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          0, rd_data = 1010, wr_id =          0, wr_data = 1010, wr_raw_id =          0, wr_raw_data = 1010
+# 
+# @165000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          1, rd_data = 1100, wr_id =          1, wr_data = 1100, wr_raw_id =          1, wr_raw_data = 1100
+# 
+# @175000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          2, rd_data = 1010, wr_id =          2, wr_data = 1010, wr_raw_id =          2, wr_raw_data = 1010
+# 
+# @190001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @205000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          3, rd_data = 0101, wr_id =          3, wr_data = 0101, wr_raw_id =          3, wr_raw_data = 0101
+# 
+# @210000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=44
+# @255000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           1
+# rd_en[          0] = 1
+# rd_en[          1] = 1
+# rd_en[          2] = 0
+# rd_en[          3] = 0
+# rd_en[          4] = 1
+# rd_en[          5] = 0
+# rd_en[          6] = 1
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 0
+# rd_en[         10] = 0
+# rd_en[         11] = 0
+# ===================================
+# 
+# @255000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           2
+# rd_en[          0] = 1
+# ===================================
+# 
+# @270001 [INFO] [write_action] -->
+# wr_en = 1, wr_data=44
+# @275000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           2
+# rd_en[          0] = 1
+# ===================================
+# 
+# @275000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           3
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 0
+# ===================================
+# 
+# @295000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          4, rd_data = 0010, wr_id =          4, wr_data = 0010, wr_raw_id =          4, wr_raw_data = 0010
+# 
+# @325000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           3
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 0
+# ===================================
+# 
+# @325000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           4
+# rd_en[          0] = 1
+# rd_en[          1] = 0
+# rd_en[          2] = 1
+# rd_en[          3] = 1
+# rd_en[          4] = 0
+# rd_en[          5] = 0
+# rd_en[          6] = 0
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 1
+# rd_en[         10] = 0
+# rd_en[         11] = 0
+# rd_en[         12] = 0
+# ===================================
+# 
+# @330001 [INFO] [write_action] -->
+# wr_en = 1, wr_data=b6
+# @365000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          5, rd_data = 1110, wr_id =          5, wr_data = 1110, wr_raw_id =          5, wr_raw_data = 1110
+# 
+# @385000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          6, rd_data = 0100, wr_id =          6, wr_data = 0100, wr_raw_id =          6, wr_raw_data = 0100
+# 
+# @390001 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           0
+# wr_en[          0] = 1, din[          0] = ac 
+# wr_en[          1] = 1, din[          1] = a5 
+# wr_en[          2] = 0, din[          2] = ff 
+# wr_en[          3] = 1, din[          3] = 2e 
+# wr_en[          4] = 0, din[          4] = ff 
+# wr_en[          5] = 1, din[          5] = 44 
+# wr_en[          6] = 1, din[          6] = 44 
+# wr_en[          7] = 1, din[          7] = b6 
+# ===================================
+# 
+# @390001 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           1
+# wr_en[          0] = 0, din[          0] = ff 
+# wr_en[          1] = 1, din[          1] = 0b 
+# wr_en[          2] = 1, din[          2] = 8b 
+# wr_en[          3] = 0, din[          3] = ff 
+# ===================================
+# 
+# @390001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @395000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          7, rd_data = 0100, wr_id =          7, wr_data = 0100, wr_raw_id =          7, wr_raw_data = 0100
+# 
+# @410000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=0b
+# @445000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          8, rd_data = 0100, wr_id =          8, wr_data = 0100, wr_raw_id =          8, wr_raw_data = 0100
+# 
+# @455000 [INFO] [CMPOBJ] : cmp = 1, rd_id =          9, rd_data = 0100, wr_id =          9, wr_data = 0100, wr_raw_id =          9, wr_raw_data = 0100
+# 
+# @465000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           4
+# rd_en[          0] = 1
+# rd_en[          1] = 0
+# rd_en[          2] = 1
+# rd_en[          3] = 1
+# rd_en[          4] = 0
+# rd_en[          5] = 0
+# rd_en[          6] = 0
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 1
+# rd_en[         10] = 0
+# rd_en[         11] = 0
+# rd_en[         12] = 0
+# ===================================
+# 
+# @465000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           5
+# rd_en[          0] = 1
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 0
+# rd_en[          4] = 0
+# rd_en[          5] = 1
+# rd_en[          6] = 0
+# rd_en[          7] = 1
+# rd_en[          8] = 0
+# rd_en[          9] = 0
+# ===================================
+# 
+# @470001 [INFO] [write_action] -->
+# wr_en = 1, wr_data=8b
+# @505000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         10, rd_data = 1011, wr_id =         10, wr_data = 1011, wr_raw_id =         10, wr_raw_data = 1011
+# 
+# @530001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @550000 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           1
+# wr_en[          0] = 0, din[          0] = ff 
+# wr_en[          1] = 1, din[          1] = 0b 
+# wr_en[          2] = 1, din[          2] = 8b 
+# wr_en[          3] = 0, din[          3] = ff 
+# ===================================
+# 
+# @550000 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           2
+# wr_en[          0] = 0, din[          0] = ff 
+# wr_en[          1] = 1, din[          1] = dc 
+# wr_en[          2] = 0, din[          2] = ff 
+# wr_en[          3] = 1, din[          3] = ce 
+# wr_en[          4] = 0, din[          4] = ff 
+# ===================================
+# 
+# @550000 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @555000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         11, rd_data = 0110, wr_id =         11, wr_data = 0110, wr_raw_id =         11, wr_raw_data = 0110
+# 
+# @570000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=dc
+# @575000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           5
+# rd_en[          0] = 1
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 0
+# rd_en[          4] = 0
+# rd_en[          5] = 1
+# rd_en[          6] = 0
+# rd_en[          7] = 1
+# rd_en[          8] = 0
+# rd_en[          9] = 0
+# ===================================
+# 
+# @575000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           6
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 1
+# rd_en[          3] = 1
+# rd_en[          4] = 1
+# ===================================
+# 
+# @575000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         12, rd_data = 0000, wr_id =         12, wr_data = 0000, wr_raw_id =         12, wr_raw_data = 0000
+# 
+# @630001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @635000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           6
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 1
+# rd_en[          3] = 1
+# rd_en[          4] = 1
+# ===================================
+# 
+# @635000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           7
+# rd_en[          0] = 1
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# ===================================
+# 
+# @635000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         13, rd_data = 1011, wr_id =         13, wr_data = 1011, wr_raw_id =         13, wr_raw_data = 1011
+# 
+# @645000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         14, rd_data = 1000, wr_id =         14, wr_data = 1000, wr_raw_id =         14, wr_raw_data = 1000
+# 
+# @650000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=ce
+# @655000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         15, rd_data = 1011, wr_id =         15, wr_data = 1011, wr_raw_id =         15, wr_raw_data = 1011
+# 
+# @675000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           7
+# rd_en[          0] = 1
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# ===================================
+# 
+# @675000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           8
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 1
+# rd_en[          4] = 1
+# rd_en[          5] = 1
+# rd_en[          6] = 0
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 0
+# rd_en[         10] = 1
+# ===================================
+# 
+# @710001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @730000 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           2
+# wr_en[          0] = 0, din[          0] = ff 
+# wr_en[          1] = 1, din[          1] = dc 
+# wr_en[          2] = 0, din[          2] = ff 
+# wr_en[          3] = 1, din[          3] = ce 
+# wr_en[          4] = 0, din[          4] = ff 
+# ===================================
+# 
+# @730000 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           3
+# wr_en[          0] = 1, din[          0] = 7a 
+# wr_en[          1] = 0, din[          1] = ff 
+# wr_en[          2] = 1, din[          2] = 28 
+# wr_en[          3] = 0, din[          3] = ff 
+# ===================================
+# 
+# @730000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=7a
+# @745000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         16, rd_data = 1101, wr_id =         16, wr_data = 1101, wr_raw_id =         16, wr_raw_data = 1101
+# 
+# @755000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         17, rd_data = 1100, wr_id =         17, wr_data = 1100, wr_raw_id =         17, wr_raw_data = 1100
+# 
+# @790001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @795000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           8
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 1
+# rd_en[          4] = 1
+# rd_en[          5] = 1
+# rd_en[          6] = 0
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 0
+# rd_en[         10] = 1
+# ===================================
+# 
+# @795000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           9
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 1
+# rd_en[          4] = 0
+# rd_en[          5] = 1
+# rd_en[          6] = 1
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 1
+# rd_en[         10] = 0
+# rd_en[         11] = 1
+# rd_en[         12] = 0
+# rd_en[         13] = 0
+# ===================================
+# 
+# @795000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         18, rd_data = 1100, wr_id =         18, wr_data = 1100, wr_raw_id =         18, wr_raw_data = 1100
+# 
+# @810000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=28
+# @815000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         19, rd_data = 1110, wr_id =         19, wr_data = 1110, wr_raw_id =         19, wr_raw_data = 1110
+# 
+# @865000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         20, rd_data = 0111, wr_id =         20, wr_data = 0111, wr_raw_id =         20, wr_raw_data = 0111
+# 
+# @870001 [INFO] [write_action] -->
+# wr_en = 0, wr_data=ff
+# @885000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         21, rd_data = 1010, wr_id =         21, wr_data = 1010, wr_raw_id =         21, wr_raw_data = 1010
+# 
+# @890000 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           3
+# wr_en[          0] = 1, din[          0] = 7a 
+# wr_en[          1] = 0, din[          1] = ff 
+# wr_en[          2] = 1, din[          2] = 28 
+# wr_en[          3] = 0, din[          3] = ff 
+# ===================================
+# 
+# @890000 [INFO] [write_trans] -->
+# ===================================
+# write_trans object info, pkg_id:           4
+# wr_en[          0] = 1, din[          0] = 5d 
+# wr_en[          1] = 1, din[          1] = a7 
+# wr_en[          2] = 0, din[          2] = ff 
+# wr_en[          3] = 1, din[          3] = c3 
+# wr_en[          4] = 1, din[          4] = 36 
+# wr_en[          5] = 0, din[          5] = ff 
+# wr_en[          6] = 1, din[          6] = 0c 
+# wr_en[          7] = 1, din[          7] = 50 
+# ===================================
+# 
+# @890000 [INFO] [write_action] -->
+# wr_en = 1, wr_data=5d
+# @945000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:           9
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 0
+# rd_en[          3] = 1
+# rd_en[          4] = 0
+# rd_en[          5] = 1
+# rd_en[          6] = 1
+# rd_en[          7] = 0
+# rd_en[          8] = 1
+# rd_en[          9] = 1
+# rd_en[         10] = 0
+# rd_en[         11] = 1
+# rd_en[         12] = 0
+# rd_en[         13] = 0
+# ===================================
+# 
+# @945000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:          10
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 1
+# rd_en[          3] = 1
+# ===================================
+# 
+# @945000 [INFO] [CMPOBJ] : cmp = 1, rd_id =         22, rd_data = 0010, wr_id =         22, wr_data = 0010, wr_raw_id =         22, wr_raw_data = 0010
+# 
+# @950001 [INFO] [write_action] -->
+# wr_en = 1, wr_data=a7
+# @995000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:          10
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 1
+# rd_en[          3] = 1
+# ===================================
+# 
+# @995000 [INFO] [read_trans] -->
+# ===================================
+# read_trans object info, pkg_id:          11
+# rd_en[          0] = 0
+# rd_en[          1] = 0
+# rd_en[          2] = 1
+# rd_en[          3] = 0
+# rd_en[          4] = 1
+# rd_en[          5] = 1
+# rd_en[          6] = 0
+# rd_en[          7] = 1
+# rd_en[          8] = 1
+# rd_en[          9] = 1
+# rd_en[         10] = 1
+# rd_en[         11] = 0
+# rd_en[         12] = 1
+# rd_en[         13] = 0
+# ===================================
+# 
+# End time: 13:09:52 on Jan 01,2023, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2

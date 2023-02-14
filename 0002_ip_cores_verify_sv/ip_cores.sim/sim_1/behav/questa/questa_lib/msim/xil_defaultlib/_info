@@ -1,0 +1,269 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA_study/projects/ip_cores/ip_cores.sim/sim_1/behav/questa
+Xaccess_pkg
+Z0 !s115 write_intf
+Z1 !s115 read_intf
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 DXx4 work 7 rpt_pkg 0 22 :bATh^^64BXF<DY?kJ8FV1
+Z4 !s110 1672549818
+!i10b 1
+!s100 b^=2[DaWD1HFJUR_@m46o1
+I?0E8ETL6:AOQNQDhWeUW_3
+V?0E8ETL6:AOQNQDhWeUW_3
+S1
+Z5 dD:/FPGA_study/projects/0002_ip_cores_verify_sv/ip_cores.sim/sim_1/behav/questa
+w1672492800
+8../../../../ip_cores.srcs/sim_1/new/tb_fifo/access_pkg.sv
+F../../../../ip_cores.srcs/sim_1/new/tb_fifo/access_pkg.sv
+L0 1
+Z6 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z7 !s108 1672549817.000000
+Z8 !s107 ../../../../ip_cores.srcs/sim_1/new/tb_fifo/tb_fifo.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/test_pkg.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/checker_pkg.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/access_pkg.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/rpt_pkg.sv|
+Z9 !s90 -64|-incr|-sv|-work|xil_defaultlib|+incdir+../../../../ip_cores.srcs/sources_1/ip/pll_ip|../../../../ip_cores.srcs/sim_1/new/tb_fifo/rpt_pkg.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/access_pkg.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/checker_pkg.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/test_pkg.sv|../../../../ip_cores.srcs/sim_1/new/tb_fifo/tb_fifo.sv|
+!i113 0
+Z10 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv -work xil_defaultlib +incdir+../../../../ip_cores.srcs/sources_1/ip/pll_ip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+Xchecker_pkg
+R2
+R3
+Z13 DXx4 work 10 access_pkg 0 22 ?0E8ETL6:AOQNQDhWeUW_3
+R4
+!i10b 1
+!s100 0QjJa?:i0]WoZY;2Si>Z`3
+IgVST@57LPJaaeK`K7<R6]3
+VgVST@57LPJaaeK`K7<R6]3
+S1
+R5
+w1672309220
+8../../../../ip_cores.srcs/sim_1/new/tb_fifo/checker_pkg.sv
+F../../../../ip_cores.srcs/sim_1/new/tb_fifo/checker_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vdfifo_1
+Z14 !s110 1672549817
+!i10b 1
+!s100 B;eklMC1df`?[@nnJSF>g1
+ISXKM]QdJCBz8106n91Jan3
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+R5
+w1672313284
+8../../../../ip_cores.ip_user_files/ip/dfifo_1/sim/dfifo_1.v
+F../../../../ip_cores.ip_user_files/ip/dfifo_1/sim/dfifo_1.v
+L0 56
+R6
+r1
+!s85 0
+31
+R7
+Z16 !s107 ../../../../ip_cores.srcs/sources_1/new/fifo.v|../../../../ip_cores.ip_user_files/ip/dfifo_1/sim/dfifo_1.v|
+Z17 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../ip_cores.srcs/sources_1/ip/pll_ip|../../../../ip_cores.ip_user_files/ip/dfifo_1/sim/dfifo_1.v|../../../../ip_cores.srcs/sources_1/new/fifo.v|
+!i113 0
+Z18 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z19 !s92 -work xil_defaultlib +incdir+../../../../ip_cores.srcs/sources_1/ip/pll_ip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+vfifo
+R14
+!i10b 1
+!s100 V=CS2kEgFFc6L[K`XoKlF0
+IzIH5[M^aFI1bBFcNliX:k2
+R15
+R5
+w1672313682
+8../../../../ip_cores.srcs/sources_1/new/fifo.v
+F../../../../ip_cores.srcs/sources_1/new/fifo.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 0
+R18
+R19
+R12
+vglbl
+R4
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R15
+R5
+w1544155481
+8glbl.v
+Fglbl.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1672549818.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R18
+R12
+Yread_intf
+R2
+R4
+!i10b 1
+!s100 bUdOIc3_9hRzKQdae`AHP0
+IZ4ob>>;enB?X6Lc8kG>:F3
+R15
+Z20 !s105 tb_fifo_sv_unit
+S1
+R5
+Z21 w1672492803
+Z22 8../../../../ip_cores.srcs/sim_1/new/tb_fifo/tb_fifo.sv
+Z23 F../../../../ip_cores.srcs/sim_1/new/tb_fifo/tb_fifo.sv
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xrpt_pkg
+R2
+R4
+!i10b 1
+!s100 AaJ0nRSC;J]<k=4FNeEMj1
+I:bATh^^64BXF<DY?kJ8FV1
+V:bATh^^64BXF<DY?kJ8FV1
+S1
+R5
+w1672311327
+8../../../../ip_cores.srcs/sim_1/new/tb_fifo/rpt_pkg.sv
+F../../../../ip_cores.srcs/sim_1/new/tb_fifo/rpt_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vtb_fifo
+R2
+R3
+R13
+Z24 DXx4 work 11 checker_pkg 0 22 gVST@57LPJaaeK`K7<R6]3
+DXx4 work 8 test_pkg 0 22 k:WQ7>N^eH9G:Z:01b`<E3
+R4
+!i10b 1
+!s100 3al0Yacl`=DY>1MNJaR8Y1
+I[:^McVKnnoBfB@4`7:j`:2
+R15
+R20
+S1
+R5
+R21
+R22
+R23
+L0 62
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Ttb_fifo_opt
+!s110 1672549821
+Vj3gMP8haROPzcVF`IVRdf0
+04 7 4 work tb_fifo fast 0
+04 4 4 work glbl fast 0
+o+acc=npr -L fifo_generator_v13_2_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -work xil_defaultlib
+R12
+ntb_fifo_opt
+OL;O;10.6c;65
+Xtest_pkg
+R0
+R1
+R2
+R3
+R13
+R24
+R4
+!i10b 1
+!s100 W5YhA]T9`QV1IHKHAA[H21
+Ik:WQ7>N^eH9G:Z:01b`<E3
+Vk:WQ7>N^eH9G:Z:01b`<E3
+S1
+R5
+w1672311768
+8../../../../ip_cores.srcs/sim_1/new/tb_fifo/test_pkg.sv
+F../../../../ip_cores.srcs/sim_1/new/tb_fifo/test_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Ywrite_intf
+R2
+R4
+!i10b 1
+!s100 Y2?oGO5^`jna:dFSBH;lc2
+IAPaHBPUWN:`;JPjT2CdaX1
+R15
+R20
+S1
+R5
+R21
+R22
+R23
+L0 41
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
