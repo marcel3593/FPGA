@@ -1,0 +1,158 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA_study/projects/sv_try
+vdisplay_buffer
+Z0 !s110 1676188726
+!i10b 1
+!s100 0CZ=HZdn^[f7:ddG4^AcW2
+IbXgiEMGjSRnlGEWEla47:1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/FPGA_study/projects/0008_HDMI_Display/questasim_proj
+Z3 w1675843150
+Z4 8D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/display.v
+Z5 FD:/FPGA_study/projects/0008_HDMI_Display/src/rtl/display.v
+L0 166
+Z6 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z7 !s108 1676188726.000000
+Z8 !s107 D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/display.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/display.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vdisplay_control
+R0
+!i10b 1
+!s100 @KEGe7`MOhaE631n=l2Fn0
+I818lE2B[mmgh4n[mbVo7b0
+R1
+R2
+R3
+R4
+R5
+L0 67
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdisplay_hvscan
+R0
+!i10b 1
+!s100 TjnO>iRZ>Lja]fD5Aba6a0
+I:GWzDQaJKXgW@Ae79G8^o2
+R1
+R2
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vHDMI_top
+R0
+!i10b 1
+!s100 JG2<<zCSbRVMc>7`gl>YY2
+I:9n<38k^24nmI8M<kWOH:1
+R1
+R2
+w1676188643
+8D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/HDMI_top.v
+FD:/FPGA_study/projects/0008_HDMI_Display/src/rtl/HDMI_top.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/HDMI_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/HDMI_top.v|
+!i113 0
+R10
+R11
+n@h@d@m@i_top
+vserializer
+!s110 1676188801
+!i10b 1
+!s100 Rf]dL=INPELXTODVWKGd:1
+I2aAfE=MW[UC0o386e^KSC2
+R1
+R2
+w1676188756
+8D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/serializer.v
+FD:/FPGA_study/projects/0008_HDMI_Display/src/rtl/serializer.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1676188801.000000
+!s107 D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/serializer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/serializer.v|
+!i113 0
+R10
+R11
+vtmds_encoder
+R0
+!i10b 1
+!s100 WoZQ`ffD69TaihWIFRA_]1
+Iilf6boSXSFW6gU>a:Yb9?2
+R1
+R2
+w1676188566
+8D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/tmds_encoder.v
+FD:/FPGA_study/projects/0008_HDMI_Display/src/rtl/tmds_encoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/tmds_encoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/tmds_encoder.v|
+!i113 0
+R10
+R11
+vtop
+R0
+!i10b 1
+!s100 ic4W54WS>nbY9_YLmZIbg3
+I8]lfQP?EOP7HTlkMea]h81
+R1
+R2
+w1676187721
+8D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/top.v
+FD:/FPGA_study/projects/0008_HDMI_Display/src/rtl/top.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/top.v|
+!i113 0
+R10
+R11

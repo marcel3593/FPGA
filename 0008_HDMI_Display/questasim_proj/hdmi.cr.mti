@@ -1,0 +1,8 @@
+D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/tmds_encoder.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0008_HDMI_Display/src/rtl/tmds_encoder.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tmds_encoder
+
+Top level modules:
+	tmds_encoder
+
+} {} {}}
