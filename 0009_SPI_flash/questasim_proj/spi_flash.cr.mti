@@ -1,0 +1,25 @@
+D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module W25Q128JVxIM
+
+Top level modules:
+	W25Q128JVxIM
+
+} {} {}} D:/FPGA_study/projects/0009_SPI_flash/src/sim/rpt_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/FPGA_study/projects/0009_SPI_flash/src/sim/rpt_pkg.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package rpt_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/FPGA_study/projects/0009_SPI_flash/src/sim/define.vh {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0009_SPI_flash/src/sim/define.vh
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+
+} {} {}} D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM_test.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM_test.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module test_25Q128JVxIM
+
+Top level modules:
+	test_25Q128JVxIM
+
+} {} {}}
