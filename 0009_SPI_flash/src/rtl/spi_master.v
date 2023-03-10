@@ -70,7 +70,9 @@ end
 always @(posedge sys_clk or negedge sys_rst_n) begin
     if (!sys_rst_n)
         cs_n <=1;
-    else if ( (spi_en == 1'b1) && ( rx_en == 1'b1 ||  tx_en == 1'b1) && (sck_cnt == 4'd2) ) //always poll low in negtive edge ot meet tSLCH
+    else if ( (spi_en == 1'b1) && ( rx_en == 1'b1 ||  tx_en == 1'b1) && (sck_cnt == 4'd2) 
+    && (!(spi_regs[`SPI_STATUS][`SPI_STATUS_SPTEF__SHIFT] == 1'b1 && spi_regs[`SPI_CNTL][`SPI_CNTL_SPTE__SHIFT] == 1'b1))
+    ) //always poll low in negtive edge ot meet tSLCH if SPTE enabled, then mush wait SPTEF == 0 to poll CS_n low in order to meet first dout timing
         cs_n <=0;
     else if (spi_en == 1'b0 && sck_cnt == 4'd2) ////always poll low in negtive edge to meet tCHSH
         cs_n <=1;
