@@ -1,0 +1,66 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Apr  3 16:24:11 2023
+| Host         : marcel_002 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+| Design       : top
+| Device       : xc7z020clg400-2
+| Speed File   : -2
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 6
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert  | 1          |
+| TIMING-18 | Warning  | Missing input or output delay | 5          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell u_HDMI/u_encoder_1/de_reg1_i_1__0, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_HDMI/u_encoder_1/cnt_reg[1]/CLR, u_HDMI/u_encoder_1/cnt_reg[2]/CLR, u_HDMI/u_encoder_1/cnt_reg[3]/CLR, u_HDMI/u_encoder_1/cnt_reg[4]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[0]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[1]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[2]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[3]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[4]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[5]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[6]/CLR, u_HDMI/u_encoder_1/d_reg1_reg[7]/CLR, u_HDMI/u_encoder_1/d_reg2_reg[0]/CLR, u_HDMI/u_encoder_1/d_reg2_reg[1]/CLR, u_HDMI/u_encoder_1/d_reg2_reg[2]/CLR (the first 15 of 32 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on sys_rst_n relative to clock(s) virtual_ser_clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on tmds_clk_n relative to clock(s) virtual_ser_clk
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on tmds_data_0_n relative to clock(s) virtual_ser_clk
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on tmds_data_1_n relative to clock(s) virtual_ser_clk
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on tmds_data_2_n relative to clock(s) virtual_ser_clk
+Related violations: <none>
+
+
