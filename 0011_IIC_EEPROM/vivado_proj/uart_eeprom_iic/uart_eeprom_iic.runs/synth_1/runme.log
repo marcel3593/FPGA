@@ -1,0 +1,652 @@
+
+*** Running vivado
+    with args -log top_uart_eeprom_iic.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_uart_eeprom_iic.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top_uart_eeprom_iic.tcl -notrace
+Command: synth_design -top top_uart_eeprom_iic -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25196 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 429.984 ; gain = 97.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_uart_eeprom_iic' [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/top_uart_eeprom_iic.v:1]
+	Parameter EEPOM_NOP bound to: 2'b00 
+	Parameter EEPOM_WR bound to: 2'b01 
+	Parameter EEPOM_RD bound to: 2'b10 
+	Parameter EEPOM_LDA bound to: 2'b11 
+	Parameter FSM_UART_RD bound to: 2'b00 
+	Parameter FSM_EEPROM_PAGE_WR bound to: 2'b10 
+	Parameter FSM_EEPROM_PAGE_RD bound to: 2'b11 
+	Parameter FSM_UART_WR bound to: 2'b01 
+INFO: [Synth 8-226] default block is never used [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/top_uart_eeprom_iic.v:74]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/uart.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (1#1) [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/uart.v:4]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/uart.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (2#1) [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/uart.v:87]
+INFO: [Synth 8-6157] synthesizing module 'eeprom_cntl' [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/eeprom_cntl.v:1]
+	Parameter IIC_CLK_RATE_DIV bound to: 16'b0000000111110100 
+	Parameter EEPOM_NOP bound to: 2'b00 
+	Parameter EEPOM_WR bound to: 2'b01 
+	Parameter EEPOM_RD bound to: 2'b10 
+	Parameter EEPOM_LDA bound to: 2'b11 
+	Parameter CLK_FREQ bound to: 50 - type: integer 
+	Parameter tWR bound to: 1000000 - type: integer 
+	Parameter tBUF bound to: 250 - type: integer 
+	Parameter FSM_IDLE bound to: 9'b000000000 
+	Parameter FSM_START bound to: 9'b000000010 
+	Parameter FSM_DA bound to: 9'b000000100 
+	Parameter FSM_WA bound to: 9'b000001000 
+	Parameter FSM_DA2 bound to: 9'b000010000 
+	Parameter FSM_READ bound to: 9'b000100000 
+	Parameter FSM_WRITE bound to: 9'b001000000 
+	Parameter FSM_STOP bound to: 9'b010000000 
+	Parameter FSM_DELAY bound to: 9'b100000000 
+	Parameter IIC_IDLE bound to: 6'b000000 
+	Parameter IIC_START bound to: 6'b000001 
+	Parameter IIC_WRITE bound to: 6'b000010 
+	Parameter IIC_READ bound to: 6'b000100 
+	Parameter IIC_READ_LAST bound to: 6'b001000 
+	Parameter IIC_STOP bound to: 6'b010000 
+	Parameter IIC_RATE_CONFIG bound to: 6'b100000 
+INFO: [Synth 8-6157] synthesizing module 'iic_master' [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/iic_master.v:2]
+	Parameter IIC_IDLE bound to: 6'b000000 
+	Parameter IIC_START bound to: 6'b000001 
+	Parameter IIC_WRITE bound to: 6'b000010 
+	Parameter IIC_READ bound to: 6'b000100 
+	Parameter IIC_READ_LAST bound to: 6'b001000 
+	Parameter IIC_STOP bound to: 6'b010000 
+	Parameter IIC_RATE_CONFIG bound to: 6'b100000 
+	Parameter IIC_CLK_RATE_DIV bound to: 16'b0000000111110100 
+	Parameter IIC_SCL_CNT_MAX bound to: 250 - type: integer 
+	Parameter IIC_FSM_IDLE bound to: 3'b000 
+	Parameter IIC_FSM_START bound to: 3'b010 
+	Parameter IIC_FSM_WRITE bound to: 3'b011 
+	Parameter IIC_FSM_READ bound to: 3'b110 
+	Parameter IIC_FSM_STOP bound to: 3'b111 
+INFO: [Synth 8-6155] done synthesizing module 'iic_master' (3#1) [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/iic_master.v:2]
+INFO: [Synth 8-6157] synthesizing module 'sync_fifo' [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/sync_fifo.v:1]
+	Parameter DEPTH bound to: 8'b00100000 
+	Parameter ffft_en bound to: 1'b1 
+WARNING: [Synth 8-6014] Unused sequential element dout_reg_reg was removed.  [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/sync_fifo.v:107]
+INFO: [Synth 8-6155] done synthesizing module 'sync_fifo' (4#1) [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/sync_fifo.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'eeprom_cntl' (5#1) [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/eeprom_cntl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'top_uart_eeprom_iic' (6#1) [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/top_uart_eeprom_iic.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 486.121 ; gain = 153.938
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 486.121 ; gain = 153.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 486.121 ; gain = 153.938
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/FPGA_study/projects/0011_IIC_EEPROM/vivado_proj/uart_eeprom_iic.xdc]
+Finished Parsing XDC File [D:/FPGA_study/projects/0011_IIC_EEPROM/vivado_proj/uart_eeprom_iic.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FPGA_study/projects/0011_IIC_EEPROM/vivado_proj/uart_eeprom_iic.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_uart_eeprom_iic_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_uart_eeprom_iic_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 857.820 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 857.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 857.840 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 857.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 857.840 ; gain = 525.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 857.840 ; gain = 525.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 857.840 ; gain = 525.656
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "bit_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'iic_fsm_c_s_reg' in module 'iic_master'
+INFO: [Synth 8-5546] ROM "scl_switch_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "master_ack" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "iic_busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "iic_fsm_n_s" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iic_fsm_n_s" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iic_fsm_n_s" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iic_fsm_n_s" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "iic_fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "mem_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_c_s_reg' in module 'eeprom_cntl'
+INFO: [Synth 8-5546] ROM "device_addr_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "delay_cnts" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'eeprom_cntl_buffer_rd_en_reg' into 'uart_wr_en_reg' [D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/top_uart_eeprom_iic.v:153]
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_c_s_reg' in module 'top_uart_eeprom_iic'
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_n_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            IIC_FSM_IDLE |                              000 |                              000
+           IIC_FSM_START |                              001 |                              010
+            IIC_FSM_READ |                              010 |                              110
+           IIC_FSM_WRITE |                              011 |                              011
+            IIC_FSM_STOP |                              100 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'iic_fsm_c_s_reg' using encoding 'sequential' in module 'iic_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                FSM_IDLE |                        000000001 |                        000000000
+               FSM_START |                        000000010 |                        000000010
+                  FSM_DA |                        000000100 |                        000000100
+                  FSM_WA |                        000001000 |                        000001000
+               FSM_WRITE |                        000010000 |                        001000000
+                 FSM_DA2 |                        000100000 |                        000010000
+                FSM_READ |                        001000000 |                        000100000
+                FSM_STOP |                        010000000 |                        010000000
+               FSM_DELAY |                        100000000 |                        100000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_c_s_reg' using encoding 'one-hot' in module 'eeprom_cntl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               10
+                 iSTATE0 |                               10 |                               11
+                 iSTATE2 |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_c_s_reg' using encoding 'sequential' in module 'top_uart_eeprom_iic'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 857.840 ; gain = 525.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	                9 Bit    Wide XORs := 1     
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 41    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 23    
+	   9 Input      9 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 35    
+	   3 Input      8 Bit        Muxes := 8     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 4     
+	   3 Input      5 Bit        Muxes := 4     
+	   9 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 2     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 70    
+	   5 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_uart_eeprom_iic 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 4     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	                9 Bit    Wide XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module iic_master 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 15    
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 3     
+Module sync_fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 35    
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 43    
+	   5 Input      1 Bit        Muxes := 1     
+Module eeprom_cntl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 23    
+	   9 Input      9 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 20    
+	   3 Input      8 Bit        Muxes := 8     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 4     
+	   3 Input      5 Bit        Muxes := 4     
+	   9 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u1_iic_master/scl_switch_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u3_eeprom_cntl/u2_sync_fifo/mem_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_25/\eeprom_word_address_reg_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_25/\eeprom_word_address_reg_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_25/\eeprom_word_address_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_25/\eeprom_word_address_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_25/\eeprom_word_address_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u3_eeprom_cntl/device_addr_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u3_eeprom_cntl/device_addr_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u3_eeprom_cntl/device_addr_reg_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u3_eeprom_cntl/device_addr_reg_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u3_eeprom_cntl/device_addr_reg_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u3_eeprom_cntl/device_addr_reg_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u3_eeprom_cntl/device_addr_reg_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 857.840 ; gain = 525.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 857.840 ; gain = 525.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 969.242 ; gain = 637.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    20|
+|3     |LUT1   |     5|
+|4     |LUT2   |    94|
+|5     |LUT3   |    52|
+|6     |LUT4   |    58|
+|7     |LUT5   |   100|
+|8     |LUT6   |   247|
+|9     |MUXF7  |    43|
+|10    |MUXF8  |     4|
+|11    |FDCE   |   221|
+|12    |FDPE   |    10|
+|13    |FDRE   |   256|
+|14    |IBUF   |     3|
+|15    |IOBUF  |     1|
+|16    |OBUF   |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+------------+------+
+|      |Instance          |Module      |Cells |
++------+------------------+------------+------+
+|1     |top               |            |  1117|
+|2     |  u1_uart_tx      |uart_tx     |    74|
+|3     |  u2_uart_rx      |uart_rx     |    84|
+|4     |  u3_eeprom_cntl  |eeprom_cntl |   927|
+|5     |    u1_iic_master |iic_master  |   194|
+|6     |    u2_sync_fifo  |sync_fifo   |   607|
++------+------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 970.305 ; gain = 266.402
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 970.305 ; gain = 638.121
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 68 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 970.305 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+159 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 970.305 ; gain = 651.129
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 970.305 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_study/projects/0011_IIC_EEPROM/vivado_proj/uart_eeprom_iic/uart_eeprom_iic.runs/synth_1/top_uart_eeprom_iic.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_uart_eeprom_iic_utilization_synth.rpt -pb top_uart_eeprom_iic_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 18 16:37:55 2023...

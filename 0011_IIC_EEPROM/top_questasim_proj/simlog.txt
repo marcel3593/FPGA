@@ -1,0 +1,2220 @@
+# vsim -i -wlf spi.wlf -default_radix hexadecimal -novopt work.tb_top_uart_eeprom_iic -l simlog.txt 
+# Start time: 16:45:02 on Apr 18,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.tx_interface
+# Loading work.rx_interface
+# Loading work.rpt_pkg
+# Loading work.uart_dv_pkg
+# Loading work.tb_top_uart_eeprom_iic
+# Loading work.iic_bus_interface
+# Loading work.debug_interface
+# Loading work.top_uart_eeprom_iic
+# Loading work.uart_tx
+# Loading work.uart_rx
+# Loading work.eeprom_cntl
+# Loading work.iic_master
+# Loading work.sync_fifo
+# Loading work.AT24C64D
+run 200ms
+# ** Warning: (vsim-8233) ../src/sim_top/AT24C64D.v(548): Index xxxxxxxxxxxxx into array dimension [8191:0] is out of bounds.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# Begin Power Up Sequence
+# Waiting for START_condition
+# BAUD_RATE_BPS                9600
+# CLK_MHZ                        50
+# PARITY                          1
+# PARITY_TYPE                     1
+# STOP_SIZE                       1
+# BYTE_SIZE                       8
+# BAUD_CNT_MAX                 5207
+# BAUD_CNT_CENTER              2603
+# BIT_CNT_MAX                    10
+# BIT_CNT_MAX_PLUS_ONE           11
+# RX_BIT_CNT_MAX                  9
+# @0 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           0, data = 00, parity = 1, done = 0
+#  -----------------------------
+# 
+# STOP condition                   0
+# ****************** SLAVE STOP condition detected
+# STOP CONDITION WITHOUT PAGE WRITE                   0
+# END DATA TRANSMISSION
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @114579000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           0, data = 00, parity = 1, done = 1
+#  -----------------------------
+# 
+# @114579000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           1, data = 01, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @229155000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           1, data = 01, parity = 0, done = 1
+#  -----------------------------
+# 
+# @229155000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           2, data = 02, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @343731000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           2, data = 02, parity = 0, done = 1
+#  -----------------------------
+# 
+# @343731000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           3, data = 03, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @458307000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           3, data = 03, parity = 1, done = 1
+#  -----------------------------
+# 
+# @458307000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           4, data = 04, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @572883000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           4, data = 04, parity = 0, done = 1
+#  -----------------------------
+# 
+# @572883000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           5, data = 05, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @687459000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           5, data = 05, parity = 1, done = 1
+#  -----------------------------
+# 
+# @687459000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           6, data = 06, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @802035000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           6, data = 06, parity = 1, done = 1
+#  -----------------------------
+# 
+# @802035000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           7, data = 07, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @916611000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           7, data = 07, parity = 0, done = 1
+#  -----------------------------
+# 
+# @916611000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           8, data = 08, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @1031187000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           8, data = 08, parity = 0, done = 1
+#  -----------------------------
+# 
+# @1031187000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           9, data = 09, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @1145763000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =           9, data = 09, parity = 1, done = 1
+#  -----------------------------
+# 
+# @1145763000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          10, data = 0a, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @1260339000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          10, data = 0a, parity = 1, done = 1
+#  -----------------------------
+# 
+# @1260339000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          11, data = 0b, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @1374915000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          11, data = 0b, parity = 0, done = 1
+#  -----------------------------
+# 
+# @1374915000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          12, data = 0c, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @1489491000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          12, data = 0c, parity = 1, done = 1
+#  -----------------------------
+# 
+# @1489491000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          13, data = 0d, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @1604067000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          13, data = 0d, parity = 0, done = 1
+#  -----------------------------
+# 
+# @1604067000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          14, data = 0e, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @1718643000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          14, data = 0e, parity = 0, done = 1
+#  -----------------------------
+# 
+# @1718643000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          15, data = 0f, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @1833219000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          15, data = 0f, parity = 1, done = 1
+#  -----------------------------
+# 
+# @1833219000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          16, data = 10, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @1947795000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          16, data = 10, parity = 0, done = 1
+#  -----------------------------
+# 
+# @1947795000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          17, data = 11, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @2062371000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          17, data = 11, parity = 1, done = 1
+#  -----------------------------
+# 
+# @2062371000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          18, data = 12, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @2176947000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          18, data = 12, parity = 1, done = 1
+#  -----------------------------
+# 
+# @2176947000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          19, data = 13, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @2291523000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          19, data = 13, parity = 0, done = 1
+#  -----------------------------
+# 
+# @2291523000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          20, data = 14, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @2406099000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          20, data = 14, parity = 1, done = 1
+#  -----------------------------
+# 
+# @2406099000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          21, data = 15, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @2520675000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          21, data = 15, parity = 0, done = 1
+#  -----------------------------
+# 
+# @2520675000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          22, data = 16, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @2635251000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          22, data = 16, parity = 0, done = 1
+#  -----------------------------
+# 
+# @2635251000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          23, data = 17, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @2749827000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          23, data = 17, parity = 1, done = 1
+#  -----------------------------
+# 
+# @2749827000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          24, data = 18, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @2864403000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          24, data = 18, parity = 1, done = 1
+#  -----------------------------
+# 
+# @2864403000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          25, data = 19, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @2978979000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          25, data = 19, parity = 0, done = 1
+#  -----------------------------
+# 
+# @2978979000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          26, data = 1a, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @3093555000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          26, data = 1a, parity = 0, done = 1
+#  -----------------------------
+# 
+# @3093555000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          27, data = 1b, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @3208131000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          27, data = 1b, parity = 1, done = 1
+#  -----------------------------
+# 
+# @3208131000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          28, data = 1c, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @3322707000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          28, data = 1c, parity = 0, done = 1
+#  -----------------------------
+# 
+# @3322707000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          29, data = 1d, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @3437283000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          29, data = 1d, parity = 1, done = 1
+#  -----------------------------
+# 
+# @3437283000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          30, data = 1e, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @3551859000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          30, data = 1e, parity = 1, done = 1
+#  -----------------------------
+# 
+# @3551859000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          31, data = 1f, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 0
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# START condition detected            36510830
+# Got START condtion event
+# First negedge of SCL after START            36513310
+# START event triggered
+# ******************* Data Transmission Triggered by start            36513310
+# Valid Start Condition - Begin Data_Transmission            36513310
+# Getting Device Address Byte            36513310
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# j:          10 = 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Byte received:  50             36588310
+# Checking for valid upper bits of device address            36593310
+# Valid device address for AT24C64D
+# Device Address_Match Found            36593310
+# Write or Dummy Write with Random Read            36593310
+# ******************* Check for Dummy Write Sequence
+# Getting lower device address bits and ACK to Master            36593310
+# Device address bits are loaded
+# addr_reg holds 0000
+# Get_Word_Address_Bytes
+# Get_MSB_Byte_and_ACK            36603310
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# @3666435000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          31, data = 1f, parity = 0, done = 1
+#  -----------------------------
+# 
+# @3666435000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          32, data = 20, parity = 0, done = 0
+#  -----------------------------
+# 
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading MSB address byte            36693310
+# Get_LSB_Byte_and_ACK            36693310
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading LSB address byte            36783310
+# addr_reg holds 0000
+# Wait for First clock after ACK following address bytes
+# Byte_or_Page_Write Sequence initiated            36788310
+# Checking for WRITE PROTECTION
+# Beginning a WRITE sequence            36788310
+# Getting remainder of byte
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register            36798310
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register            36808310
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register            36818310
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register            36828310
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register            36838310
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register            36848310
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register            36858310
+# S_Byte_Shft_Reg holds 00
+# addr_reg holds 0000
+# Increment the address register            36873310
+# time:36873310
+# *********************************************
+# *********************************************
+# ********* Execute_Page_Write is Writing Bytes
+# *********************************************
+# *********************************************
+# ************************************            36873310
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:36953310 ns, negedge SCL:36953310 ns, 600 ns );
+#    Time: 36953310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:37133310 ns, negedge SCL:37133310 ns, 600 ns );
+#    Time: 37133310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:37313310 ns, negedge SCL:37313310 ns, 600 ns );
+#    Time: 37313310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:37493310 ns, negedge SCL:37493310 ns, 600 ns );
+#    Time: 37493310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:37673310 ns, negedge SCL:37673310 ns, 600 ns );
+#    Time: 37673310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:37853310 ns, negedge SCL:37853310 ns, 600 ns );
+#    Time: 37853310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:38033310 ns, negedge SCL:38033310 ns, 600 ns );
+#    Time: 38033310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:38213310 ns, negedge SCL:38213310 ns, 600 ns );
+#    Time: 38213310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:38393310 ns, negedge SCL:38393310 ns, 600 ns );
+#    Time: 38393310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:38573310 ns, negedge SCL:38573310 ns, 600 ns );
+#    Time: 38573310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:38753310 ns, negedge SCL:38753310 ns, 600 ns );
+#    Time: 38753310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:38933310 ns, negedge SCL:38933310 ns, 600 ns );
+#    Time: 38933310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:39113310 ns, negedge SCL:39113310 ns, 600 ns );
+#    Time: 39113310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:39293310 ns, negedge SCL:39293310 ns, 600 ns );
+#    Time: 39293310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:39473310 ns, negedge SCL:39473310 ns, 600 ns );
+#    Time: 39473310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:39653310 ns, negedge SCL:39653310 ns, 600 ns );
+#    Time: 39653310 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# STOP condition            39670830
+# ****************** SLAVE STOP condition detected
+# Time:39670830
+# STOP DETECTED - TIME OUT FOR PAGE WRITE
+# START condition detected            59680890
+# Got START condtion event
+# >>> Detected random START � protocol interupt            59683370
+# First negedge of SCL after START            59683370
+# START event triggered
+# ******************* Data Transmission Triggered by start            59683370
+# Valid Start Condition - Begin Data_Transmission            59683370
+# Getting Device Address Byte            59683370
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Byte received:  50             59758370
+# Checking for valid upper bits of device address            59763370
+# Valid device address for AT24C64D
+# Device Address_Match Found            59763370
+# Write or Dummy Write with Random Read            59763370
+# ******************* Check for Dummy Write Sequence
+# Getting lower device address bits and ACK to Master            59763370
+# Device address bits are loaded
+# addr_reg holds 0000
+# Get_Word_Address_Bytes
+# Get_MSB_Byte_and_ACK            59773370
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading MSB address byte            59863370
+# Get_LSB_Byte_and_ACK            59863370
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading LSB address byte            59953370
+# addr_reg holds 0000
+# Wait for First clock after ACK following address bytes
+# Byte_or_Page_Write Sequence initiated            59958370
+# Checking for WRITE PROTECTION
+# Beginning a WRITE sequence            59958370
+# Getting remainder of byte
+# START condition detected            59960890
+# Got START condtion event
+# >>> Detected random START � protocol interupt            59963370
+# First negedge of SCL after START            59963370
+# START event triggered
+# Valid Start Condition - Begin Data_Transmission            59963370
+# Getting Device Address Byte            59963370
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Byte received:  50             60038370
+# Checking for valid upper bits of device address            60043370
+# Valid device address for AT24C64D
+# Device Address_Match Found            60043370
+# Beginning Current_Address_and_Sequential_Read            60043370
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60043370 ns, negedge SCL:60043370 ns, 600 ns );
+#    Time: 60043370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60053370 ns, negedge SCL:60053370 ns, 600 ns );
+#    Time: 60053370 ns  Iteration: 4  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60303370 ns, negedge SCL:60303370 ns, 600 ns );
+#    Time: 60303370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60473370 ns, negedge SCL:60473370 ns, 600 ns );
+#    Time: 60473370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60563370 ns, negedge SCL:60563370 ns, 600 ns );
+#    Time: 60563370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60663370 ns, negedge SCL:60663370 ns, 600 ns );
+#    Time: 60663370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60823370 ns, negedge SCL:60823370 ns, 600 ns );
+#    Time: 60823370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:60913370 ns, negedge SCL:60913370 ns, 600 ns );
+#    Time: 60913370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61003370 ns, negedge SCL:61003370 ns, 600 ns );
+#    Time: 61003370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61023370 ns, negedge SCL:61023370 ns, 600 ns );
+#    Time: 61023370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61093370 ns, negedge SCL:61093370 ns, 600 ns );
+#    Time: 61093370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61193370 ns, negedge SCL:61193370 ns, 600 ns );
+#    Time: 61193370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61283370 ns, negedge SCL:61283370 ns, 600 ns );
+#    Time: 61283370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61383370 ns, negedge SCL:61383370 ns, 600 ns );
+#    Time: 61383370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61533370 ns, negedge SCL:61533370 ns, 600 ns );
+#    Time: 61533370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61623370 ns, negedge SCL:61623370 ns, 600 ns );
+#    Time: 61623370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61713370 ns, negedge SCL:61713370 ns, 600 ns );
+#    Time: 61713370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61743370 ns, negedge SCL:61743370 ns, 600 ns );
+#    Time: 61743370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61803370 ns, negedge SCL:61803370 ns, 600 ns );
+#    Time: 61803370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61893370 ns, negedge SCL:61893370 ns, 600 ns );
+#    Time: 61893370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61913370 ns, negedge SCL:61913370 ns, 600 ns );
+#    Time: 61913370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:61983370 ns, negedge SCL:61983370 ns, 600 ns );
+#    Time: 61983370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62003370 ns, negedge SCL:62003370 ns, 600 ns );
+#    Time: 62003370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62073370 ns, negedge SCL:62073370 ns, 600 ns );
+#    Time: 62073370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62103370 ns, negedge SCL:62103370 ns, 600 ns );
+#    Time: 62103370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62163370 ns, negedge SCL:62163370 ns, 600 ns );
+#    Time: 62163370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62263370 ns, negedge SCL:62263370 ns, 600 ns );
+#    Time: 62263370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62353370 ns, negedge SCL:62353370 ns, 600 ns );
+#    Time: 62353370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62443370 ns, negedge SCL:62443370 ns, 600 ns );
+#    Time: 62443370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62463370 ns, negedge SCL:62463370 ns, 600 ns );
+#    Time: 62463370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62533370 ns, negedge SCL:62533370 ns, 600 ns );
+#    Time: 62533370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62633370 ns, negedge SCL:62633370 ns, 600 ns );
+#    Time: 62633370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62723370 ns, negedge SCL:62723370 ns, 600 ns );
+#    Time: 62723370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:62823370 ns, negedge SCL:62823370 ns, 600 ns );
+#    Time: 62823370 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# Got_NO_ACK_from_Master             62928370
+# STOP condition            62940890
+# ****************** SLAVE STOP condition detected
+# STOP CONDITION WITHOUT PAGE WRITE            62940890
+# END DATA TRANSMISSION
+# @6409423000 [WARNING] CMP : compare=1,wr_pkg =           0, wr_data = 00, wr_parity = 1,rd_pkg =           0, rd_data = 00, rd_parity = 1
+# @6524003000 [WARNING] CMP : compare=1,wr_pkg =           1, wr_data = 01, wr_parity = 0,rd_pkg =           1, rd_data = 01, rd_parity = 0
+# @6638583000 [WARNING] CMP : compare=1,wr_pkg =           2, wr_data = 02, wr_parity = 0,rd_pkg =           2, rd_data = 02, rd_parity = 0
+# @6753163000 [WARNING] CMP : compare=1,wr_pkg =           3, wr_data = 03, wr_parity = 1,rd_pkg =           3, rd_data = 03, rd_parity = 1
+# @6867743000 [WARNING] CMP : compare=1,wr_pkg =           4, wr_data = 04, wr_parity = 0,rd_pkg =           4, rd_data = 04, rd_parity = 0
+# @6982323000 [WARNING] CMP : compare=1,wr_pkg =           5, wr_data = 05, wr_parity = 1,rd_pkg =           5, rd_data = 05, rd_parity = 1
+# @7096903000 [WARNING] CMP : compare=1,wr_pkg =           6, wr_data = 06, wr_parity = 1,rd_pkg =           6, rd_data = 06, rd_parity = 1
+# @7211483000 [WARNING] CMP : compare=1,wr_pkg =           7, wr_data = 07, wr_parity = 0,rd_pkg =           7, rd_data = 07, rd_parity = 0
+# @7326063000 [WARNING] CMP : compare=1,wr_pkg =           8, wr_data = 08, wr_parity = 0,rd_pkg =           8, rd_data = 08, rd_parity = 0
+# @7440643000 [WARNING] CMP : compare=1,wr_pkg =           9, wr_data = 09, wr_parity = 1,rd_pkg =           9, rd_data = 09, rd_parity = 1
+# @7555223000 [WARNING] CMP : compare=1,wr_pkg =          10, wr_data = 0a, wr_parity = 1,rd_pkg =          10, rd_data = 0a, rd_parity = 1
+# @7669803000 [WARNING] CMP : compare=1,wr_pkg =          11, wr_data = 0b, wr_parity = 0,rd_pkg =          11, rd_data = 0b, rd_parity = 0
+# @7784383000 [WARNING] CMP : compare=1,wr_pkg =          12, wr_data = 0c, wr_parity = 1,rd_pkg =          12, rd_data = 0c, rd_parity = 1
+# @7898963000 [WARNING] CMP : compare=1,wr_pkg =          13, wr_data = 0d, wr_parity = 0,rd_pkg =          13, rd_data = 0d, rd_parity = 0
+# @8013543000 [WARNING] CMP : compare=1,wr_pkg =          14, wr_data = 0e, wr_parity = 0,rd_pkg =          14, rd_data = 0e, rd_parity = 0
+# @8128123000 [WARNING] CMP : compare=1,wr_pkg =          15, wr_data = 0f, wr_parity = 1,rd_pkg =          15, rd_data = 0f, rd_parity = 1
+# @8242703000 [WARNING] CMP : compare=1,wr_pkg =          16, wr_data = 10, wr_parity = 0,rd_pkg =          16, rd_data = 10, rd_parity = 0
+# @8357283000 [WARNING] CMP : compare=1,wr_pkg =          17, wr_data = 11, wr_parity = 1,rd_pkg =          17, rd_data = 11, rd_parity = 1
+# @8471863000 [WARNING] CMP : compare=1,wr_pkg =          18, wr_data = 12, wr_parity = 1,rd_pkg =          18, rd_data = 12, rd_parity = 1
+# @8586443000 [WARNING] CMP : compare=1,wr_pkg =          19, wr_data = 13, wr_parity = 0,rd_pkg =          19, rd_data = 13, rd_parity = 0
+# @8701023000 [WARNING] CMP : compare=1,wr_pkg =          20, wr_data = 14, wr_parity = 1,rd_pkg =          20, rd_data = 14, rd_parity = 1
+# @8815603000 [WARNING] CMP : compare=1,wr_pkg =          21, wr_data = 15, wr_parity = 0,rd_pkg =          21, rd_data = 15, rd_parity = 0
+# @8930183000 [WARNING] CMP : compare=1,wr_pkg =          22, wr_data = 16, wr_parity = 0,rd_pkg =          22, rd_data = 16, rd_parity = 0
+# @9044763000 [WARNING] CMP : compare=1,wr_pkg =          23, wr_data = 17, wr_parity = 1,rd_pkg =          23, rd_data = 17, rd_parity = 1
+# @9159343000 [WARNING] CMP : compare=1,wr_pkg =          24, wr_data = 18, wr_parity = 1,rd_pkg =          24, rd_data = 18, rd_parity = 1
+# @9273923000 [WARNING] CMP : compare=1,wr_pkg =          25, wr_data = 19, wr_parity = 0,rd_pkg =          25, rd_data = 19, rd_parity = 0
+# @9388503000 [WARNING] CMP : compare=1,wr_pkg =          26, wr_data = 1a, wr_parity = 0,rd_pkg =          26, rd_data = 1a, rd_parity = 0
+# @9503083000 [WARNING] CMP : compare=1,wr_pkg =          27, wr_data = 1b, wr_parity = 1,rd_pkg =          27, rd_data = 1b, rd_parity = 1
+# @9617663000 [WARNING] CMP : compare=1,wr_pkg =          28, wr_data = 1c, wr_parity = 0,rd_pkg =          28, rd_data = 1c, rd_parity = 0
+# @9732243000 [WARNING] CMP : compare=1,wr_pkg =          29, wr_data = 1d, wr_parity = 1,rd_pkg =          29, rd_data = 1d, rd_parity = 1
+# @9846823000 [WARNING] CMP : compare=1,wr_pkg =          30, wr_data = 1e, wr_parity = 1,rd_pkg =          30, rd_data = 1e, rd_parity = 1
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @9961403000 [WARNING] CMP : compare=1,wr_pkg =          31, wr_data = 1f, wr_parity = 0,rd_pkg =          31, rd_data = 1f, rd_parity = 0
+# @9961405000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          32, data = 20, parity = 0, done = 1
+#  -----------------------------
+# 
+# @9961405000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          33, data = 21, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @10075981000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          33, data = 21, parity = 1, done = 1
+#  -----------------------------
+# 
+# @10075981000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          34, data = 22, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @10190557000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          34, data = 22, parity = 1, done = 1
+#  -----------------------------
+# 
+# @10190557000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          35, data = 23, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @10305133000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          35, data = 23, parity = 0, done = 1
+#  -----------------------------
+# 
+# @10305133000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          36, data = 24, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @10419709000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          36, data = 24, parity = 1, done = 1
+#  -----------------------------
+# 
+# @10419709000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          37, data = 25, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @10534285000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          37, data = 25, parity = 0, done = 1
+#  -----------------------------
+# 
+# @10534285000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          38, data = 26, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @10648861000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          38, data = 26, parity = 0, done = 1
+#  -----------------------------
+# 
+# @10648861000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          39, data = 27, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @10763437000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          39, data = 27, parity = 1, done = 1
+#  -----------------------------
+# 
+# @10763437000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          40, data = 28, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @10878013000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          40, data = 28, parity = 1, done = 1
+#  -----------------------------
+# 
+# @10878013000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          41, data = 29, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @10992589000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          41, data = 29, parity = 0, done = 1
+#  -----------------------------
+# 
+# @10992589000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          42, data = 2a, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @11107165000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          42, data = 2a, parity = 0, done = 1
+#  -----------------------------
+# 
+# @11107165000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          43, data = 2b, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @11221741000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          43, data = 2b, parity = 1, done = 1
+#  -----------------------------
+# 
+# @11221741000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          44, data = 2c, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @11336317000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          44, data = 2c, parity = 0, done = 1
+#  -----------------------------
+# 
+# @11336317000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          45, data = 2d, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @11450893000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          45, data = 2d, parity = 1, done = 1
+#  -----------------------------
+# 
+# @11450893000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          46, data = 2e, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @11565469000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          46, data = 2e, parity = 1, done = 1
+#  -----------------------------
+# 
+# @11565469000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          47, data = 2f, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 0
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @11680045000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          47, data = 2f, parity = 0, done = 1
+#  -----------------------------
+# 
+# @11680045000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          48, data = 30, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @11794621000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          48, data = 30, parity = 1, done = 1
+#  -----------------------------
+# 
+# @11794621000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          49, data = 31, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @11909197000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          49, data = 31, parity = 0, done = 1
+#  -----------------------------
+# 
+# @11909197000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          50, data = 32, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @12023773000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          50, data = 32, parity = 0, done = 1
+#  -----------------------------
+# 
+# @12023773000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          51, data = 33, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @12138349000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          51, data = 33, parity = 1, done = 1
+#  -----------------------------
+# 
+# @12138349000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          52, data = 34, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @12252925000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          52, data = 34, parity = 0, done = 1
+#  -----------------------------
+# 
+# @12252925000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          53, data = 35, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @12367501000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          53, data = 35, parity = 1, done = 1
+#  -----------------------------
+# 
+# @12367501000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          54, data = 36, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @12482077000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          54, data = 36, parity = 1, done = 1
+#  -----------------------------
+# 
+# @12482077000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          55, data = 37, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 0
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @12596653000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          55, data = 37, parity = 0, done = 1
+#  -----------------------------
+# 
+# @12596653000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          56, data = 38, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @12711229000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          56, data = 38, parity = 0, done = 1
+#  -----------------------------
+# 
+# @12711229000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          57, data = 39, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @12825805000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          57, data = 39, parity = 1, done = 1
+#  -----------------------------
+# 
+# @12825805000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          58, data = 3a, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @12940381000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          58, data = 3a, parity = 1, done = 1
+#  -----------------------------
+# 
+# @12940381000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          59, data = 3b, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @13054957000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          59, data = 3b, parity = 0, done = 1
+#  -----------------------------
+# 
+# @13054957000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          60, data = 3c, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @13169533000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          60, data = 3c, parity = 1, done = 1
+#  -----------------------------
+# 
+# @13169533000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          61, data = 3d, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @13284109000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          61, data = 3d, parity = 0, done = 1
+#  -----------------------------
+# 
+# @13284109000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          62, data = 3e, parity = 0, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @13398685000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          62, data = 3e, parity = 0, done = 1
+#  -----------------------------
+# 
+# @13398685000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          63, data = 3f, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 1
+# j:           3 = 1
+# j:           4 = 1
+# j:           5 = 1
+# j:           6 = 1
+# j:           7 = 0
+# j:           8 = 0
+# j:           9 = 1
+# START condition detected           134984090
+# Got START condtion event
+# >>> Detected random START � protocol interupt           134986570
+# First negedge of SCL after START           134986570
+# START event triggered
+# ******************* Data Transmission Triggered by start           134986570
+# Valid Start Condition - Begin Data_Transmission           134986570
+# Getting Device Address Byte           134986570
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# j:          10 = 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Byte received:  50            135061570
+# Checking for valid upper bits of device address           135066570
+# Valid device address for AT24C64D
+# Device Address_Match Found           135066570
+# Write or Dummy Write with Random Read           135066570
+# ******************* Check for Dummy Write Sequence
+# Getting lower device address bits and ACK to Master           135066570
+# Device address bits are loaded
+# addr_reg holds 0020
+# Get_Word_Address_Bytes
+# Get_MSB_Byte_and_ACK           135076570
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# @13513261000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          63, data = 3f, parity = 1, done = 1
+#  -----------------------------
+# 
+# @13513261000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          64, data = 40, parity = 0, done = 0
+#  -----------------------------
+# 
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading MSB address byte           135166570
+# Get_LSB_Byte_and_ACK           135166570
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading LSB address byte           135256570
+# addr_reg holds 0020
+# Wait for First clock after ACK following address bytes
+# Byte_or_Page_Write Sequence initiated           135261570
+# Checking for WRITE PROTECTION
+# Beginning a WRITE sequence           135261570
+# Getting remainder of byte
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register           135271570
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register           135281570
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register           135291570
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register           135301570
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register           135311570
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register           135321570
+# Clock tick - Data bit loaded into S_Byte_Shift_Reg
+# Ready to write - data word has been loaded into shift register           135331570
+# S_Byte_Shft_Reg holds 10
+# addr_reg holds 0020
+# Increment the address register           135346570
+# time:135346570
+# *********************************************
+# *********************************************
+# ********* Execute_Page_Write is Writing Bytes
+# *********************************************
+# *********************************************
+# ************************************           135346570
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:135426570 ns, negedge SCL:135426570 ns, 600 ns );
+#    Time: 135426570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:135606570 ns, negedge SCL:135606570 ns, 600 ns );
+#    Time: 135606570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:135786570 ns, negedge SCL:135786570 ns, 600 ns );
+#    Time: 135786570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:135966570 ns, negedge SCL:135966570 ns, 600 ns );
+#    Time: 135966570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:136146570 ns, negedge SCL:136146570 ns, 600 ns );
+#    Time: 136146570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:136326570 ns, negedge SCL:136326570 ns, 600 ns );
+#    Time: 136326570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:136506570 ns, negedge SCL:136506570 ns, 600 ns );
+#    Time: 136506570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:136686570 ns, negedge SCL:136686570 ns, 600 ns );
+#    Time: 136686570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:136866570 ns, negedge SCL:136866570 ns, 600 ns );
+#    Time: 136866570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:137046570 ns, negedge SCL:137046570 ns, 600 ns );
+#    Time: 137046570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:137226570 ns, negedge SCL:137226570 ns, 600 ns );
+#    Time: 137226570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:137406570 ns, negedge SCL:137406570 ns, 600 ns );
+#    Time: 137406570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:137586570 ns, negedge SCL:137586570 ns, 600 ns );
+#    Time: 137586570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:137766570 ns, negedge SCL:137766570 ns, 600 ns );
+#    Time: 137766570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:137946570 ns, negedge SCL:137946570 ns, 600 ns );
+#    Time: 137946570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:138126570 ns, negedge SCL:138126570 ns, 600 ns );
+#    Time: 138126570 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# STOP condition           138144090
+# ****************** SLAVE STOP condition detected
+# Time:138144090
+# STOP DETECTED - TIME OUT FOR PAGE WRITE
+# START condition detected           158154150
+# Got START condtion event
+# >>> Detected random START � protocol interupt           158156630
+# First negedge of SCL after START           158156630
+# START event triggered
+# ******************* Data Transmission Triggered by start           158156630
+# Valid Start Condition - Begin Data_Transmission           158156630
+# Getting Device Address Byte           158156630
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Byte received:  50            158231630
+# Checking for valid upper bits of device address           158236630
+# Valid device address for AT24C64D
+# Device Address_Match Found           158236630
+# Write or Dummy Write with Random Read           158236630
+# ******************* Check for Dummy Write Sequence
+# Getting lower device address bits and ACK to Master           158236630
+# Device address bits are loaded
+# addr_reg holds 0020
+# Get_Word_Address_Bytes
+# Get_MSB_Byte_and_ACK           158246630
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading MSB address byte           158336630
+# Get_LSB_Byte_and_ACK           158336630
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Loading LSB address byte           158426630
+# addr_reg holds 0020
+# Wait for First clock after ACK following address bytes
+# Byte_or_Page_Write Sequence initiated           158431630
+# Checking for WRITE PROTECTION
+# Beginning a WRITE sequence           158431630
+# Getting remainder of byte
+# START condition detected           158434150
+# Got START condtion event
+# >>> Detected random START � protocol interupt           158436630
+# First negedge of SCL after START           158436630
+# START event triggered
+# Valid Start Condition - Begin Data_Transmission           158436630
+# Getting Device Address Byte           158436630
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 1
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Within Get_a_Byte
+# Bit received: 0
+# Byte received:  50            158511630
+# Checking for valid upper bits of device address           158516630
+# Valid device address for AT24C64D
+# Device Address_Match Found           158516630
+# Beginning Current_Address_and_Sequential_Read           158516630
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158516630 ns, negedge SCL:158516630 ns, 600 ns );
+#    Time: 158516630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158526630 ns, negedge SCL:158526630 ns, 600 ns );
+#    Time: 158526630 ns  Iteration: 4  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158556630 ns, negedge SCL:158556630 ns, 600 ns );
+#    Time: 158556630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158646630 ns, negedge SCL:158646630 ns, 600 ns );
+#    Time: 158646630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158736630 ns, negedge SCL:158736630 ns, 600 ns );
+#    Time: 158736630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158776630 ns, negedge SCL:158776630 ns, 600 ns );
+#    Time: 158776630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158826630 ns, negedge SCL:158826630 ns, 600 ns );
+#    Time: 158826630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158916630 ns, negedge SCL:158916630 ns, 600 ns );
+#    Time: 158916630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:158946630 ns, negedge SCL:158946630 ns, 600 ns );
+#    Time: 158946630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159006630 ns, negedge SCL:159006630 ns, 600 ns );
+#    Time: 159006630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159036630 ns, negedge SCL:159036630 ns, 600 ns );
+#    Time: 159036630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159096630 ns, negedge SCL:159096630 ns, 600 ns );
+#    Time: 159096630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159136630 ns, negedge SCL:159136630 ns, 600 ns );
+#    Time: 159136630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159186630 ns, negedge SCL:159186630 ns, 600 ns );
+#    Time: 159186630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159276630 ns, negedge SCL:159276630 ns, 600 ns );
+#    Time: 159276630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159296630 ns, negedge SCL:159296630 ns, 600 ns );
+#    Time: 159296630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159366630 ns, negedge SCL:159366630 ns, 600 ns );
+#    Time: 159366630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159386630 ns, negedge SCL:159386630 ns, 600 ns );
+#    Time: 159386630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159456630 ns, negedge SCL:159456630 ns, 600 ns );
+#    Time: 159456630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159476630 ns, negedge SCL:159476630 ns, 600 ns );
+#    Time: 159476630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159496630 ns, negedge SCL:159496630 ns, 600 ns );
+#    Time: 159496630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159546630 ns, negedge SCL:159546630 ns, 600 ns );
+#    Time: 159546630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159566630 ns, negedge SCL:159566630 ns, 600 ns );
+#    Time: 159566630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159636630 ns, negedge SCL:159636630 ns, 600 ns );
+#    Time: 159636630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159666630 ns, negedge SCL:159666630 ns, 600 ns );
+#    Time: 159666630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159726630 ns, negedge SCL:159726630 ns, 600 ns );
+#    Time: 159726630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159756630 ns, negedge SCL:159756630 ns, 600 ns );
+#    Time: 159756630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159816630 ns, negedge SCL:159816630 ns, 600 ns );
+#    Time: 159816630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159856630 ns, negedge SCL:159856630 ns, 600 ns );
+#    Time: 159856630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:159906630 ns, negedge SCL:159906630 ns, 600 ns );
+#    Time: 159906630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160006630 ns, negedge SCL:160006630 ns, 600 ns );
+#    Time: 160006630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160096630 ns, negedge SCL:160096630 ns, 600 ns );
+#    Time: 160096630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160186630 ns, negedge SCL:160186630 ns, 600 ns );
+#    Time: 160186630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160216630 ns, negedge SCL:160216630 ns, 600 ns );
+#    Time: 160216630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160276630 ns, negedge SCL:160276630 ns, 600 ns );
+#    Time: 160276630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160366630 ns, negedge SCL:160366630 ns, 600 ns );
+#    Time: 160366630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160386630 ns, negedge SCL:160386630 ns, 600 ns );
+#    Time: 160386630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160456630 ns, negedge SCL:160456630 ns, 600 ns );
+#    Time: 160456630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160476630 ns, negedge SCL:160476630 ns, 600 ns );
+#    Time: 160476630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160546630 ns, negedge SCL:160546630 ns, 600 ns );
+#    Time: 160546630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160576630 ns, negedge SCL:160576630 ns, 600 ns );
+#    Time: 160576630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160636630 ns, negedge SCL:160636630 ns, 600 ns );
+#    Time: 160636630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160736630 ns, negedge SCL:160736630 ns, 600 ns );
+#    Time: 160736630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160826630 ns, negedge SCL:160826630 ns, 600 ns );
+#    Time: 160826630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160916630 ns, negedge SCL:160916630 ns, 600 ns );
+#    Time: 160916630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:160936630 ns, negedge SCL:160936630 ns, 600 ns );
+#    Time: 160936630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:161006630 ns, negedge SCL:161006630 ns, 600 ns );
+#    Time: 161006630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:161106630 ns, negedge SCL:161106630 ns, 600 ns );
+#    Time: 161106630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:161196630 ns, negedge SCL:161196630 ns, 600 ns );
+#    Time: 161196630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# ** Error: ../src/sim_top/AT24C64D.v(1617): $hold( negedge SDA:161296630 ns, negedge SCL:161296630 ns, 600 ns );
+#    Time: 161296630 ns  Iteration: 3  Instance: /tb_top_uart_eeprom_iic/model_eeprom
+# got ACK from master
+# Got_NO_ACK_from_Master            161401630
+# STOP condition           161414150
+# ****************** SLAVE STOP condition detected
+# STOP CONDITION WITHOUT PAGE WRITE           161414150
+# END DATA TRANSMISSION
+# @16256749000 [WARNING] CMP : compare=1,wr_pkg =          32, wr_data = 20, wr_parity = 0,rd_pkg =          32, rd_data = 20, rd_parity = 0
+# @16371329000 [WARNING] CMP : compare=1,wr_pkg =          33, wr_data = 21, wr_parity = 1,rd_pkg =          33, rd_data = 21, rd_parity = 1
+# @16485909000 [WARNING] CMP : compare=1,wr_pkg =          34, wr_data = 22, wr_parity = 1,rd_pkg =          34, rd_data = 22, rd_parity = 1
+# @16600489000 [WARNING] CMP : compare=1,wr_pkg =          35, wr_data = 23, wr_parity = 0,rd_pkg =          35, rd_data = 23, rd_parity = 0
+# @16715069000 [WARNING] CMP : compare=1,wr_pkg =          36, wr_data = 24, wr_parity = 1,rd_pkg =          36, rd_data = 24, rd_parity = 1
+# @16829649000 [WARNING] CMP : compare=1,wr_pkg =          37, wr_data = 25, wr_parity = 0,rd_pkg =          37, rd_data = 25, rd_parity = 0
+# @16944229000 [WARNING] CMP : compare=1,wr_pkg =          38, wr_data = 26, wr_parity = 0,rd_pkg =          38, rd_data = 26, rd_parity = 0
+# @17058809000 [WARNING] CMP : compare=1,wr_pkg =          39, wr_data = 27, wr_parity = 1,rd_pkg =          39, rd_data = 27, rd_parity = 1
+# @17173389000 [WARNING] CMP : compare=1,wr_pkg =          40, wr_data = 28, wr_parity = 1,rd_pkg =          40, rd_data = 28, rd_parity = 1
+# @17287969000 [WARNING] CMP : compare=1,wr_pkg =          41, wr_data = 29, wr_parity = 0,rd_pkg =          41, rd_data = 29, rd_parity = 0
+# @17402549000 [WARNING] CMP : compare=1,wr_pkg =          42, wr_data = 2a, wr_parity = 0,rd_pkg =          42, rd_data = 2a, rd_parity = 0
+# @17517129000 [WARNING] CMP : compare=1,wr_pkg =          43, wr_data = 2b, wr_parity = 1,rd_pkg =          43, rd_data = 2b, rd_parity = 1
+# @17631709000 [WARNING] CMP : compare=1,wr_pkg =          44, wr_data = 2c, wr_parity = 0,rd_pkg =          44, rd_data = 2c, rd_parity = 0
+# @17746289000 [WARNING] CMP : compare=1,wr_pkg =          45, wr_data = 2d, wr_parity = 1,rd_pkg =          45, rd_data = 2d, rd_parity = 1
+# @17860869000 [WARNING] CMP : compare=1,wr_pkg =          46, wr_data = 2e, wr_parity = 1,rd_pkg =          46, rd_data = 2e, rd_parity = 1
+# @17975449000 [WARNING] CMP : compare=1,wr_pkg =          47, wr_data = 2f, wr_parity = 0,rd_pkg =          47, rd_data = 2f, rd_parity = 0
+# @18090029000 [WARNING] CMP : compare=1,wr_pkg =          48, wr_data = 30, wr_parity = 1,rd_pkg =          48, rd_data = 30, rd_parity = 1
+# @18204609000 [WARNING] CMP : compare=1,wr_pkg =          49, wr_data = 31, wr_parity = 0,rd_pkg =          49, rd_data = 31, rd_parity = 0
+# @18319189000 [WARNING] CMP : compare=1,wr_pkg =          50, wr_data = 32, wr_parity = 0,rd_pkg =          50, rd_data = 32, rd_parity = 0
+# @18433769000 [WARNING] CMP : compare=1,wr_pkg =          51, wr_data = 33, wr_parity = 1,rd_pkg =          51, rd_data = 33, rd_parity = 1
+# @18548349000 [WARNING] CMP : compare=1,wr_pkg =          52, wr_data = 34, wr_parity = 0,rd_pkg =          52, rd_data = 34, rd_parity = 0
+# @18662929000 [WARNING] CMP : compare=1,wr_pkg =          53, wr_data = 35, wr_parity = 1,rd_pkg =          53, rd_data = 35, rd_parity = 1
+# @18777509000 [WARNING] CMP : compare=1,wr_pkg =          54, wr_data = 36, wr_parity = 1,rd_pkg =          54, rd_data = 36, rd_parity = 1
+# @18892089000 [WARNING] CMP : compare=1,wr_pkg =          55, wr_data = 37, wr_parity = 0,rd_pkg =          55, rd_data = 37, rd_parity = 0
+# @19006669000 [WARNING] CMP : compare=1,wr_pkg =          56, wr_data = 38, wr_parity = 0,rd_pkg =          56, rd_data = 38, rd_parity = 0
+# @19121249000 [WARNING] CMP : compare=1,wr_pkg =          57, wr_data = 39, wr_parity = 1,rd_pkg =          57, rd_data = 39, rd_parity = 1
+# @19235829000 [WARNING] CMP : compare=1,wr_pkg =          58, wr_data = 3a, wr_parity = 1,rd_pkg =          58, rd_data = 3a, rd_parity = 1
+# @19350409000 [WARNING] CMP : compare=1,wr_pkg =          59, wr_data = 3b, wr_parity = 0,rd_pkg =          59, rd_data = 3b, rd_parity = 0
+# @19464989000 [WARNING] CMP : compare=1,wr_pkg =          60, wr_data = 3c, wr_parity = 1,rd_pkg =          60, rd_data = 3c, rd_parity = 1
+# @19579569000 [WARNING] CMP : compare=1,wr_pkg =          61, wr_data = 3d, wr_parity = 0,rd_pkg =          61, rd_data = 3d, rd_parity = 0
+# @19694149000 [WARNING] CMP : compare=1,wr_pkg =          62, wr_data = 3e, wr_parity = 0,rd_pkg =          62, rd_data = 3e, rd_parity = 0
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 1
+# j:           8 = 0
+# j:           9 = 0
+# j:          10 = 1
+# @19808729000 [WARNING] CMP : compare=1,wr_pkg =          63, wr_data = 3f, wr_parity = 1,rd_pkg =          63, rd_data = 3f, rd_parity = 1
+# @19808731000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          64, data = 40, parity = 0, done = 1
+#  -----------------------------
+# 
+# @19808731000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          65, data = 41, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 1
+# j:           2 = 0
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 1
+# j:           8 = 0
+# j:           9 = 1
+# j:          10 = 1
+# @19923307000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          65, data = 41, parity = 1, done = 1
+#  -----------------------------
+# 
+# @19923307000 [INFO] write_trans : 
+#  -----------------------------
+# pkg_id =          66, data = 42, parity = 1, done = 0
+#  -----------------------------
+# 
+# j:           0 = 0
+# j:           1 = 0
+# j:           2 = 1
+# j:           3 = 0
+# j:           4 = 0
+# j:           5 = 0
+# j:           6 = 0
+# j:           7 = 1

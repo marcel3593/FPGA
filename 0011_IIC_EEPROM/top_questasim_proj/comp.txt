@@ -1,0 +1,26 @@
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Start time: 16:45:02 on Apr 18,2023
+vlog -reportprogress 300 -novopt -lint -l comp.txt -timescale 1ns/10ps ../src/rtl/sync_fifo.v ../src/rtl/iic_master.v ../src/rtl/eeprom_cntl.v ../src/rtl/uart_parameters.vh ../src/rtl/uart.v ../src/rtl/top_uart_eeprom_iic.v ../src/sim_top/AT24C64D.v ../src/sim_top/rpt_pkg.sv ../src/sim_top/uart_dv_pkg.sv ../src/sim_top/tb_top_uart_eeprom_iic.sv 
+-- Compiling module sync_fifo
+-- Compiling module iic_master
+-- Compiling module eeprom_cntl
+-- Compiling module uart_tx
+-- Compiling module uart_rx
+-- Compiling module top_uart_eeprom_iic
+-- Compiling module AT24C64D
+-- Compiling package rpt_pkg
+-- Compiling package uart_dv_pkg
+-- Importing package rpt_pkg
+-- Compiling interface tx_interface
+-- Compiling interface rx_interface
+-- Compiling interface iic_bus_interface
+** Warning: ../src/sim_top/tb_top_uart_eeprom_iic.sv(24): (vlog-2605) empty port name in port list.
+-- Compiling interface debug_interface
+-- Compiling module tb_top_uart_eeprom_iic
+** Warning: ../src/sim_top/tb_top_uart_eeprom_iic.sv(44): (vlog-2605) empty port name in port list.
+-- Importing package uart_dv_pkg
+
+Top level modules:
+	tb_top_uart_eeprom_iic
+End time: 16:45:02 on Apr 18,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2

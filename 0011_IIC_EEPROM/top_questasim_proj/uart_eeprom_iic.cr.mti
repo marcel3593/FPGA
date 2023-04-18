@@ -1,0 +1,17 @@
+D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim_top/rpt_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim_top/rpt_pkg.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package rpt_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/uart.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/uart.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module uart_tx
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_tx
+	uart_rx
+
+} {} {}}

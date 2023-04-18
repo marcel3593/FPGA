@@ -1,0 +1,331 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA_study/projects/0011_IIC_EEPROM/questasim_proj
+vAT24C64D
+Z0 !s110 1681807502
+!i10b 1
+!s100 ZoKBKb`Q?<9eUO9kdD7VB2
+IeXz]I7X=4fWh9NLLI[AdQ1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/FPGA_study/projects/0011_IIC_EEPROM/top_questasim_proj
+w1681805554
+8../src/sim_top/AT24C64D.v
+F../src/sim_top/AT24C64D.v
+L0 163
+Z3 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1681807502.000000
+!s107 ..\src\sim_top\..\rtl\uart_parameters.vh|..\src\rtl\uart_parameters.vh|../src/sim_top/tb_top_uart_eeprom_iic.sv|../src/sim_top/uart_dv_pkg.sv|../src/sim_top/rpt_pkg.sv|../src/sim_top/AT24C64D.v|../src/rtl/top_uart_eeprom_iic.v|../src/rtl/uart.v|../src/rtl/uart_parameters.vh|../src/rtl/eeprom_cntl.v|../src/rtl/iic_master.v|../src/rtl/sync_fifo.v|
+Z5 !s90 -reportprogress|300|-novopt|-lint|-l|comp.txt|-timescale|1ns/10ps|../src/rtl/sync_fifo.v|../src/rtl/iic_master.v|../src/rtl/eeprom_cntl.v|../src/rtl/uart_parameters.vh|../src/rtl/uart.v|../src/rtl/top_uart_eeprom_iic.v|../src/sim_top/AT24C64D.v|../src/sim_top/rpt_pkg.sv|../src/sim_top/uart_dv_pkg.sv|../src/sim_top/tb_top_uart_eeprom_iic.sv|
+!i113 1
+Z6 o-lint -timescale 1ns/10ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+n@a@t24@c64@d
+Ydebug_interface
+Z8 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+!i10b 1
+!s100 QJB`Yk3[1gbdA^]WIT8X82
+IGBJZF:O7ebg450;j:h5F^0
+R1
+Z9 !s105 tb_top_uart_eeprom_iic_sv_unit
+S1
+R2
+Z10 w1681803998
+Z11 8../src/sim_top/tb_top_uart_eeprom_iic.sv
+Z12 F../src/sim_top/tb_top_uart_eeprom_iic.sv
+L0 34
+R3
+r1
+!s85 0
+31
+R4
+Z13 !s107 ..\src\sim_top\..\rtl\uart_parameters.vh|..\src\rtl\uart_parameters.vh|../src/sim_top/tb_top_uart_eeprom_iic.sv|../src/sim_top/uart_dv_pkg.sv|../src/sim_top/rpt_pkg.sv|../src/sim_top/AT24C64D.v|../src/rtl/top_uart_eeprom_iic.v|../src/rtl/uart.v|../src/rtl/uart_parameters.vh|../src/rtl/eeprom_cntl.v|../src/rtl/iic_master.v|../src/rtl/sync_fifo.v|
+R5
+!i113 1
+R6
+R7
+veeprom_cntl
+R0
+!i10b 1
+!s100 ][zkBQ^OZ78f9eJ3K2LlL2
+IjXn??D8F2O9KGbgz7oI`N1
+R1
+R2
+w1681807030
+8../src/rtl/eeprom_cntl.v
+F../src/rtl/eeprom_cntl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+Yiic_bus_interface
+R8
+R0
+!i10b 1
+!s100 6h_FSSOGE]YE:XncGf4jZ2
+I`:3no;BF^eo@knD6zF5C51
+R1
+R9
+S1
+R2
+R10
+R11
+R12
+L0 24
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+viic_master
+R0
+!i10b 1
+!s100 gLOBC6]3kP3CaccEj?mHi3
+IjYCA][PLbMK1A:jQ@MY3Z2
+R1
+R2
+w1681806452
+8../src/rtl/iic_master.v
+F../src/rtl/iic_master.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+Xrpt_pkg
+R8
+R0
+!i10b 1
+!s100 OGDHmfcz:JF=7K^DXH5<]2
+In5T=Kc8]Ql5[2HWbo`49d1
+Vn5T=Kc8]Ql5[2HWbo`49d1
+S1
+R2
+w1673336318
+8../src/sim_top/rpt_pkg.sv
+F../src/sim_top/rpt_pkg.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+Yrx_interface
+R8
+R0
+!i10b 1
+!s100 ;]e_2XFSS@cFKbTPfHjo51
+I3fb0Xnn1hkkV;U?jU4hK50
+R1
+R9
+S1
+R2
+R10
+R11
+R12
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+vsync_fifo
+R0
+!i10b 1
+!s100 K8NmACb@mZec`IL=oYE_M3
+I;6SYQZ9L7Yc:WCIK3^za@3
+R1
+R2
+w1681806749
+8../src/rtl/sync_fifo.v
+F../src/rtl/sync_fifo.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+vtb_top_uart_eeprom_iic
+R8
+Z14 DXx4 work 7 rpt_pkg 0 22 n5T=Kc8]Ql5[2HWbo`49d1
+DXx4 work 11 uart_dv_pkg 0 22 i1=3oSO?80V=a]Lbj3;BG2
+R0
+!i10b 1
+!s100 OjdYDh46hDkP2R0:3;RCn2
+IjK;zQ4I:lod^BhPM0^7>P3
+R1
+R9
+S1
+R2
+R10
+R11
+R12
+L0 44
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+vtop_uart_eeprom_iic
+R0
+!i10b 1
+!s100 9Bk]R`zgn173;P[lM]]0I3
+IOlLJ7aQeo@WB0Q<GLgk130
+R1
+R2
+w1681806177
+8../src/rtl/top_uart_eeprom_iic.v
+F../src/rtl/top_uart_eeprom_iic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+Ytx_interface
+R8
+R0
+!i10b 1
+!s100 n6kGGHY0J]X5?]kDQ^?nT1
+Ijk:YSEzbY3AejfjVPOo160
+R1
+R9
+S1
+R2
+R10
+R11
+R12
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+Xuart_dv_pkg
+!s115 rx_interface
+!s115 debug_interface
+!s115 tx_interface
+R8
+R14
+R0
+!i10b 1
+!s100 lH?kgKoKWLUOmj;FM>ZLd0
+Ii1=3oSO?80V=a]Lbj3;BG2
+Vi1=3oSO?80V=a]Lbj3;BG2
+S1
+R2
+w1681803886
+8../src/sim_top/uart_dv_pkg.sv
+F../src/sim_top/uart_dv_pkg.sv
+F..\src\sim_top\..\rtl\uart_parameters.vh
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+vuart_rx
+R0
+!i10b 1
+!s100 0mi4JMg1B2ILe9kh:Z3ZK2
+IFJn2heG?:dNN<mX4JbH9I1
+R1
+R2
+Z15 w1681795552
+Z16 8../src/rtl/uart.v
+Z17 F../src/rtl/uart.v
+L0 87
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
+vuart_tx
+R0
+!i10b 1
+!s100 ^PBDoGI7FRhh`eK58^E?C3
+IC6G4ffGGUYHZ?4DJYZ<f:0
+R1
+R2
+R15
+R16
+R17
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R13
+R5
+!i113 1
+R6
+R7
