@@ -1,0 +1,655 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Apr  3 14:37:05 2023
+# Process ID: 70616
+# Current directory: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_2
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_2/top.vds
+# Journal file: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7z020clg400-2 -keep_equivalent_registers
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 39300 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 429.973 ; gain = 98.473
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'display_hvscan' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/display.v:2]
+	Parameter HSYNC_T bound to: 40 - type: integer 
+	Parameter HBPH_T bound to: 220 - type: integer 
+	Parameter HLBD_T bound to: 0 - type: integer 
+	Parameter HDATA_T bound to: 1280 - type: integer 
+	Parameter HRBD_T bound to: 0 - type: integer 
+	Parameter HFPH_T bound to: 110 - type: integer 
+	Parameter VSYNC_T bound to: 5 - type: integer 
+	Parameter VBPH_T bound to: 20 - type: integer 
+	Parameter VTBD_T bound to: 0 - type: integer 
+	Parameter VDATA_T bound to: 720 - type: integer 
+	Parameter VBBD_T bound to: 0 - type: integer 
+	Parameter VFPH_T bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'display_control' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/display.v:67]
+	Parameter HSYNC_T bound to: 40 - type: integer 
+	Parameter HBPH_T bound to: 220 - type: integer 
+	Parameter HLBD_T bound to: 0 - type: integer 
+	Parameter HDATA_T bound to: 1280 - type: integer 
+	Parameter HRBD_T bound to: 0 - type: integer 
+	Parameter HFPH_T bound to: 110 - type: integer 
+	Parameter VSYNC_T bound to: 5 - type: integer 
+	Parameter VBPH_T bound to: 20 - type: integer 
+	Parameter VTBD_T bound to: 0 - type: integer 
+	Parameter VDATA_T bound to: 720 - type: integer 
+	Parameter VBBD_T bound to: 0 - type: integer 
+	Parameter VFPH_T bound to: 5 - type: integer 
+	Parameter HSYNC_END_CNT bound to: 39 - type: integer 
+	Parameter HDATA_START_CNT bound to: 259 - type: integer 
+	Parameter HDATA_END_CNT bound to: 1539 - type: integer 
+	Parameter H_CNT_MAX bound to: 1649 - type: integer 
+	Parameter VSYNC_END_CNT bound to: 4 - type: integer 
+	Parameter VDATA_START_CNT bound to: 24 - type: integer 
+	Parameter VDATA_END_CNT bound to: 744 - type: integer 
+	Parameter V_CNT_MAX bound to: 749 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'display_control' (1#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/display.v:67]
+INFO: [Synth 8-6157] synthesizing module 'display_buffer' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/display.v:166]
+	Parameter HDATA_T bound to: 1280 - type: integer 
+	Parameter section_0 bound to: 320 - type: integer 
+	Parameter section_1 bound to: 640 - type: integer 
+	Parameter section_2 bound to: 960 - type: integer 
+	Parameter section_3 bound to: 1280 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'display_buffer' (2#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/display.v:166]
+INFO: [Synth 8-6155] done synthesizing module 'display_hvscan' (3#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/display.v:2]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_top' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/HDMI_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'tmds_encoder' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:1]
+	Parameter INSTANCE_ID bound to: 2'b00 
+INFO: [Synth 8-6155] done synthesizing module 'tmds_encoder' (4#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'tmds_encoder__parameterized0' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:1]
+	Parameter INSTANCE_ID bound to: 2'b01 
+WARNING: [Synth 8-6014] Unused sequential element c0_reg1_reg was removed.  [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:39]
+WARNING: [Synth 8-6014] Unused sequential element c0_reg2_reg was removed.  [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'tmds_encoder__parameterized0' (4#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'tmds_encoder__parameterized1' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:1]
+	Parameter INSTANCE_ID bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'tmds_encoder__parameterized1' (4#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'serializer' [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/serializer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:31641]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: ASYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (5#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:31641]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28244]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (6#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28244]
+INFO: [Synth 8-6155] done synthesizing module 'serializer' (7#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/serializer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_top' (8#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/HDMI_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (9#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_BASE' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41124]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 30 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 20.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 20 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.000000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_BASE' (10#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41124]
+INFO: [Synth 8-6155] done synthesizing module 'top' (11#1) [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/top.v:1]
+WARNING: [Synth 8-3331] design tmds_encoder__parameterized0 has unconnected port c0
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[15]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[14]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[13]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[12]
+WARNING: [Synth 8-3331] design display_buffer has unconnected port px[11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.578 ; gain = 191.078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.578 ; gain = 191.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.578 ; gain = 191.078
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:10]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_sys_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:16]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_ser_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:17]
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 986.434 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 986.449 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 4 instances
+  PLLE2_BASE => PLLE2_ADV: 1 instances
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 986.449 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.047 . Memory (MB): peak = 986.449 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vs_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:123]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:123]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/FPGA_study/projects/0010_HDMI_Display_STA/src/rtl/tmds_encoder.v:123]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------------+------------+----------+
+|      |RTL Partition             |Replication |Instances |
++------+--------------------------+------------+----------+
+|1     |muxpart__2_display_buffer |           1|     30696|
+|2     |display_buffer__GB1       |           1|      4560|
+|3     |display_buffer__GB2       |           1|      8832|
+|4     |display_buffer__GB3       |           1|     11040|
+|5     |display_buffer__GB4       |           1|     18576|
+|6     |display_buffer__GB5       |           1|     18480|
+|7     |display_control           |           1|       731|
+|8     |serializer__GC0           |           1|        53|
+|9     |HDMI_top__GC0             |           1|      1443|
+|10    |top__GC0                  |           1|         7|
++------+--------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
+	   9 Input      5 Bit       Adders := 3     
+	   7 Input      5 Bit       Adders := 3     
+	   4 Input      5 Bit       Adders := 3     
+	   8 Input      4 Bit       Adders := 3     
+	   5 Input      4 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 4     
+	   4 Input      3 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               24 Bit    Registers := 1281  
+	               16 Bit    Registers := 3     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 6     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 30    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 14    
+	   4 Input     10 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 7     
+	   2 Input      5 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module display_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module display_buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1281  
+Module serializer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 3     
+Module tmds_encoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   9 Input      5 Bit       Adders := 1     
+	   7 Input      5 Bit       Adders := 1     
+	   4 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 1     
+	   5 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   4 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 5     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 7     
+Module tmds_encoder__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   9 Input      5 Bit       Adders := 1     
+	   7 Input      5 Bit       Adders := 1     
+	   4 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 1     
+	   5 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   4 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 4     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 7     
+Module tmds_encoder__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   9 Input      5 Bit       Adders := 1     
+	   7 Input      5 Bit       Adders := 1     
+	   4 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 1     
+	   5 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   4 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 5     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "u_encoder_0/q1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "u_encoder_1/q1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "u_encoder_2/q1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][16] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1186][20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1186][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][16] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1187][20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1187][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][16] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1188][20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1188][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][16] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1189][20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u2_display_bufferi_1/\mem_reg[1189][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1190][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1190][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1190][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u2_display_bufferi_1/\mem_reg[1190][3] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------------+------------+----------+
+|      |RTL Partition             |Replication |Instances |
++------+--------------------------+------------+----------+
+|1     |muxpart__2_display_buffer |           1|        25|
+|2     |display_buffer__GB1       |           1|        25|
+|3     |display_control           |           1|       190|
+|4     |serializer__GC0           |           1|        32|
+|5     |HDMI_top__GC0             |           1|      1036|
+|6     |top__GC0                  |           1|         6|
+|7     |serializer__GC0__1        |           3|        35|
++------+--------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------------+------------+----------+
+|      |RTL Partition             |Replication |Instances |
++------+--------------------------+------------+----------+
+|1     |muxpart__2_display_buffer |           1|        25|
+|2     |display_buffer__GB1       |           1|        25|
+|3     |display_control           |           1|       190|
+|4     |serializer__GC0           |           1|        32|
+|5     |top__GC0                  |           1|         6|
+|6     |serializer__GC0__1        |           1|        35|
+|7     |top_GT0                   |           1|      1106|
++------+--------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |    11|
+|3     |LUT1       |     1|
+|4     |LUT2       |    63|
+|5     |LUT3       |    64|
+|6     |LUT4       |    46|
+|7     |LUT5       |    83|
+|8     |LUT6       |   123|
+|9     |ODDR       |     4|
+|10    |PLLE2_BASE |     1|
+|11    |FDCE       |   193|
+|12    |IBUF       |     2|
+|13    |OBUFDS     |     4|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-----------------------+-----------------------------+------+
+|      |Instance               |Module                       |Cells |
++------+-----------------------+-----------------------------+------+
+|1     |top                    |                             |   598|
+|2     |  u_HDMI               |HDMI_top                     |   423|
+|3     |    u_encoder_0        |tmds_encoder                 |   131|
+|4     |    u_encoder_1        |tmds_encoder__parameterized0 |   116|
+|5     |    u_encoder_2        |tmds_encoder__parameterized1 |   124|
+|6     |    u_serializer_0     |serializer                   |    13|
+|7     |    u_serializer_1     |serializer_0                 |    13|
+|8     |    u_serializer_2     |serializer_1                 |    13|
+|9     |    u_serializer_3     |serializer_2                 |    13|
+|10    |  u_display_hvscan     |display_hvscan               |   168|
+|11    |    u1_display_control |display_control              |   128|
+|12    |    u2_display_buffer  |display_buffer               |    40|
++------+-----------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 986.449 ; gain = 191.078
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 986.449 ; gain = 654.949
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 986.449 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 4 instances
+  PLLE2_BASE => PLLE2_ADV: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+151 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 986.449 ; gain = 667.684
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 986.449 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_2/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  3 14:37:54 2023...

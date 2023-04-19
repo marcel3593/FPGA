@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Feb 12 16:54:55 2023
+# Process ID: 16072
+# Current directory: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15548 D:\FPGA_study\projects\0008_HDMI_Display\vivado_proj\HDMI_display\HDMI_display.xpr
+# Log file: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/vivado.log
+# Journal file: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 823.461 ; gain = 146.156
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Feb 12 16:56:00 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Sun Feb 12 16:57:03 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Feb 12 16:58:05 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation -install_path D:/questasim64_10.6c/win64
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.sim/sim_1/behav/questa'
+INFO: [USF-Questa-47] Finding simulator installation...
+INFO: [USF-Questa-50] Using simulator executables from 'D:/questasim64_10.6c/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-Questa-7] Finding pre-compiled libraries...
+INFO: [USF_Questa-11] File 'D:/Xilinx/Vivado/qs/2018.3/modelsim.ini' copied to run dir:'D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.sim/sim_1/behav/questa'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-Questa-107] Finding global include files...
+INFO: [USF-Questa-108] Finding include directories and verilog header directory paths...
+INFO: [USF-Questa-109] Fetching design files from 'sim_1'...
+INFO: [USF-Questa-2] Questa::Compile design
+INFO: [USF-Questa-15] Creating automatic 'do' files...
+INFO: [USF-Questa-69] Executing 'COMPILE and ANALYZE' step in 'D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.sim/sim_1/behav/questa'
+Reading D:/questasim64_10.6c/tcl/vsim/pref.tcl
+
+# 10.6c
+
+# do {tb_compile.do}
+# ** Warning: (vlib-34) Library already exists at "questa_lib/work".
+# ** Warning: (vlib-34) Library already exists at "questa_lib/msim".
+# ** Warning: (vlib-34) Library already exists at "questa_lib/msim/xil_defaultlib".
+# QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap xil_defaultlib questa_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:00:00 on Feb 12,2023
+# vlog -64 -incr -work xil_defaultlib ../../../../../../src/rtl/HDMI_top.v ../../../../../../src/rtl/display.v ../../../../../../src/rtl/serializer.v ../../../../../../src/rtl/tmds_encoder.v ../../../../../../src/rtl/top.v 
+# -- Skipping module HDMI_top
+# -- Compiling module display_hvscan
+# -- Skipping module display_control
+# -- Skipping module display_buffer
+# -- Skipping module serializer
+# -- Skipping module tmds_encoder
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:00:00 on Feb 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:00:00 on Feb 12,2023
+# vlog -64 -incr -sv -work xil_defaultlib ../../../../../../src/sim/tb.sv 
+# -- Skipping module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:00:00 on Feb 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:00:00 on Feb 12,2023
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:00:00 on Feb 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-Questa-69] 'compile' step finished in '1' seconds
+INFO: [USF-Questa-3] Questa::Elaborate design
+INFO: [USF-Questa-69] Executing 'ELABORATE' step in 'D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.sim/sim_1/behav/questa'
+Reading D:/questasim64_10.6c/tcl/vsim/pref.tcl
+
+# 10.6c
+
+# do {tb_elaborate.do}
+# QuestaSim-64 vopt 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:00:01 on Feb 12,2023
+# vopt "+acc=npr" -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.tb xil_defaultlib.glbl -o tb_opt 
+# 
+# Top level modules:
+# 	tb
+# 	glbl
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module top
+# -- Loading module display_hvscan
+# -- Loading module display_control
+# -- Loading module display_buffer
+# -- Loading module HDMI_top
+# -- Loading module tmds_encoder
+# -- Loading module serializer
+# -- Loading module unisims_ver.ODDR
+# -- Loading module unisims_ver.OBUFDS
+# -- Loading module unisims_ver.BUFG
+# -- Loading module unisims_ver.PLLE2_BASE
+# -- Loading module unisims_ver.PLLE2_ADV
+# -- Loading module glbl
+# Incremental compilation check found 10 design-units (out of 16) may be reused.
+# Optimizing 6 design-units (inlining 0/27 module instances):
+# -- Optimizing module unisims_ver.PLLE2_ADV(fast)
+# -- Optimizing module display_control(fast)
+# -- Optimizing module top(fast)
+# -- Optimizing module unisims_ver.PLLE2_BASE(fast)
+# -- Optimizing module display_buffer(fast)
+# -- Optimizing module display_hvscan(fast)
+# Optimized design name is tb_opt
+# End time: 17:00:01 on Feb 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-Questa-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-Questa-4] Questa::Simulate design
+INFO: [USF-Questa-69] Executing 'SIMULATE' step in 'D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.sim/sim_1/behav/questa'
+Program launched (PID=21064)
+close_hw
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 2791.621 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2791.621 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2791.621 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2980.691 ; gain = 1078.543
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Feb 12 17:16:57 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Feb 12 17:19:08 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+close_design
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+[Sun Feb 12 17:20:17 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+[Sun Feb 12 17:20:17 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Feb 12 17:22:06 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Feb 12 17:28:34 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+close_hw
+launch_runs impl_1 -jobs 8
+[Sun Feb 12 17:29:32 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Feb 12 17:30:43 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 12 17:33:26 2023...

@@ -1,0 +1,570 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr  2 13:06:54 2023
+# Process ID: 72416
+# Current directory: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent70432 D:\FPGA_study\projects\0010_HDMI_Display_STA\vivado_proj\HDMI_display\HDMI_display.xpr
+# Log file: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/vivado.log
+# Journal file: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.xpr
+INFO: [Project 1-313] Project file moved from 'D:/FPGA_study/projects/0008_HDMI_Display/vivado_proj/HDMI_display' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 819.695 ; gain = 138.645
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-2
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.621 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  OBUFDS => OBUFDS: 4 instances
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1380.805 ; gain = 443.965
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 2269.000 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 2269.000 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2269.000 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+current_design synth_1
+current_design impl_1
+current_design synth_1
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+CRITICAL WARNING: [Constraints 18-851] Could not find an automatically derived clock matching the supplied criteria for renaming. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Resolution: Review the create_generated_clock renaming specification. Use the report_clocks command to obtain the details of currently defined clocks and ensure that the create_generated_clock rename constraint specifies appropriate data to select one generated clock for renaming. Verify that you are attempting to rename a tool derived generated clock, and not a user defined generated clock.
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_clocks
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr  2 14:01:00 2023
+| Host         : marcel_002 running 64-bit major release  (build 9200)
+| Command      : report_clocks
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock          Period(ns)  Waveform(ns)    Attributes  Sources
+sys_clk        20.000      {0.000 10.000}  P           {sys_clk}
+pll_clkfb_out  20.000      {0.000 10.000}  P,G,A       {PLLE2_BASE_inst/CLKFBOUT}
+pll_clk_out_0  13.333      {0.000 6.667}   P,G,A       {PLLE2_BASE_inst/CLKOUT0}
+pll_clk_out_1  2.667       {0.000 1.333}   P,G,A       {PLLE2_BASE_inst/CLKOUT1}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : pll_clkfb_out
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Multiply By         : 1
+Generated Sources   : {PLLE2_BASE_inst/CLKFBOUT}
+
+Generated Clock     : pll_clk_out_0
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -3.333 -6.667}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT0}
+
+Generated Clock     : pll_clk_out_1
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -8.667 -17.333}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT1}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+
+refresh_design
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+CRITICAL WARNING: [Constraints 18-851] Could not find an automatically derived clock matching the supplied criteria for renaming. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Resolution: Review the create_generated_clock renaming specification. Use the report_clocks command to obtain the details of currently defined clocks and ensure that the create_generated_clock rename constraint specifies appropriate data to select one generated clock for renaming. Verify that you are attempting to rename a tool derived generated clock, and not a user defined generated clock.
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+CRITICAL WARNING: [Constraints 18-851] Could not find an automatically derived clock matching the supplied criteria for renaming. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Resolution: Review the create_generated_clock renaming specification. Use the report_clocks command to obtain the details of currently defined clocks and ensure that the create_generated_clock rename constraint specifies appropriate data to select one generated clock for renaming. Verify that you are attempting to rename a tool derived generated clock, and not a user defined generated clock.
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_clocks
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr  2 14:02:30 2023
+| Host         : marcel_002 running 64-bit major release  (build 9200)
+| Command      : report_clocks
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock          Period(ns)  Waveform(ns)    Attributes  Sources
+sys_clk        20.000      {0.000 10.000}  P           {sys_clk}
+pll_clkfb_out  20.000      {0.000 10.000}  P,G,A       {PLLE2_BASE_inst/CLKFBOUT}
+pll_clk_out_0  13.333      {0.000 6.667}   P,G,A       {PLLE2_BASE_inst/CLKOUT0}
+pll_clk_out_1  2.667       {0.000 1.333}   P,G,A       {PLLE2_BASE_inst/CLKOUT1}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : pll_clkfb_out
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Multiply By         : 1
+Generated Sources   : {PLLE2_BASE_inst/CLKFBOUT}
+
+Generated Clock     : pll_clk_out_0
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -3.333 -6.667}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT0}
+
+Generated Clock     : pll_clk_out_1
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -8.667 -17.333}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT1}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Apr  2 14:04:18 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Apr  2 14:06:32 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-2
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2738.137 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  OBUFDS => OBUFDS: 4 instances
+
+report_clocks
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr  2 14:09:46 2023
+| Host         : marcel_002 running 64-bit major release  (build 9200)
+| Command      : report_clocks
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock          Period(ns)  Waveform(ns)    Attributes  Sources
+sys_clk        20.000      {0.000 10.000}  P           {sys_clk}
+pll_clkfb_out  20.000      {0.000 10.000}  P,G,A       {PLLE2_BASE_inst/CLKFBOUT}
+ser_clk        13.333      {0.000 6.667}   P,G,A,R     {PLLE2_BASE_inst/CLKOUT0}
+pll_clk_out_1  2.667       {0.000 1.333}   P,G,A       {PLLE2_BASE_inst/CLKOUT1}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : pll_clkfb_out
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Multiply By         : 1
+Generated Sources   : {PLLE2_BASE_inst/CLKFBOUT}
+
+Generated Clock     : ser_clk
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -3.333 -6.667}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT0}
+
+Generated Clock     : pll_clk_out_1
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -8.667 -17.333}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT1}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_clocks
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr  2 14:10:34 2023
+| Host         : marcel_002 running 64-bit major release  (build 9200)
+| Command      : report_clocks
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock          Period(ns)  Waveform(ns)    Attributes  Sources
+sys_clk        20.000      {0.000 10.000}  P           {sys_clk}
+pll_clkfb_out  20.000      {0.000 10.000}  P,G,A       {PLLE2_BASE_inst/CLKFBOUT}
+pixel_clk      13.333      {0.000 6.667}   P,G,A,R     {PLLE2_BASE_inst/CLKOUT0}
+ser_clk        2.667       {0.000 1.333}   P,G,A,R     {PLLE2_BASE_inst/CLKOUT1}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : pll_clkfb_out
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Multiply By         : 1
+Generated Sources   : {PLLE2_BASE_inst/CLKFBOUT}
+
+Generated Clock     : pixel_clk
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -3.333 -6.667}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT0}
+
+Generated Clock     : ser_clk
+Master Source       : PLLE2_BASE_inst/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -8.667 -17.333}
+Generated Sources   : {PLLE2_BASE_inst/CLKOUT1}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Apr  2 14:11:16 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+[Sun Apr  2 14:11:16 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+refresh_design
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 2738.137 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 2738.137 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2738.137 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+open_report -name {timing_1 (1)} D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_1.rpx
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_imp_1 -file D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_report_imp.txt -rpx D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_imp_1.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+current_design synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name syth_timing_1 -file D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_report_syth.txt -rpx D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_syns_1.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+open_report -name timing_imp_1 D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_imp_1.rpx
+current_design impl_1
+open_report -name timing_syns_1 D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_syns_1.rpx
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Apr  2 15:07:00 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Apr  2 15:08:02 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+current_design synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_syth_2 -file D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/timing_report_2/timing_report_syth_2.txt -rpx D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/timing_report_2/timing_syns_2.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+refresh_design
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_syth_2
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+current_design impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_imp_2
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+current_design synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_syth_2(1) -rpx D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/timing_report_2/timing_syth_2.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+current_design impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -rpx D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/timing_report_2/timing_imp_2.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+open_report -name timing_syth_2 D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/timing_report_2/timing_syth_2.rpx
+open_report -name timing_imp_2 D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/timing_report_2/timing_imp_2.rpx
+refresh_design
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3538.070 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3538.070 ; gain = 0.000
+open_report -name timing_syth_2 D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/timing_report_2/timing_syth_2.rpx
+open_report -name timing_syns_1 D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/STA_report/IMP/timing_syns_1.rpx
+current_design synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Apr  2 15:29:56 2023] Launched synth_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Apr  2 15:31:20 2023] Launched impl_1...
+Run output will be captured here: D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/HDMI_display/HDMI_display.runs/impl_1/runme.log
+close_design
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-2
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+INFO: [Timing 38-2] Deriving generated clocks [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc:5]
+Finished Parsing XDC File [D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/hdmi_display.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3538.070 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  OBUFDS => OBUFDS: 4 instances
+
+report_utilization -file D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/syth_report/utilization_report_1.txt -name utilization_1
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.047 . Memory (MB): peak = 3538.070 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.047 . Memory (MB): peak = 3538.070 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3538.070 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -file D:/FPGA_study/projects/0010_HDMI_Display_STA/vivado_proj/imp_report/utilization_report_1.txt -name imp_utilization_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  2 15:44:56 2023...

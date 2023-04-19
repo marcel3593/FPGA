@@ -1,0 +1,291 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA_study/projects/0009_SPI_flash/questasim_proj
+vAT24C64D
+Z0 !s110 1681656784
+!i10b 1
+!s100 kn37@eNe1z<4><SPfU>aC1
+IZ;ezJnZAUaV_MMb8Am=CV0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/FPGA_study/projects/0011_IIC_EEPROM/questasim_proj
+w1681373308
+8../src/sim/AT24C64D.v
+F../src/sim/AT24C64D.v
+L0 163
+Z3 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1681656784.000000
+!s107 ..\src\sim\define.vh|../src/sim/tb_eeprom_cntl.sv|../src/sim/test_pkg.sv|../src/sim/drv_mon_pkg.sv|../src/sim/rpt_pkg.sv|../src/sim/define.vh|../src/sim/AT24C64D.v|../src/rtl/eeprom_cntl.v|../src/rtl/iic_master.v|../src/rtl/sync_fifo.v|
+Z5 !s90 -reportprogress|300|-novopt|-lint|-l|comp.txt|-timescale|1ns/10ps|../src/rtl/sync_fifo.v|../src/rtl/iic_master.v|../src/rtl/eeprom_cntl.v|../src/sim/AT24C64D.v|../src/sim/define.vh|../src/sim/rpt_pkg.sv|../src/sim/drv_mon_pkg.sv|../src/sim/test_pkg.sv|../src/sim/tb_eeprom_cntl.sv|
+!i113 1
+Z6 o-lint -timescale 1ns/10ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+n@a@t24@c64@d
+Xdrv_mon_pkg
+Z8 !s115 eeprom_cntl_interface
+Z9 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z10 DXx4 work 7 rpt_pkg 0 22 Kh3k9QR]7bYGXODMK[dBl1
+R0
+!i10b 1
+!s100 7egf];hJ[lLcDD6_;2`Fk3
+I788XQEgSYBD=;jY<[A4k61
+V788XQEgSYBD=;jY<[A4k61
+S1
+R2
+w1681656774
+8../src/sim/drv_mon_pkg.sv
+F../src/sim/drv_mon_pkg.sv
+F..\src\sim\define.vh
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 ..\src\sim\define.vh|../src/sim/tb_eeprom_cntl.sv|../src/sim/test_pkg.sv|../src/sim/drv_mon_pkg.sv|../src/sim/rpt_pkg.sv|../src/sim/define.vh|../src/sim/AT24C64D.v|../src/rtl/eeprom_cntl.v|../src/rtl/iic_master.v|../src/rtl/sync_fifo.v|
+R5
+!i113 1
+R6
+R7
+vEEPROM_AT24C64
+!s110 1681366175
+!i10b 1
+!s100 Y3aN`>nkK?CVz3O5JAiAE0
+IGh1TKW64?G:NEUOJ3<EEF2
+R1
+R2
+w1598164152
+8../src/sim/EEPROM_AT24C64.v
+F../src/sim/EEPROM_AT24C64.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1681366175.000000
+!s107 ../src/sim/tb_eeprom_cntl.sv|../src/sim/EEPROM_AT24C64.v|../src/rtl/eeprom_cntl.v|../src/rtl/iic_master.v|../src/rtl/sync_fifo.v|
+!s90 -reportprogress|300|-novopt|-lint|-l|comp.txt|-timescale|1ns/1ps|../src/rtl/sync_fifo.v|../src/rtl/iic_master.v|../src/rtl/eeprom_cntl.v|../src/sim/EEPROM_AT24C64.v|../src/sim/tb_eeprom_cntl.sv|
+!i113 1
+o-lint -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+n@e@e@p@r@o@m_@a@t24@c64
+veeprom_cntl
+R0
+!i10b 1
+!s100 mUTEaCdol]nUK[7J0bV?=2
+IzlT1P@Kb0e1Z?VXRm8nXf3
+R1
+R2
+w1681653111
+8../src/rtl/eeprom_cntl.v
+F../src/rtl/eeprom_cntl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+Yeeprom_cntl_interface
+R9
+R0
+!i10b 1
+!s100 Q6Vz8Y27a@TXiVOlM7g]e1
+I`XYR6dmfAzz]gh:5J7Ihc2
+R1
+Z12 !s105 tb_eeprom_cntl_sv_unit
+S1
+R2
+Z13 w1681656445
+Z14 8../src/sim/tb_eeprom_cntl.sv
+Z15 F../src/sim/tb_eeprom_cntl.sv
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+Yiic_bus_interface
+R9
+R0
+!i10b 1
+!s100 =Tfz4A??hPOZXH=VAGHMo1
+IZE`57]JH?I8ADfbcZb1630
+R1
+R12
+S1
+R2
+R13
+R14
+R15
+L0 25
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+viic_master
+R0
+!i10b 1
+!s100 HkTC3GiJ:P:oX3l8IAJLY2
+I;6X_TMnZmP5054^BD2@jO2
+R1
+R2
+w1681373037
+8../src/rtl/iic_master.v
+F../src/rtl/iic_master.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+Xrpt_pkg
+R9
+R0
+!i10b 1
+!s100 OGDHmfcz:JF=7K^DXH5<]2
+IKh3k9QR]7bYGXODMK[dBl1
+VKh3k9QR]7bYGXODMK[dBl1
+S1
+R2
+w1673336318
+8../src/sim/rpt_pkg.sv
+F../src/sim/rpt_pkg.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+4run_test
+R9
+R10
+Z16 DXx4 work 11 drv_mon_pkg 0 22 788XQEgSYBD=;jY<[A4k61
+DXx4 work 8 test_pkg 0 22 6^?X<No2=52I:B5g5X2CK2
+R0
+!i10b 1
+!s100 JCKF^ni=<F57f7AFVbbeD0
+IzSMiUTY7J[fFJW]QZC12b0
+R1
+R12
+S1
+R2
+R13
+R14
+R15
+L0 93
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+vsync_fifo
+R0
+!i10b 1
+!s100 YOFUY_@@>:ci;nR9f=oL41
+I>;mozC2nH]@h5`YlBUYoz3
+R1
+R2
+w1681636303
+8../src/rtl/sync_fifo.v
+F../src/rtl/sync_fifo.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+vtb_eeprom_cntl
+R9
+R0
+!i10b 1
+!s100 cUG^D92BhB^1=eBPY:R0i0
+IdkCz?zk@G5zM[jG1dlgRK0
+R1
+R12
+S1
+R2
+R13
+R14
+R15
+L0 35
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7
+Xtest_pkg
+R8
+R9
+R10
+R16
+R0
+!i10b 1
+!s100 fMofoa67FF6S0VJNaI<`I3
+I6^?X<No2=52I:B5g5X2CK2
+V6^?X<No2=52I:B5g5X2CK2
+S1
+R2
+w1681629521
+8../src/sim/test_pkg.sv
+F../src/sim/test_pkg.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R11
+R5
+!i113 1
+R6
+R7

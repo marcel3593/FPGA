@@ -1,0 +1,250 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA_study/projects/0008_HDMI_Display/questasim_proj
+Ycntl_inf
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1678447189
+!i10b 1
+!s100 z@<i_5edHQX=oOU]R^9?h0
+IUOkLz:Fm7U<l]:h?=UL_03
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 tb_spi_flash_sv_unit
+S1
+Z4 dD:/FPGA_study/projects/0009_SPI_flash/questasim_proj
+Z5 w1678347912
+Z6 8../src/sim/tb_spi_flash.sv
+Z7 F../src/sim/tb_spi_flash.sv
+L0 5
+Z8 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z9 !s108 1678447189.000000
+!s107 ..\src\sim\define.vh|..\src\rtl\reg_def.vh|../src/sim/tb_spi_flash.sv|../src/sim/test_pkg.sv|../src/sim/drv_mon_pkg.sv|../src/sim/rpt_pkg.sv|../src/sim/define.vh|../src/rtl/spi_flash_controller.v|../src/rtl/spi_master.v|../src/rtl/reg_def.vh|
+Z10 !s90 -reportprogress|300|-novopt|-lint|-l|comp.txt|-timescale|1ns/1ps|../src/rtl/reg_def.vh|../src/rtl/spi_master.v|../src/rtl/spi_flash_controller.v|../src/sim/define.vh|../src/sim/rpt_pkg.sv|../src/sim/drv_mon_pkg.sv|../src/sim/test_pkg.sv|../src/sim/tb_spi_flash.sv|
+!i113 1
+Z11 o-lint -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+Xdrv_mon_pkg
+Z13 !s115 spi_inf
+Z14 !s115 cntl_inf
+R0
+Z15 DXx4 work 7 rpt_pkg 0 22 1N310eWB4REK98b[hjEBn0
+R1
+!i10b 1
+!s100 @hgmSlzJ9@W_[84;Q=aYf0
+I`^n>JPFW6UmVM7[=n5VN42
+V`^n>JPFW6UmVM7[=n5VN42
+S1
+R4
+w1678362358
+8../src/sim/drv_mon_pkg.sv
+F../src/sim/drv_mon_pkg.sv
+Z16 F..\src\sim\define.vh
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 ..\src\sim\define.vh|..\src\rtl\reg_def.vh|../src/sim/tb_spi_flash.sv|../src/sim/test_pkg.sv|../src/sim/drv_mon_pkg.sv|../src/sim/rpt_pkg.sv|../src/sim/define.vh|../src/rtl/spi_flash_controller.v|../src/rtl/spi_master.v|../src/rtl/reg_def.vh|
+R10
+!i113 1
+R11
+R12
+Xrpt_pkg
+R0
+R1
+!i10b 1
+!s100 >k^Ca83<Ee>W_PVg3Bc^G2
+I1N310eWB4REK98b[hjEBn0
+V1N310eWB4REK98b[hjEBn0
+S1
+R4
+w1673336318
+8../src/sim/rpt_pkg.sv
+F../src/sim/rpt_pkg.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R17
+R10
+!i113 1
+R11
+R12
+vSPI_flash_controller
+R1
+!i10b 1
+!s100 ec`3kS;nAkY?ed<Emf]2A2
+IZ^D4lD3?GSl_RXDSlcW_U1
+R2
+R4
+w1678359367
+8../src/rtl/spi_flash_controller.v
+F../src/rtl/spi_flash_controller.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R17
+R10
+!i113 1
+R11
+R12
+n@s@p@i_flash_controller
+Yspi_inf
+R0
+R1
+!i10b 1
+!s100 e?Y<SbcL4E]WTc=OX>2`T1
+I@YjL`@JYWMR`N>bijCX6=2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 25
+R8
+r1
+!s85 0
+31
+R9
+R17
+R10
+!i113 1
+R11
+R12
+vSPI_master
+R1
+!i10b 1
+!s100 X@>4hbIgBhY_R<ZECLP]]3
+I`neSDiJB[XI]nM8TZClYH1
+R2
+R4
+w1678447039
+8../src/rtl/spi_master.v
+F../src/rtl/spi_master.v
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R17
+R10
+!i113 1
+R11
+R12
+n@s@p@i_master
+vtb_spi_flash_controller
+R0
+R15
+Z18 DXx4 work 11 drv_mon_pkg 0 22 `^n>JPFW6UmVM7[=n5VN42
+DXx4 work 8 test_pkg 0 22 ?dGcPiZ<Lf7aD@iCU4AW?1
+R1
+!i10b 1
+!s100 dEYoO>^5z]gHEUDlc6aKS3
+IFbGQCIP4naH2a9]>i`Z5J2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 46
+R8
+r1
+!s85 0
+31
+R9
+R17
+R10
+!i113 1
+R11
+R12
+vtest_25Q128JVxIM
+!s110 1678264078
+!i10b 1
+!s100 OOUkJFO;Yk5Xlcb4IR8lX0
+IJB>Acz@b?gjoI]`SlRdCA2
+R2
+R4
+w1677311384
+8D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM_test.v
+FD:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM_test.v
+L0 124
+R8
+r1
+!s85 0
+31
+Z19 !s108 1678264078.000000
+!s107 D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM_test.v|
+!i113 0
+Z20 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+ntest_25@q128@j@vx@i@m
+Xtest_pkg
+R13
+R14
+R0
+R15
+R18
+R1
+!i10b 1
+!s100 fRZoEc5]6G68O57ZB[>4M1
+I?dGcPiZ<Lf7aD@iCU4AW?1
+V?dGcPiZ<Lf7aD@iCU4AW?1
+S1
+R4
+w1678362944
+8../src/sim/test_pkg.sv
+F../src/sim/test_pkg.sv
+R16
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R17
+R10
+!i113 1
+R11
+R12
+vW25Q128JVxIM
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 <8zen?f?cZ_nYS7i:IEV70
+I03Tg^Nm4QUYL=P6;9fM6>3
+R4
+w1454572860
+8D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM.v
+FD:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM.v
+L0 20
+R8
+R19
+!s107 D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0009_SPI_flash/questasim_proj/w25q128jvxim_v1.0_dtr/W25Q128JVxIM.v|
+!i113 0
+R20
+R12
+n@w25@q128@j@vx@i@m

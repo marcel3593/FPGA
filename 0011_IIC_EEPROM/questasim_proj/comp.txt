@@ -1,0 +1,24 @@
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Start time: 22:53:04 on Apr 16,2023
+vlog -reportprogress 300 -novopt -lint -l comp.txt -timescale 1ns/10ps ../src/rtl/sync_fifo.v ../src/rtl/iic_master.v ../src/rtl/eeprom_cntl.v ../src/sim/AT24C64D.v ../src/sim/define.vh ../src/sim/rpt_pkg.sv ../src/sim/drv_mon_pkg.sv ../src/sim/test_pkg.sv ../src/sim/tb_eeprom_cntl.sv 
+-- Compiling module sync_fifo
+-- Compiling module iic_master
+-- Compiling module eeprom_cntl
+-- Compiling module AT24C64D
+-- Compiling package rpt_pkg
+-- Compiling package drv_mon_pkg
+-- Importing package rpt_pkg
+-- Compiling package test_pkg
+-- Importing package drv_mon_pkg
+-- Compiling interface eeprom_cntl_interface
+-- Compiling interface iic_bus_interface
+** Warning: ../src/sim/tb_eeprom_cntl.sv(25): (vlog-2605) empty port name in port list.
+-- Compiling module tb_eeprom_cntl
+** Warning: ../src/sim/tb_eeprom_cntl.sv(35): (vlog-2605) empty port name in port list.
+-- Compiling program run_test
+-- Importing package test_pkg
+
+Top level modules:
+	tb_eeprom_cntl
+End time: 22:53:04 on Apr 16,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2

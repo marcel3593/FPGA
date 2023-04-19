@@ -1,0 +1,27 @@
+D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim/rpt_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim/rpt_pkg.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package rpt_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim/define.vh {1 {vlog -work define -vopt -stats=none D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim/define.vh
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+
+} {} {}} D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim/test_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/FPGA_study/projects/0011_IIC_EEPROM/src/sim/test_pkg.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package test_pkg
+-- Importing package rpt_pkg
+-- Importing package drv_mon_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/iic_master.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0011_IIC_EEPROM/src/rtl/iic_master.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module iic_master
+
+Top level modules:
+	iic_master
+
+} {} {}}

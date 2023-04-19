@@ -1,0 +1,2635 @@
+@400004400000 [WARNING] [PACKAGE] : cmp = 1;pkg_id =           0(exp),           0(act);cmd =  1(exp),  1(act);addr =        256(exp),        256(act) --> 
+
+@400004400000 [WARNING] [MOSI] : 
+byte_nu =           0, exp = 06, act = 06 
+byte_nu =           1, exp = 20, act = 20 
+byte_nu =           2, exp = 00, act = 00 
+byte_nu =           3, exp = 01, act = 01 
+byte_nu =           4, exp = 00, act = 00 
+@400004400000 [WARNING] [MIS0] : 
+@403171680000 [WARNING] [PACKAGE] : cmp = 1;pkg_id =           1(exp),           1(act);cmd =  2(exp),  2(act);addr =        256(exp),        256(act) --> 
+
+@403171680000 [WARNING] [MOSI] : 
+byte_nu =           0, exp = 06, act = 06 
+byte_nu =           1, exp = 02, act = 02 
+byte_nu =           2, exp = 00, act = 00 
+byte_nu =           3, exp = 01, act = 01 
+byte_nu =           4, exp = 00, act = 00 
+byte_nu =           5, exp = 00, act = 00 
+byte_nu =           6, exp = 01, act = 01 
+byte_nu =           7, exp = 02, act = 02 
+byte_nu =           8, exp = 03, act = 03 
+byte_nu =           9, exp = 04, act = 04 
+byte_nu =          10, exp = 05, act = 05 
+byte_nu =          11, exp = 06, act = 06 
+byte_nu =          12, exp = 07, act = 07 
+byte_nu =          13, exp = 08, act = 08 
+byte_nu =          14, exp = 09, act = 09 
+byte_nu =          15, exp = 0a, act = 0a 
+byte_nu =          16, exp = 0b, act = 0b 
+byte_nu =          17, exp = 0c, act = 0c 
+byte_nu =          18, exp = 0d, act = 0d 
+byte_nu =          19, exp = 0e, act = 0e 
+byte_nu =          20, exp = 0f, act = 0f 
+byte_nu =          21, exp = 10, act = 10 
+byte_nu =          22, exp = 11, act = 11 
+byte_nu =          23, exp = 12, act = 12 
+byte_nu =          24, exp = 13, act = 13 
+byte_nu =          25, exp = 14, act = 14 
+byte_nu =          26, exp = 15, act = 15 
+byte_nu =          27, exp = 16, act = 16 
+byte_nu =          28, exp = 17, act = 17 
+byte_nu =          29, exp = 18, act = 18 
+byte_nu =          30, exp = 19, act = 19 
+byte_nu =          31, exp = 1a, act = 1a 
+byte_nu =          32, exp = 1b, act = 1b 
+byte_nu =          33, exp = 1c, act = 1c 
+byte_nu =          34, exp = 1d, act = 1d 
+byte_nu =          35, exp = 1e, act = 1e 
+byte_nu =          36, exp = 1f, act = 1f 
+byte_nu =          37, exp = 20, act = 20 
+byte_nu =          38, exp = 21, act = 21 
+byte_nu =          39, exp = 22, act = 22 
+byte_nu =          40, exp = 23, act = 23 
+byte_nu =          41, exp = 24, act = 24 
+byte_nu =          42, exp = 25, act = 25 
+byte_nu =          43, exp = 26, act = 26 
+byte_nu =          44, exp = 27, act = 27 
+byte_nu =          45, exp = 28, act = 28 
+byte_nu =          46, exp = 29, act = 29 
+byte_nu =          47, exp = 2a, act = 2a 
+byte_nu =          48, exp = 2b, act = 2b 
+byte_nu =          49, exp = 2c, act = 2c 
+byte_nu =          50, exp = 2d, act = 2d 
+byte_nu =          51, exp = 2e, act = 2e 
+byte_nu =          52, exp = 2f, act = 2f 
+byte_nu =          53, exp = 30, act = 30 
+byte_nu =          54, exp = 31, act = 31 
+byte_nu =          55, exp = 32, act = 32 
+byte_nu =          56, exp = 33, act = 33 
+byte_nu =          57, exp = 34, act = 34 
+byte_nu =          58, exp = 35, act = 35 
+byte_nu =          59, exp = 36, act = 36 
+byte_nu =          60, exp = 37, act = 37 
+byte_nu =          61, exp = 38, act = 38 
+byte_nu =          62, exp = 39, act = 39 
+byte_nu =          63, exp = 3a, act = 3a 
+byte_nu =          64, exp = 3b, act = 3b 
+byte_nu =          65, exp = 3c, act = 3c 
+byte_nu =          66, exp = 3d, act = 3d 
+byte_nu =          67, exp = 3e, act = 3e 
+byte_nu =          68, exp = 3f, act = 3f 
+byte_nu =          69, exp = 40, act = 40 
+byte_nu =          70, exp = 41, act = 41 
+byte_nu =          71, exp = 42, act = 42 
+byte_nu =          72, exp = 43, act = 43 
+byte_nu =          73, exp = 44, act = 44 
+byte_nu =          74, exp = 45, act = 45 
+byte_nu =          75, exp = 46, act = 46 
+byte_nu =          76, exp = 47, act = 47 
+byte_nu =          77, exp = 48, act = 48 
+byte_nu =          78, exp = 49, act = 49 
+byte_nu =          79, exp = 4a, act = 4a 
+byte_nu =          80, exp = 4b, act = 4b 
+byte_nu =          81, exp = 4c, act = 4c 
+byte_nu =          82, exp = 4d, act = 4d 
+byte_nu =          83, exp = 4e, act = 4e 
+byte_nu =          84, exp = 4f, act = 4f 
+byte_nu =          85, exp = 50, act = 50 
+byte_nu =          86, exp = 51, act = 51 
+byte_nu =          87, exp = 52, act = 52 
+byte_nu =          88, exp = 53, act = 53 
+byte_nu =          89, exp = 54, act = 54 
+byte_nu =          90, exp = 55, act = 55 
+byte_nu =          91, exp = 56, act = 56 
+byte_nu =          92, exp = 57, act = 57 
+byte_nu =          93, exp = 58, act = 58 
+byte_nu =          94, exp = 59, act = 59 
+byte_nu =          95, exp = 5a, act = 5a 
+byte_nu =          96, exp = 5b, act = 5b 
+byte_nu =          97, exp = 5c, act = 5c 
+byte_nu =          98, exp = 5d, act = 5d 
+byte_nu =          99, exp = 5e, act = 5e 
+byte_nu =         100, exp = 5f, act = 5f 
+byte_nu =         101, exp = 60, act = 60 
+byte_nu =         102, exp = 61, act = 61 
+byte_nu =         103, exp = 62, act = 62 
+byte_nu =         104, exp = 63, act = 63 
+byte_nu =         105, exp = 64, act = 64 
+byte_nu =         106, exp = 65, act = 65 
+byte_nu =         107, exp = 66, act = 66 
+byte_nu =         108, exp = 67, act = 67 
+byte_nu =         109, exp = 68, act = 68 
+byte_nu =         110, exp = 69, act = 69 
+byte_nu =         111, exp = 6a, act = 6a 
+byte_nu =         112, exp = 6b, act = 6b 
+byte_nu =         113, exp = 6c, act = 6c 
+byte_nu =         114, exp = 6d, act = 6d 
+byte_nu =         115, exp = 6e, act = 6e 
+byte_nu =         116, exp = 6f, act = 6f 
+byte_nu =         117, exp = 70, act = 70 
+byte_nu =         118, exp = 71, act = 71 
+byte_nu =         119, exp = 72, act = 72 
+byte_nu =         120, exp = 73, act = 73 
+byte_nu =         121, exp = 74, act = 74 
+byte_nu =         122, exp = 75, act = 75 
+byte_nu =         123, exp = 76, act = 76 
+byte_nu =         124, exp = 77, act = 77 
+byte_nu =         125, exp = 78, act = 78 
+byte_nu =         126, exp = 79, act = 79 
+byte_nu =         127, exp = 7a, act = 7a 
+byte_nu =         128, exp = 7b, act = 7b 
+byte_nu =         129, exp = 7c, act = 7c 
+byte_nu =         130, exp = 7d, act = 7d 
+byte_nu =         131, exp = 7e, act = 7e 
+byte_nu =         132, exp = 7f, act = 7f 
+byte_nu =         133, exp = 80, act = 80 
+byte_nu =         134, exp = 81, act = 81 
+byte_nu =         135, exp = 82, act = 82 
+byte_nu =         136, exp = 83, act = 83 
+byte_nu =         137, exp = 84, act = 84 
+byte_nu =         138, exp = 85, act = 85 
+byte_nu =         139, exp = 86, act = 86 
+byte_nu =         140, exp = 87, act = 87 
+byte_nu =         141, exp = 88, act = 88 
+byte_nu =         142, exp = 89, act = 89 
+byte_nu =         143, exp = 8a, act = 8a 
+byte_nu =         144, exp = 8b, act = 8b 
+byte_nu =         145, exp = 8c, act = 8c 
+byte_nu =         146, exp = 8d, act = 8d 
+byte_nu =         147, exp = 8e, act = 8e 
+byte_nu =         148, exp = 8f, act = 8f 
+byte_nu =         149, exp = 90, act = 90 
+byte_nu =         150, exp = 91, act = 91 
+byte_nu =         151, exp = 92, act = 92 
+byte_nu =         152, exp = 93, act = 93 
+byte_nu =         153, exp = 94, act = 94 
+byte_nu =         154, exp = 95, act = 95 
+byte_nu =         155, exp = 96, act = 96 
+byte_nu =         156, exp = 97, act = 97 
+byte_nu =         157, exp = 98, act = 98 
+byte_nu =         158, exp = 99, act = 99 
+byte_nu =         159, exp = 9a, act = 9a 
+byte_nu =         160, exp = 9b, act = 9b 
+byte_nu =         161, exp = 9c, act = 9c 
+byte_nu =         162, exp = 9d, act = 9d 
+byte_nu =         163, exp = 9e, act = 9e 
+byte_nu =         164, exp = 9f, act = 9f 
+byte_nu =         165, exp = a0, act = a0 
+byte_nu =         166, exp = a1, act = a1 
+byte_nu =         167, exp = a2, act = a2 
+byte_nu =         168, exp = a3, act = a3 
+byte_nu =         169, exp = a4, act = a4 
+byte_nu =         170, exp = a5, act = a5 
+byte_nu =         171, exp = a6, act = a6 
+byte_nu =         172, exp = a7, act = a7 
+byte_nu =         173, exp = a8, act = a8 
+byte_nu =         174, exp = a9, act = a9 
+byte_nu =         175, exp = aa, act = aa 
+byte_nu =         176, exp = ab, act = ab 
+byte_nu =         177, exp = ac, act = ac 
+byte_nu =         178, exp = ad, act = ad 
+byte_nu =         179, exp = ae, act = ae 
+byte_nu =         180, exp = af, act = af 
+byte_nu =         181, exp = b0, act = b0 
+byte_nu =         182, exp = b1, act = b1 
+byte_nu =         183, exp = b2, act = b2 
+byte_nu =         184, exp = b3, act = b3 
+byte_nu =         185, exp = b4, act = b4 
+byte_nu =         186, exp = b5, act = b5 
+byte_nu =         187, exp = b6, act = b6 
+byte_nu =         188, exp = b7, act = b7 
+byte_nu =         189, exp = b8, act = b8 
+byte_nu =         190, exp = b9, act = b9 
+byte_nu =         191, exp = ba, act = ba 
+byte_nu =         192, exp = bb, act = bb 
+byte_nu =         193, exp = bc, act = bc 
+byte_nu =         194, exp = bd, act = bd 
+byte_nu =         195, exp = be, act = be 
+byte_nu =         196, exp = bf, act = bf 
+byte_nu =         197, exp = c0, act = c0 
+byte_nu =         198, exp = c1, act = c1 
+byte_nu =         199, exp = c2, act = c2 
+byte_nu =         200, exp = c3, act = c3 
+byte_nu =         201, exp = c4, act = c4 
+byte_nu =         202, exp = c5, act = c5 
+byte_nu =         203, exp = c6, act = c6 
+byte_nu =         204, exp = c7, act = c7 
+byte_nu =         205, exp = c8, act = c8 
+byte_nu =         206, exp = c9, act = c9 
+byte_nu =         207, exp = ca, act = ca 
+byte_nu =         208, exp = cb, act = cb 
+byte_nu =         209, exp = cc, act = cc 
+byte_nu =         210, exp = cd, act = cd 
+byte_nu =         211, exp = ce, act = ce 
+byte_nu =         212, exp = cf, act = cf 
+byte_nu =         213, exp = d0, act = d0 
+byte_nu =         214, exp = d1, act = d1 
+byte_nu =         215, exp = d2, act = d2 
+byte_nu =         216, exp = d3, act = d3 
+byte_nu =         217, exp = d4, act = d4 
+byte_nu =         218, exp = d5, act = d5 
+byte_nu =         219, exp = d6, act = d6 
+byte_nu =         220, exp = d7, act = d7 
+byte_nu =         221, exp = d8, act = d8 
+byte_nu =         222, exp = d9, act = d9 
+byte_nu =         223, exp = da, act = da 
+byte_nu =         224, exp = db, act = db 
+byte_nu =         225, exp = dc, act = dc 
+byte_nu =         226, exp = dd, act = dd 
+byte_nu =         227, exp = de, act = de 
+byte_nu =         228, exp = df, act = df 
+byte_nu =         229, exp = e0, act = e0 
+byte_nu =         230, exp = e1, act = e1 
+byte_nu =         231, exp = e2, act = e2 
+byte_nu =         232, exp = e3, act = e3 
+byte_nu =         233, exp = e4, act = e4 
+byte_nu =         234, exp = e5, act = e5 
+byte_nu =         235, exp = e6, act = e6 
+byte_nu =         236, exp = e7, act = e7 
+byte_nu =         237, exp = e8, act = e8 
+byte_nu =         238, exp = e9, act = e9 
+byte_nu =         239, exp = ea, act = ea 
+byte_nu =         240, exp = eb, act = eb 
+byte_nu =         241, exp = ec, act = ec 
+byte_nu =         242, exp = ed, act = ed 
+byte_nu =         243, exp = ee, act = ee 
+byte_nu =         244, exp = ef, act = ef 
+byte_nu =         245, exp = f0, act = f0 
+byte_nu =         246, exp = f1, act = f1 
+byte_nu =         247, exp = f2, act = f2 
+byte_nu =         248, exp = f3, act = f3 
+byte_nu =         249, exp = f4, act = f4 
+byte_nu =         250, exp = f5, act = f5 
+byte_nu =         251, exp = f6, act = f6 
+byte_nu =         252, exp = f7, act = f7 
+byte_nu =         253, exp = f8, act = f8 
+byte_nu =         254, exp = f9, act = f9 
+byte_nu =         255, exp = fa, act = fa 
+byte_nu =         256, exp = fb, act = fb 
+byte_nu =         257, exp = fc, act = fc 
+byte_nu =         258, exp = fd, act = fd 
+byte_nu =         259, exp = fe, act = fe 
+byte_nu =         260, exp = ff, act = ff 
+@403171680000 [WARNING] [MIS0] : 
+@403338340000 [WARNING] [PACKAGE] : cmp = 1;pkg_id =           2(exp),           2(act);cmd =  4(exp),  4(act);addr =        256(exp),        256(act) --> 
+
+@403338340000 [WARNING] [MOSI] : 
+byte_nu =           0, exp = 03, act = 03 
+byte_nu =           1, exp = 00, act = 00 
+byte_nu =           2, exp = 01, act = 01 
+byte_nu =           3, exp = 00, act = 00 
+byte_nu =           4, exp = 00, act = 00 
+byte_nu =           5, exp = 00, act = 00 
+byte_nu =           6, exp = 00, act = 00 
+byte_nu =           7, exp = 00, act = 00 
+byte_nu =           8, exp = 00, act = 00 
+byte_nu =           9, exp = 00, act = 00 
+byte_nu =          10, exp = 00, act = 00 
+byte_nu =          11, exp = 00, act = 00 
+byte_nu =          12, exp = 00, act = 00 
+byte_nu =          13, exp = 00, act = 00 
+byte_nu =          14, exp = 00, act = 00 
+byte_nu =          15, exp = 00, act = 00 
+byte_nu =          16, exp = 00, act = 00 
+byte_nu =          17, exp = 00, act = 00 
+byte_nu =          18, exp = 00, act = 00 
+byte_nu =          19, exp = 00, act = 00 
+byte_nu =          20, exp = 00, act = 00 
+byte_nu =          21, exp = 00, act = 00 
+byte_nu =          22, exp = 00, act = 00 
+byte_nu =          23, exp = 00, act = 00 
+byte_nu =          24, exp = 00, act = 00 
+byte_nu =          25, exp = 00, act = 00 
+byte_nu =          26, exp = 00, act = 00 
+byte_nu =          27, exp = 00, act = 00 
+byte_nu =          28, exp = 00, act = 00 
+byte_nu =          29, exp = 00, act = 00 
+byte_nu =          30, exp = 00, act = 00 
+byte_nu =          31, exp = 00, act = 00 
+byte_nu =          32, exp = 00, act = 00 
+byte_nu =          33, exp = 00, act = 00 
+byte_nu =          34, exp = 00, act = 00 
+byte_nu =          35, exp = 00, act = 00 
+byte_nu =          36, exp = 00, act = 00 
+byte_nu =          37, exp = 00, act = 00 
+byte_nu =          38, exp = 00, act = 00 
+byte_nu =          39, exp = 00, act = 00 
+byte_nu =          40, exp = 00, act = 00 
+byte_nu =          41, exp = 00, act = 00 
+byte_nu =          42, exp = 00, act = 00 
+byte_nu =          43, exp = 00, act = 00 
+byte_nu =          44, exp = 00, act = 00 
+byte_nu =          45, exp = 00, act = 00 
+byte_nu =          46, exp = 00, act = 00 
+byte_nu =          47, exp = 00, act = 00 
+byte_nu =          48, exp = 00, act = 00 
+byte_nu =          49, exp = 00, act = 00 
+byte_nu =          50, exp = 00, act = 00 
+byte_nu =          51, exp = 00, act = 00 
+byte_nu =          52, exp = 00, act = 00 
+byte_nu =          53, exp = 00, act = 00 
+byte_nu =          54, exp = 00, act = 00 
+byte_nu =          55, exp = 00, act = 00 
+byte_nu =          56, exp = 00, act = 00 
+byte_nu =          57, exp = 00, act = 00 
+byte_nu =          58, exp = 00, act = 00 
+byte_nu =          59, exp = 00, act = 00 
+byte_nu =          60, exp = 00, act = 00 
+byte_nu =          61, exp = 00, act = 00 
+byte_nu =          62, exp = 00, act = 00 
+byte_nu =          63, exp = 00, act = 00 
+byte_nu =          64, exp = 00, act = 00 
+byte_nu =          65, exp = 00, act = 00 
+byte_nu =          66, exp = 00, act = 00 
+byte_nu =          67, exp = 00, act = 00 
+byte_nu =          68, exp = 00, act = 00 
+byte_nu =          69, exp = 00, act = 00 
+byte_nu =          70, exp = 00, act = 00 
+byte_nu =          71, exp = 00, act = 00 
+byte_nu =          72, exp = 00, act = 00 
+byte_nu =          73, exp = 00, act = 00 
+byte_nu =          74, exp = 00, act = 00 
+byte_nu =          75, exp = 00, act = 00 
+byte_nu =          76, exp = 00, act = 00 
+byte_nu =          77, exp = 00, act = 00 
+byte_nu =          78, exp = 00, act = 00 
+byte_nu =          79, exp = 00, act = 00 
+byte_nu =          80, exp = 00, act = 00 
+byte_nu =          81, exp = 00, act = 00 
+byte_nu =          82, exp = 00, act = 00 
+byte_nu =          83, exp = 00, act = 00 
+byte_nu =          84, exp = 00, act = 00 
+byte_nu =          85, exp = 00, act = 00 
+byte_nu =          86, exp = 00, act = 00 
+byte_nu =          87, exp = 00, act = 00 
+byte_nu =          88, exp = 00, act = 00 
+byte_nu =          89, exp = 00, act = 00 
+byte_nu =          90, exp = 00, act = 00 
+byte_nu =          91, exp = 00, act = 00 
+byte_nu =          92, exp = 00, act = 00 
+byte_nu =          93, exp = 00, act = 00 
+byte_nu =          94, exp = 00, act = 00 
+byte_nu =          95, exp = 00, act = 00 
+byte_nu =          96, exp = 00, act = 00 
+byte_nu =          97, exp = 00, act = 00 
+byte_nu =          98, exp = 00, act = 00 
+byte_nu =          99, exp = 00, act = 00 
+byte_nu =         100, exp = 00, act = 00 
+byte_nu =         101, exp = 00, act = 00 
+byte_nu =         102, exp = 00, act = 00 
+byte_nu =         103, exp = 00, act = 00 
+byte_nu =         104, exp = 00, act = 00 
+byte_nu =         105, exp = 00, act = 00 
+byte_nu =         106, exp = 00, act = 00 
+byte_nu =         107, exp = 00, act = 00 
+byte_nu =         108, exp = 00, act = 00 
+byte_nu =         109, exp = 00, act = 00 
+byte_nu =         110, exp = 00, act = 00 
+byte_nu =         111, exp = 00, act = 00 
+byte_nu =         112, exp = 00, act = 00 
+byte_nu =         113, exp = 00, act = 00 
+byte_nu =         114, exp = 00, act = 00 
+byte_nu =         115, exp = 00, act = 00 
+byte_nu =         116, exp = 00, act = 00 
+byte_nu =         117, exp = 00, act = 00 
+byte_nu =         118, exp = 00, act = 00 
+byte_nu =         119, exp = 00, act = 00 
+byte_nu =         120, exp = 00, act = 00 
+byte_nu =         121, exp = 00, act = 00 
+byte_nu =         122, exp = 00, act = 00 
+byte_nu =         123, exp = 00, act = 00 
+byte_nu =         124, exp = 00, act = 00 
+byte_nu =         125, exp = 00, act = 00 
+byte_nu =         126, exp = 00, act = 00 
+byte_nu =         127, exp = 00, act = 00 
+byte_nu =         128, exp = 00, act = 00 
+byte_nu =         129, exp = 00, act = 00 
+byte_nu =         130, exp = 00, act = 00 
+byte_nu =         131, exp = 00, act = 00 
+byte_nu =         132, exp = 00, act = 00 
+byte_nu =         133, exp = 00, act = 00 
+byte_nu =         134, exp = 00, act = 00 
+byte_nu =         135, exp = 00, act = 00 
+byte_nu =         136, exp = 00, act = 00 
+byte_nu =         137, exp = 00, act = 00 
+byte_nu =         138, exp = 00, act = 00 
+byte_nu =         139, exp = 00, act = 00 
+byte_nu =         140, exp = 00, act = 00 
+byte_nu =         141, exp = 00, act = 00 
+byte_nu =         142, exp = 00, act = 00 
+byte_nu =         143, exp = 00, act = 00 
+byte_nu =         144, exp = 00, act = 00 
+byte_nu =         145, exp = 00, act = 00 
+byte_nu =         146, exp = 00, act = 00 
+byte_nu =         147, exp = 00, act = 00 
+byte_nu =         148, exp = 00, act = 00 
+byte_nu =         149, exp = 00, act = 00 
+byte_nu =         150, exp = 00, act = 00 
+byte_nu =         151, exp = 00, act = 00 
+byte_nu =         152, exp = 00, act = 00 
+byte_nu =         153, exp = 00, act = 00 
+byte_nu =         154, exp = 00, act = 00 
+byte_nu =         155, exp = 00, act = 00 
+byte_nu =         156, exp = 00, act = 00 
+byte_nu =         157, exp = 00, act = 00 
+byte_nu =         158, exp = 00, act = 00 
+byte_nu =         159, exp = 00, act = 00 
+byte_nu =         160, exp = 00, act = 00 
+byte_nu =         161, exp = 00, act = 00 
+byte_nu =         162, exp = 00, act = 00 
+byte_nu =         163, exp = 00, act = 00 
+byte_nu =         164, exp = 00, act = 00 
+byte_nu =         165, exp = 00, act = 00 
+byte_nu =         166, exp = 00, act = 00 
+byte_nu =         167, exp = 00, act = 00 
+byte_nu =         168, exp = 00, act = 00 
+byte_nu =         169, exp = 00, act = 00 
+byte_nu =         170, exp = 00, act = 00 
+byte_nu =         171, exp = 00, act = 00 
+byte_nu =         172, exp = 00, act = 00 
+byte_nu =         173, exp = 00, act = 00 
+byte_nu =         174, exp = 00, act = 00 
+byte_nu =         175, exp = 00, act = 00 
+byte_nu =         176, exp = 00, act = 00 
+byte_nu =         177, exp = 00, act = 00 
+byte_nu =         178, exp = 00, act = 00 
+byte_nu =         179, exp = 00, act = 00 
+byte_nu =         180, exp = 00, act = 00 
+byte_nu =         181, exp = 00, act = 00 
+byte_nu =         182, exp = 00, act = 00 
+byte_nu =         183, exp = 00, act = 00 
+byte_nu =         184, exp = 00, act = 00 
+byte_nu =         185, exp = 00, act = 00 
+byte_nu =         186, exp = 00, act = 00 
+byte_nu =         187, exp = 00, act = 00 
+byte_nu =         188, exp = 00, act = 00 
+byte_nu =         189, exp = 00, act = 00 
+byte_nu =         190, exp = 00, act = 00 
+byte_nu =         191, exp = 00, act = 00 
+byte_nu =         192, exp = 00, act = 00 
+byte_nu =         193, exp = 00, act = 00 
+byte_nu =         194, exp = 00, act = 00 
+byte_nu =         195, exp = 00, act = 00 
+byte_nu =         196, exp = 00, act = 00 
+byte_nu =         197, exp = 00, act = 00 
+byte_nu =         198, exp = 00, act = 00 
+byte_nu =         199, exp = 00, act = 00 
+byte_nu =         200, exp = 00, act = 00 
+byte_nu =         201, exp = 00, act = 00 
+byte_nu =         202, exp = 00, act = 00 
+byte_nu =         203, exp = 00, act = 00 
+byte_nu =         204, exp = 00, act = 00 
+byte_nu =         205, exp = 00, act = 00 
+byte_nu =         206, exp = 00, act = 00 
+byte_nu =         207, exp = 00, act = 00 
+byte_nu =         208, exp = 00, act = 00 
+byte_nu =         209, exp = 00, act = 00 
+byte_nu =         210, exp = 00, act = 00 
+byte_nu =         211, exp = 00, act = 00 
+byte_nu =         212, exp = 00, act = 00 
+byte_nu =         213, exp = 00, act = 00 
+byte_nu =         214, exp = 00, act = 00 
+byte_nu =         215, exp = 00, act = 00 
+byte_nu =         216, exp = 00, act = 00 
+byte_nu =         217, exp = 00, act = 00 
+byte_nu =         218, exp = 00, act = 00 
+byte_nu =         219, exp = 00, act = 00 
+byte_nu =         220, exp = 00, act = 00 
+byte_nu =         221, exp = 00, act = 00 
+byte_nu =         222, exp = 00, act = 00 
+byte_nu =         223, exp = 00, act = 00 
+byte_nu =         224, exp = 00, act = 00 
+byte_nu =         225, exp = 00, act = 00 
+byte_nu =         226, exp = 00, act = 00 
+byte_nu =         227, exp = 00, act = 00 
+byte_nu =         228, exp = 00, act = 00 
+byte_nu =         229, exp = 00, act = 00 
+byte_nu =         230, exp = 00, act = 00 
+byte_nu =         231, exp = 00, act = 00 
+byte_nu =         232, exp = 00, act = 00 
+byte_nu =         233, exp = 00, act = 00 
+byte_nu =         234, exp = 00, act = 00 
+byte_nu =         235, exp = 00, act = 00 
+byte_nu =         236, exp = 00, act = 00 
+byte_nu =         237, exp = 00, act = 00 
+byte_nu =         238, exp = 00, act = 00 
+byte_nu =         239, exp = 00, act = 00 
+byte_nu =         240, exp = 00, act = 00 
+byte_nu =         241, exp = 00, act = 00 
+byte_nu =         242, exp = 00, act = 00 
+byte_nu =         243, exp = 00, act = 00 
+byte_nu =         244, exp = 00, act = 00 
+byte_nu =         245, exp = 00, act = 00 
+byte_nu =         246, exp = 00, act = 00 
+byte_nu =         247, exp = 00, act = 00 
+byte_nu =         248, exp = 00, act = 00 
+byte_nu =         249, exp = 00, act = 00 
+byte_nu =         250, exp = 00, act = 00 
+byte_nu =         251, exp = 00, act = 00 
+byte_nu =         252, exp = 00, act = 00 
+byte_nu =         253, exp = 00, act = 00 
+byte_nu =         254, exp = 00, act = 00 
+byte_nu =         255, exp = 00, act = 00 
+byte_nu =         256, exp = 00, act = 00 
+byte_nu =         257, exp = 00, act = 00 
+byte_nu =         258, exp = 00, act = 00 
+byte_nu =         259, exp = 00, act = 00 
+@403338340000 [WARNING] [MIS0] : 
+byte_nu =           0, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           1, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           2, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           3, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           4, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           5, exp = 01, act = 01 ,sys_rd_data = 01
+byte_nu =           6, exp = 02, act = 02 ,sys_rd_data = 02
+byte_nu =           7, exp = 03, act = 03 ,sys_rd_data = 03
+byte_nu =           8, exp = 04, act = 04 ,sys_rd_data = 04
+byte_nu =           9, exp = 05, act = 05 ,sys_rd_data = 05
+byte_nu =          10, exp = 06, act = 06 ,sys_rd_data = 06
+byte_nu =          11, exp = 07, act = 07 ,sys_rd_data = 07
+byte_nu =          12, exp = 08, act = 08 ,sys_rd_data = 08
+byte_nu =          13, exp = 09, act = 09 ,sys_rd_data = 09
+byte_nu =          14, exp = 0a, act = 0a ,sys_rd_data = 0a
+byte_nu =          15, exp = 0b, act = 0b ,sys_rd_data = 0b
+byte_nu =          16, exp = 0c, act = 0c ,sys_rd_data = 0c
+byte_nu =          17, exp = 0d, act = 0d ,sys_rd_data = 0d
+byte_nu =          18, exp = 0e, act = 0e ,sys_rd_data = 0e
+byte_nu =          19, exp = 0f, act = 0f ,sys_rd_data = 0f
+byte_nu =          20, exp = 10, act = 10 ,sys_rd_data = 10
+byte_nu =          21, exp = 11, act = 11 ,sys_rd_data = 11
+byte_nu =          22, exp = 12, act = 12 ,sys_rd_data = 12
+byte_nu =          23, exp = 13, act = 13 ,sys_rd_data = 13
+byte_nu =          24, exp = 14, act = 14 ,sys_rd_data = 14
+byte_nu =          25, exp = 15, act = 15 ,sys_rd_data = 15
+byte_nu =          26, exp = 16, act = 16 ,sys_rd_data = 16
+byte_nu =          27, exp = 17, act = 17 ,sys_rd_data = 17
+byte_nu =          28, exp = 18, act = 18 ,sys_rd_data = 18
+byte_nu =          29, exp = 19, act = 19 ,sys_rd_data = 19
+byte_nu =          30, exp = 1a, act = 1a ,sys_rd_data = 1a
+byte_nu =          31, exp = 1b, act = 1b ,sys_rd_data = 1b
+byte_nu =          32, exp = 1c, act = 1c ,sys_rd_data = 1c
+byte_nu =          33, exp = 1d, act = 1d ,sys_rd_data = 1d
+byte_nu =          34, exp = 1e, act = 1e ,sys_rd_data = 1e
+byte_nu =          35, exp = 1f, act = 1f ,sys_rd_data = 1f
+byte_nu =          36, exp = 20, act = 20 ,sys_rd_data = 20
+byte_nu =          37, exp = 21, act = 21 ,sys_rd_data = 21
+byte_nu =          38, exp = 22, act = 22 ,sys_rd_data = 22
+byte_nu =          39, exp = 23, act = 23 ,sys_rd_data = 23
+byte_nu =          40, exp = 24, act = 24 ,sys_rd_data = 24
+byte_nu =          41, exp = 25, act = 25 ,sys_rd_data = 25
+byte_nu =          42, exp = 26, act = 26 ,sys_rd_data = 26
+byte_nu =          43, exp = 27, act = 27 ,sys_rd_data = 27
+byte_nu =          44, exp = 28, act = 28 ,sys_rd_data = 28
+byte_nu =          45, exp = 29, act = 29 ,sys_rd_data = 29
+byte_nu =          46, exp = 2a, act = 2a ,sys_rd_data = 2a
+byte_nu =          47, exp = 2b, act = 2b ,sys_rd_data = 2b
+byte_nu =          48, exp = 2c, act = 2c ,sys_rd_data = 2c
+byte_nu =          49, exp = 2d, act = 2d ,sys_rd_data = 2d
+byte_nu =          50, exp = 2e, act = 2e ,sys_rd_data = 2e
+byte_nu =          51, exp = 2f, act = 2f ,sys_rd_data = 2f
+byte_nu =          52, exp = 30, act = 30 ,sys_rd_data = 30
+byte_nu =          53, exp = 31, act = 31 ,sys_rd_data = 31
+byte_nu =          54, exp = 32, act = 32 ,sys_rd_data = 32
+byte_nu =          55, exp = 33, act = 33 ,sys_rd_data = 33
+byte_nu =          56, exp = 34, act = 34 ,sys_rd_data = 34
+byte_nu =          57, exp = 35, act = 35 ,sys_rd_data = 35
+byte_nu =          58, exp = 36, act = 36 ,sys_rd_data = 36
+byte_nu =          59, exp = 37, act = 37 ,sys_rd_data = 37
+byte_nu =          60, exp = 38, act = 38 ,sys_rd_data = 38
+byte_nu =          61, exp = 39, act = 39 ,sys_rd_data = 39
+byte_nu =          62, exp = 3a, act = 3a ,sys_rd_data = 3a
+byte_nu =          63, exp = 3b, act = 3b ,sys_rd_data = 3b
+byte_nu =          64, exp = 3c, act = 3c ,sys_rd_data = 3c
+byte_nu =          65, exp = 3d, act = 3d ,sys_rd_data = 3d
+byte_nu =          66, exp = 3e, act = 3e ,sys_rd_data = 3e
+byte_nu =          67, exp = 3f, act = 3f ,sys_rd_data = 3f
+byte_nu =          68, exp = 40, act = 40 ,sys_rd_data = 40
+byte_nu =          69, exp = 41, act = 41 ,sys_rd_data = 41
+byte_nu =          70, exp = 42, act = 42 ,sys_rd_data = 42
+byte_nu =          71, exp = 43, act = 43 ,sys_rd_data = 43
+byte_nu =          72, exp = 44, act = 44 ,sys_rd_data = 44
+byte_nu =          73, exp = 45, act = 45 ,sys_rd_data = 45
+byte_nu =          74, exp = 46, act = 46 ,sys_rd_data = 46
+byte_nu =          75, exp = 47, act = 47 ,sys_rd_data = 47
+byte_nu =          76, exp = 48, act = 48 ,sys_rd_data = 48
+byte_nu =          77, exp = 49, act = 49 ,sys_rd_data = 49
+byte_nu =          78, exp = 4a, act = 4a ,sys_rd_data = 4a
+byte_nu =          79, exp = 4b, act = 4b ,sys_rd_data = 4b
+byte_nu =          80, exp = 4c, act = 4c ,sys_rd_data = 4c
+byte_nu =          81, exp = 4d, act = 4d ,sys_rd_data = 4d
+byte_nu =          82, exp = 4e, act = 4e ,sys_rd_data = 4e
+byte_nu =          83, exp = 4f, act = 4f ,sys_rd_data = 4f
+byte_nu =          84, exp = 50, act = 50 ,sys_rd_data = 50
+byte_nu =          85, exp = 51, act = 51 ,sys_rd_data = 51
+byte_nu =          86, exp = 52, act = 52 ,sys_rd_data = 52
+byte_nu =          87, exp = 53, act = 53 ,sys_rd_data = 53
+byte_nu =          88, exp = 54, act = 54 ,sys_rd_data = 54
+byte_nu =          89, exp = 55, act = 55 ,sys_rd_data = 55
+byte_nu =          90, exp = 56, act = 56 ,sys_rd_data = 56
+byte_nu =          91, exp = 57, act = 57 ,sys_rd_data = 57
+byte_nu =          92, exp = 58, act = 58 ,sys_rd_data = 58
+byte_nu =          93, exp = 59, act = 59 ,sys_rd_data = 59
+byte_nu =          94, exp = 5a, act = 5a ,sys_rd_data = 5a
+byte_nu =          95, exp = 5b, act = 5b ,sys_rd_data = 5b
+byte_nu =          96, exp = 5c, act = 5c ,sys_rd_data = 5c
+byte_nu =          97, exp = 5d, act = 5d ,sys_rd_data = 5d
+byte_nu =          98, exp = 5e, act = 5e ,sys_rd_data = 5e
+byte_nu =          99, exp = 5f, act = 5f ,sys_rd_data = 5f
+byte_nu =         100, exp = 60, act = 60 ,sys_rd_data = 60
+byte_nu =         101, exp = 61, act = 61 ,sys_rd_data = 61
+byte_nu =         102, exp = 62, act = 62 ,sys_rd_data = 62
+byte_nu =         103, exp = 63, act = 63 ,sys_rd_data = 63
+byte_nu =         104, exp = 64, act = 64 ,sys_rd_data = 64
+byte_nu =         105, exp = 65, act = 65 ,sys_rd_data = 65
+byte_nu =         106, exp = 66, act = 66 ,sys_rd_data = 66
+byte_nu =         107, exp = 67, act = 67 ,sys_rd_data = 67
+byte_nu =         108, exp = 68, act = 68 ,sys_rd_data = 68
+byte_nu =         109, exp = 69, act = 69 ,sys_rd_data = 69
+byte_nu =         110, exp = 6a, act = 6a ,sys_rd_data = 6a
+byte_nu =         111, exp = 6b, act = 6b ,sys_rd_data = 6b
+byte_nu =         112, exp = 6c, act = 6c ,sys_rd_data = 6c
+byte_nu =         113, exp = 6d, act = 6d ,sys_rd_data = 6d
+byte_nu =         114, exp = 6e, act = 6e ,sys_rd_data = 6e
+byte_nu =         115, exp = 6f, act = 6f ,sys_rd_data = 6f
+byte_nu =         116, exp = 70, act = 70 ,sys_rd_data = 70
+byte_nu =         117, exp = 71, act = 71 ,sys_rd_data = 71
+byte_nu =         118, exp = 72, act = 72 ,sys_rd_data = 72
+byte_nu =         119, exp = 73, act = 73 ,sys_rd_data = 73
+byte_nu =         120, exp = 74, act = 74 ,sys_rd_data = 74
+byte_nu =         121, exp = 75, act = 75 ,sys_rd_data = 75
+byte_nu =         122, exp = 76, act = 76 ,sys_rd_data = 76
+byte_nu =         123, exp = 77, act = 77 ,sys_rd_data = 77
+byte_nu =         124, exp = 78, act = 78 ,sys_rd_data = 78
+byte_nu =         125, exp = 79, act = 79 ,sys_rd_data = 79
+byte_nu =         126, exp = 7a, act = 7a ,sys_rd_data = 7a
+byte_nu =         127, exp = 7b, act = 7b ,sys_rd_data = 7b
+byte_nu =         128, exp = 7c, act = 7c ,sys_rd_data = 7c
+byte_nu =         129, exp = 7d, act = 7d ,sys_rd_data = 7d
+byte_nu =         130, exp = 7e, act = 7e ,sys_rd_data = 7e
+byte_nu =         131, exp = 7f, act = 7f ,sys_rd_data = 7f
+byte_nu =         132, exp = 80, act = 80 ,sys_rd_data = 80
+byte_nu =         133, exp = 81, act = 81 ,sys_rd_data = 81
+byte_nu =         134, exp = 82, act = 82 ,sys_rd_data = 82
+byte_nu =         135, exp = 83, act = 83 ,sys_rd_data = 83
+byte_nu =         136, exp = 84, act = 84 ,sys_rd_data = 84
+byte_nu =         137, exp = 85, act = 85 ,sys_rd_data = 85
+byte_nu =         138, exp = 86, act = 86 ,sys_rd_data = 86
+byte_nu =         139, exp = 87, act = 87 ,sys_rd_data = 87
+byte_nu =         140, exp = 88, act = 88 ,sys_rd_data = 88
+byte_nu =         141, exp = 89, act = 89 ,sys_rd_data = 89
+byte_nu =         142, exp = 8a, act = 8a ,sys_rd_data = 8a
+byte_nu =         143, exp = 8b, act = 8b ,sys_rd_data = 8b
+byte_nu =         144, exp = 8c, act = 8c ,sys_rd_data = 8c
+byte_nu =         145, exp = 8d, act = 8d ,sys_rd_data = 8d
+byte_nu =         146, exp = 8e, act = 8e ,sys_rd_data = 8e
+byte_nu =         147, exp = 8f, act = 8f ,sys_rd_data = 8f
+byte_nu =         148, exp = 90, act = 90 ,sys_rd_data = 90
+byte_nu =         149, exp = 91, act = 91 ,sys_rd_data = 91
+byte_nu =         150, exp = 92, act = 92 ,sys_rd_data = 92
+byte_nu =         151, exp = 93, act = 93 ,sys_rd_data = 93
+byte_nu =         152, exp = 94, act = 94 ,sys_rd_data = 94
+byte_nu =         153, exp = 95, act = 95 ,sys_rd_data = 95
+byte_nu =         154, exp = 96, act = 96 ,sys_rd_data = 96
+byte_nu =         155, exp = 97, act = 97 ,sys_rd_data = 97
+byte_nu =         156, exp = 98, act = 98 ,sys_rd_data = 98
+byte_nu =         157, exp = 99, act = 99 ,sys_rd_data = 99
+byte_nu =         158, exp = 9a, act = 9a ,sys_rd_data = 9a
+byte_nu =         159, exp = 9b, act = 9b ,sys_rd_data = 9b
+byte_nu =         160, exp = 9c, act = 9c ,sys_rd_data = 9c
+byte_nu =         161, exp = 9d, act = 9d ,sys_rd_data = 9d
+byte_nu =         162, exp = 9e, act = 9e ,sys_rd_data = 9e
+byte_nu =         163, exp = 9f, act = 9f ,sys_rd_data = 9f
+byte_nu =         164, exp = a0, act = a0 ,sys_rd_data = a0
+byte_nu =         165, exp = a1, act = a1 ,sys_rd_data = a1
+byte_nu =         166, exp = a2, act = a2 ,sys_rd_data = a2
+byte_nu =         167, exp = a3, act = a3 ,sys_rd_data = a3
+byte_nu =         168, exp = a4, act = a4 ,sys_rd_data = a4
+byte_nu =         169, exp = a5, act = a5 ,sys_rd_data = a5
+byte_nu =         170, exp = a6, act = a6 ,sys_rd_data = a6
+byte_nu =         171, exp = a7, act = a7 ,sys_rd_data = a7
+byte_nu =         172, exp = a8, act = a8 ,sys_rd_data = a8
+byte_nu =         173, exp = a9, act = a9 ,sys_rd_data = a9
+byte_nu =         174, exp = aa, act = aa ,sys_rd_data = aa
+byte_nu =         175, exp = ab, act = ab ,sys_rd_data = ab
+byte_nu =         176, exp = ac, act = ac ,sys_rd_data = ac
+byte_nu =         177, exp = ad, act = ad ,sys_rd_data = ad
+byte_nu =         178, exp = ae, act = ae ,sys_rd_data = ae
+byte_nu =         179, exp = af, act = af ,sys_rd_data = af
+byte_nu =         180, exp = b0, act = b0 ,sys_rd_data = b0
+byte_nu =         181, exp = b1, act = b1 ,sys_rd_data = b1
+byte_nu =         182, exp = b2, act = b2 ,sys_rd_data = b2
+byte_nu =         183, exp = b3, act = b3 ,sys_rd_data = b3
+byte_nu =         184, exp = b4, act = b4 ,sys_rd_data = b4
+byte_nu =         185, exp = b5, act = b5 ,sys_rd_data = b5
+byte_nu =         186, exp = b6, act = b6 ,sys_rd_data = b6
+byte_nu =         187, exp = b7, act = b7 ,sys_rd_data = b7
+byte_nu =         188, exp = b8, act = b8 ,sys_rd_data = b8
+byte_nu =         189, exp = b9, act = b9 ,sys_rd_data = b9
+byte_nu =         190, exp = ba, act = ba ,sys_rd_data = ba
+byte_nu =         191, exp = bb, act = bb ,sys_rd_data = bb
+byte_nu =         192, exp = bc, act = bc ,sys_rd_data = bc
+byte_nu =         193, exp = bd, act = bd ,sys_rd_data = bd
+byte_nu =         194, exp = be, act = be ,sys_rd_data = be
+byte_nu =         195, exp = bf, act = bf ,sys_rd_data = bf
+byte_nu =         196, exp = c0, act = c0 ,sys_rd_data = c0
+byte_nu =         197, exp = c1, act = c1 ,sys_rd_data = c1
+byte_nu =         198, exp = c2, act = c2 ,sys_rd_data = c2
+byte_nu =         199, exp = c3, act = c3 ,sys_rd_data = c3
+byte_nu =         200, exp = c4, act = c4 ,sys_rd_data = c4
+byte_nu =         201, exp = c5, act = c5 ,sys_rd_data = c5
+byte_nu =         202, exp = c6, act = c6 ,sys_rd_data = c6
+byte_nu =         203, exp = c7, act = c7 ,sys_rd_data = c7
+byte_nu =         204, exp = c8, act = c8 ,sys_rd_data = c8
+byte_nu =         205, exp = c9, act = c9 ,sys_rd_data = c9
+byte_nu =         206, exp = ca, act = ca ,sys_rd_data = ca
+byte_nu =         207, exp = cb, act = cb ,sys_rd_data = cb
+byte_nu =         208, exp = cc, act = cc ,sys_rd_data = cc
+byte_nu =         209, exp = cd, act = cd ,sys_rd_data = cd
+byte_nu =         210, exp = ce, act = ce ,sys_rd_data = ce
+byte_nu =         211, exp = cf, act = cf ,sys_rd_data = cf
+byte_nu =         212, exp = d0, act = d0 ,sys_rd_data = d0
+byte_nu =         213, exp = d1, act = d1 ,sys_rd_data = d1
+byte_nu =         214, exp = d2, act = d2 ,sys_rd_data = d2
+byte_nu =         215, exp = d3, act = d3 ,sys_rd_data = d3
+byte_nu =         216, exp = d4, act = d4 ,sys_rd_data = d4
+byte_nu =         217, exp = d5, act = d5 ,sys_rd_data = d5
+byte_nu =         218, exp = d6, act = d6 ,sys_rd_data = d6
+byte_nu =         219, exp = d7, act = d7 ,sys_rd_data = d7
+byte_nu =         220, exp = d8, act = d8 ,sys_rd_data = d8
+byte_nu =         221, exp = d9, act = d9 ,sys_rd_data = d9
+byte_nu =         222, exp = da, act = da ,sys_rd_data = da
+byte_nu =         223, exp = db, act = db ,sys_rd_data = db
+byte_nu =         224, exp = dc, act = dc ,sys_rd_data = dc
+byte_nu =         225, exp = dd, act = dd ,sys_rd_data = dd
+byte_nu =         226, exp = de, act = de ,sys_rd_data = de
+byte_nu =         227, exp = df, act = df ,sys_rd_data = df
+byte_nu =         228, exp = e0, act = e0 ,sys_rd_data = e0
+byte_nu =         229, exp = e1, act = e1 ,sys_rd_data = e1
+byte_nu =         230, exp = e2, act = e2 ,sys_rd_data = e2
+byte_nu =         231, exp = e3, act = e3 ,sys_rd_data = e3
+byte_nu =         232, exp = e4, act = e4 ,sys_rd_data = e4
+byte_nu =         233, exp = e5, act = e5 ,sys_rd_data = e5
+byte_nu =         234, exp = e6, act = e6 ,sys_rd_data = e6
+byte_nu =         235, exp = e7, act = e7 ,sys_rd_data = e7
+byte_nu =         236, exp = e8, act = e8 ,sys_rd_data = e8
+byte_nu =         237, exp = e9, act = e9 ,sys_rd_data = e9
+byte_nu =         238, exp = ea, act = ea ,sys_rd_data = ea
+byte_nu =         239, exp = eb, act = eb ,sys_rd_data = eb
+byte_nu =         240, exp = ec, act = ec ,sys_rd_data = ec
+byte_nu =         241, exp = ed, act = ed ,sys_rd_data = ed
+byte_nu =         242, exp = ee, act = ee ,sys_rd_data = ee
+byte_nu =         243, exp = ef, act = ef ,sys_rd_data = ef
+byte_nu =         244, exp = f0, act = f0 ,sys_rd_data = f0
+byte_nu =         245, exp = f1, act = f1 ,sys_rd_data = f1
+byte_nu =         246, exp = f2, act = f2 ,sys_rd_data = f2
+byte_nu =         247, exp = f3, act = f3 ,sys_rd_data = f3
+byte_nu =         248, exp = f4, act = f4 ,sys_rd_data = f4
+byte_nu =         249, exp = f5, act = f5 ,sys_rd_data = f5
+byte_nu =         250, exp = f6, act = f6 ,sys_rd_data = f6
+byte_nu =         251, exp = f7, act = f7 ,sys_rd_data = f7
+byte_nu =         252, exp = f8, act = f8 ,sys_rd_data = f8
+byte_nu =         253, exp = f9, act = f9 ,sys_rd_data = f9
+byte_nu =         254, exp = fa, act = fa ,sys_rd_data = fa
+byte_nu =         255, exp = fb, act = fb ,sys_rd_data = fb
+byte_nu =         256, exp = fc, act = fc ,sys_rd_data = fc
+byte_nu =         257, exp = fd, act = fd ,sys_rd_data = fd
+byte_nu =         258, exp = fe, act = fe ,sys_rd_data = fe
+byte_nu =         259, exp = ff, act = ff ,sys_rd_data = ff
+@403504980000 [WARNING] [PACKAGE] : cmp = 1;pkg_id =           3(exp),           3(act);cmd =  4(exp),  4(act);addr =        256(exp),        256(act) --> 
+
+@403504980000 [WARNING] [MOSI] : 
+byte_nu =           0, exp = 03, act = 03 
+byte_nu =           1, exp = 00, act = 00 
+byte_nu =           2, exp = 01, act = 01 
+byte_nu =           3, exp = 00, act = 00 
+byte_nu =           4, exp = 00, act = 00 
+byte_nu =           5, exp = 00, act = 00 
+byte_nu =           6, exp = 00, act = 00 
+byte_nu =           7, exp = 00, act = 00 
+byte_nu =           8, exp = 00, act = 00 
+byte_nu =           9, exp = 00, act = 00 
+byte_nu =          10, exp = 00, act = 00 
+byte_nu =          11, exp = 00, act = 00 
+byte_nu =          12, exp = 00, act = 00 
+byte_nu =          13, exp = 00, act = 00 
+byte_nu =          14, exp = 00, act = 00 
+byte_nu =          15, exp = 00, act = 00 
+byte_nu =          16, exp = 00, act = 00 
+byte_nu =          17, exp = 00, act = 00 
+byte_nu =          18, exp = 00, act = 00 
+byte_nu =          19, exp = 00, act = 00 
+byte_nu =          20, exp = 00, act = 00 
+byte_nu =          21, exp = 00, act = 00 
+byte_nu =          22, exp = 00, act = 00 
+byte_nu =          23, exp = 00, act = 00 
+byte_nu =          24, exp = 00, act = 00 
+byte_nu =          25, exp = 00, act = 00 
+byte_nu =          26, exp = 00, act = 00 
+byte_nu =          27, exp = 00, act = 00 
+byte_nu =          28, exp = 00, act = 00 
+byte_nu =          29, exp = 00, act = 00 
+byte_nu =          30, exp = 00, act = 00 
+byte_nu =          31, exp = 00, act = 00 
+byte_nu =          32, exp = 00, act = 00 
+byte_nu =          33, exp = 00, act = 00 
+byte_nu =          34, exp = 00, act = 00 
+byte_nu =          35, exp = 00, act = 00 
+byte_nu =          36, exp = 00, act = 00 
+byte_nu =          37, exp = 00, act = 00 
+byte_nu =          38, exp = 00, act = 00 
+byte_nu =          39, exp = 00, act = 00 
+byte_nu =          40, exp = 00, act = 00 
+byte_nu =          41, exp = 00, act = 00 
+byte_nu =          42, exp = 00, act = 00 
+byte_nu =          43, exp = 00, act = 00 
+byte_nu =          44, exp = 00, act = 00 
+byte_nu =          45, exp = 00, act = 00 
+byte_nu =          46, exp = 00, act = 00 
+byte_nu =          47, exp = 00, act = 00 
+byte_nu =          48, exp = 00, act = 00 
+byte_nu =          49, exp = 00, act = 00 
+byte_nu =          50, exp = 00, act = 00 
+byte_nu =          51, exp = 00, act = 00 
+byte_nu =          52, exp = 00, act = 00 
+byte_nu =          53, exp = 00, act = 00 
+byte_nu =          54, exp = 00, act = 00 
+byte_nu =          55, exp = 00, act = 00 
+byte_nu =          56, exp = 00, act = 00 
+byte_nu =          57, exp = 00, act = 00 
+byte_nu =          58, exp = 00, act = 00 
+byte_nu =          59, exp = 00, act = 00 
+byte_nu =          60, exp = 00, act = 00 
+byte_nu =          61, exp = 00, act = 00 
+byte_nu =          62, exp = 00, act = 00 
+byte_nu =          63, exp = 00, act = 00 
+byte_nu =          64, exp = 00, act = 00 
+byte_nu =          65, exp = 00, act = 00 
+byte_nu =          66, exp = 00, act = 00 
+byte_nu =          67, exp = 00, act = 00 
+byte_nu =          68, exp = 00, act = 00 
+byte_nu =          69, exp = 00, act = 00 
+byte_nu =          70, exp = 00, act = 00 
+byte_nu =          71, exp = 00, act = 00 
+byte_nu =          72, exp = 00, act = 00 
+byte_nu =          73, exp = 00, act = 00 
+byte_nu =          74, exp = 00, act = 00 
+byte_nu =          75, exp = 00, act = 00 
+byte_nu =          76, exp = 00, act = 00 
+byte_nu =          77, exp = 00, act = 00 
+byte_nu =          78, exp = 00, act = 00 
+byte_nu =          79, exp = 00, act = 00 
+byte_nu =          80, exp = 00, act = 00 
+byte_nu =          81, exp = 00, act = 00 
+byte_nu =          82, exp = 00, act = 00 
+byte_nu =          83, exp = 00, act = 00 
+byte_nu =          84, exp = 00, act = 00 
+byte_nu =          85, exp = 00, act = 00 
+byte_nu =          86, exp = 00, act = 00 
+byte_nu =          87, exp = 00, act = 00 
+byte_nu =          88, exp = 00, act = 00 
+byte_nu =          89, exp = 00, act = 00 
+byte_nu =          90, exp = 00, act = 00 
+byte_nu =          91, exp = 00, act = 00 
+byte_nu =          92, exp = 00, act = 00 
+byte_nu =          93, exp = 00, act = 00 
+byte_nu =          94, exp = 00, act = 00 
+byte_nu =          95, exp = 00, act = 00 
+byte_nu =          96, exp = 00, act = 00 
+byte_nu =          97, exp = 00, act = 00 
+byte_nu =          98, exp = 00, act = 00 
+byte_nu =          99, exp = 00, act = 00 
+byte_nu =         100, exp = 00, act = 00 
+byte_nu =         101, exp = 00, act = 00 
+byte_nu =         102, exp = 00, act = 00 
+byte_nu =         103, exp = 00, act = 00 
+byte_nu =         104, exp = 00, act = 00 
+byte_nu =         105, exp = 00, act = 00 
+byte_nu =         106, exp = 00, act = 00 
+byte_nu =         107, exp = 00, act = 00 
+byte_nu =         108, exp = 00, act = 00 
+byte_nu =         109, exp = 00, act = 00 
+byte_nu =         110, exp = 00, act = 00 
+byte_nu =         111, exp = 00, act = 00 
+byte_nu =         112, exp = 00, act = 00 
+byte_nu =         113, exp = 00, act = 00 
+byte_nu =         114, exp = 00, act = 00 
+byte_nu =         115, exp = 00, act = 00 
+byte_nu =         116, exp = 00, act = 00 
+byte_nu =         117, exp = 00, act = 00 
+byte_nu =         118, exp = 00, act = 00 
+byte_nu =         119, exp = 00, act = 00 
+byte_nu =         120, exp = 00, act = 00 
+byte_nu =         121, exp = 00, act = 00 
+byte_nu =         122, exp = 00, act = 00 
+byte_nu =         123, exp = 00, act = 00 
+byte_nu =         124, exp = 00, act = 00 
+byte_nu =         125, exp = 00, act = 00 
+byte_nu =         126, exp = 00, act = 00 
+byte_nu =         127, exp = 00, act = 00 
+byte_nu =         128, exp = 00, act = 00 
+byte_nu =         129, exp = 00, act = 00 
+byte_nu =         130, exp = 00, act = 00 
+byte_nu =         131, exp = 00, act = 00 
+byte_nu =         132, exp = 00, act = 00 
+byte_nu =         133, exp = 00, act = 00 
+byte_nu =         134, exp = 00, act = 00 
+byte_nu =         135, exp = 00, act = 00 
+byte_nu =         136, exp = 00, act = 00 
+byte_nu =         137, exp = 00, act = 00 
+byte_nu =         138, exp = 00, act = 00 
+byte_nu =         139, exp = 00, act = 00 
+byte_nu =         140, exp = 00, act = 00 
+byte_nu =         141, exp = 00, act = 00 
+byte_nu =         142, exp = 00, act = 00 
+byte_nu =         143, exp = 00, act = 00 
+byte_nu =         144, exp = 00, act = 00 
+byte_nu =         145, exp = 00, act = 00 
+byte_nu =         146, exp = 00, act = 00 
+byte_nu =         147, exp = 00, act = 00 
+byte_nu =         148, exp = 00, act = 00 
+byte_nu =         149, exp = 00, act = 00 
+byte_nu =         150, exp = 00, act = 00 
+byte_nu =         151, exp = 00, act = 00 
+byte_nu =         152, exp = 00, act = 00 
+byte_nu =         153, exp = 00, act = 00 
+byte_nu =         154, exp = 00, act = 00 
+byte_nu =         155, exp = 00, act = 00 
+byte_nu =         156, exp = 00, act = 00 
+byte_nu =         157, exp = 00, act = 00 
+byte_nu =         158, exp = 00, act = 00 
+byte_nu =         159, exp = 00, act = 00 
+byte_nu =         160, exp = 00, act = 00 
+byte_nu =         161, exp = 00, act = 00 
+byte_nu =         162, exp = 00, act = 00 
+byte_nu =         163, exp = 00, act = 00 
+byte_nu =         164, exp = 00, act = 00 
+byte_nu =         165, exp = 00, act = 00 
+byte_nu =         166, exp = 00, act = 00 
+byte_nu =         167, exp = 00, act = 00 
+byte_nu =         168, exp = 00, act = 00 
+byte_nu =         169, exp = 00, act = 00 
+byte_nu =         170, exp = 00, act = 00 
+byte_nu =         171, exp = 00, act = 00 
+byte_nu =         172, exp = 00, act = 00 
+byte_nu =         173, exp = 00, act = 00 
+byte_nu =         174, exp = 00, act = 00 
+byte_nu =         175, exp = 00, act = 00 
+byte_nu =         176, exp = 00, act = 00 
+byte_nu =         177, exp = 00, act = 00 
+byte_nu =         178, exp = 00, act = 00 
+byte_nu =         179, exp = 00, act = 00 
+byte_nu =         180, exp = 00, act = 00 
+byte_nu =         181, exp = 00, act = 00 
+byte_nu =         182, exp = 00, act = 00 
+byte_nu =         183, exp = 00, act = 00 
+byte_nu =         184, exp = 00, act = 00 
+byte_nu =         185, exp = 00, act = 00 
+byte_nu =         186, exp = 00, act = 00 
+byte_nu =         187, exp = 00, act = 00 
+byte_nu =         188, exp = 00, act = 00 
+byte_nu =         189, exp = 00, act = 00 
+byte_nu =         190, exp = 00, act = 00 
+byte_nu =         191, exp = 00, act = 00 
+byte_nu =         192, exp = 00, act = 00 
+byte_nu =         193, exp = 00, act = 00 
+byte_nu =         194, exp = 00, act = 00 
+byte_nu =         195, exp = 00, act = 00 
+byte_nu =         196, exp = 00, act = 00 
+byte_nu =         197, exp = 00, act = 00 
+byte_nu =         198, exp = 00, act = 00 
+byte_nu =         199, exp = 00, act = 00 
+byte_nu =         200, exp = 00, act = 00 
+byte_nu =         201, exp = 00, act = 00 
+byte_nu =         202, exp = 00, act = 00 
+byte_nu =         203, exp = 00, act = 00 
+byte_nu =         204, exp = 00, act = 00 
+byte_nu =         205, exp = 00, act = 00 
+byte_nu =         206, exp = 00, act = 00 
+byte_nu =         207, exp = 00, act = 00 
+byte_nu =         208, exp = 00, act = 00 
+byte_nu =         209, exp = 00, act = 00 
+byte_nu =         210, exp = 00, act = 00 
+byte_nu =         211, exp = 00, act = 00 
+byte_nu =         212, exp = 00, act = 00 
+byte_nu =         213, exp = 00, act = 00 
+byte_nu =         214, exp = 00, act = 00 
+byte_nu =         215, exp = 00, act = 00 
+byte_nu =         216, exp = 00, act = 00 
+byte_nu =         217, exp = 00, act = 00 
+byte_nu =         218, exp = 00, act = 00 
+byte_nu =         219, exp = 00, act = 00 
+byte_nu =         220, exp = 00, act = 00 
+byte_nu =         221, exp = 00, act = 00 
+byte_nu =         222, exp = 00, act = 00 
+byte_nu =         223, exp = 00, act = 00 
+byte_nu =         224, exp = 00, act = 00 
+byte_nu =         225, exp = 00, act = 00 
+byte_nu =         226, exp = 00, act = 00 
+byte_nu =         227, exp = 00, act = 00 
+byte_nu =         228, exp = 00, act = 00 
+byte_nu =         229, exp = 00, act = 00 
+byte_nu =         230, exp = 00, act = 00 
+byte_nu =         231, exp = 00, act = 00 
+byte_nu =         232, exp = 00, act = 00 
+byte_nu =         233, exp = 00, act = 00 
+byte_nu =         234, exp = 00, act = 00 
+byte_nu =         235, exp = 00, act = 00 
+byte_nu =         236, exp = 00, act = 00 
+byte_nu =         237, exp = 00, act = 00 
+byte_nu =         238, exp = 00, act = 00 
+byte_nu =         239, exp = 00, act = 00 
+byte_nu =         240, exp = 00, act = 00 
+byte_nu =         241, exp = 00, act = 00 
+byte_nu =         242, exp = 00, act = 00 
+byte_nu =         243, exp = 00, act = 00 
+byte_nu =         244, exp = 00, act = 00 
+byte_nu =         245, exp = 00, act = 00 
+byte_nu =         246, exp = 00, act = 00 
+byte_nu =         247, exp = 00, act = 00 
+byte_nu =         248, exp = 00, act = 00 
+byte_nu =         249, exp = 00, act = 00 
+byte_nu =         250, exp = 00, act = 00 
+byte_nu =         251, exp = 00, act = 00 
+byte_nu =         252, exp = 00, act = 00 
+byte_nu =         253, exp = 00, act = 00 
+byte_nu =         254, exp = 00, act = 00 
+byte_nu =         255, exp = 00, act = 00 
+byte_nu =         256, exp = 00, act = 00 
+byte_nu =         257, exp = 00, act = 00 
+byte_nu =         258, exp = 00, act = 00 
+byte_nu =         259, exp = 00, act = 00 
+@403504980000 [WARNING] [MIS0] : 
+byte_nu =           0, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           1, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           2, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           3, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           4, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           5, exp = 01, act = 01 ,sys_rd_data = 01
+byte_nu =           6, exp = 02, act = 02 ,sys_rd_data = 02
+byte_nu =           7, exp = 03, act = 03 ,sys_rd_data = 03
+byte_nu =           8, exp = 04, act = 04 ,sys_rd_data = 04
+byte_nu =           9, exp = 05, act = 05 ,sys_rd_data = 05
+byte_nu =          10, exp = 06, act = 06 ,sys_rd_data = 06
+byte_nu =          11, exp = 07, act = 07 ,sys_rd_data = 07
+byte_nu =          12, exp = 08, act = 08 ,sys_rd_data = 08
+byte_nu =          13, exp = 09, act = 09 ,sys_rd_data = 09
+byte_nu =          14, exp = 0a, act = 0a ,sys_rd_data = 0a
+byte_nu =          15, exp = 0b, act = 0b ,sys_rd_data = 0b
+byte_nu =          16, exp = 0c, act = 0c ,sys_rd_data = 0c
+byte_nu =          17, exp = 0d, act = 0d ,sys_rd_data = 0d
+byte_nu =          18, exp = 0e, act = 0e ,sys_rd_data = 0e
+byte_nu =          19, exp = 0f, act = 0f ,sys_rd_data = 0f
+byte_nu =          20, exp = 10, act = 10 ,sys_rd_data = 10
+byte_nu =          21, exp = 11, act = 11 ,sys_rd_data = 11
+byte_nu =          22, exp = 12, act = 12 ,sys_rd_data = 12
+byte_nu =          23, exp = 13, act = 13 ,sys_rd_data = 13
+byte_nu =          24, exp = 14, act = 14 ,sys_rd_data = 14
+byte_nu =          25, exp = 15, act = 15 ,sys_rd_data = 15
+byte_nu =          26, exp = 16, act = 16 ,sys_rd_data = 16
+byte_nu =          27, exp = 17, act = 17 ,sys_rd_data = 17
+byte_nu =          28, exp = 18, act = 18 ,sys_rd_data = 18
+byte_nu =          29, exp = 19, act = 19 ,sys_rd_data = 19
+byte_nu =          30, exp = 1a, act = 1a ,sys_rd_data = 1a
+byte_nu =          31, exp = 1b, act = 1b ,sys_rd_data = 1b
+byte_nu =          32, exp = 1c, act = 1c ,sys_rd_data = 1c
+byte_nu =          33, exp = 1d, act = 1d ,sys_rd_data = 1d
+byte_nu =          34, exp = 1e, act = 1e ,sys_rd_data = 1e
+byte_nu =          35, exp = 1f, act = 1f ,sys_rd_data = 1f
+byte_nu =          36, exp = 20, act = 20 ,sys_rd_data = 20
+byte_nu =          37, exp = 21, act = 21 ,sys_rd_data = 21
+byte_nu =          38, exp = 22, act = 22 ,sys_rd_data = 22
+byte_nu =          39, exp = 23, act = 23 ,sys_rd_data = 23
+byte_nu =          40, exp = 24, act = 24 ,sys_rd_data = 24
+byte_nu =          41, exp = 25, act = 25 ,sys_rd_data = 25
+byte_nu =          42, exp = 26, act = 26 ,sys_rd_data = 26
+byte_nu =          43, exp = 27, act = 27 ,sys_rd_data = 27
+byte_nu =          44, exp = 28, act = 28 ,sys_rd_data = 28
+byte_nu =          45, exp = 29, act = 29 ,sys_rd_data = 29
+byte_nu =          46, exp = 2a, act = 2a ,sys_rd_data = 2a
+byte_nu =          47, exp = 2b, act = 2b ,sys_rd_data = 2b
+byte_nu =          48, exp = 2c, act = 2c ,sys_rd_data = 2c
+byte_nu =          49, exp = 2d, act = 2d ,sys_rd_data = 2d
+byte_nu =          50, exp = 2e, act = 2e ,sys_rd_data = 2e
+byte_nu =          51, exp = 2f, act = 2f ,sys_rd_data = 2f
+byte_nu =          52, exp = 30, act = 30 ,sys_rd_data = 30
+byte_nu =          53, exp = 31, act = 31 ,sys_rd_data = 31
+byte_nu =          54, exp = 32, act = 32 ,sys_rd_data = 32
+byte_nu =          55, exp = 33, act = 33 ,sys_rd_data = 33
+byte_nu =          56, exp = 34, act = 34 ,sys_rd_data = 34
+byte_nu =          57, exp = 35, act = 35 ,sys_rd_data = 35
+byte_nu =          58, exp = 36, act = 36 ,sys_rd_data = 36
+byte_nu =          59, exp = 37, act = 37 ,sys_rd_data = 37
+byte_nu =          60, exp = 38, act = 38 ,sys_rd_data = 38
+byte_nu =          61, exp = 39, act = 39 ,sys_rd_data = 39
+byte_nu =          62, exp = 3a, act = 3a ,sys_rd_data = 3a
+byte_nu =          63, exp = 3b, act = 3b ,sys_rd_data = 3b
+byte_nu =          64, exp = 3c, act = 3c ,sys_rd_data = 3c
+byte_nu =          65, exp = 3d, act = 3d ,sys_rd_data = 3d
+byte_nu =          66, exp = 3e, act = 3e ,sys_rd_data = 3e
+byte_nu =          67, exp = 3f, act = 3f ,sys_rd_data = 3f
+byte_nu =          68, exp = 40, act = 40 ,sys_rd_data = 40
+byte_nu =          69, exp = 41, act = 41 ,sys_rd_data = 41
+byte_nu =          70, exp = 42, act = 42 ,sys_rd_data = 42
+byte_nu =          71, exp = 43, act = 43 ,sys_rd_data = 43
+byte_nu =          72, exp = 44, act = 44 ,sys_rd_data = 44
+byte_nu =          73, exp = 45, act = 45 ,sys_rd_data = 45
+byte_nu =          74, exp = 46, act = 46 ,sys_rd_data = 46
+byte_nu =          75, exp = 47, act = 47 ,sys_rd_data = 47
+byte_nu =          76, exp = 48, act = 48 ,sys_rd_data = 48
+byte_nu =          77, exp = 49, act = 49 ,sys_rd_data = 49
+byte_nu =          78, exp = 4a, act = 4a ,sys_rd_data = 4a
+byte_nu =          79, exp = 4b, act = 4b ,sys_rd_data = 4b
+byte_nu =          80, exp = 4c, act = 4c ,sys_rd_data = 4c
+byte_nu =          81, exp = 4d, act = 4d ,sys_rd_data = 4d
+byte_nu =          82, exp = 4e, act = 4e ,sys_rd_data = 4e
+byte_nu =          83, exp = 4f, act = 4f ,sys_rd_data = 4f
+byte_nu =          84, exp = 50, act = 50 ,sys_rd_data = 50
+byte_nu =          85, exp = 51, act = 51 ,sys_rd_data = 51
+byte_nu =          86, exp = 52, act = 52 ,sys_rd_data = 52
+byte_nu =          87, exp = 53, act = 53 ,sys_rd_data = 53
+byte_nu =          88, exp = 54, act = 54 ,sys_rd_data = 54
+byte_nu =          89, exp = 55, act = 55 ,sys_rd_data = 55
+byte_nu =          90, exp = 56, act = 56 ,sys_rd_data = 56
+byte_nu =          91, exp = 57, act = 57 ,sys_rd_data = 57
+byte_nu =          92, exp = 58, act = 58 ,sys_rd_data = 58
+byte_nu =          93, exp = 59, act = 59 ,sys_rd_data = 59
+byte_nu =          94, exp = 5a, act = 5a ,sys_rd_data = 5a
+byte_nu =          95, exp = 5b, act = 5b ,sys_rd_data = 5b
+byte_nu =          96, exp = 5c, act = 5c ,sys_rd_data = 5c
+byte_nu =          97, exp = 5d, act = 5d ,sys_rd_data = 5d
+byte_nu =          98, exp = 5e, act = 5e ,sys_rd_data = 5e
+byte_nu =          99, exp = 5f, act = 5f ,sys_rd_data = 5f
+byte_nu =         100, exp = 60, act = 60 ,sys_rd_data = 60
+byte_nu =         101, exp = 61, act = 61 ,sys_rd_data = 61
+byte_nu =         102, exp = 62, act = 62 ,sys_rd_data = 62
+byte_nu =         103, exp = 63, act = 63 ,sys_rd_data = 63
+byte_nu =         104, exp = 64, act = 64 ,sys_rd_data = 64
+byte_nu =         105, exp = 65, act = 65 ,sys_rd_data = 65
+byte_nu =         106, exp = 66, act = 66 ,sys_rd_data = 66
+byte_nu =         107, exp = 67, act = 67 ,sys_rd_data = 67
+byte_nu =         108, exp = 68, act = 68 ,sys_rd_data = 68
+byte_nu =         109, exp = 69, act = 69 ,sys_rd_data = 69
+byte_nu =         110, exp = 6a, act = 6a ,sys_rd_data = 6a
+byte_nu =         111, exp = 6b, act = 6b ,sys_rd_data = 6b
+byte_nu =         112, exp = 6c, act = 6c ,sys_rd_data = 6c
+byte_nu =         113, exp = 6d, act = 6d ,sys_rd_data = 6d
+byte_nu =         114, exp = 6e, act = 6e ,sys_rd_data = 6e
+byte_nu =         115, exp = 6f, act = 6f ,sys_rd_data = 6f
+byte_nu =         116, exp = 70, act = 70 ,sys_rd_data = 70
+byte_nu =         117, exp = 71, act = 71 ,sys_rd_data = 71
+byte_nu =         118, exp = 72, act = 72 ,sys_rd_data = 72
+byte_nu =         119, exp = 73, act = 73 ,sys_rd_data = 73
+byte_nu =         120, exp = 74, act = 74 ,sys_rd_data = 74
+byte_nu =         121, exp = 75, act = 75 ,sys_rd_data = 75
+byte_nu =         122, exp = 76, act = 76 ,sys_rd_data = 76
+byte_nu =         123, exp = 77, act = 77 ,sys_rd_data = 77
+byte_nu =         124, exp = 78, act = 78 ,sys_rd_data = 78
+byte_nu =         125, exp = 79, act = 79 ,sys_rd_data = 79
+byte_nu =         126, exp = 7a, act = 7a ,sys_rd_data = 7a
+byte_nu =         127, exp = 7b, act = 7b ,sys_rd_data = 7b
+byte_nu =         128, exp = 7c, act = 7c ,sys_rd_data = 7c
+byte_nu =         129, exp = 7d, act = 7d ,sys_rd_data = 7d
+byte_nu =         130, exp = 7e, act = 7e ,sys_rd_data = 7e
+byte_nu =         131, exp = 7f, act = 7f ,sys_rd_data = 7f
+byte_nu =         132, exp = 80, act = 80 ,sys_rd_data = 80
+byte_nu =         133, exp = 81, act = 81 ,sys_rd_data = 81
+byte_nu =         134, exp = 82, act = 82 ,sys_rd_data = 82
+byte_nu =         135, exp = 83, act = 83 ,sys_rd_data = 83
+byte_nu =         136, exp = 84, act = 84 ,sys_rd_data = 84
+byte_nu =         137, exp = 85, act = 85 ,sys_rd_data = 85
+byte_nu =         138, exp = 86, act = 86 ,sys_rd_data = 86
+byte_nu =         139, exp = 87, act = 87 ,sys_rd_data = 87
+byte_nu =         140, exp = 88, act = 88 ,sys_rd_data = 88
+byte_nu =         141, exp = 89, act = 89 ,sys_rd_data = 89
+byte_nu =         142, exp = 8a, act = 8a ,sys_rd_data = 8a
+byte_nu =         143, exp = 8b, act = 8b ,sys_rd_data = 8b
+byte_nu =         144, exp = 8c, act = 8c ,sys_rd_data = 8c
+byte_nu =         145, exp = 8d, act = 8d ,sys_rd_data = 8d
+byte_nu =         146, exp = 8e, act = 8e ,sys_rd_data = 8e
+byte_nu =         147, exp = 8f, act = 8f ,sys_rd_data = 8f
+byte_nu =         148, exp = 90, act = 90 ,sys_rd_data = 90
+byte_nu =         149, exp = 91, act = 91 ,sys_rd_data = 91
+byte_nu =         150, exp = 92, act = 92 ,sys_rd_data = 92
+byte_nu =         151, exp = 93, act = 93 ,sys_rd_data = 93
+byte_nu =         152, exp = 94, act = 94 ,sys_rd_data = 94
+byte_nu =         153, exp = 95, act = 95 ,sys_rd_data = 95
+byte_nu =         154, exp = 96, act = 96 ,sys_rd_data = 96
+byte_nu =         155, exp = 97, act = 97 ,sys_rd_data = 97
+byte_nu =         156, exp = 98, act = 98 ,sys_rd_data = 98
+byte_nu =         157, exp = 99, act = 99 ,sys_rd_data = 99
+byte_nu =         158, exp = 9a, act = 9a ,sys_rd_data = 9a
+byte_nu =         159, exp = 9b, act = 9b ,sys_rd_data = 9b
+byte_nu =         160, exp = 9c, act = 9c ,sys_rd_data = 9c
+byte_nu =         161, exp = 9d, act = 9d ,sys_rd_data = 9d
+byte_nu =         162, exp = 9e, act = 9e ,sys_rd_data = 9e
+byte_nu =         163, exp = 9f, act = 9f ,sys_rd_data = 9f
+byte_nu =         164, exp = a0, act = a0 ,sys_rd_data = a0
+byte_nu =         165, exp = a1, act = a1 ,sys_rd_data = a1
+byte_nu =         166, exp = a2, act = a2 ,sys_rd_data = a2
+byte_nu =         167, exp = a3, act = a3 ,sys_rd_data = a3
+byte_nu =         168, exp = a4, act = a4 ,sys_rd_data = a4
+byte_nu =         169, exp = a5, act = a5 ,sys_rd_data = a5
+byte_nu =         170, exp = a6, act = a6 ,sys_rd_data = a6
+byte_nu =         171, exp = a7, act = a7 ,sys_rd_data = a7
+byte_nu =         172, exp = a8, act = a8 ,sys_rd_data = a8
+byte_nu =         173, exp = a9, act = a9 ,sys_rd_data = a9
+byte_nu =         174, exp = aa, act = aa ,sys_rd_data = aa
+byte_nu =         175, exp = ab, act = ab ,sys_rd_data = ab
+byte_nu =         176, exp = ac, act = ac ,sys_rd_data = ac
+byte_nu =         177, exp = ad, act = ad ,sys_rd_data = ad
+byte_nu =         178, exp = ae, act = ae ,sys_rd_data = ae
+byte_nu =         179, exp = af, act = af ,sys_rd_data = af
+byte_nu =         180, exp = b0, act = b0 ,sys_rd_data = b0
+byte_nu =         181, exp = b1, act = b1 ,sys_rd_data = b1
+byte_nu =         182, exp = b2, act = b2 ,sys_rd_data = b2
+byte_nu =         183, exp = b3, act = b3 ,sys_rd_data = b3
+byte_nu =         184, exp = b4, act = b4 ,sys_rd_data = b4
+byte_nu =         185, exp = b5, act = b5 ,sys_rd_data = b5
+byte_nu =         186, exp = b6, act = b6 ,sys_rd_data = b6
+byte_nu =         187, exp = b7, act = b7 ,sys_rd_data = b7
+byte_nu =         188, exp = b8, act = b8 ,sys_rd_data = b8
+byte_nu =         189, exp = b9, act = b9 ,sys_rd_data = b9
+byte_nu =         190, exp = ba, act = ba ,sys_rd_data = ba
+byte_nu =         191, exp = bb, act = bb ,sys_rd_data = bb
+byte_nu =         192, exp = bc, act = bc ,sys_rd_data = bc
+byte_nu =         193, exp = bd, act = bd ,sys_rd_data = bd
+byte_nu =         194, exp = be, act = be ,sys_rd_data = be
+byte_nu =         195, exp = bf, act = bf ,sys_rd_data = bf
+byte_nu =         196, exp = c0, act = c0 ,sys_rd_data = c0
+byte_nu =         197, exp = c1, act = c1 ,sys_rd_data = c1
+byte_nu =         198, exp = c2, act = c2 ,sys_rd_data = c2
+byte_nu =         199, exp = c3, act = c3 ,sys_rd_data = c3
+byte_nu =         200, exp = c4, act = c4 ,sys_rd_data = c4
+byte_nu =         201, exp = c5, act = c5 ,sys_rd_data = c5
+byte_nu =         202, exp = c6, act = c6 ,sys_rd_data = c6
+byte_nu =         203, exp = c7, act = c7 ,sys_rd_data = c7
+byte_nu =         204, exp = c8, act = c8 ,sys_rd_data = c8
+byte_nu =         205, exp = c9, act = c9 ,sys_rd_data = c9
+byte_nu =         206, exp = ca, act = ca ,sys_rd_data = ca
+byte_nu =         207, exp = cb, act = cb ,sys_rd_data = cb
+byte_nu =         208, exp = cc, act = cc ,sys_rd_data = cc
+byte_nu =         209, exp = cd, act = cd ,sys_rd_data = cd
+byte_nu =         210, exp = ce, act = ce ,sys_rd_data = ce
+byte_nu =         211, exp = cf, act = cf ,sys_rd_data = cf
+byte_nu =         212, exp = d0, act = d0 ,sys_rd_data = d0
+byte_nu =         213, exp = d1, act = d1 ,sys_rd_data = d1
+byte_nu =         214, exp = d2, act = d2 ,sys_rd_data = d2
+byte_nu =         215, exp = d3, act = d3 ,sys_rd_data = d3
+byte_nu =         216, exp = d4, act = d4 ,sys_rd_data = d4
+byte_nu =         217, exp = d5, act = d5 ,sys_rd_data = d5
+byte_nu =         218, exp = d6, act = d6 ,sys_rd_data = d6
+byte_nu =         219, exp = d7, act = d7 ,sys_rd_data = d7
+byte_nu =         220, exp = d8, act = d8 ,sys_rd_data = d8
+byte_nu =         221, exp = d9, act = d9 ,sys_rd_data = d9
+byte_nu =         222, exp = da, act = da ,sys_rd_data = da
+byte_nu =         223, exp = db, act = db ,sys_rd_data = db
+byte_nu =         224, exp = dc, act = dc ,sys_rd_data = dc
+byte_nu =         225, exp = dd, act = dd ,sys_rd_data = dd
+byte_nu =         226, exp = de, act = de ,sys_rd_data = de
+byte_nu =         227, exp = df, act = df ,sys_rd_data = df
+byte_nu =         228, exp = e0, act = e0 ,sys_rd_data = e0
+byte_nu =         229, exp = e1, act = e1 ,sys_rd_data = e1
+byte_nu =         230, exp = e2, act = e2 ,sys_rd_data = e2
+byte_nu =         231, exp = e3, act = e3 ,sys_rd_data = e3
+byte_nu =         232, exp = e4, act = e4 ,sys_rd_data = e4
+byte_nu =         233, exp = e5, act = e5 ,sys_rd_data = e5
+byte_nu =         234, exp = e6, act = e6 ,sys_rd_data = e6
+byte_nu =         235, exp = e7, act = e7 ,sys_rd_data = e7
+byte_nu =         236, exp = e8, act = e8 ,sys_rd_data = e8
+byte_nu =         237, exp = e9, act = e9 ,sys_rd_data = e9
+byte_nu =         238, exp = ea, act = ea ,sys_rd_data = ea
+byte_nu =         239, exp = eb, act = eb ,sys_rd_data = eb
+byte_nu =         240, exp = ec, act = ec ,sys_rd_data = ec
+byte_nu =         241, exp = ed, act = ed ,sys_rd_data = ed
+byte_nu =         242, exp = ee, act = ee ,sys_rd_data = ee
+byte_nu =         243, exp = ef, act = ef ,sys_rd_data = ef
+byte_nu =         244, exp = f0, act = f0 ,sys_rd_data = f0
+byte_nu =         245, exp = f1, act = f1 ,sys_rd_data = f1
+byte_nu =         246, exp = f2, act = f2 ,sys_rd_data = f2
+byte_nu =         247, exp = f3, act = f3 ,sys_rd_data = f3
+byte_nu =         248, exp = f4, act = f4 ,sys_rd_data = f4
+byte_nu =         249, exp = f5, act = f5 ,sys_rd_data = f5
+byte_nu =         250, exp = f6, act = f6 ,sys_rd_data = f6
+byte_nu =         251, exp = f7, act = f7 ,sys_rd_data = f7
+byte_nu =         252, exp = f8, act = f8 ,sys_rd_data = f8
+byte_nu =         253, exp = f9, act = f9 ,sys_rd_data = f9
+byte_nu =         254, exp = fa, act = fa ,sys_rd_data = fa
+byte_nu =         255, exp = fb, act = fb ,sys_rd_data = fb
+byte_nu =         256, exp = fc, act = fc ,sys_rd_data = fc
+byte_nu =         257, exp = fd, act = fd ,sys_rd_data = fd
+byte_nu =         258, exp = fe, act = fe ,sys_rd_data = fe
+byte_nu =         259, exp = ff, act = ff ,sys_rd_data = ff
+@403671620000 [WARNING] [PACKAGE] : cmp = 1;pkg_id =           4(exp),           4(act);cmd =  4(exp),  4(act);addr =        256(exp),        256(act) --> 
+
+@403671620000 [WARNING] [MOSI] : 
+byte_nu =           0, exp = 03, act = 03 
+byte_nu =           1, exp = 00, act = 00 
+byte_nu =           2, exp = 01, act = 01 
+byte_nu =           3, exp = 00, act = 00 
+byte_nu =           4, exp = 00, act = 00 
+byte_nu =           5, exp = 00, act = 00 
+byte_nu =           6, exp = 00, act = 00 
+byte_nu =           7, exp = 00, act = 00 
+byte_nu =           8, exp = 00, act = 00 
+byte_nu =           9, exp = 00, act = 00 
+byte_nu =          10, exp = 00, act = 00 
+byte_nu =          11, exp = 00, act = 00 
+byte_nu =          12, exp = 00, act = 00 
+byte_nu =          13, exp = 00, act = 00 
+byte_nu =          14, exp = 00, act = 00 
+byte_nu =          15, exp = 00, act = 00 
+byte_nu =          16, exp = 00, act = 00 
+byte_nu =          17, exp = 00, act = 00 
+byte_nu =          18, exp = 00, act = 00 
+byte_nu =          19, exp = 00, act = 00 
+byte_nu =          20, exp = 00, act = 00 
+byte_nu =          21, exp = 00, act = 00 
+byte_nu =          22, exp = 00, act = 00 
+byte_nu =          23, exp = 00, act = 00 
+byte_nu =          24, exp = 00, act = 00 
+byte_nu =          25, exp = 00, act = 00 
+byte_nu =          26, exp = 00, act = 00 
+byte_nu =          27, exp = 00, act = 00 
+byte_nu =          28, exp = 00, act = 00 
+byte_nu =          29, exp = 00, act = 00 
+byte_nu =          30, exp = 00, act = 00 
+byte_nu =          31, exp = 00, act = 00 
+byte_nu =          32, exp = 00, act = 00 
+byte_nu =          33, exp = 00, act = 00 
+byte_nu =          34, exp = 00, act = 00 
+byte_nu =          35, exp = 00, act = 00 
+byte_nu =          36, exp = 00, act = 00 
+byte_nu =          37, exp = 00, act = 00 
+byte_nu =          38, exp = 00, act = 00 
+byte_nu =          39, exp = 00, act = 00 
+byte_nu =          40, exp = 00, act = 00 
+byte_nu =          41, exp = 00, act = 00 
+byte_nu =          42, exp = 00, act = 00 
+byte_nu =          43, exp = 00, act = 00 
+byte_nu =          44, exp = 00, act = 00 
+byte_nu =          45, exp = 00, act = 00 
+byte_nu =          46, exp = 00, act = 00 
+byte_nu =          47, exp = 00, act = 00 
+byte_nu =          48, exp = 00, act = 00 
+byte_nu =          49, exp = 00, act = 00 
+byte_nu =          50, exp = 00, act = 00 
+byte_nu =          51, exp = 00, act = 00 
+byte_nu =          52, exp = 00, act = 00 
+byte_nu =          53, exp = 00, act = 00 
+byte_nu =          54, exp = 00, act = 00 
+byte_nu =          55, exp = 00, act = 00 
+byte_nu =          56, exp = 00, act = 00 
+byte_nu =          57, exp = 00, act = 00 
+byte_nu =          58, exp = 00, act = 00 
+byte_nu =          59, exp = 00, act = 00 
+byte_nu =          60, exp = 00, act = 00 
+byte_nu =          61, exp = 00, act = 00 
+byte_nu =          62, exp = 00, act = 00 
+byte_nu =          63, exp = 00, act = 00 
+byte_nu =          64, exp = 00, act = 00 
+byte_nu =          65, exp = 00, act = 00 
+byte_nu =          66, exp = 00, act = 00 
+byte_nu =          67, exp = 00, act = 00 
+byte_nu =          68, exp = 00, act = 00 
+byte_nu =          69, exp = 00, act = 00 
+byte_nu =          70, exp = 00, act = 00 
+byte_nu =          71, exp = 00, act = 00 
+byte_nu =          72, exp = 00, act = 00 
+byte_nu =          73, exp = 00, act = 00 
+byte_nu =          74, exp = 00, act = 00 
+byte_nu =          75, exp = 00, act = 00 
+byte_nu =          76, exp = 00, act = 00 
+byte_nu =          77, exp = 00, act = 00 
+byte_nu =          78, exp = 00, act = 00 
+byte_nu =          79, exp = 00, act = 00 
+byte_nu =          80, exp = 00, act = 00 
+byte_nu =          81, exp = 00, act = 00 
+byte_nu =          82, exp = 00, act = 00 
+byte_nu =          83, exp = 00, act = 00 
+byte_nu =          84, exp = 00, act = 00 
+byte_nu =          85, exp = 00, act = 00 
+byte_nu =          86, exp = 00, act = 00 
+byte_nu =          87, exp = 00, act = 00 
+byte_nu =          88, exp = 00, act = 00 
+byte_nu =          89, exp = 00, act = 00 
+byte_nu =          90, exp = 00, act = 00 
+byte_nu =          91, exp = 00, act = 00 
+byte_nu =          92, exp = 00, act = 00 
+byte_nu =          93, exp = 00, act = 00 
+byte_nu =          94, exp = 00, act = 00 
+byte_nu =          95, exp = 00, act = 00 
+byte_nu =          96, exp = 00, act = 00 
+byte_nu =          97, exp = 00, act = 00 
+byte_nu =          98, exp = 00, act = 00 
+byte_nu =          99, exp = 00, act = 00 
+byte_nu =         100, exp = 00, act = 00 
+byte_nu =         101, exp = 00, act = 00 
+byte_nu =         102, exp = 00, act = 00 
+byte_nu =         103, exp = 00, act = 00 
+byte_nu =         104, exp = 00, act = 00 
+byte_nu =         105, exp = 00, act = 00 
+byte_nu =         106, exp = 00, act = 00 
+byte_nu =         107, exp = 00, act = 00 
+byte_nu =         108, exp = 00, act = 00 
+byte_nu =         109, exp = 00, act = 00 
+byte_nu =         110, exp = 00, act = 00 
+byte_nu =         111, exp = 00, act = 00 
+byte_nu =         112, exp = 00, act = 00 
+byte_nu =         113, exp = 00, act = 00 
+byte_nu =         114, exp = 00, act = 00 
+byte_nu =         115, exp = 00, act = 00 
+byte_nu =         116, exp = 00, act = 00 
+byte_nu =         117, exp = 00, act = 00 
+byte_nu =         118, exp = 00, act = 00 
+byte_nu =         119, exp = 00, act = 00 
+byte_nu =         120, exp = 00, act = 00 
+byte_nu =         121, exp = 00, act = 00 
+byte_nu =         122, exp = 00, act = 00 
+byte_nu =         123, exp = 00, act = 00 
+byte_nu =         124, exp = 00, act = 00 
+byte_nu =         125, exp = 00, act = 00 
+byte_nu =         126, exp = 00, act = 00 
+byte_nu =         127, exp = 00, act = 00 
+byte_nu =         128, exp = 00, act = 00 
+byte_nu =         129, exp = 00, act = 00 
+byte_nu =         130, exp = 00, act = 00 
+byte_nu =         131, exp = 00, act = 00 
+byte_nu =         132, exp = 00, act = 00 
+byte_nu =         133, exp = 00, act = 00 
+byte_nu =         134, exp = 00, act = 00 
+byte_nu =         135, exp = 00, act = 00 
+byte_nu =         136, exp = 00, act = 00 
+byte_nu =         137, exp = 00, act = 00 
+byte_nu =         138, exp = 00, act = 00 
+byte_nu =         139, exp = 00, act = 00 
+byte_nu =         140, exp = 00, act = 00 
+byte_nu =         141, exp = 00, act = 00 
+byte_nu =         142, exp = 00, act = 00 
+byte_nu =         143, exp = 00, act = 00 
+byte_nu =         144, exp = 00, act = 00 
+byte_nu =         145, exp = 00, act = 00 
+byte_nu =         146, exp = 00, act = 00 
+byte_nu =         147, exp = 00, act = 00 
+byte_nu =         148, exp = 00, act = 00 
+byte_nu =         149, exp = 00, act = 00 
+byte_nu =         150, exp = 00, act = 00 
+byte_nu =         151, exp = 00, act = 00 
+byte_nu =         152, exp = 00, act = 00 
+byte_nu =         153, exp = 00, act = 00 
+byte_nu =         154, exp = 00, act = 00 
+byte_nu =         155, exp = 00, act = 00 
+byte_nu =         156, exp = 00, act = 00 
+byte_nu =         157, exp = 00, act = 00 
+byte_nu =         158, exp = 00, act = 00 
+byte_nu =         159, exp = 00, act = 00 
+byte_nu =         160, exp = 00, act = 00 
+byte_nu =         161, exp = 00, act = 00 
+byte_nu =         162, exp = 00, act = 00 
+byte_nu =         163, exp = 00, act = 00 
+byte_nu =         164, exp = 00, act = 00 
+byte_nu =         165, exp = 00, act = 00 
+byte_nu =         166, exp = 00, act = 00 
+byte_nu =         167, exp = 00, act = 00 
+byte_nu =         168, exp = 00, act = 00 
+byte_nu =         169, exp = 00, act = 00 
+byte_nu =         170, exp = 00, act = 00 
+byte_nu =         171, exp = 00, act = 00 
+byte_nu =         172, exp = 00, act = 00 
+byte_nu =         173, exp = 00, act = 00 
+byte_nu =         174, exp = 00, act = 00 
+byte_nu =         175, exp = 00, act = 00 
+byte_nu =         176, exp = 00, act = 00 
+byte_nu =         177, exp = 00, act = 00 
+byte_nu =         178, exp = 00, act = 00 
+byte_nu =         179, exp = 00, act = 00 
+byte_nu =         180, exp = 00, act = 00 
+byte_nu =         181, exp = 00, act = 00 
+byte_nu =         182, exp = 00, act = 00 
+byte_nu =         183, exp = 00, act = 00 
+byte_nu =         184, exp = 00, act = 00 
+byte_nu =         185, exp = 00, act = 00 
+byte_nu =         186, exp = 00, act = 00 
+byte_nu =         187, exp = 00, act = 00 
+byte_nu =         188, exp = 00, act = 00 
+byte_nu =         189, exp = 00, act = 00 
+byte_nu =         190, exp = 00, act = 00 
+byte_nu =         191, exp = 00, act = 00 
+byte_nu =         192, exp = 00, act = 00 
+byte_nu =         193, exp = 00, act = 00 
+byte_nu =         194, exp = 00, act = 00 
+byte_nu =         195, exp = 00, act = 00 
+byte_nu =         196, exp = 00, act = 00 
+byte_nu =         197, exp = 00, act = 00 
+byte_nu =         198, exp = 00, act = 00 
+byte_nu =         199, exp = 00, act = 00 
+byte_nu =         200, exp = 00, act = 00 
+byte_nu =         201, exp = 00, act = 00 
+byte_nu =         202, exp = 00, act = 00 
+byte_nu =         203, exp = 00, act = 00 
+byte_nu =         204, exp = 00, act = 00 
+byte_nu =         205, exp = 00, act = 00 
+byte_nu =         206, exp = 00, act = 00 
+byte_nu =         207, exp = 00, act = 00 
+byte_nu =         208, exp = 00, act = 00 
+byte_nu =         209, exp = 00, act = 00 
+byte_nu =         210, exp = 00, act = 00 
+byte_nu =         211, exp = 00, act = 00 
+byte_nu =         212, exp = 00, act = 00 
+byte_nu =         213, exp = 00, act = 00 
+byte_nu =         214, exp = 00, act = 00 
+byte_nu =         215, exp = 00, act = 00 
+byte_nu =         216, exp = 00, act = 00 
+byte_nu =         217, exp = 00, act = 00 
+byte_nu =         218, exp = 00, act = 00 
+byte_nu =         219, exp = 00, act = 00 
+byte_nu =         220, exp = 00, act = 00 
+byte_nu =         221, exp = 00, act = 00 
+byte_nu =         222, exp = 00, act = 00 
+byte_nu =         223, exp = 00, act = 00 
+byte_nu =         224, exp = 00, act = 00 
+byte_nu =         225, exp = 00, act = 00 
+byte_nu =         226, exp = 00, act = 00 
+byte_nu =         227, exp = 00, act = 00 
+byte_nu =         228, exp = 00, act = 00 
+byte_nu =         229, exp = 00, act = 00 
+byte_nu =         230, exp = 00, act = 00 
+byte_nu =         231, exp = 00, act = 00 
+byte_nu =         232, exp = 00, act = 00 
+byte_nu =         233, exp = 00, act = 00 
+byte_nu =         234, exp = 00, act = 00 
+byte_nu =         235, exp = 00, act = 00 
+byte_nu =         236, exp = 00, act = 00 
+byte_nu =         237, exp = 00, act = 00 
+byte_nu =         238, exp = 00, act = 00 
+byte_nu =         239, exp = 00, act = 00 
+byte_nu =         240, exp = 00, act = 00 
+byte_nu =         241, exp = 00, act = 00 
+byte_nu =         242, exp = 00, act = 00 
+byte_nu =         243, exp = 00, act = 00 
+byte_nu =         244, exp = 00, act = 00 
+byte_nu =         245, exp = 00, act = 00 
+byte_nu =         246, exp = 00, act = 00 
+byte_nu =         247, exp = 00, act = 00 
+byte_nu =         248, exp = 00, act = 00 
+byte_nu =         249, exp = 00, act = 00 
+byte_nu =         250, exp = 00, act = 00 
+byte_nu =         251, exp = 00, act = 00 
+byte_nu =         252, exp = 00, act = 00 
+byte_nu =         253, exp = 00, act = 00 
+byte_nu =         254, exp = 00, act = 00 
+byte_nu =         255, exp = 00, act = 00 
+byte_nu =         256, exp = 00, act = 00 
+byte_nu =         257, exp = 00, act = 00 
+byte_nu =         258, exp = 00, act = 00 
+byte_nu =         259, exp = 00, act = 00 
+@403671620000 [WARNING] [MIS0] : 
+byte_nu =           0, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           1, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           2, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           3, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           4, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           5, exp = 01, act = 01 ,sys_rd_data = 01
+byte_nu =           6, exp = 02, act = 02 ,sys_rd_data = 02
+byte_nu =           7, exp = 03, act = 03 ,sys_rd_data = 03
+byte_nu =           8, exp = 04, act = 04 ,sys_rd_data = 04
+byte_nu =           9, exp = 05, act = 05 ,sys_rd_data = 05
+byte_nu =          10, exp = 06, act = 06 ,sys_rd_data = 06
+byte_nu =          11, exp = 07, act = 07 ,sys_rd_data = 07
+byte_nu =          12, exp = 08, act = 08 ,sys_rd_data = 08
+byte_nu =          13, exp = 09, act = 09 ,sys_rd_data = 09
+byte_nu =          14, exp = 0a, act = 0a ,sys_rd_data = 0a
+byte_nu =          15, exp = 0b, act = 0b ,sys_rd_data = 0b
+byte_nu =          16, exp = 0c, act = 0c ,sys_rd_data = 0c
+byte_nu =          17, exp = 0d, act = 0d ,sys_rd_data = 0d
+byte_nu =          18, exp = 0e, act = 0e ,sys_rd_data = 0e
+byte_nu =          19, exp = 0f, act = 0f ,sys_rd_data = 0f
+byte_nu =          20, exp = 10, act = 10 ,sys_rd_data = 10
+byte_nu =          21, exp = 11, act = 11 ,sys_rd_data = 11
+byte_nu =          22, exp = 12, act = 12 ,sys_rd_data = 12
+byte_nu =          23, exp = 13, act = 13 ,sys_rd_data = 13
+byte_nu =          24, exp = 14, act = 14 ,sys_rd_data = 14
+byte_nu =          25, exp = 15, act = 15 ,sys_rd_data = 15
+byte_nu =          26, exp = 16, act = 16 ,sys_rd_data = 16
+byte_nu =          27, exp = 17, act = 17 ,sys_rd_data = 17
+byte_nu =          28, exp = 18, act = 18 ,sys_rd_data = 18
+byte_nu =          29, exp = 19, act = 19 ,sys_rd_data = 19
+byte_nu =          30, exp = 1a, act = 1a ,sys_rd_data = 1a
+byte_nu =          31, exp = 1b, act = 1b ,sys_rd_data = 1b
+byte_nu =          32, exp = 1c, act = 1c ,sys_rd_data = 1c
+byte_nu =          33, exp = 1d, act = 1d ,sys_rd_data = 1d
+byte_nu =          34, exp = 1e, act = 1e ,sys_rd_data = 1e
+byte_nu =          35, exp = 1f, act = 1f ,sys_rd_data = 1f
+byte_nu =          36, exp = 20, act = 20 ,sys_rd_data = 20
+byte_nu =          37, exp = 21, act = 21 ,sys_rd_data = 21
+byte_nu =          38, exp = 22, act = 22 ,sys_rd_data = 22
+byte_nu =          39, exp = 23, act = 23 ,sys_rd_data = 23
+byte_nu =          40, exp = 24, act = 24 ,sys_rd_data = 24
+byte_nu =          41, exp = 25, act = 25 ,sys_rd_data = 25
+byte_nu =          42, exp = 26, act = 26 ,sys_rd_data = 26
+byte_nu =          43, exp = 27, act = 27 ,sys_rd_data = 27
+byte_nu =          44, exp = 28, act = 28 ,sys_rd_data = 28
+byte_nu =          45, exp = 29, act = 29 ,sys_rd_data = 29
+byte_nu =          46, exp = 2a, act = 2a ,sys_rd_data = 2a
+byte_nu =          47, exp = 2b, act = 2b ,sys_rd_data = 2b
+byte_nu =          48, exp = 2c, act = 2c ,sys_rd_data = 2c
+byte_nu =          49, exp = 2d, act = 2d ,sys_rd_data = 2d
+byte_nu =          50, exp = 2e, act = 2e ,sys_rd_data = 2e
+byte_nu =          51, exp = 2f, act = 2f ,sys_rd_data = 2f
+byte_nu =          52, exp = 30, act = 30 ,sys_rd_data = 30
+byte_nu =          53, exp = 31, act = 31 ,sys_rd_data = 31
+byte_nu =          54, exp = 32, act = 32 ,sys_rd_data = 32
+byte_nu =          55, exp = 33, act = 33 ,sys_rd_data = 33
+byte_nu =          56, exp = 34, act = 34 ,sys_rd_data = 34
+byte_nu =          57, exp = 35, act = 35 ,sys_rd_data = 35
+byte_nu =          58, exp = 36, act = 36 ,sys_rd_data = 36
+byte_nu =          59, exp = 37, act = 37 ,sys_rd_data = 37
+byte_nu =          60, exp = 38, act = 38 ,sys_rd_data = 38
+byte_nu =          61, exp = 39, act = 39 ,sys_rd_data = 39
+byte_nu =          62, exp = 3a, act = 3a ,sys_rd_data = 3a
+byte_nu =          63, exp = 3b, act = 3b ,sys_rd_data = 3b
+byte_nu =          64, exp = 3c, act = 3c ,sys_rd_data = 3c
+byte_nu =          65, exp = 3d, act = 3d ,sys_rd_data = 3d
+byte_nu =          66, exp = 3e, act = 3e ,sys_rd_data = 3e
+byte_nu =          67, exp = 3f, act = 3f ,sys_rd_data = 3f
+byte_nu =          68, exp = 40, act = 40 ,sys_rd_data = 40
+byte_nu =          69, exp = 41, act = 41 ,sys_rd_data = 41
+byte_nu =          70, exp = 42, act = 42 ,sys_rd_data = 42
+byte_nu =          71, exp = 43, act = 43 ,sys_rd_data = 43
+byte_nu =          72, exp = 44, act = 44 ,sys_rd_data = 44
+byte_nu =          73, exp = 45, act = 45 ,sys_rd_data = 45
+byte_nu =          74, exp = 46, act = 46 ,sys_rd_data = 46
+byte_nu =          75, exp = 47, act = 47 ,sys_rd_data = 47
+byte_nu =          76, exp = 48, act = 48 ,sys_rd_data = 48
+byte_nu =          77, exp = 49, act = 49 ,sys_rd_data = 49
+byte_nu =          78, exp = 4a, act = 4a ,sys_rd_data = 4a
+byte_nu =          79, exp = 4b, act = 4b ,sys_rd_data = 4b
+byte_nu =          80, exp = 4c, act = 4c ,sys_rd_data = 4c
+byte_nu =          81, exp = 4d, act = 4d ,sys_rd_data = 4d
+byte_nu =          82, exp = 4e, act = 4e ,sys_rd_data = 4e
+byte_nu =          83, exp = 4f, act = 4f ,sys_rd_data = 4f
+byte_nu =          84, exp = 50, act = 50 ,sys_rd_data = 50
+byte_nu =          85, exp = 51, act = 51 ,sys_rd_data = 51
+byte_nu =          86, exp = 52, act = 52 ,sys_rd_data = 52
+byte_nu =          87, exp = 53, act = 53 ,sys_rd_data = 53
+byte_nu =          88, exp = 54, act = 54 ,sys_rd_data = 54
+byte_nu =          89, exp = 55, act = 55 ,sys_rd_data = 55
+byte_nu =          90, exp = 56, act = 56 ,sys_rd_data = 56
+byte_nu =          91, exp = 57, act = 57 ,sys_rd_data = 57
+byte_nu =          92, exp = 58, act = 58 ,sys_rd_data = 58
+byte_nu =          93, exp = 59, act = 59 ,sys_rd_data = 59
+byte_nu =          94, exp = 5a, act = 5a ,sys_rd_data = 5a
+byte_nu =          95, exp = 5b, act = 5b ,sys_rd_data = 5b
+byte_nu =          96, exp = 5c, act = 5c ,sys_rd_data = 5c
+byte_nu =          97, exp = 5d, act = 5d ,sys_rd_data = 5d
+byte_nu =          98, exp = 5e, act = 5e ,sys_rd_data = 5e
+byte_nu =          99, exp = 5f, act = 5f ,sys_rd_data = 5f
+byte_nu =         100, exp = 60, act = 60 ,sys_rd_data = 60
+byte_nu =         101, exp = 61, act = 61 ,sys_rd_data = 61
+byte_nu =         102, exp = 62, act = 62 ,sys_rd_data = 62
+byte_nu =         103, exp = 63, act = 63 ,sys_rd_data = 63
+byte_nu =         104, exp = 64, act = 64 ,sys_rd_data = 64
+byte_nu =         105, exp = 65, act = 65 ,sys_rd_data = 65
+byte_nu =         106, exp = 66, act = 66 ,sys_rd_data = 66
+byte_nu =         107, exp = 67, act = 67 ,sys_rd_data = 67
+byte_nu =         108, exp = 68, act = 68 ,sys_rd_data = 68
+byte_nu =         109, exp = 69, act = 69 ,sys_rd_data = 69
+byte_nu =         110, exp = 6a, act = 6a ,sys_rd_data = 6a
+byte_nu =         111, exp = 6b, act = 6b ,sys_rd_data = 6b
+byte_nu =         112, exp = 6c, act = 6c ,sys_rd_data = 6c
+byte_nu =         113, exp = 6d, act = 6d ,sys_rd_data = 6d
+byte_nu =         114, exp = 6e, act = 6e ,sys_rd_data = 6e
+byte_nu =         115, exp = 6f, act = 6f ,sys_rd_data = 6f
+byte_nu =         116, exp = 70, act = 70 ,sys_rd_data = 70
+byte_nu =         117, exp = 71, act = 71 ,sys_rd_data = 71
+byte_nu =         118, exp = 72, act = 72 ,sys_rd_data = 72
+byte_nu =         119, exp = 73, act = 73 ,sys_rd_data = 73
+byte_nu =         120, exp = 74, act = 74 ,sys_rd_data = 74
+byte_nu =         121, exp = 75, act = 75 ,sys_rd_data = 75
+byte_nu =         122, exp = 76, act = 76 ,sys_rd_data = 76
+byte_nu =         123, exp = 77, act = 77 ,sys_rd_data = 77
+byte_nu =         124, exp = 78, act = 78 ,sys_rd_data = 78
+byte_nu =         125, exp = 79, act = 79 ,sys_rd_data = 79
+byte_nu =         126, exp = 7a, act = 7a ,sys_rd_data = 7a
+byte_nu =         127, exp = 7b, act = 7b ,sys_rd_data = 7b
+byte_nu =         128, exp = 7c, act = 7c ,sys_rd_data = 7c
+byte_nu =         129, exp = 7d, act = 7d ,sys_rd_data = 7d
+byte_nu =         130, exp = 7e, act = 7e ,sys_rd_data = 7e
+byte_nu =         131, exp = 7f, act = 7f ,sys_rd_data = 7f
+byte_nu =         132, exp = 80, act = 80 ,sys_rd_data = 80
+byte_nu =         133, exp = 81, act = 81 ,sys_rd_data = 81
+byte_nu =         134, exp = 82, act = 82 ,sys_rd_data = 82
+byte_nu =         135, exp = 83, act = 83 ,sys_rd_data = 83
+byte_nu =         136, exp = 84, act = 84 ,sys_rd_data = 84
+byte_nu =         137, exp = 85, act = 85 ,sys_rd_data = 85
+byte_nu =         138, exp = 86, act = 86 ,sys_rd_data = 86
+byte_nu =         139, exp = 87, act = 87 ,sys_rd_data = 87
+byte_nu =         140, exp = 88, act = 88 ,sys_rd_data = 88
+byte_nu =         141, exp = 89, act = 89 ,sys_rd_data = 89
+byte_nu =         142, exp = 8a, act = 8a ,sys_rd_data = 8a
+byte_nu =         143, exp = 8b, act = 8b ,sys_rd_data = 8b
+byte_nu =         144, exp = 8c, act = 8c ,sys_rd_data = 8c
+byte_nu =         145, exp = 8d, act = 8d ,sys_rd_data = 8d
+byte_nu =         146, exp = 8e, act = 8e ,sys_rd_data = 8e
+byte_nu =         147, exp = 8f, act = 8f ,sys_rd_data = 8f
+byte_nu =         148, exp = 90, act = 90 ,sys_rd_data = 90
+byte_nu =         149, exp = 91, act = 91 ,sys_rd_data = 91
+byte_nu =         150, exp = 92, act = 92 ,sys_rd_data = 92
+byte_nu =         151, exp = 93, act = 93 ,sys_rd_data = 93
+byte_nu =         152, exp = 94, act = 94 ,sys_rd_data = 94
+byte_nu =         153, exp = 95, act = 95 ,sys_rd_data = 95
+byte_nu =         154, exp = 96, act = 96 ,sys_rd_data = 96
+byte_nu =         155, exp = 97, act = 97 ,sys_rd_data = 97
+byte_nu =         156, exp = 98, act = 98 ,sys_rd_data = 98
+byte_nu =         157, exp = 99, act = 99 ,sys_rd_data = 99
+byte_nu =         158, exp = 9a, act = 9a ,sys_rd_data = 9a
+byte_nu =         159, exp = 9b, act = 9b ,sys_rd_data = 9b
+byte_nu =         160, exp = 9c, act = 9c ,sys_rd_data = 9c
+byte_nu =         161, exp = 9d, act = 9d ,sys_rd_data = 9d
+byte_nu =         162, exp = 9e, act = 9e ,sys_rd_data = 9e
+byte_nu =         163, exp = 9f, act = 9f ,sys_rd_data = 9f
+byte_nu =         164, exp = a0, act = a0 ,sys_rd_data = a0
+byte_nu =         165, exp = a1, act = a1 ,sys_rd_data = a1
+byte_nu =         166, exp = a2, act = a2 ,sys_rd_data = a2
+byte_nu =         167, exp = a3, act = a3 ,sys_rd_data = a3
+byte_nu =         168, exp = a4, act = a4 ,sys_rd_data = a4
+byte_nu =         169, exp = a5, act = a5 ,sys_rd_data = a5
+byte_nu =         170, exp = a6, act = a6 ,sys_rd_data = a6
+byte_nu =         171, exp = a7, act = a7 ,sys_rd_data = a7
+byte_nu =         172, exp = a8, act = a8 ,sys_rd_data = a8
+byte_nu =         173, exp = a9, act = a9 ,sys_rd_data = a9
+byte_nu =         174, exp = aa, act = aa ,sys_rd_data = aa
+byte_nu =         175, exp = ab, act = ab ,sys_rd_data = ab
+byte_nu =         176, exp = ac, act = ac ,sys_rd_data = ac
+byte_nu =         177, exp = ad, act = ad ,sys_rd_data = ad
+byte_nu =         178, exp = ae, act = ae ,sys_rd_data = ae
+byte_nu =         179, exp = af, act = af ,sys_rd_data = af
+byte_nu =         180, exp = b0, act = b0 ,sys_rd_data = b0
+byte_nu =         181, exp = b1, act = b1 ,sys_rd_data = b1
+byte_nu =         182, exp = b2, act = b2 ,sys_rd_data = b2
+byte_nu =         183, exp = b3, act = b3 ,sys_rd_data = b3
+byte_nu =         184, exp = b4, act = b4 ,sys_rd_data = b4
+byte_nu =         185, exp = b5, act = b5 ,sys_rd_data = b5
+byte_nu =         186, exp = b6, act = b6 ,sys_rd_data = b6
+byte_nu =         187, exp = b7, act = b7 ,sys_rd_data = b7
+byte_nu =         188, exp = b8, act = b8 ,sys_rd_data = b8
+byte_nu =         189, exp = b9, act = b9 ,sys_rd_data = b9
+byte_nu =         190, exp = ba, act = ba ,sys_rd_data = ba
+byte_nu =         191, exp = bb, act = bb ,sys_rd_data = bb
+byte_nu =         192, exp = bc, act = bc ,sys_rd_data = bc
+byte_nu =         193, exp = bd, act = bd ,sys_rd_data = bd
+byte_nu =         194, exp = be, act = be ,sys_rd_data = be
+byte_nu =         195, exp = bf, act = bf ,sys_rd_data = bf
+byte_nu =         196, exp = c0, act = c0 ,sys_rd_data = c0
+byte_nu =         197, exp = c1, act = c1 ,sys_rd_data = c1
+byte_nu =         198, exp = c2, act = c2 ,sys_rd_data = c2
+byte_nu =         199, exp = c3, act = c3 ,sys_rd_data = c3
+byte_nu =         200, exp = c4, act = c4 ,sys_rd_data = c4
+byte_nu =         201, exp = c5, act = c5 ,sys_rd_data = c5
+byte_nu =         202, exp = c6, act = c6 ,sys_rd_data = c6
+byte_nu =         203, exp = c7, act = c7 ,sys_rd_data = c7
+byte_nu =         204, exp = c8, act = c8 ,sys_rd_data = c8
+byte_nu =         205, exp = c9, act = c9 ,sys_rd_data = c9
+byte_nu =         206, exp = ca, act = ca ,sys_rd_data = ca
+byte_nu =         207, exp = cb, act = cb ,sys_rd_data = cb
+byte_nu =         208, exp = cc, act = cc ,sys_rd_data = cc
+byte_nu =         209, exp = cd, act = cd ,sys_rd_data = cd
+byte_nu =         210, exp = ce, act = ce ,sys_rd_data = ce
+byte_nu =         211, exp = cf, act = cf ,sys_rd_data = cf
+byte_nu =         212, exp = d0, act = d0 ,sys_rd_data = d0
+byte_nu =         213, exp = d1, act = d1 ,sys_rd_data = d1
+byte_nu =         214, exp = d2, act = d2 ,sys_rd_data = d2
+byte_nu =         215, exp = d3, act = d3 ,sys_rd_data = d3
+byte_nu =         216, exp = d4, act = d4 ,sys_rd_data = d4
+byte_nu =         217, exp = d5, act = d5 ,sys_rd_data = d5
+byte_nu =         218, exp = d6, act = d6 ,sys_rd_data = d6
+byte_nu =         219, exp = d7, act = d7 ,sys_rd_data = d7
+byte_nu =         220, exp = d8, act = d8 ,sys_rd_data = d8
+byte_nu =         221, exp = d9, act = d9 ,sys_rd_data = d9
+byte_nu =         222, exp = da, act = da ,sys_rd_data = da
+byte_nu =         223, exp = db, act = db ,sys_rd_data = db
+byte_nu =         224, exp = dc, act = dc ,sys_rd_data = dc
+byte_nu =         225, exp = dd, act = dd ,sys_rd_data = dd
+byte_nu =         226, exp = de, act = de ,sys_rd_data = de
+byte_nu =         227, exp = df, act = df ,sys_rd_data = df
+byte_nu =         228, exp = e0, act = e0 ,sys_rd_data = e0
+byte_nu =         229, exp = e1, act = e1 ,sys_rd_data = e1
+byte_nu =         230, exp = e2, act = e2 ,sys_rd_data = e2
+byte_nu =         231, exp = e3, act = e3 ,sys_rd_data = e3
+byte_nu =         232, exp = e4, act = e4 ,sys_rd_data = e4
+byte_nu =         233, exp = e5, act = e5 ,sys_rd_data = e5
+byte_nu =         234, exp = e6, act = e6 ,sys_rd_data = e6
+byte_nu =         235, exp = e7, act = e7 ,sys_rd_data = e7
+byte_nu =         236, exp = e8, act = e8 ,sys_rd_data = e8
+byte_nu =         237, exp = e9, act = e9 ,sys_rd_data = e9
+byte_nu =         238, exp = ea, act = ea ,sys_rd_data = ea
+byte_nu =         239, exp = eb, act = eb ,sys_rd_data = eb
+byte_nu =         240, exp = ec, act = ec ,sys_rd_data = ec
+byte_nu =         241, exp = ed, act = ed ,sys_rd_data = ed
+byte_nu =         242, exp = ee, act = ee ,sys_rd_data = ee
+byte_nu =         243, exp = ef, act = ef ,sys_rd_data = ef
+byte_nu =         244, exp = f0, act = f0 ,sys_rd_data = f0
+byte_nu =         245, exp = f1, act = f1 ,sys_rd_data = f1
+byte_nu =         246, exp = f2, act = f2 ,sys_rd_data = f2
+byte_nu =         247, exp = f3, act = f3 ,sys_rd_data = f3
+byte_nu =         248, exp = f4, act = f4 ,sys_rd_data = f4
+byte_nu =         249, exp = f5, act = f5 ,sys_rd_data = f5
+byte_nu =         250, exp = f6, act = f6 ,sys_rd_data = f6
+byte_nu =         251, exp = f7, act = f7 ,sys_rd_data = f7
+byte_nu =         252, exp = f8, act = f8 ,sys_rd_data = f8
+byte_nu =         253, exp = f9, act = f9 ,sys_rd_data = f9
+byte_nu =         254, exp = fa, act = fa ,sys_rd_data = fa
+byte_nu =         255, exp = fb, act = fb ,sys_rd_data = fb
+byte_nu =         256, exp = fc, act = fc ,sys_rd_data = fc
+byte_nu =         257, exp = fd, act = fd ,sys_rd_data = fd
+byte_nu =         258, exp = fe, act = fe ,sys_rd_data = fe
+byte_nu =         259, exp = ff, act = ff ,sys_rd_data = ff
+@406838880000 [WARNING] [PACKAGE] : cmp = 1;pkg_id =           5(exp),           5(act);cmd =  2(exp),  2(act);addr =        256(exp),        256(act) --> 
+
+@406838880000 [WARNING] [MOSI] : 
+byte_nu =           0, exp = 06, act = 06 
+byte_nu =           1, exp = 02, act = 02 
+byte_nu =           2, exp = 00, act = 00 
+byte_nu =           3, exp = 01, act = 01 
+byte_nu =           4, exp = 00, act = 00 
+byte_nu =           5, exp = 00, act = 00 
+byte_nu =           6, exp = 01, act = 01 
+byte_nu =           7, exp = 02, act = 02 
+byte_nu =           8, exp = 03, act = 03 
+byte_nu =           9, exp = 04, act = 04 
+byte_nu =          10, exp = 05, act = 05 
+byte_nu =          11, exp = 06, act = 06 
+byte_nu =          12, exp = 07, act = 07 
+byte_nu =          13, exp = 08, act = 08 
+byte_nu =          14, exp = 09, act = 09 
+byte_nu =          15, exp = 0a, act = 0a 
+byte_nu =          16, exp = 0b, act = 0b 
+byte_nu =          17, exp = 0c, act = 0c 
+byte_nu =          18, exp = 0d, act = 0d 
+byte_nu =          19, exp = 0e, act = 0e 
+byte_nu =          20, exp = 0f, act = 0f 
+byte_nu =          21, exp = 10, act = 10 
+byte_nu =          22, exp = 11, act = 11 
+byte_nu =          23, exp = 12, act = 12 
+byte_nu =          24, exp = 13, act = 13 
+byte_nu =          25, exp = 14, act = 14 
+byte_nu =          26, exp = 15, act = 15 
+byte_nu =          27, exp = 16, act = 16 
+byte_nu =          28, exp = 17, act = 17 
+byte_nu =          29, exp = 18, act = 18 
+byte_nu =          30, exp = 19, act = 19 
+byte_nu =          31, exp = 1a, act = 1a 
+byte_nu =          32, exp = 1b, act = 1b 
+byte_nu =          33, exp = 1c, act = 1c 
+byte_nu =          34, exp = 1d, act = 1d 
+byte_nu =          35, exp = 1e, act = 1e 
+byte_nu =          36, exp = 1f, act = 1f 
+byte_nu =          37, exp = 20, act = 20 
+byte_nu =          38, exp = 21, act = 21 
+byte_nu =          39, exp = 22, act = 22 
+byte_nu =          40, exp = 23, act = 23 
+byte_nu =          41, exp = 24, act = 24 
+byte_nu =          42, exp = 25, act = 25 
+byte_nu =          43, exp = 26, act = 26 
+byte_nu =          44, exp = 27, act = 27 
+byte_nu =          45, exp = 28, act = 28 
+byte_nu =          46, exp = 29, act = 29 
+byte_nu =          47, exp = 2a, act = 2a 
+byte_nu =          48, exp = 2b, act = 2b 
+byte_nu =          49, exp = 2c, act = 2c 
+byte_nu =          50, exp = 2d, act = 2d 
+byte_nu =          51, exp = 2e, act = 2e 
+byte_nu =          52, exp = 2f, act = 2f 
+byte_nu =          53, exp = 30, act = 30 
+byte_nu =          54, exp = 31, act = 31 
+byte_nu =          55, exp = 32, act = 32 
+byte_nu =          56, exp = 33, act = 33 
+byte_nu =          57, exp = 34, act = 34 
+byte_nu =          58, exp = 35, act = 35 
+byte_nu =          59, exp = 36, act = 36 
+byte_nu =          60, exp = 37, act = 37 
+byte_nu =          61, exp = 38, act = 38 
+byte_nu =          62, exp = 39, act = 39 
+byte_nu =          63, exp = 3a, act = 3a 
+byte_nu =          64, exp = 3b, act = 3b 
+byte_nu =          65, exp = 3c, act = 3c 
+byte_nu =          66, exp = 3d, act = 3d 
+byte_nu =          67, exp = 3e, act = 3e 
+byte_nu =          68, exp = 3f, act = 3f 
+byte_nu =          69, exp = 40, act = 40 
+byte_nu =          70, exp = 41, act = 41 
+byte_nu =          71, exp = 42, act = 42 
+byte_nu =          72, exp = 43, act = 43 
+byte_nu =          73, exp = 44, act = 44 
+byte_nu =          74, exp = 45, act = 45 
+byte_nu =          75, exp = 46, act = 46 
+byte_nu =          76, exp = 47, act = 47 
+byte_nu =          77, exp = 48, act = 48 
+byte_nu =          78, exp = 49, act = 49 
+byte_nu =          79, exp = 4a, act = 4a 
+byte_nu =          80, exp = 4b, act = 4b 
+byte_nu =          81, exp = 4c, act = 4c 
+byte_nu =          82, exp = 4d, act = 4d 
+byte_nu =          83, exp = 4e, act = 4e 
+byte_nu =          84, exp = 4f, act = 4f 
+byte_nu =          85, exp = 50, act = 50 
+byte_nu =          86, exp = 51, act = 51 
+byte_nu =          87, exp = 52, act = 52 
+byte_nu =          88, exp = 53, act = 53 
+byte_nu =          89, exp = 54, act = 54 
+byte_nu =          90, exp = 55, act = 55 
+byte_nu =          91, exp = 56, act = 56 
+byte_nu =          92, exp = 57, act = 57 
+byte_nu =          93, exp = 58, act = 58 
+byte_nu =          94, exp = 59, act = 59 
+byte_nu =          95, exp = 5a, act = 5a 
+byte_nu =          96, exp = 5b, act = 5b 
+byte_nu =          97, exp = 5c, act = 5c 
+byte_nu =          98, exp = 5d, act = 5d 
+byte_nu =          99, exp = 5e, act = 5e 
+byte_nu =         100, exp = 5f, act = 5f 
+byte_nu =         101, exp = 60, act = 60 
+byte_nu =         102, exp = 61, act = 61 
+byte_nu =         103, exp = 62, act = 62 
+byte_nu =         104, exp = 63, act = 63 
+byte_nu =         105, exp = 64, act = 64 
+byte_nu =         106, exp = 65, act = 65 
+byte_nu =         107, exp = 66, act = 66 
+byte_nu =         108, exp = 67, act = 67 
+byte_nu =         109, exp = 68, act = 68 
+byte_nu =         110, exp = 69, act = 69 
+byte_nu =         111, exp = 6a, act = 6a 
+byte_nu =         112, exp = 6b, act = 6b 
+byte_nu =         113, exp = 6c, act = 6c 
+byte_nu =         114, exp = 6d, act = 6d 
+byte_nu =         115, exp = 6e, act = 6e 
+byte_nu =         116, exp = 6f, act = 6f 
+byte_nu =         117, exp = 70, act = 70 
+byte_nu =         118, exp = 71, act = 71 
+byte_nu =         119, exp = 72, act = 72 
+byte_nu =         120, exp = 73, act = 73 
+byte_nu =         121, exp = 74, act = 74 
+byte_nu =         122, exp = 75, act = 75 
+byte_nu =         123, exp = 76, act = 76 
+byte_nu =         124, exp = 77, act = 77 
+byte_nu =         125, exp = 78, act = 78 
+byte_nu =         126, exp = 79, act = 79 
+byte_nu =         127, exp = 7a, act = 7a 
+byte_nu =         128, exp = 7b, act = 7b 
+byte_nu =         129, exp = 7c, act = 7c 
+byte_nu =         130, exp = 7d, act = 7d 
+byte_nu =         131, exp = 7e, act = 7e 
+byte_nu =         132, exp = 7f, act = 7f 
+byte_nu =         133, exp = 80, act = 80 
+byte_nu =         134, exp = 81, act = 81 
+byte_nu =         135, exp = 82, act = 82 
+byte_nu =         136, exp = 83, act = 83 
+byte_nu =         137, exp = 84, act = 84 
+byte_nu =         138, exp = 85, act = 85 
+byte_nu =         139, exp = 86, act = 86 
+byte_nu =         140, exp = 87, act = 87 
+byte_nu =         141, exp = 88, act = 88 
+byte_nu =         142, exp = 89, act = 89 
+byte_nu =         143, exp = 8a, act = 8a 
+byte_nu =         144, exp = 8b, act = 8b 
+byte_nu =         145, exp = 8c, act = 8c 
+byte_nu =         146, exp = 8d, act = 8d 
+byte_nu =         147, exp = 8e, act = 8e 
+byte_nu =         148, exp = 8f, act = 8f 
+byte_nu =         149, exp = 90, act = 90 
+byte_nu =         150, exp = 91, act = 91 
+byte_nu =         151, exp = 92, act = 92 
+byte_nu =         152, exp = 93, act = 93 
+byte_nu =         153, exp = 94, act = 94 
+byte_nu =         154, exp = 95, act = 95 
+byte_nu =         155, exp = 96, act = 96 
+byte_nu =         156, exp = 97, act = 97 
+byte_nu =         157, exp = 98, act = 98 
+byte_nu =         158, exp = 99, act = 99 
+byte_nu =         159, exp = 9a, act = 9a 
+byte_nu =         160, exp = 9b, act = 9b 
+byte_nu =         161, exp = 9c, act = 9c 
+byte_nu =         162, exp = 9d, act = 9d 
+byte_nu =         163, exp = 9e, act = 9e 
+byte_nu =         164, exp = 9f, act = 9f 
+byte_nu =         165, exp = a0, act = a0 
+byte_nu =         166, exp = a1, act = a1 
+byte_nu =         167, exp = a2, act = a2 
+byte_nu =         168, exp = a3, act = a3 
+byte_nu =         169, exp = a4, act = a4 
+byte_nu =         170, exp = a5, act = a5 
+byte_nu =         171, exp = a6, act = a6 
+byte_nu =         172, exp = a7, act = a7 
+byte_nu =         173, exp = a8, act = a8 
+byte_nu =         174, exp = a9, act = a9 
+byte_nu =         175, exp = aa, act = aa 
+byte_nu =         176, exp = ab, act = ab 
+byte_nu =         177, exp = ac, act = ac 
+byte_nu =         178, exp = ad, act = ad 
+byte_nu =         179, exp = ae, act = ae 
+byte_nu =         180, exp = af, act = af 
+byte_nu =         181, exp = b0, act = b0 
+byte_nu =         182, exp = b1, act = b1 
+byte_nu =         183, exp = b2, act = b2 
+byte_nu =         184, exp = b3, act = b3 
+byte_nu =         185, exp = b4, act = b4 
+byte_nu =         186, exp = b5, act = b5 
+byte_nu =         187, exp = b6, act = b6 
+byte_nu =         188, exp = b7, act = b7 
+byte_nu =         189, exp = b8, act = b8 
+byte_nu =         190, exp = b9, act = b9 
+byte_nu =         191, exp = ba, act = ba 
+byte_nu =         192, exp = bb, act = bb 
+byte_nu =         193, exp = bc, act = bc 
+byte_nu =         194, exp = bd, act = bd 
+byte_nu =         195, exp = be, act = be 
+byte_nu =         196, exp = bf, act = bf 
+byte_nu =         197, exp = c0, act = c0 
+byte_nu =         198, exp = c1, act = c1 
+byte_nu =         199, exp = c2, act = c2 
+byte_nu =         200, exp = c3, act = c3 
+byte_nu =         201, exp = c4, act = c4 
+byte_nu =         202, exp = c5, act = c5 
+byte_nu =         203, exp = c6, act = c6 
+byte_nu =         204, exp = c7, act = c7 
+byte_nu =         205, exp = c8, act = c8 
+byte_nu =         206, exp = c9, act = c9 
+byte_nu =         207, exp = ca, act = ca 
+byte_nu =         208, exp = cb, act = cb 
+byte_nu =         209, exp = cc, act = cc 
+byte_nu =         210, exp = cd, act = cd 
+byte_nu =         211, exp = ce, act = ce 
+byte_nu =         212, exp = cf, act = cf 
+byte_nu =         213, exp = d0, act = d0 
+byte_nu =         214, exp = d1, act = d1 
+byte_nu =         215, exp = d2, act = d2 
+byte_nu =         216, exp = d3, act = d3 
+byte_nu =         217, exp = d4, act = d4 
+byte_nu =         218, exp = d5, act = d5 
+byte_nu =         219, exp = d6, act = d6 
+byte_nu =         220, exp = d7, act = d7 
+byte_nu =         221, exp = d8, act = d8 
+byte_nu =         222, exp = d9, act = d9 
+byte_nu =         223, exp = da, act = da 
+byte_nu =         224, exp = db, act = db 
+byte_nu =         225, exp = dc, act = dc 
+byte_nu =         226, exp = dd, act = dd 
+byte_nu =         227, exp = de, act = de 
+byte_nu =         228, exp = df, act = df 
+byte_nu =         229, exp = e0, act = e0 
+byte_nu =         230, exp = e1, act = e1 
+byte_nu =         231, exp = e2, act = e2 
+byte_nu =         232, exp = e3, act = e3 
+byte_nu =         233, exp = e4, act = e4 
+byte_nu =         234, exp = e5, act = e5 
+byte_nu =         235, exp = e6, act = e6 
+byte_nu =         236, exp = e7, act = e7 
+byte_nu =         237, exp = e8, act = e8 
+byte_nu =         238, exp = e9, act = e9 
+byte_nu =         239, exp = ea, act = ea 
+byte_nu =         240, exp = eb, act = eb 
+byte_nu =         241, exp = ec, act = ec 
+byte_nu =         242, exp = ed, act = ed 
+byte_nu =         243, exp = ee, act = ee 
+byte_nu =         244, exp = ef, act = ef 
+byte_nu =         245, exp = f0, act = f0 
+byte_nu =         246, exp = f1, act = f1 
+byte_nu =         247, exp = f2, act = f2 
+byte_nu =         248, exp = f3, act = f3 
+byte_nu =         249, exp = f4, act = f4 
+byte_nu =         250, exp = f5, act = f5 
+byte_nu =         251, exp = f6, act = f6 
+byte_nu =         252, exp = f7, act = f7 
+byte_nu =         253, exp = f8, act = f8 
+byte_nu =         254, exp = f9, act = f9 
+byte_nu =         255, exp = fa, act = fa 
+byte_nu =         256, exp = fb, act = fb 
+byte_nu =         257, exp = fc, act = fc 
+byte_nu =         258, exp = fd, act = fd 
+byte_nu =         259, exp = fe, act = fe 
+byte_nu =         260, exp = ff, act = ff 
+@406838880000 [WARNING] [MIS0] : 
+@407005540000 [WARNING] [PACKAGE] : cmp = 1;pkg_id =           6(exp),           6(act);cmd =  4(exp),  4(act);addr =        256(exp),        256(act) --> 
+
+@407005540000 [WARNING] [MOSI] : 
+byte_nu =           0, exp = 03, act = 03 
+byte_nu =           1, exp = 00, act = 00 
+byte_nu =           2, exp = 01, act = 01 
+byte_nu =           3, exp = 00, act = 00 
+byte_nu =           4, exp = 00, act = 00 
+byte_nu =           5, exp = 00, act = 00 
+byte_nu =           6, exp = 00, act = 00 
+byte_nu =           7, exp = 00, act = 00 
+byte_nu =           8, exp = 00, act = 00 
+byte_nu =           9, exp = 00, act = 00 
+byte_nu =          10, exp = 00, act = 00 
+byte_nu =          11, exp = 00, act = 00 
+byte_nu =          12, exp = 00, act = 00 
+byte_nu =          13, exp = 00, act = 00 
+byte_nu =          14, exp = 00, act = 00 
+byte_nu =          15, exp = 00, act = 00 
+byte_nu =          16, exp = 00, act = 00 
+byte_nu =          17, exp = 00, act = 00 
+byte_nu =          18, exp = 00, act = 00 
+byte_nu =          19, exp = 00, act = 00 
+byte_nu =          20, exp = 00, act = 00 
+byte_nu =          21, exp = 00, act = 00 
+byte_nu =          22, exp = 00, act = 00 
+byte_nu =          23, exp = 00, act = 00 
+byte_nu =          24, exp = 00, act = 00 
+byte_nu =          25, exp = 00, act = 00 
+byte_nu =          26, exp = 00, act = 00 
+byte_nu =          27, exp = 00, act = 00 
+byte_nu =          28, exp = 00, act = 00 
+byte_nu =          29, exp = 00, act = 00 
+byte_nu =          30, exp = 00, act = 00 
+byte_nu =          31, exp = 00, act = 00 
+byte_nu =          32, exp = 00, act = 00 
+byte_nu =          33, exp = 00, act = 00 
+byte_nu =          34, exp = 00, act = 00 
+byte_nu =          35, exp = 00, act = 00 
+byte_nu =          36, exp = 00, act = 00 
+byte_nu =          37, exp = 00, act = 00 
+byte_nu =          38, exp = 00, act = 00 
+byte_nu =          39, exp = 00, act = 00 
+byte_nu =          40, exp = 00, act = 00 
+byte_nu =          41, exp = 00, act = 00 
+byte_nu =          42, exp = 00, act = 00 
+byte_nu =          43, exp = 00, act = 00 
+byte_nu =          44, exp = 00, act = 00 
+byte_nu =          45, exp = 00, act = 00 
+byte_nu =          46, exp = 00, act = 00 
+byte_nu =          47, exp = 00, act = 00 
+byte_nu =          48, exp = 00, act = 00 
+byte_nu =          49, exp = 00, act = 00 
+byte_nu =          50, exp = 00, act = 00 
+byte_nu =          51, exp = 00, act = 00 
+byte_nu =          52, exp = 00, act = 00 
+byte_nu =          53, exp = 00, act = 00 
+byte_nu =          54, exp = 00, act = 00 
+byte_nu =          55, exp = 00, act = 00 
+byte_nu =          56, exp = 00, act = 00 
+byte_nu =          57, exp = 00, act = 00 
+byte_nu =          58, exp = 00, act = 00 
+byte_nu =          59, exp = 00, act = 00 
+byte_nu =          60, exp = 00, act = 00 
+byte_nu =          61, exp = 00, act = 00 
+byte_nu =          62, exp = 00, act = 00 
+byte_nu =          63, exp = 00, act = 00 
+byte_nu =          64, exp = 00, act = 00 
+byte_nu =          65, exp = 00, act = 00 
+byte_nu =          66, exp = 00, act = 00 
+byte_nu =          67, exp = 00, act = 00 
+byte_nu =          68, exp = 00, act = 00 
+byte_nu =          69, exp = 00, act = 00 
+byte_nu =          70, exp = 00, act = 00 
+byte_nu =          71, exp = 00, act = 00 
+byte_nu =          72, exp = 00, act = 00 
+byte_nu =          73, exp = 00, act = 00 
+byte_nu =          74, exp = 00, act = 00 
+byte_nu =          75, exp = 00, act = 00 
+byte_nu =          76, exp = 00, act = 00 
+byte_nu =          77, exp = 00, act = 00 
+byte_nu =          78, exp = 00, act = 00 
+byte_nu =          79, exp = 00, act = 00 
+byte_nu =          80, exp = 00, act = 00 
+byte_nu =          81, exp = 00, act = 00 
+byte_nu =          82, exp = 00, act = 00 
+byte_nu =          83, exp = 00, act = 00 
+byte_nu =          84, exp = 00, act = 00 
+byte_nu =          85, exp = 00, act = 00 
+byte_nu =          86, exp = 00, act = 00 
+byte_nu =          87, exp = 00, act = 00 
+byte_nu =          88, exp = 00, act = 00 
+byte_nu =          89, exp = 00, act = 00 
+byte_nu =          90, exp = 00, act = 00 
+byte_nu =          91, exp = 00, act = 00 
+byte_nu =          92, exp = 00, act = 00 
+byte_nu =          93, exp = 00, act = 00 
+byte_nu =          94, exp = 00, act = 00 
+byte_nu =          95, exp = 00, act = 00 
+byte_nu =          96, exp = 00, act = 00 
+byte_nu =          97, exp = 00, act = 00 
+byte_nu =          98, exp = 00, act = 00 
+byte_nu =          99, exp = 00, act = 00 
+byte_nu =         100, exp = 00, act = 00 
+byte_nu =         101, exp = 00, act = 00 
+byte_nu =         102, exp = 00, act = 00 
+byte_nu =         103, exp = 00, act = 00 
+byte_nu =         104, exp = 00, act = 00 
+byte_nu =         105, exp = 00, act = 00 
+byte_nu =         106, exp = 00, act = 00 
+byte_nu =         107, exp = 00, act = 00 
+byte_nu =         108, exp = 00, act = 00 
+byte_nu =         109, exp = 00, act = 00 
+byte_nu =         110, exp = 00, act = 00 
+byte_nu =         111, exp = 00, act = 00 
+byte_nu =         112, exp = 00, act = 00 
+byte_nu =         113, exp = 00, act = 00 
+byte_nu =         114, exp = 00, act = 00 
+byte_nu =         115, exp = 00, act = 00 
+byte_nu =         116, exp = 00, act = 00 
+byte_nu =         117, exp = 00, act = 00 
+byte_nu =         118, exp = 00, act = 00 
+byte_nu =         119, exp = 00, act = 00 
+byte_nu =         120, exp = 00, act = 00 
+byte_nu =         121, exp = 00, act = 00 
+byte_nu =         122, exp = 00, act = 00 
+byte_nu =         123, exp = 00, act = 00 
+byte_nu =         124, exp = 00, act = 00 
+byte_nu =         125, exp = 00, act = 00 
+byte_nu =         126, exp = 00, act = 00 
+byte_nu =         127, exp = 00, act = 00 
+byte_nu =         128, exp = 00, act = 00 
+byte_nu =         129, exp = 00, act = 00 
+byte_nu =         130, exp = 00, act = 00 
+byte_nu =         131, exp = 00, act = 00 
+byte_nu =         132, exp = 00, act = 00 
+byte_nu =         133, exp = 00, act = 00 
+byte_nu =         134, exp = 00, act = 00 
+byte_nu =         135, exp = 00, act = 00 
+byte_nu =         136, exp = 00, act = 00 
+byte_nu =         137, exp = 00, act = 00 
+byte_nu =         138, exp = 00, act = 00 
+byte_nu =         139, exp = 00, act = 00 
+byte_nu =         140, exp = 00, act = 00 
+byte_nu =         141, exp = 00, act = 00 
+byte_nu =         142, exp = 00, act = 00 
+byte_nu =         143, exp = 00, act = 00 
+byte_nu =         144, exp = 00, act = 00 
+byte_nu =         145, exp = 00, act = 00 
+byte_nu =         146, exp = 00, act = 00 
+byte_nu =         147, exp = 00, act = 00 
+byte_nu =         148, exp = 00, act = 00 
+byte_nu =         149, exp = 00, act = 00 
+byte_nu =         150, exp = 00, act = 00 
+byte_nu =         151, exp = 00, act = 00 
+byte_nu =         152, exp = 00, act = 00 
+byte_nu =         153, exp = 00, act = 00 
+byte_nu =         154, exp = 00, act = 00 
+byte_nu =         155, exp = 00, act = 00 
+byte_nu =         156, exp = 00, act = 00 
+byte_nu =         157, exp = 00, act = 00 
+byte_nu =         158, exp = 00, act = 00 
+byte_nu =         159, exp = 00, act = 00 
+byte_nu =         160, exp = 00, act = 00 
+byte_nu =         161, exp = 00, act = 00 
+byte_nu =         162, exp = 00, act = 00 
+byte_nu =         163, exp = 00, act = 00 
+byte_nu =         164, exp = 00, act = 00 
+byte_nu =         165, exp = 00, act = 00 
+byte_nu =         166, exp = 00, act = 00 
+byte_nu =         167, exp = 00, act = 00 
+byte_nu =         168, exp = 00, act = 00 
+byte_nu =         169, exp = 00, act = 00 
+byte_nu =         170, exp = 00, act = 00 
+byte_nu =         171, exp = 00, act = 00 
+byte_nu =         172, exp = 00, act = 00 
+byte_nu =         173, exp = 00, act = 00 
+byte_nu =         174, exp = 00, act = 00 
+byte_nu =         175, exp = 00, act = 00 
+byte_nu =         176, exp = 00, act = 00 
+byte_nu =         177, exp = 00, act = 00 
+byte_nu =         178, exp = 00, act = 00 
+byte_nu =         179, exp = 00, act = 00 
+byte_nu =         180, exp = 00, act = 00 
+byte_nu =         181, exp = 00, act = 00 
+byte_nu =         182, exp = 00, act = 00 
+byte_nu =         183, exp = 00, act = 00 
+byte_nu =         184, exp = 00, act = 00 
+byte_nu =         185, exp = 00, act = 00 
+byte_nu =         186, exp = 00, act = 00 
+byte_nu =         187, exp = 00, act = 00 
+byte_nu =         188, exp = 00, act = 00 
+byte_nu =         189, exp = 00, act = 00 
+byte_nu =         190, exp = 00, act = 00 
+byte_nu =         191, exp = 00, act = 00 
+byte_nu =         192, exp = 00, act = 00 
+byte_nu =         193, exp = 00, act = 00 
+byte_nu =         194, exp = 00, act = 00 
+byte_nu =         195, exp = 00, act = 00 
+byte_nu =         196, exp = 00, act = 00 
+byte_nu =         197, exp = 00, act = 00 
+byte_nu =         198, exp = 00, act = 00 
+byte_nu =         199, exp = 00, act = 00 
+byte_nu =         200, exp = 00, act = 00 
+byte_nu =         201, exp = 00, act = 00 
+byte_nu =         202, exp = 00, act = 00 
+byte_nu =         203, exp = 00, act = 00 
+byte_nu =         204, exp = 00, act = 00 
+byte_nu =         205, exp = 00, act = 00 
+byte_nu =         206, exp = 00, act = 00 
+byte_nu =         207, exp = 00, act = 00 
+byte_nu =         208, exp = 00, act = 00 
+byte_nu =         209, exp = 00, act = 00 
+byte_nu =         210, exp = 00, act = 00 
+byte_nu =         211, exp = 00, act = 00 
+byte_nu =         212, exp = 00, act = 00 
+byte_nu =         213, exp = 00, act = 00 
+byte_nu =         214, exp = 00, act = 00 
+byte_nu =         215, exp = 00, act = 00 
+byte_nu =         216, exp = 00, act = 00 
+byte_nu =         217, exp = 00, act = 00 
+byte_nu =         218, exp = 00, act = 00 
+byte_nu =         219, exp = 00, act = 00 
+byte_nu =         220, exp = 00, act = 00 
+byte_nu =         221, exp = 00, act = 00 
+byte_nu =         222, exp = 00, act = 00 
+byte_nu =         223, exp = 00, act = 00 
+byte_nu =         224, exp = 00, act = 00 
+byte_nu =         225, exp = 00, act = 00 
+byte_nu =         226, exp = 00, act = 00 
+byte_nu =         227, exp = 00, act = 00 
+byte_nu =         228, exp = 00, act = 00 
+byte_nu =         229, exp = 00, act = 00 
+byte_nu =         230, exp = 00, act = 00 
+byte_nu =         231, exp = 00, act = 00 
+byte_nu =         232, exp = 00, act = 00 
+byte_nu =         233, exp = 00, act = 00 
+byte_nu =         234, exp = 00, act = 00 
+byte_nu =         235, exp = 00, act = 00 
+byte_nu =         236, exp = 00, act = 00 
+byte_nu =         237, exp = 00, act = 00 
+byte_nu =         238, exp = 00, act = 00 
+byte_nu =         239, exp = 00, act = 00 
+byte_nu =         240, exp = 00, act = 00 
+byte_nu =         241, exp = 00, act = 00 
+byte_nu =         242, exp = 00, act = 00 
+byte_nu =         243, exp = 00, act = 00 
+byte_nu =         244, exp = 00, act = 00 
+byte_nu =         245, exp = 00, act = 00 
+byte_nu =         246, exp = 00, act = 00 
+byte_nu =         247, exp = 00, act = 00 
+byte_nu =         248, exp = 00, act = 00 
+byte_nu =         249, exp = 00, act = 00 
+byte_nu =         250, exp = 00, act = 00 
+byte_nu =         251, exp = 00, act = 00 
+byte_nu =         252, exp = 00, act = 00 
+byte_nu =         253, exp = 00, act = 00 
+byte_nu =         254, exp = 00, act = 00 
+byte_nu =         255, exp = 00, act = 00 
+byte_nu =         256, exp = 00, act = 00 
+byte_nu =         257, exp = 00, act = 00 
+byte_nu =         258, exp = 00, act = 00 
+byte_nu =         259, exp = 00, act = 00 
+@407005540000 [WARNING] [MIS0] : 
+byte_nu =           0, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           1, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           2, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           3, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           4, exp = 00, act = 00 ,sys_rd_data = 00
+byte_nu =           5, exp = 01, act = 01 ,sys_rd_data = 01
+byte_nu =           6, exp = 02, act = 02 ,sys_rd_data = 02
+byte_nu =           7, exp = 03, act = 03 ,sys_rd_data = 03
+byte_nu =           8, exp = 04, act = 04 ,sys_rd_data = 04
+byte_nu =           9, exp = 05, act = 05 ,sys_rd_data = 05
+byte_nu =          10, exp = 06, act = 06 ,sys_rd_data = 06
+byte_nu =          11, exp = 07, act = 07 ,sys_rd_data = 07
+byte_nu =          12, exp = 08, act = 08 ,sys_rd_data = 08
+byte_nu =          13, exp = 09, act = 09 ,sys_rd_data = 09
+byte_nu =          14, exp = 0a, act = 0a ,sys_rd_data = 0a
+byte_nu =          15, exp = 0b, act = 0b ,sys_rd_data = 0b
+byte_nu =          16, exp = 0c, act = 0c ,sys_rd_data = 0c
+byte_nu =          17, exp = 0d, act = 0d ,sys_rd_data = 0d
+byte_nu =          18, exp = 0e, act = 0e ,sys_rd_data = 0e
+byte_nu =          19, exp = 0f, act = 0f ,sys_rd_data = 0f
+byte_nu =          20, exp = 10, act = 10 ,sys_rd_data = 10
+byte_nu =          21, exp = 11, act = 11 ,sys_rd_data = 11
+byte_nu =          22, exp = 12, act = 12 ,sys_rd_data = 12
+byte_nu =          23, exp = 13, act = 13 ,sys_rd_data = 13
+byte_nu =          24, exp = 14, act = 14 ,sys_rd_data = 14
+byte_nu =          25, exp = 15, act = 15 ,sys_rd_data = 15
+byte_nu =          26, exp = 16, act = 16 ,sys_rd_data = 16
+byte_nu =          27, exp = 17, act = 17 ,sys_rd_data = 17
+byte_nu =          28, exp = 18, act = 18 ,sys_rd_data = 18
+byte_nu =          29, exp = 19, act = 19 ,sys_rd_data = 19
+byte_nu =          30, exp = 1a, act = 1a ,sys_rd_data = 1a
+byte_nu =          31, exp = 1b, act = 1b ,sys_rd_data = 1b
+byte_nu =          32, exp = 1c, act = 1c ,sys_rd_data = 1c
+byte_nu =          33, exp = 1d, act = 1d ,sys_rd_data = 1d
+byte_nu =          34, exp = 1e, act = 1e ,sys_rd_data = 1e
+byte_nu =          35, exp = 1f, act = 1f ,sys_rd_data = 1f
+byte_nu =          36, exp = 20, act = 20 ,sys_rd_data = 20
+byte_nu =          37, exp = 21, act = 21 ,sys_rd_data = 21
+byte_nu =          38, exp = 22, act = 22 ,sys_rd_data = 22
+byte_nu =          39, exp = 23, act = 23 ,sys_rd_data = 23
+byte_nu =          40, exp = 24, act = 24 ,sys_rd_data = 24
+byte_nu =          41, exp = 25, act = 25 ,sys_rd_data = 25
+byte_nu =          42, exp = 26, act = 26 ,sys_rd_data = 26
+byte_nu =          43, exp = 27, act = 27 ,sys_rd_data = 27
+byte_nu =          44, exp = 28, act = 28 ,sys_rd_data = 28
+byte_nu =          45, exp = 29, act = 29 ,sys_rd_data = 29
+byte_nu =          46, exp = 2a, act = 2a ,sys_rd_data = 2a
+byte_nu =          47, exp = 2b, act = 2b ,sys_rd_data = 2b
+byte_nu =          48, exp = 2c, act = 2c ,sys_rd_data = 2c
+byte_nu =          49, exp = 2d, act = 2d ,sys_rd_data = 2d
+byte_nu =          50, exp = 2e, act = 2e ,sys_rd_data = 2e
+byte_nu =          51, exp = 2f, act = 2f ,sys_rd_data = 2f
+byte_nu =          52, exp = 30, act = 30 ,sys_rd_data = 30
+byte_nu =          53, exp = 31, act = 31 ,sys_rd_data = 31
+byte_nu =          54, exp = 32, act = 32 ,sys_rd_data = 32
+byte_nu =          55, exp = 33, act = 33 ,sys_rd_data = 33
+byte_nu =          56, exp = 34, act = 34 ,sys_rd_data = 34
+byte_nu =          57, exp = 35, act = 35 ,sys_rd_data = 35
+byte_nu =          58, exp = 36, act = 36 ,sys_rd_data = 36
+byte_nu =          59, exp = 37, act = 37 ,sys_rd_data = 37
+byte_nu =          60, exp = 38, act = 38 ,sys_rd_data = 38
+byte_nu =          61, exp = 39, act = 39 ,sys_rd_data = 39
+byte_nu =          62, exp = 3a, act = 3a ,sys_rd_data = 3a
+byte_nu =          63, exp = 3b, act = 3b ,sys_rd_data = 3b
+byte_nu =          64, exp = 3c, act = 3c ,sys_rd_data = 3c
+byte_nu =          65, exp = 3d, act = 3d ,sys_rd_data = 3d
+byte_nu =          66, exp = 3e, act = 3e ,sys_rd_data = 3e
+byte_nu =          67, exp = 3f, act = 3f ,sys_rd_data = 3f
+byte_nu =          68, exp = 40, act = 40 ,sys_rd_data = 40
+byte_nu =          69, exp = 41, act = 41 ,sys_rd_data = 41
+byte_nu =          70, exp = 42, act = 42 ,sys_rd_data = 42
+byte_nu =          71, exp = 43, act = 43 ,sys_rd_data = 43
+byte_nu =          72, exp = 44, act = 44 ,sys_rd_data = 44
+byte_nu =          73, exp = 45, act = 45 ,sys_rd_data = 45
+byte_nu =          74, exp = 46, act = 46 ,sys_rd_data = 46
+byte_nu =          75, exp = 47, act = 47 ,sys_rd_data = 47
+byte_nu =          76, exp = 48, act = 48 ,sys_rd_data = 48
+byte_nu =          77, exp = 49, act = 49 ,sys_rd_data = 49
+byte_nu =          78, exp = 4a, act = 4a ,sys_rd_data = 4a
+byte_nu =          79, exp = 4b, act = 4b ,sys_rd_data = 4b
+byte_nu =          80, exp = 4c, act = 4c ,sys_rd_data = 4c
+byte_nu =          81, exp = 4d, act = 4d ,sys_rd_data = 4d
+byte_nu =          82, exp = 4e, act = 4e ,sys_rd_data = 4e
+byte_nu =          83, exp = 4f, act = 4f ,sys_rd_data = 4f
+byte_nu =          84, exp = 50, act = 50 ,sys_rd_data = 50
+byte_nu =          85, exp = 51, act = 51 ,sys_rd_data = 51
+byte_nu =          86, exp = 52, act = 52 ,sys_rd_data = 52
+byte_nu =          87, exp = 53, act = 53 ,sys_rd_data = 53
+byte_nu =          88, exp = 54, act = 54 ,sys_rd_data = 54
+byte_nu =          89, exp = 55, act = 55 ,sys_rd_data = 55
+byte_nu =          90, exp = 56, act = 56 ,sys_rd_data = 56
+byte_nu =          91, exp = 57, act = 57 ,sys_rd_data = 57
+byte_nu =          92, exp = 58, act = 58 ,sys_rd_data = 58
+byte_nu =          93, exp = 59, act = 59 ,sys_rd_data = 59
+byte_nu =          94, exp = 5a, act = 5a ,sys_rd_data = 5a
+byte_nu =          95, exp = 5b, act = 5b ,sys_rd_data = 5b
+byte_nu =          96, exp = 5c, act = 5c ,sys_rd_data = 5c
+byte_nu =          97, exp = 5d, act = 5d ,sys_rd_data = 5d
+byte_nu =          98, exp = 5e, act = 5e ,sys_rd_data = 5e
+byte_nu =          99, exp = 5f, act = 5f ,sys_rd_data = 5f
+byte_nu =         100, exp = 60, act = 60 ,sys_rd_data = 60
+byte_nu =         101, exp = 61, act = 61 ,sys_rd_data = 61
+byte_nu =         102, exp = 62, act = 62 ,sys_rd_data = 62
+byte_nu =         103, exp = 63, act = 63 ,sys_rd_data = 63
+byte_nu =         104, exp = 64, act = 64 ,sys_rd_data = 64
+byte_nu =         105, exp = 65, act = 65 ,sys_rd_data = 65
+byte_nu =         106, exp = 66, act = 66 ,sys_rd_data = 66
+byte_nu =         107, exp = 67, act = 67 ,sys_rd_data = 67
+byte_nu =         108, exp = 68, act = 68 ,sys_rd_data = 68
+byte_nu =         109, exp = 69, act = 69 ,sys_rd_data = 69
+byte_nu =         110, exp = 6a, act = 6a ,sys_rd_data = 6a
+byte_nu =         111, exp = 6b, act = 6b ,sys_rd_data = 6b
+byte_nu =         112, exp = 6c, act = 6c ,sys_rd_data = 6c
+byte_nu =         113, exp = 6d, act = 6d ,sys_rd_data = 6d
+byte_nu =         114, exp = 6e, act = 6e ,sys_rd_data = 6e
+byte_nu =         115, exp = 6f, act = 6f ,sys_rd_data = 6f
+byte_nu =         116, exp = 70, act = 70 ,sys_rd_data = 70
+byte_nu =         117, exp = 71, act = 71 ,sys_rd_data = 71
+byte_nu =         118, exp = 72, act = 72 ,sys_rd_data = 72
+byte_nu =         119, exp = 73, act = 73 ,sys_rd_data = 73
+byte_nu =         120, exp = 74, act = 74 ,sys_rd_data = 74
+byte_nu =         121, exp = 75, act = 75 ,sys_rd_data = 75
+byte_nu =         122, exp = 76, act = 76 ,sys_rd_data = 76
+byte_nu =         123, exp = 77, act = 77 ,sys_rd_data = 77
+byte_nu =         124, exp = 78, act = 78 ,sys_rd_data = 78
+byte_nu =         125, exp = 79, act = 79 ,sys_rd_data = 79
+byte_nu =         126, exp = 7a, act = 7a ,sys_rd_data = 7a
+byte_nu =         127, exp = 7b, act = 7b ,sys_rd_data = 7b
+byte_nu =         128, exp = 7c, act = 7c ,sys_rd_data = 7c
+byte_nu =         129, exp = 7d, act = 7d ,sys_rd_data = 7d
+byte_nu =         130, exp = 7e, act = 7e ,sys_rd_data = 7e
+byte_nu =         131, exp = 7f, act = 7f ,sys_rd_data = 7f
+byte_nu =         132, exp = 80, act = 80 ,sys_rd_data = 80
+byte_nu =         133, exp = 81, act = 81 ,sys_rd_data = 81
+byte_nu =         134, exp = 82, act = 82 ,sys_rd_data = 82
+byte_nu =         135, exp = 83, act = 83 ,sys_rd_data = 83
+byte_nu =         136, exp = 84, act = 84 ,sys_rd_data = 84
+byte_nu =         137, exp = 85, act = 85 ,sys_rd_data = 85
+byte_nu =         138, exp = 86, act = 86 ,sys_rd_data = 86
+byte_nu =         139, exp = 87, act = 87 ,sys_rd_data = 87
+byte_nu =         140, exp = 88, act = 88 ,sys_rd_data = 88
+byte_nu =         141, exp = 89, act = 89 ,sys_rd_data = 89
+byte_nu =         142, exp = 8a, act = 8a ,sys_rd_data = 8a
+byte_nu =         143, exp = 8b, act = 8b ,sys_rd_data = 8b
+byte_nu =         144, exp = 8c, act = 8c ,sys_rd_data = 8c
+byte_nu =         145, exp = 8d, act = 8d ,sys_rd_data = 8d
+byte_nu =         146, exp = 8e, act = 8e ,sys_rd_data = 8e
+byte_nu =         147, exp = 8f, act = 8f ,sys_rd_data = 8f
+byte_nu =         148, exp = 90, act = 90 ,sys_rd_data = 90
+byte_nu =         149, exp = 91, act = 91 ,sys_rd_data = 91
+byte_nu =         150, exp = 92, act = 92 ,sys_rd_data = 92
+byte_nu =         151, exp = 93, act = 93 ,sys_rd_data = 93
+byte_nu =         152, exp = 94, act = 94 ,sys_rd_data = 94
+byte_nu =         153, exp = 95, act = 95 ,sys_rd_data = 95
+byte_nu =         154, exp = 96, act = 96 ,sys_rd_data = 96
+byte_nu =         155, exp = 97, act = 97 ,sys_rd_data = 97
+byte_nu =         156, exp = 98, act = 98 ,sys_rd_data = 98
+byte_nu =         157, exp = 99, act = 99 ,sys_rd_data = 99
+byte_nu =         158, exp = 9a, act = 9a ,sys_rd_data = 9a
+byte_nu =         159, exp = 9b, act = 9b ,sys_rd_data = 9b
+byte_nu =         160, exp = 9c, act = 9c ,sys_rd_data = 9c
+byte_nu =         161, exp = 9d, act = 9d ,sys_rd_data = 9d
+byte_nu =         162, exp = 9e, act = 9e ,sys_rd_data = 9e
+byte_nu =         163, exp = 9f, act = 9f ,sys_rd_data = 9f
+byte_nu =         164, exp = a0, act = a0 ,sys_rd_data = a0
+byte_nu =         165, exp = a1, act = a1 ,sys_rd_data = a1
+byte_nu =         166, exp = a2, act = a2 ,sys_rd_data = a2
+byte_nu =         167, exp = a3, act = a3 ,sys_rd_data = a3
+byte_nu =         168, exp = a4, act = a4 ,sys_rd_data = a4
+byte_nu =         169, exp = a5, act = a5 ,sys_rd_data = a5
+byte_nu =         170, exp = a6, act = a6 ,sys_rd_data = a6
+byte_nu =         171, exp = a7, act = a7 ,sys_rd_data = a7
+byte_nu =         172, exp = a8, act = a8 ,sys_rd_data = a8
+byte_nu =         173, exp = a9, act = a9 ,sys_rd_data = a9
+byte_nu =         174, exp = aa, act = aa ,sys_rd_data = aa
+byte_nu =         175, exp = ab, act = ab ,sys_rd_data = ab
+byte_nu =         176, exp = ac, act = ac ,sys_rd_data = ac
+byte_nu =         177, exp = ad, act = ad ,sys_rd_data = ad
+byte_nu =         178, exp = ae, act = ae ,sys_rd_data = ae
+byte_nu =         179, exp = af, act = af ,sys_rd_data = af
+byte_nu =         180, exp = b0, act = b0 ,sys_rd_data = b0
+byte_nu =         181, exp = b1, act = b1 ,sys_rd_data = b1
+byte_nu =         182, exp = b2, act = b2 ,sys_rd_data = b2
+byte_nu =         183, exp = b3, act = b3 ,sys_rd_data = b3
+byte_nu =         184, exp = b4, act = b4 ,sys_rd_data = b4
+byte_nu =         185, exp = b5, act = b5 ,sys_rd_data = b5
+byte_nu =         186, exp = b6, act = b6 ,sys_rd_data = b6
+byte_nu =         187, exp = b7, act = b7 ,sys_rd_data = b7
+byte_nu =         188, exp = b8, act = b8 ,sys_rd_data = b8
+byte_nu =         189, exp = b9, act = b9 ,sys_rd_data = b9
+byte_nu =         190, exp = ba, act = ba ,sys_rd_data = ba
+byte_nu =         191, exp = bb, act = bb ,sys_rd_data = bb
+byte_nu =         192, exp = bc, act = bc ,sys_rd_data = bc
+byte_nu =         193, exp = bd, act = bd ,sys_rd_data = bd
+byte_nu =         194, exp = be, act = be ,sys_rd_data = be
+byte_nu =         195, exp = bf, act = bf ,sys_rd_data = bf
+byte_nu =         196, exp = c0, act = c0 ,sys_rd_data = c0
+byte_nu =         197, exp = c1, act = c1 ,sys_rd_data = c1
+byte_nu =         198, exp = c2, act = c2 ,sys_rd_data = c2
+byte_nu =         199, exp = c3, act = c3 ,sys_rd_data = c3
+byte_nu =         200, exp = c4, act = c4 ,sys_rd_data = c4
+byte_nu =         201, exp = c5, act = c5 ,sys_rd_data = c5
+byte_nu =         202, exp = c6, act = c6 ,sys_rd_data = c6
+byte_nu =         203, exp = c7, act = c7 ,sys_rd_data = c7
+byte_nu =         204, exp = c8, act = c8 ,sys_rd_data = c8
+byte_nu =         205, exp = c9, act = c9 ,sys_rd_data = c9
+byte_nu =         206, exp = ca, act = ca ,sys_rd_data = ca
+byte_nu =         207, exp = cb, act = cb ,sys_rd_data = cb
+byte_nu =         208, exp = cc, act = cc ,sys_rd_data = cc
+byte_nu =         209, exp = cd, act = cd ,sys_rd_data = cd
+byte_nu =         210, exp = ce, act = ce ,sys_rd_data = ce
+byte_nu =         211, exp = cf, act = cf ,sys_rd_data = cf
+byte_nu =         212, exp = d0, act = d0 ,sys_rd_data = d0
+byte_nu =         213, exp = d1, act = d1 ,sys_rd_data = d1
+byte_nu =         214, exp = d2, act = d2 ,sys_rd_data = d2
+byte_nu =         215, exp = d3, act = d3 ,sys_rd_data = d3
+byte_nu =         216, exp = d4, act = d4 ,sys_rd_data = d4
+byte_nu =         217, exp = d5, act = d5 ,sys_rd_data = d5
+byte_nu =         218, exp = d6, act = d6 ,sys_rd_data = d6
+byte_nu =         219, exp = d7, act = d7 ,sys_rd_data = d7
+byte_nu =         220, exp = d8, act = d8 ,sys_rd_data = d8
+byte_nu =         221, exp = d9, act = d9 ,sys_rd_data = d9
+byte_nu =         222, exp = da, act = da ,sys_rd_data = da
+byte_nu =         223, exp = db, act = db ,sys_rd_data = db
+byte_nu =         224, exp = dc, act = dc ,sys_rd_data = dc
+byte_nu =         225, exp = dd, act = dd ,sys_rd_data = dd
+byte_nu =         226, exp = de, act = de ,sys_rd_data = de
+byte_nu =         227, exp = df, act = df ,sys_rd_data = df
+byte_nu =         228, exp = e0, act = e0 ,sys_rd_data = e0
+byte_nu =         229, exp = e1, act = e1 ,sys_rd_data = e1
+byte_nu =         230, exp = e2, act = e2 ,sys_rd_data = e2
+byte_nu =         231, exp = e3, act = e3 ,sys_rd_data = e3
+byte_nu =         232, exp = e4, act = e4 ,sys_rd_data = e4
+byte_nu =         233, exp = e5, act = e5 ,sys_rd_data = e5
+byte_nu =         234, exp = e6, act = e6 ,sys_rd_data = e6
+byte_nu =         235, exp = e7, act = e7 ,sys_rd_data = e7
+byte_nu =         236, exp = e8, act = e8 ,sys_rd_data = e8
+byte_nu =         237, exp = e9, act = e9 ,sys_rd_data = e9
+byte_nu =         238, exp = ea, act = ea ,sys_rd_data = ea
+byte_nu =         239, exp = eb, act = eb ,sys_rd_data = eb
+byte_nu =         240, exp = ec, act = ec ,sys_rd_data = ec
+byte_nu =         241, exp = ed, act = ed ,sys_rd_data = ed
+byte_nu =         242, exp = ee, act = ee ,sys_rd_data = ee
+byte_nu =         243, exp = ef, act = ef ,sys_rd_data = ef
+byte_nu =         244, exp = f0, act = f0 ,sys_rd_data = f0
+byte_nu =         245, exp = f1, act = f1 ,sys_rd_data = f1
+byte_nu =         246, exp = f2, act = f2 ,sys_rd_data = f2
+byte_nu =         247, exp = f3, act = f3 ,sys_rd_data = f3
+byte_nu =         248, exp = f4, act = f4 ,sys_rd_data = f4
+byte_nu =         249, exp = f5, act = f5 ,sys_rd_data = f5
+byte_nu =         250, exp = f6, act = f6 ,sys_rd_data = f6
+byte_nu =         251, exp = f7, act = f7 ,sys_rd_data = f7
+byte_nu =         252, exp = f8, act = f8 ,sys_rd_data = f8
+byte_nu =         253, exp = f9, act = f9 ,sys_rd_data = f9
+byte_nu =         254, exp = fa, act = fa ,sys_rd_data = fa
+byte_nu =         255, exp = fb, act = fb ,sys_rd_data = fb
+byte_nu =         256, exp = fc, act = fc ,sys_rd_data = fc
+byte_nu =         257, exp = fd, act = fd ,sys_rd_data = fd
+byte_nu =         258, exp = fe, act = fe ,sys_rd_data = fe
+byte_nu =         259, exp = ff, act = ff ,sys_rd_data = ff
