@@ -1,0 +1,22 @@
+# Simultaneously Switching Noise (SSN) Report
+# Version: 1.0
+# Created on: Wed Apr 19 14:56:28 2023
+# Result Name: ssn_1
+# Project Name: uart_eeprom_iic
+# Project Family: Zynq-7000
+# Part: xc7z020clg400
+# Temperature Grade: extended
+# SSN Data Version: Production
+# Package Version: FINAL 2012-06-26
+# Package Pin Delay Version: VERS. 2.0 2012-06-26
+
+IO Bank,VCCO,Signal Name,Pin Number,IO Standard,Drive (mA),Slew Rate,OFFCHIP_TERM,Remaining Margin (%),Result, Notes
+35,3.3,iic_scl,E18,LVCMOS33,12,SLOW,FP_VTT_50,97.3,PASS,
+35,3.3,iic_sda,F17,LVCMOS33,12,SLOW,FP_VTT_50,97.2,PASS,
+35,3.3,uart_tx,J15,LVCMOS33,12,SLOW,FP_VTT_50,98.9,PASS,
+
+
+# Reference Links
+# Safe to Ignore SSN Failure on MIG Designs - http://www.xilinx.com/support/answers/36141.htm
+# SSN Mitigation Strategy - http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf#search=%22Mitigate%22
+# Off-chip Terminations - http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf#search=%22terminated%22

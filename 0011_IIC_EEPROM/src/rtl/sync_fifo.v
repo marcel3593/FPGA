@@ -69,16 +69,16 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 end
 
 //write
-always @(posedge sys_clk) begin
-    //if (!sys_rst_n) begin
-    //    for (i=0;i<DEPTH;i=i+1)
-    //        mem[i] <=0;
-    //end
-    //else if (reset == 1'b1) begin
-    //    for (i=0;i<DEPTH;i=i+1)
-    //        mem[i] <=0;
-    //end
-    if (wr_en == 1'b1 && full == 1'b0 ) begin
+always @(posedge sys_clk or negedge sys_rst_n) begin
+    if (!sys_rst_n) begin
+        for (i=0;i<DEPTH;i=i+1)
+            mem[i] <=0;
+    end
+    else if (reset == 1'b1) begin
+        for (i=0;i<DEPTH;i=i+1)
+            mem[i] <=0;
+    end
+    else if (wr_en == 1'b1 && full == 1'b0 ) begin
         mem[w_fifo_pointer] <= din;
     end
 end

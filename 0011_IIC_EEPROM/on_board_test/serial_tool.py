@@ -31,7 +31,7 @@ class mytime():
         return time.ctime()
 
 class rs232(object):
-    port='COM5'
+    port='COM4'
     baudrate=9600
     bytesize=8  
     parity=serial.PARITY_ODD
@@ -153,7 +153,7 @@ class rs232(object):
         self.read_data = list(ret_val)
 
     def run_write_read_seq(self,size):
-        for i in range(2):  #256 page
+        for i in range(256):  #256 page
             self.write_seq(size)
             self.read_seq(size)
             self.compare()
@@ -207,8 +207,6 @@ if __name__ == "__main__":
     rs232_t.clear_error()
     rs232_t.open()
     rs232_t.run_write_read_seq(32)
-    #rs232_t.compare()
-    #rs232_t.check_rd_wr_buff()
     rs232_t.close()
 
     

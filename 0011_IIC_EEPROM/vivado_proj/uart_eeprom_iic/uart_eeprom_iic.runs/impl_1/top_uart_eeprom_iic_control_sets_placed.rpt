@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Tue Apr 18 16:38:33 2023
+| Date         : Wed Apr 19 14:04:50 2023
 | Host         : marcel_002 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_uart_eeprom_iic_control_sets_placed.rpt
 | Design       : top_uart_eeprom_iic
@@ -23,8 +23,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |    57 |
-| Unused register locations in slices containing registers |    89 |
+| Number of unique control sets                            |    58 |
+| Unused register locations in slices containing registers |    81 |
 +----------------------------------------------------------+-------+
 
 
@@ -35,16 +35,15 @@ Table of Contents
 | Fanout | Control Sets |
 +--------+--------------+
 |      1 |            2 |
-|      2 |            1 |
-|      4 |            3 |
-|      5 |            3 |
-|      6 |            1 |
+|      2 |            2 |
+|      4 |            4 |
+|      5 |            4 |
+|      6 |            2 |
 |      7 |            1 |
-|      8 |           37 |
-|      9 |            2 |
+|      8 |           36 |
+|      9 |            1 |
 |     10 |            1 |
 |     11 |            1 |
-|     12 |            1 |
 |    16+ |            4 |
 +--------+--------------+
 
@@ -56,10 +55,10 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               0 |            0 |
-| No           | No                    | Yes                    |              60 |           25 |
+| No           | No                    | Yes                    |              60 |           28 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |             256 |           89 |
-| Yes          | No                    | Yes                    |             171 |           60 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             427 |          144 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -67,66 +66,67 @@ Table of Contents
 4. Detailed Control Set Information
 -----------------------------------
 
-+--------------------+------------------------------------------------------------+----------------------------------------+------------------+----------------+
-|    Clock Signal    |                        Enable Signal                       |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
-+--------------------+------------------------------------------------------------+----------------------------------------+------------------+----------------+
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/wdata_reg_shifter_0           | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                1 |              1 |
-|  sys_clk_IBUF_BUFG | u1_uart_tx/tx_i_1_n_0                                      | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                1 |              1 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/sda_out02_out                 | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                2 |              2 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/E[0]                           | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                2 |              4 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/rdata_reg_shifter0            | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                1 |              4 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/rdata_reg_shifter0            | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                2 |              4 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/data_trans_bit_cnt[4]_i_1_n_0 | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                2 |              5 |
-|  sys_clk_IBUF_BUFG | u2_uart_rx/bit_cnt[4]_i_1__0_n_0                           | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                2 |              5 |
-|  sys_clk_IBUF_BUFG | u1_uart_tx/bit_cnt[4]_i_1_n_0                              | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                2 |              5 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/sda_out02_out                 | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                1 |              6 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/wdata_reg_shifter_0           | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                3 |              7 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[19][7]_i_1_n_0             |                                        |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[30][7]_i_1_n_0             |                                        |                6 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[31][7]_i_1_n_0             |                                        |                5 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[6][7]_i_1_n_0              |                                        |                7 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[24][7]_i_1_n_0             |                                        |                1 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[26][7]_i_1_n_0             |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[4][7]_i_1_n_0              |                                        |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[21][7]_i_1_n_0             |                                        |                4 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[8][7]_i_1_n_0              |                                        |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[2][7]_i_1_n_0              |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/r_fifo_pointer[7]_i_1_n_0      | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[25][7]_i_1_n_0             |                                        |                1 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[16][7]_i_1_n_0             |                                        |                1 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[9][7]_i_1_n_0              |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[18][7]_i_1_n_0             |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[27][7]_i_1_n_0             |                                        |                1 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[23][7]_i_1_n_0             |                                        |                4 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[28][7]_i_1_n_0             |                                        |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[7][7]_i_1_n_0              |                                        |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[20][7]_i_1_n_0             |                                        |                1 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[17][7]_i_1_n_0             |                                        |                4 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[29][7]_i_1_n_0             |                                        |                1 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[1][7]_i_1_n_0              |                                        |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[5][7]_i_1_n_0              |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[22][7]_i_1_n_0             |                                        |                5 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/w_fifo_pointer[7]_i_1_n_0      | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[13][7]_i_1_n_0             |                                        |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/ffft_reg                       | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                6 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_1_n_0              |                                        |                1 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[10][7]_i_1_n_0             |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[11][7]_i_1_n_0             |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[12][7]_i_1_n_0             |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/E[0]                          | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                3 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/cmd_reg0                                    | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[3][7]_i_1_n_0              |                                        |                2 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[14][7]_i_1_n_0             |                                        |                4 |              8 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[15][7]_i_1_n_0             |                                        |                4 |              8 |
-|  sys_clk_IBUF_BUFG | u2_uart_rx/data0                                           | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                2 |              9 |
-|  sys_clk_IBUF_BUFG | eeprom_cntl_buffer_rd_en                                   | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                2 |              9 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/cmd_reg0                                    | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                3 |             10 |
-|  sys_clk_IBUF_BUFG | eeprom_word_address_reg0                                   | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                3 |             11 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/delay_cnts[31]_i_1_n_0                      | u3_eeprom_cntl/u1_iic_master/sys_rst_n |                3 |             12 |
-|  sys_clk_IBUF_BUFG | u2_uart_rx/baud_cnt                                        | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                7 |             16 |
-|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/delay_cnts[31]_i_1_n_0                      | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |                5 |             20 |
-|  sys_clk_IBUF_BUFG |                                                            | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n  |               10 |             25 |
-|  sys_clk_IBUF_BUFG |                                                            | u3_eeprom_cntl/u1_iic_master/sys_rst_n |               15 |             35 |
-+--------------------+------------------------------------------------------------+----------------------------------------+------------------+----------------+
++--------------------+------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|    Clock Signal    |                        Enable Signal                       |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++--------------------+------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/wdata_reg_shifter_0           | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                1 |              1 |
+|  sys_clk_IBUF_BUFG | u1_uart_tx/tx_i_1_n_0                                      | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                1 |              1 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[11][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                2 |              2 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/r_fifo_pointer[7]_i_1_n_0      | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                1 |              2 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[10][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                3 |              4 |
+|  sys_clk_IBUF_BUFG | u2_uart_rx/data0                                           | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                2 |              4 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[10][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                1 |              4 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/E[0]                           | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                1 |              4 |
+|  sys_clk_IBUF_BUFG | u2_uart_rx/data0                                           | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                2 |              5 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/data_trans_bit_cnt[4]_i_1_n_0 | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                2 |              5 |
+|  sys_clk_IBUF_BUFG | u2_uart_rx/bit_cnt[4]_i_1__0_n_0                           | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                2 |              5 |
+|  sys_clk_IBUF_BUFG | u1_uart_tx/bit_cnt[4]_i_1_n_0                              | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                1 |              5 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/r_fifo_pointer[7]_i_1_n_0      | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              6 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[11][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                2 |              6 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/wdata_reg_shifter_0           | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                3 |              7 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/ffft_reg                       | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                5 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/cmd_reg0                                    | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                3 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[26][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[19][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                3 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[12][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[15][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                4 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[14][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[16][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[18][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[17][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[20][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[21][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[1][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[22][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                3 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[23][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                4 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[24][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[25][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                1 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[27][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                3 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[13][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[8][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                1 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[28][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[29][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                1 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[31][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                8 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[9][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                8 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[3][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                5 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[6][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                3 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[2][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[5][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                1 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[7][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                3 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[4][7]_i_1_n_0              | u3_eeprom_cntl/u2_sync_fifo/mem[0][7]_i_3_n_0  |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/mem[30][7]_i_1_n_0             | u3_eeprom_cntl/u2_sync_fifo/mem[10][3]_i_1_n_0 |                4 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u2_sync_fifo/w_fifo_pointer[7]_i_1_n_0      | u3_eeprom_cntl/u2_sync_fifo/sys_rst_n          |                3 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/rdata_reg_shifter0            | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                2 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/sda_out02_out                 | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                1 |              8 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/u1_iic_master/E[0]                          | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                2 |              8 |
+|  sys_clk_IBUF_BUFG | eeprom_cntl_buffer_rd_en                                   | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                2 |              9 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/cmd_reg0                                    | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                4 |             10 |
+|  sys_clk_IBUF_BUFG | eeprom_word_address_reg0                                   | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                3 |             11 |
+|  sys_clk_IBUF_BUFG | u2_uart_rx/baud_cnt                                        | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |                3 |             16 |
+|  sys_clk_IBUF_BUFG |                                                            | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                9 |             22 |
+|  sys_clk_IBUF_BUFG | u3_eeprom_cntl/delay_cnts[31]_i_1_n_0                      | u3_eeprom_cntl/u1_iic_master/sys_rst_n_0       |                8 |             32 |
+|  sys_clk_IBUF_BUFG |                                                            | u3_eeprom_cntl/u1_iic_master/sys_rst_n         |               19 |             38 |
++--------------------+------------------------------------------------------------+------------------------------------------------+------------------+----------------+
 
 

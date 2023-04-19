@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Tue Apr 18 16:38:53 2023
+| Date             : Wed Apr 19 14:05:11 2023
 | Host             : marcel_002 running 64-bit major release  (build 9200)
 | Command          : report_power -file top_uart_eeprom_iic_power_routed.rpt -pb top_uart_eeprom_iic_power_summary_routed.pb -rpx top_uart_eeprom_iic_power_routed.rpx
 | Design           : top_uart_eeprom_iic
@@ -53,13 +53,13 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |     1120 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      467 |     53200 |            0.88 |
+| Slice Logic    |    <0.001 |     1133 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      466 |     53200 |            0.88 |
 |   Register     |    <0.001 |      487 |    106400 |            0.46 |
 |   CARRY4       |    <0.001 |       20 |     13300 |            0.15 |
-|   F7/F8 Muxes  |    <0.001 |       47 |     53200 |            0.09 |
-|   Others       |     0.000 |       11 |       --- |             --- |
-| Signals        |    <0.001 |      923 |       --- |             --- |
+|   F7/F8 Muxes  |    <0.001 |       54 |     53200 |            0.10 |
+|   Others       |     0.000 |       10 |       --- |             --- |
+| Signals        |    <0.001 |      922 |       --- |             --- |
 | I/O            |    <0.001 |        6 |       125 |            4.80 |
 | Static Power   |     0.106 |          |           |                 |
 | Total          |     0.108 |          |           |                 |

@@ -1,9 +1,1025 @@
 {'baudrate': 9600, 'bytesize': 8, 'parity': 'O', 'stopbits': 1, 'xonxoff': False, 'dsrdtr': False, 'rtscts': False, 'timeout': None, 'write_timeout': None, 'inter_byte_timeout': None}
-[0.002] 32 bytes was writing
-[0.002] 32 bytes have been written
-[0.003] 32 bytes was reading
-[0.102] 32 bytes have been read
-[1.117] 32 bytes was writing
-[1.118] 32 bytes have been written
-[1.118] 32 bytes was reading
-[1.218] 32 bytes have been read
+[0.003] 32 bytes was writing
+[0.003] 32 bytes have been written
+[0.004] 32 bytes was reading
+[0.103] 32 bytes have been read
+[1.128] 32 bytes was writing
+[1.128] 32 bytes have been written
+[1.129] 32 bytes was reading
+[1.228] 32 bytes have been read
+[2.254] 32 bytes was writing
+[2.254] 32 bytes have been written
+[2.254] 32 bytes was reading
+[2.354] 32 bytes have been read
+[3.376] 32 bytes was writing
+[3.377] 32 bytes have been written
+[3.378] 32 bytes was reading
+[3.477] 32 bytes have been read
+[4.503] 32 bytes was writing
+[4.504] 32 bytes have been written
+[4.504] 32 bytes was reading
+[4.604] 32 bytes have been read
+[5.622] 32 bytes was writing
+[5.622] 32 bytes have been written
+[5.623] 32 bytes was reading
+[5.722] 32 bytes have been read
+[6.746] 32 bytes was writing
+[6.747] 32 bytes have been written
+[6.747] 32 bytes was reading
+[6.847] 32 bytes have been read
+[7.863] 32 bytes was writing
+[7.864] 32 bytes have been written
+[7.864] 32 bytes was reading
+[7.963] 32 bytes have been read
+[8.990] 32 bytes was writing
+[8.992] 32 bytes have been written
+[8.992] 32 bytes was reading
+[9.091] 32 bytes have been read
+[10.112] 32 bytes was writing
+[10.112] 32 bytes have been written
+[10.113] 32 bytes was reading
+[10.213] 32 bytes have been read
+[11.228] 32 bytes was writing
+[11.229] 32 bytes have been written
+[11.229] 32 bytes was reading
+[11.328] 32 bytes have been read
+[12.355] 32 bytes was writing
+[12.355] 32 bytes have been written
+[12.356] 32 bytes was reading
+[12.454] 32 bytes have been read
+[13.476] 32 bytes was writing
+[13.476] 32 bytes have been written
+[13.477] 32 bytes was reading
+[13.576] 32 bytes have been read
+[14.599] 32 bytes was writing
+[14.599] 32 bytes have been written
+[14.600] 32 bytes was reading
+[14.698] 32 bytes have been read
+[15.722] 32 bytes was writing
+[15.723] 32 bytes have been written
+[15.724] 32 bytes was reading
+[15.823] 32 bytes have been read
+[16.845] 32 bytes was writing
+[16.846] 32 bytes have been written
+[16.846] 32 bytes was reading
+[16.945] 32 bytes have been read
+[17.965] 32 bytes was writing
+[17.966] 32 bytes have been written
+[17.966] 32 bytes was reading
+[18.065] 32 bytes have been read
+[19.089] 32 bytes was writing
+[19.090] 32 bytes have been written
+[19.090] 32 bytes was reading
+[19.190] 32 bytes have been read
+[20.210] 32 bytes was writing
+[20.210] 32 bytes have been written
+[20.210] 32 bytes was reading
+[20.310] 32 bytes have been read
+[21.334] 32 bytes was writing
+[21.335] 32 bytes have been written
+[21.335] 32 bytes was reading
+[21.433] 32 bytes have been read
+[22.451] 32 bytes was writing
+[22.451] 32 bytes have been written
+[22.452] 32 bytes was reading
+[22.551] 32 bytes have been read
+[23.576] 32 bytes was writing
+[23.576] 32 bytes have been written
+[23.576] 32 bytes was reading
+[23.675] 32 bytes have been read
+[24.706] 32 bytes was writing
+[24.707] 32 bytes have been written
+[24.707] 32 bytes was reading
+[24.806] 32 bytes have been read
+[25.832] 32 bytes was writing
+[25.832] 32 bytes have been written
+[25.833] 32 bytes was reading
+[25.932] 32 bytes have been read
+[26.951] 32 bytes was writing
+[26.952] 32 bytes have been written
+[26.952] 32 bytes was reading
+[27.052] 32 bytes have been read
+[28.078] 32 bytes was writing
+[28.078] 32 bytes have been written
+[28.079] 32 bytes was reading
+[28.177] 32 bytes have been read
+[29.199] 32 bytes was writing
+[29.200] 32 bytes have been written
+[29.200] 32 bytes was reading
+[29.299] 32 bytes have been read
+[30.318] 32 bytes was writing
+[30.319] 32 bytes have been written
+[30.319] 32 bytes was reading
+[30.418] 32 bytes have been read
+[31.442] 32 bytes was writing
+[31.443] 32 bytes have been written
+[31.443] 32 bytes was reading
+[31.542] 32 bytes have been read
+[32.558] 32 bytes was writing
+[32.558] 32 bytes have been written
+[32.559] 32 bytes was reading
+[32.658] 32 bytes have been read
+[33.673] 32 bytes was writing
+[33.673] 32 bytes have been written
+[33.673] 32 bytes was reading
+[33.773] 32 bytes have been read
+[34.793] 32 bytes was writing
+[34.794] 32 bytes have been written
+[34.794] 32 bytes was reading
+[34.893] 32 bytes have been read
+[35.915] 32 bytes was writing
+[35.915] 32 bytes have been written
+[35.916] 32 bytes was reading
+[36.015] 32 bytes have been read
+[37.033] 32 bytes was writing
+[37.034] 32 bytes have been written
+[37.034] 32 bytes was reading
+[37.134] 32 bytes have been read
+[38.154] 32 bytes was writing
+[38.155] 32 bytes have been written
+[38.155] 32 bytes was reading
+[38.255] 32 bytes have been read
+[39.271] 32 bytes was writing
+[39.272] 32 bytes have been written
+[39.272] 32 bytes was reading
+[39.372] 32 bytes have been read
+[40.390] 32 bytes was writing
+[40.390] 32 bytes have been written
+[40.391] 32 bytes was reading
+[40.491] 32 bytes have been read
+[41.513] 32 bytes was writing
+[41.514] 32 bytes have been written
+[41.514] 32 bytes was reading
+[41.613] 32 bytes have been read
+[42.630] 32 bytes was writing
+[42.631] 32 bytes have been written
+[42.631] 32 bytes was reading
+[42.730] 32 bytes have been read
+[43.758] 32 bytes was writing
+[43.758] 32 bytes have been written
+[43.759] 32 bytes was reading
+[43.857] 32 bytes have been read
+[44.882] 32 bytes was writing
+[44.882] 32 bytes have been written
+[44.883] 32 bytes was reading
+[44.982] 32 bytes have been read
+[46.001] 32 bytes was writing
+[46.002] 32 bytes have been written
+[46.002] 32 bytes was reading
+[46.101] 32 bytes have been read
+[47.125] 32 bytes was writing
+[47.125] 32 bytes have been written
+[47.126] 32 bytes was reading
+[47.225] 32 bytes have been read
+[48.244] 32 bytes was writing
+[48.244] 32 bytes have been written
+[48.245] 32 bytes was reading
+[48.344] 32 bytes have been read
+[49.366] 32 bytes was writing
+[49.366] 32 bytes have been written
+[49.367] 32 bytes was reading
+[49.465] 32 bytes have been read
+[50.489] 32 bytes was writing
+[50.489] 32 bytes have been written
+[50.490] 32 bytes was reading
+[50.590] 32 bytes have been read
+[51.610] 32 bytes was writing
+[51.610] 32 bytes have been written
+[51.611] 32 bytes was reading
+[51.711] 32 bytes have been read
+[52.737] 32 bytes was writing
+[52.737] 32 bytes have been written
+[52.738] 32 bytes was reading
+[52.837] 32 bytes have been read
+[53.857] 32 bytes was writing
+[53.858] 32 bytes have been written
+[53.858] 32 bytes was reading
+[53.958] 32 bytes have been read
+[54.977] 32 bytes was writing
+[54.978] 32 bytes have been written
+[54.978] 32 bytes was reading
+[55.077] 32 bytes have been read
+[56.098] 32 bytes was writing
+[56.098] 32 bytes have been written
+[56.099] 32 bytes was reading
+[56.198] 32 bytes have been read
+[57.217] 32 bytes was writing
+[57.218] 32 bytes have been written
+[57.219] 32 bytes was reading
+[57.317] 32 bytes have been read
+[58.340] 32 bytes was writing
+[58.340] 32 bytes have been written
+[58.341] 32 bytes was reading
+[58.441] 32 bytes have been read
+[59.457] 32 bytes was writing
+[59.458] 32 bytes have been written
+[59.458] 32 bytes was reading
+[59.558] 32 bytes have been read
+[60.580] 32 bytes was writing
+[60.580] 32 bytes have been written
+[60.581] 32 bytes was reading
+[60.679] 32 bytes have been read
+[61.703] 32 bytes was writing
+[61.703] 32 bytes have been written
+[61.704] 32 bytes was reading
+[61.803] 32 bytes have been read
+[62.821] 32 bytes was writing
+[62.822] 32 bytes have been written
+[62.822] 32 bytes was reading
+[62.922] 32 bytes have been read
+[63.941] 32 bytes was writing
+[63.941] 32 bytes have been written
+[63.942] 32 bytes was reading
+[64.041] 32 bytes have been read
+[65.064] 32 bytes was writing
+[65.065] 32 bytes have been written
+[65.065] 32 bytes was reading
+[65.164] 32 bytes have been read
+[66.185] 32 bytes was writing
+[66.185] 32 bytes have been written
+[66.186] 32 bytes was reading
+[66.285] 32 bytes have been read
+[67.307] 32 bytes was writing
+[67.308] 32 bytes have been written
+[67.309] 32 bytes was reading
+[67.407] 32 bytes have been read
+[68.430] 32 bytes was writing
+[68.431] 32 bytes have been written
+[68.432] 32 bytes was reading
+[68.531] 32 bytes have been read
+[69.553] 32 bytes was writing
+[69.553] 32 bytes have been written
+[69.553] 32 bytes was reading
+[69.652] 32 bytes have been read
+[70.675] 32 bytes was writing
+[70.676] 32 bytes have been written
+[70.676] 32 bytes was reading
+[70.776] 32 bytes have been read
+[71.796] 32 bytes was writing
+[71.796] 32 bytes have been written
+[71.796] 32 bytes was reading
+[71.895] 32 bytes have been read
+[72.921] 32 bytes was writing
+[72.921] 32 bytes have been written
+[72.922] 32 bytes was reading
+[73.021] 32 bytes have been read
+[74.043] 32 bytes was writing
+[74.043] 32 bytes have been written
+[74.044] 32 bytes was reading
+[74.143] 32 bytes have been read
+[75.168] 32 bytes was writing
+[75.168] 32 bytes have been written
+[75.169] 32 bytes was reading
+[75.269] 32 bytes have been read
+[76.292] 32 bytes was writing
+[76.292] 32 bytes have been written
+[76.293] 32 bytes was reading
+[76.393] 32 bytes have been read
+[77.414] 32 bytes was writing
+[77.415] 32 bytes have been written
+[77.415] 32 bytes was reading
+[77.514] 32 bytes have been read
+[78.528] 32 bytes was writing
+[78.528] 32 bytes have been written
+[78.528] 32 bytes was reading
+[78.628] 32 bytes have been read
+[79.647] 32 bytes was writing
+[79.647] 32 bytes have been written
+[79.648] 32 bytes was reading
+[79.747] 32 bytes have been read
+[80.768] 32 bytes was writing
+[80.768] 32 bytes have been written
+[80.769] 32 bytes was reading
+[80.868] 32 bytes have been read
+[81.887] 32 bytes was writing
+[81.887] 32 bytes have been written
+[81.888] 32 bytes was reading
+[81.987] 32 bytes have been read
+[83.006] 32 bytes was writing
+[83.007] 32 bytes have been written
+[83.007] 32 bytes was reading
+[83.106] 32 bytes have been read
+[84.133] 32 bytes was writing
+[84.134] 32 bytes have been written
+[84.134] 32 bytes was reading
+[84.233] 32 bytes have been read
+[85.249] 32 bytes was writing
+[85.249] 32 bytes have been written
+[85.250] 32 bytes was reading
+[85.349] 32 bytes have been read
+[86.368] 32 bytes was writing
+[86.369] 32 bytes have been written
+[86.369] 32 bytes was reading
+[86.468] 32 bytes have been read
+[87.491] 32 bytes was writing
+[87.492] 32 bytes have been written
+[87.492] 32 bytes was reading
+[87.592] 32 bytes have been read
+[88.612] 32 bytes was writing
+[88.612] 32 bytes have been written
+[88.613] 32 bytes was reading
+[88.711] 32 bytes have been read
+[89.738] 32 bytes was writing
+[89.738] 32 bytes have been written
+[89.739] 32 bytes was reading
+[89.837] 32 bytes have been read
+[90.858] 32 bytes was writing
+[90.858] 32 bytes have been written
+[90.858] 32 bytes was reading
+[90.958] 32 bytes have been read
+[91.981] 32 bytes was writing
+[91.982] 32 bytes have been written
+[91.982] 32 bytes was reading
+[92.080] 32 bytes have been read
+[93.102] 32 bytes was writing
+[93.103] 32 bytes have been written
+[93.103] 32 bytes was reading
+[93.202] 32 bytes have been read
+[94.227] 32 bytes was writing
+[94.227] 32 bytes have been written
+[94.227] 32 bytes was reading
+[94.327] 32 bytes have been read
+[95.342] 32 bytes was writing
+[95.343] 32 bytes have been written
+[95.343] 32 bytes was reading
+[95.442] 32 bytes have been read
+[96.462] 32 bytes was writing
+[96.462] 32 bytes have been written
+[96.463] 32 bytes was reading
+[96.561] 32 bytes have been read
+[97.574] 32 bytes was writing
+[97.574] 32 bytes have been written
+[97.575] 32 bytes was reading
+[97.675] 32 bytes have been read
+[98.700] 32 bytes was writing
+[98.700] 32 bytes have been written
+[98.701] 32 bytes was reading
+[98.800] 32 bytes have been read
+[99.822] 32 bytes was writing
+[99.823] 32 bytes have been written
+[99.823] 32 bytes was reading
+[99.922] 32 bytes have been read
+[100.940] 32 bytes was writing
+[100.941] 32 bytes have been written
+[100.941] 32 bytes was reading
+[101.040] 32 bytes have been read
+[102.055] 32 bytes was writing
+[102.056] 32 bytes have been written
+[102.057] 32 bytes was reading
+[102.156] 32 bytes have been read
+[103.178] 32 bytes was writing
+[103.179] 32 bytes have been written
+[103.179] 32 bytes was reading
+[103.278] 32 bytes have been read
+[104.292] 32 bytes was writing
+[104.293] 32 bytes have been written
+[104.293] 32 bytes was reading
+[104.392] 32 bytes have been read
+[105.405] 32 bytes was writing
+[105.406] 32 bytes have been written
+[105.407] 32 bytes was reading
+[105.506] 32 bytes have been read
+[106.531] 32 bytes was writing
+[106.531] 32 bytes have been written
+[106.532] 32 bytes was reading
+[106.631] 32 bytes have been read
+[107.648] 32 bytes was writing
+[107.649] 32 bytes have been written
+[107.649] 32 bytes was reading
+[107.748] 32 bytes have been read
+[108.761] 32 bytes was writing
+[108.762] 32 bytes have been written
+[108.762] 32 bytes was reading
+[108.862] 32 bytes have been read
+[109.885] 32 bytes was writing
+[109.886] 32 bytes have been written
+[109.886] 32 bytes was reading
+[109.985] 32 bytes have been read
+[111.010] 32 bytes was writing
+[111.011] 32 bytes have been written
+[111.011] 32 bytes was reading
+[111.111] 32 bytes have been read
+[112.132] 32 bytes was writing
+[112.133] 32 bytes have been written
+[112.134] 32 bytes was reading
+[112.232] 32 bytes have been read
+[113.253] 32 bytes was writing
+[113.254] 32 bytes have been written
+[113.255] 32 bytes was reading
+[113.354] 32 bytes have been read
+[114.374] 32 bytes was writing
+[114.375] 32 bytes have been written
+[114.375] 32 bytes was reading
+[114.474] 32 bytes have been read
+[115.492] 32 bytes was writing
+[115.492] 32 bytes have been written
+[115.493] 32 bytes was reading
+[115.592] 32 bytes have been read
+[116.612] 32 bytes was writing
+[116.612] 32 bytes have been written
+[116.613] 32 bytes was reading
+[116.712] 32 bytes have been read
+[117.737] 32 bytes was writing
+[117.737] 32 bytes have been written
+[117.738] 32 bytes was reading
+[117.837] 32 bytes have been read
+[118.859] 32 bytes was writing
+[118.859] 32 bytes have been written
+[118.860] 32 bytes was reading
+[118.959] 32 bytes have been read
+[119.982] 32 bytes was writing
+[119.982] 32 bytes have been written
+[119.983] 32 bytes was reading
+[120.082] 32 bytes have been read
+[121.105] 32 bytes was writing
+[121.105] 32 bytes have been written
+[121.106] 32 bytes was reading
+[121.204] 32 bytes have been read
+[122.224] 32 bytes was writing
+[122.225] 32 bytes have been written
+[122.226] 32 bytes was reading
+[122.325] 32 bytes have been read
+[123.345] 32 bytes was writing
+[123.345] 32 bytes have been written
+[123.346] 32 bytes was reading
+[123.445] 32 bytes have been read
+[124.472] 32 bytes was writing
+[124.473] 32 bytes have been written
+[124.473] 32 bytes was reading
+[124.572] 32 bytes have been read
+[125.591] 32 bytes was writing
+[125.592] 32 bytes have been written
+[125.592] 32 bytes was reading
+[125.691] 32 bytes have been read
+[126.711] 32 bytes was writing
+[126.711] 32 bytes have been written
+[126.711] 32 bytes was reading
+[126.811] 32 bytes have been read
+[127.833] 32 bytes was writing
+[127.834] 32 bytes have been written
+[127.834] 32 bytes was reading
+[127.933] 32 bytes have been read
+[128.952] 32 bytes was writing
+[128.952] 32 bytes have been written
+[128.952] 32 bytes was reading
+[129.052] 32 bytes have been read
+[130.069] 32 bytes was writing
+[130.069] 32 bytes have been written
+[130.070] 32 bytes was reading
+[130.168] 32 bytes have been read
+[131.192] 32 bytes was writing
+[131.192] 32 bytes have been written
+[131.193] 32 bytes was reading
+[131.292] 32 bytes have been read
+[132.321] 32 bytes was writing
+[132.321] 32 bytes have been written
+[132.322] 32 bytes was reading
+[132.420] 32 bytes have been read
+[133.446] 32 bytes was writing
+[133.446] 32 bytes have been written
+[133.447] 32 bytes was reading
+[133.545] 32 bytes have been read
+[134.568] 32 bytes was writing
+[134.568] 32 bytes have been written
+[134.569] 32 bytes was reading
+[134.668] 32 bytes have been read
+[135.691] 32 bytes was writing
+[135.691] 32 bytes have been written
+[135.692] 32 bytes was reading
+[135.791] 32 bytes have been read
+[136.811] 32 bytes was writing
+[136.811] 32 bytes have been written
+[136.812] 32 bytes was reading
+[136.911] 32 bytes have been read
+[137.934] 32 bytes was writing
+[137.935] 32 bytes have been written
+[137.935] 32 bytes was reading
+[138.035] 32 bytes have been read
+[139.056] 32 bytes was writing
+[139.057] 32 bytes have been written
+[139.057] 32 bytes was reading
+[139.156] 32 bytes have been read
+[140.175] 32 bytes was writing
+[140.176] 32 bytes have been written
+[140.176] 32 bytes was reading
+[140.276] 32 bytes have been read
+[141.303] 32 bytes was writing
+[141.304] 32 bytes have been written
+[141.304] 32 bytes was reading
+[141.403] 32 bytes have been read
+[142.421] 32 bytes was writing
+[142.422] 32 bytes have been written
+[142.422] 32 bytes was reading
+[142.522] 32 bytes have been read
+[143.545] 32 bytes was writing
+[143.545] 32 bytes have been written
+[143.545] 32 bytes was reading
+[143.644] 32 bytes have been read
+[144.669] 32 bytes was writing
+[144.669] 32 bytes have been written
+[144.670] 32 bytes was reading
+[144.768] 32 bytes have been read
+[145.787] 32 bytes was writing
+[145.787] 32 bytes have been written
+[145.788] 32 bytes was reading
+[145.887] 32 bytes have been read
+[146.909] 32 bytes was writing
+[146.909] 32 bytes have been written
+[146.910] 32 bytes was reading
+[147.009] 32 bytes have been read
+[148.031] 32 bytes was writing
+[148.033] 32 bytes have been written
+[148.033] 32 bytes was reading
+[148.132] 32 bytes have been read
+[149.158] 32 bytes was writing
+[149.159] 32 bytes have been written
+[149.159] 32 bytes was reading
+[149.258] 32 bytes have been read
+[150.276] 32 bytes was writing
+[150.276] 32 bytes have been written
+[150.276] 32 bytes was reading
+[150.375] 32 bytes have been read
+[151.391] 32 bytes was writing
+[151.391] 32 bytes have been written
+[151.392] 32 bytes was reading
+[151.492] 32 bytes have been read
+[152.516] 32 bytes was writing
+[152.517] 32 bytes have been written
+[152.517] 32 bytes was reading
+[152.616] 32 bytes have been read
+[153.643] 32 bytes was writing
+[153.644] 32 bytes have been written
+[153.644] 32 bytes was reading
+[153.743] 32 bytes have been read
+[154.761] 32 bytes was writing
+[154.761] 32 bytes have been written
+[154.762] 32 bytes was reading
+[154.861] 32 bytes have been read
+[155.884] 32 bytes was writing
+[155.884] 32 bytes have been written
+[155.885] 32 bytes was reading
+[155.984] 32 bytes have been read
+[157.006] 32 bytes was writing
+[157.006] 32 bytes have been written
+[157.007] 32 bytes was reading
+[157.107] 32 bytes have been read
+[158.135] 32 bytes was writing
+[158.136] 32 bytes have been written
+[158.137] 32 bytes was reading
+[158.236] 32 bytes have been read
+[159.255] 32 bytes was writing
+[159.255] 32 bytes have been written
+[159.256] 32 bytes was reading
+[159.355] 32 bytes have been read
+[160.374] 32 bytes was writing
+[160.374] 32 bytes have been written
+[160.375] 32 bytes was reading
+[160.474] 32 bytes have been read
+[161.488] 32 bytes was writing
+[161.488] 32 bytes have been written
+[161.489] 32 bytes was reading
+[161.588] 32 bytes have been read
+[162.603] 32 bytes was writing
+[162.603] 32 bytes have been written
+[162.604] 32 bytes was reading
+[162.703] 32 bytes have been read
+[163.729] 32 bytes was writing
+[163.729] 32 bytes have been written
+[163.730] 32 bytes was reading
+[163.830] 32 bytes have been read
+[164.846] 32 bytes was writing
+[164.846] 32 bytes have been written
+[164.847] 32 bytes was reading
+[164.946] 32 bytes have been read
+[165.969] 32 bytes was writing
+[165.970] 32 bytes have been written
+[165.970] 32 bytes was reading
+[166.070] 32 bytes have been read
+[167.083] 32 bytes was writing
+[167.083] 32 bytes have been written
+[167.084] 32 bytes was reading
+[167.183] 32 bytes have been read
+[168.201] 32 bytes was writing
+[168.201] 32 bytes have been written
+[168.202] 32 bytes was reading
+[168.301] 32 bytes have been read
+[169.323] 32 bytes was writing
+[169.324] 32 bytes have been written
+[169.324] 32 bytes was reading
+[169.424] 32 bytes have been read
+[170.445] 32 bytes was writing
+[170.445] 32 bytes have been written
+[170.446] 32 bytes was reading
+[170.545] 32 bytes have been read
+[171.567] 32 bytes was writing
+[171.568] 32 bytes have been written
+[171.568] 32 bytes was reading
+[171.668] 32 bytes have been read
+[172.691] 32 bytes was writing
+[172.691] 32 bytes have been written
+[172.692] 32 bytes was reading
+[172.790] 32 bytes have been read
+[173.810] 32 bytes was writing
+[173.810] 32 bytes have been written
+[173.811] 32 bytes was reading
+[173.910] 32 bytes have been read
+[174.932] 32 bytes was writing
+[174.932] 32 bytes have been written
+[174.933] 32 bytes was reading
+[175.032] 32 bytes have been read
+[176.054] 32 bytes was writing
+[176.055] 32 bytes have been written
+[176.055] 32 bytes was reading
+[176.154] 32 bytes have been read
+[177.174] 32 bytes was writing
+[177.175] 32 bytes have been written
+[177.176] 32 bytes was reading
+[177.275] 32 bytes have been read
+[178.289] 32 bytes was writing
+[178.289] 32 bytes have been written
+[178.290] 32 bytes was reading
+[178.389] 32 bytes have been read
+[179.419] 32 bytes was writing
+[179.420] 32 bytes have been written
+[179.420] 32 bytes was reading
+[179.519] 32 bytes have been read
+[180.544] 32 bytes was writing
+[180.545] 32 bytes have been written
+[180.545] 32 bytes was reading
+[180.645] 32 bytes have been read
+[181.660] 32 bytes was writing
+[181.661] 32 bytes have been written
+[181.662] 32 bytes was reading
+[181.761] 32 bytes have been read
+[182.788] 32 bytes was writing
+[182.788] 32 bytes have been written
+[182.789] 32 bytes was reading
+[182.888] 32 bytes have been read
+[183.907] 32 bytes was writing
+[183.908] 32 bytes have been written
+[183.908] 32 bytes was reading
+[184.008] 32 bytes have been read
+[185.021] 32 bytes was writing
+[185.021] 32 bytes have been written
+[185.022] 32 bytes was reading
+[185.122] 32 bytes have been read
+[186.142] 32 bytes was writing
+[186.142] 32 bytes have been written
+[186.143] 32 bytes was reading
+[186.242] 32 bytes have been read
+[187.264] 32 bytes was writing
+[187.264] 32 bytes have been written
+[187.265] 32 bytes was reading
+[187.364] 32 bytes have been read
+[188.382] 32 bytes was writing
+[188.383] 32 bytes have been written
+[188.383] 32 bytes was reading
+[188.483] 32 bytes have been read
+[189.499] 32 bytes was writing
+[189.499] 32 bytes have been written
+[189.500] 32 bytes was reading
+[189.598] 32 bytes have been read
+[190.621] 32 bytes was writing
+[190.621] 32 bytes have been written
+[190.621] 32 bytes was reading
+[190.721] 32 bytes have been read
+[191.736] 32 bytes was writing
+[191.736] 32 bytes have been written
+[191.737] 32 bytes was reading
+[191.836] 32 bytes have been read
+[192.860] 32 bytes was writing
+[192.860] 32 bytes have been written
+[192.860] 32 bytes was reading
+[192.959] 32 bytes have been read
+[193.980] 32 bytes was writing
+[193.981] 32 bytes have been written
+[193.981] 32 bytes was reading
+[194.081] 32 bytes have been read
+[195.106] 32 bytes was writing
+[195.106] 32 bytes have been written
+[195.106] 32 bytes was reading
+[195.205] 32 bytes have been read
+[196.229] 32 bytes was writing
+[196.230] 32 bytes have been written
+[196.230] 32 bytes was reading
+[196.329] 32 bytes have been read
+[197.346] 32 bytes was writing
+[197.347] 32 bytes have been written
+[197.347] 32 bytes was reading
+[197.447] 32 bytes have been read
+[198.470] 32 bytes was writing
+[198.471] 32 bytes have been written
+[198.471] 32 bytes was reading
+[198.572] 32 bytes have been read
+[199.592] 32 bytes was writing
+[199.592] 32 bytes have been written
+[199.593] 32 bytes was reading
+[199.693] 32 bytes have been read
+[200.712] 32 bytes was writing
+[200.712] 32 bytes have been written
+[200.713] 32 bytes was reading
+[200.812] 32 bytes have been read
+[201.833] 32 bytes was writing
+[201.834] 32 bytes have been written
+[201.834] 32 bytes was reading
+[201.934] 32 bytes have been read
+[202.953] 32 bytes was writing
+[202.953] 32 bytes have been written
+[202.954] 32 bytes was reading
+[203.053] 32 bytes have been read
+[204.078] 32 bytes was writing
+[204.078] 32 bytes have been written
+[204.079] 32 bytes was reading
+[204.178] 32 bytes have been read
+[205.200] 32 bytes was writing
+[205.200] 32 bytes have been written
+[205.200] 32 bytes was reading
+[205.300] 32 bytes have been read
+[206.328] 32 bytes was writing
+[206.328] 32 bytes have been written
+[206.328] 32 bytes was reading
+[206.427] 32 bytes have been read
+[207.446] 32 bytes was writing
+[207.447] 32 bytes have been written
+[207.447] 32 bytes was reading
+[207.547] 32 bytes have been read
+[208.564] 32 bytes was writing
+[208.565] 32 bytes have been written
+[208.565] 32 bytes was reading
+[208.664] 32 bytes have been read
+[209.683] 32 bytes was writing
+[209.683] 32 bytes have been written
+[209.684] 32 bytes was reading
+[209.783] 32 bytes have been read
+[210.798] 32 bytes was writing
+[210.798] 32 bytes have been written
+[210.798] 32 bytes was reading
+[210.898] 32 bytes have been read
+[211.924] 32 bytes was writing
+[211.925] 32 bytes have been written
+[211.925] 32 bytes was reading
+[212.024] 32 bytes have been read
+[213.044] 32 bytes was writing
+[213.044] 32 bytes have been written
+[213.045] 32 bytes was reading
+[213.144] 32 bytes have been read
+[214.166] 32 bytes was writing
+[214.166] 32 bytes have been written
+[214.167] 32 bytes was reading
+[214.266] 32 bytes have been read
+[215.286] 32 bytes was writing
+[215.286] 32 bytes have been written
+[215.287] 32 bytes was reading
+[215.386] 32 bytes have been read
+[216.406] 32 bytes was writing
+[216.406] 32 bytes have been written
+[216.407] 32 bytes was reading
+[216.506] 32 bytes have been read
+[217.529] 32 bytes was writing
+[217.529] 32 bytes have been written
+[217.529] 32 bytes was reading
+[217.629] 32 bytes have been read
+[218.647] 32 bytes was writing
+[218.647] 32 bytes have been written
+[218.648] 32 bytes was reading
+[218.748] 32 bytes have been read
+[219.776] 32 bytes was writing
+[219.776] 32 bytes have been written
+[219.777] 32 bytes was reading
+[219.876] 32 bytes have been read
+[220.890] 32 bytes was writing
+[220.891] 32 bytes have been written
+[220.892] 32 bytes was reading
+[220.991] 32 bytes have been read
+[222.005] 32 bytes was writing
+[222.006] 32 bytes have been written
+[222.006] 32 bytes was reading
+[222.106] 32 bytes have been read
+[223.122] 32 bytes was writing
+[223.123] 32 bytes have been written
+[223.124] 32 bytes was reading
+[223.224] 32 bytes have been read
+[224.241] 32 bytes was writing
+[224.241] 32 bytes have been written
+[224.242] 32 bytes was reading
+[224.341] 32 bytes have been read
+[225.362] 32 bytes was writing
+[225.362] 32 bytes have been written
+[225.363] 32 bytes was reading
+[225.462] 32 bytes have been read
+[226.481] 32 bytes was writing
+[226.482] 32 bytes have been written
+[226.482] 32 bytes was reading
+[226.581] 32 bytes have been read
+[227.604] 32 bytes was writing
+[227.604] 32 bytes have been written
+[227.605] 32 bytes was reading
+[227.703] 32 bytes have been read
+[228.722] 32 bytes was writing
+[228.722] 32 bytes have been written
+[228.722] 32 bytes was reading
+[228.822] 32 bytes have been read
+[229.845] 32 bytes was writing
+[229.847] 32 bytes have been written
+[229.847] 32 bytes was reading
+[229.946] 32 bytes have been read
+[230.970] 32 bytes was writing
+[230.970] 32 bytes have been written
+[230.970] 32 bytes was reading
+[231.070] 32 bytes have been read
+[232.096] 32 bytes was writing
+[232.096] 32 bytes have been written
+[232.097] 32 bytes was reading
+[232.196] 32 bytes have been read
+[233.220] 32 bytes was writing
+[233.220] 32 bytes have been written
+[233.220] 32 bytes was reading
+[233.320] 32 bytes have been read
+[234.344] 32 bytes was writing
+[234.344] 32 bytes have been written
+[234.345] 32 bytes was reading
+[234.444] 32 bytes have been read
+[235.466] 32 bytes was writing
+[235.467] 32 bytes have been written
+[235.467] 32 bytes was reading
+[235.567] 32 bytes have been read
+[236.587] 32 bytes was writing
+[236.587] 32 bytes have been written
+[236.588] 32 bytes was reading
+[236.688] 32 bytes have been read
+[237.712] 32 bytes was writing
+[237.712] 32 bytes have been written
+[237.713] 32 bytes was reading
+[237.812] 32 bytes have been read
+[238.832] 32 bytes was writing
+[238.834] 32 bytes have been written
+[238.834] 32 bytes was reading
+[238.933] 32 bytes have been read
+[239.956] 32 bytes was writing
+[239.956] 32 bytes have been written
+[239.957] 32 bytes was reading
+[240.057] 32 bytes have been read
+[241.080] 32 bytes was writing
+[241.080] 32 bytes have been written
+[241.081] 32 bytes was reading
+[241.180] 32 bytes have been read
+[242.198] 32 bytes was writing
+[242.198] 32 bytes have been written
+[242.199] 32 bytes was reading
+[242.298] 32 bytes have been read
+[243.315] 32 bytes was writing
+[243.315] 32 bytes have been written
+[243.316] 32 bytes was reading
+[243.415] 32 bytes have been read
+[244.433] 32 bytes was writing
+[244.433] 32 bytes have been written
+[244.434] 32 bytes was reading
+[244.534] 32 bytes have been read
+[245.561] 32 bytes was writing
+[245.562] 32 bytes have been written
+[245.562] 32 bytes was reading
+[245.661] 32 bytes have been read
+[246.683] 32 bytes was writing
+[246.683] 32 bytes have been written
+[246.684] 32 bytes was reading
+[246.783] 32 bytes have been read
+[247.808] 32 bytes was writing
+[247.808] 32 bytes have been written
+[247.808] 32 bytes was reading
+[247.908] 32 bytes have been read
+[248.932] 32 bytes was writing
+[248.932] 32 bytes have been written
+[248.932] 32 bytes was reading
+[249.031] 32 bytes have been read
+[250.055] 32 bytes was writing
+[250.055] 32 bytes have been written
+[250.056] 32 bytes was reading
+[250.155] 32 bytes have been read
+[251.174] 32 bytes was writing
+[251.175] 32 bytes have been written
+[251.176] 32 bytes was reading
+[251.275] 32 bytes have been read
+[252.299] 32 bytes was writing
+[252.300] 32 bytes have been written
+[252.300] 32 bytes was reading
+[252.400] 32 bytes have been read
+[253.429] 32 bytes was writing
+[253.430] 32 bytes have been written
+[253.430] 32 bytes was reading
+[253.529] 32 bytes have been read
+[254.548] 32 bytes was writing
+[254.548] 32 bytes have been written
+[254.549] 32 bytes was reading
+[254.648] 32 bytes have been read
+[255.669] 32 bytes was writing
+[255.669] 32 bytes have been written
+[255.670] 32 bytes was reading
+[255.769] 32 bytes have been read
+[256.799] 32 bytes was writing
+[256.800] 32 bytes have been written
+[256.800] 32 bytes was reading
+[256.899] 32 bytes have been read
+[257.917] 32 bytes was writing
+[257.918] 32 bytes have been written
+[257.918] 32 bytes was reading
+[258.017] 32 bytes have been read
+[259.040] 32 bytes was writing
+[259.041] 32 bytes have been written
+[259.041] 32 bytes was reading
+[259.140] 32 bytes have been read
+[260.167] 32 bytes was writing
+[260.168] 32 bytes have been written
+[260.168] 32 bytes was reading
+[260.267] 32 bytes have been read
+[261.286] 32 bytes was writing
+[261.287] 32 bytes have been written
+[261.287] 32 bytes was reading
+[261.386] 32 bytes have been read
+[262.409] 32 bytes was writing
+[262.409] 32 bytes have been written
+[262.410] 32 bytes was reading
+[262.508] 32 bytes have been read
+[263.529] 32 bytes was writing
+[263.529] 32 bytes have been written
+[263.530] 32 bytes was reading
+[263.629] 32 bytes have been read
+[264.649] 32 bytes was writing
+[264.650] 32 bytes have been written
+[264.650] 32 bytes was reading
+[264.750] 32 bytes have been read
+[265.765] 32 bytes was writing
+[265.766] 32 bytes have been written
+[265.766] 32 bytes was reading
+[265.866] 32 bytes have been read
+[266.887] 32 bytes was writing
+[266.888] 32 bytes have been written
+[266.888] 32 bytes was reading
+[266.987] 32 bytes have been read
+[268.009] 32 bytes was writing
+[268.009] 32 bytes have been written
+[268.010] 32 bytes was reading
+[268.109] 32 bytes have been read
+[269.124] 32 bytes was writing
+[269.124] 32 bytes have been written
+[269.124] 32 bytes was reading
+[269.224] 32 bytes have been read
+[270.247] 32 bytes was writing
+[270.247] 32 bytes have been written
+[270.248] 32 bytes was reading
+[270.347] 32 bytes have been read
+[271.370] 32 bytes was writing
+[271.370] 32 bytes have been written
+[271.370] 32 bytes was reading
+[271.470] 32 bytes have been read
+[272.497] 32 bytes was writing
+[272.497] 32 bytes have been written
+[272.498] 32 bytes was reading
+[272.597] 32 bytes have been read
+[273.616] 32 bytes was writing
+[273.617] 32 bytes have been written
+[273.617] 32 bytes was reading
+[273.716] 32 bytes have been read
+[274.743] 32 bytes was writing
+[274.743] 32 bytes have been written
+[274.744] 32 bytes was reading
+[274.844] 32 bytes have been read
+[275.870] 32 bytes was writing
+[275.870] 32 bytes have been written
+[275.871] 32 bytes was reading
+[275.970] 32 bytes have been read
+[276.994] 32 bytes was writing
+[276.995] 32 bytes have been written
+[276.995] 32 bytes was reading
+[277.094] 32 bytes have been read
+[278.120] 32 bytes was writing
+[278.121] 32 bytes have been written
+[278.121] 32 bytes was reading
+[278.220] 32 bytes have been read
+[279.243] 32 bytes was writing
+[279.244] 32 bytes have been written
+[279.244] 32 bytes was reading
+[279.344] 32 bytes have been read
+[280.365] 32 bytes was writing
+[280.365] 32 bytes have been written
+[280.366] 32 bytes was reading
+[280.465] 32 bytes have been read
+[281.483] 32 bytes was writing
+[281.483] 32 bytes have been written
+[281.484] 32 bytes was reading
+[281.583] 32 bytes have been read
+[282.603] 32 bytes was writing
+[282.604] 32 bytes have been written
+[282.604] 32 bytes was reading
+[282.703] 32 bytes have been read
+[283.726] 32 bytes was writing
+[283.726] 32 bytes have been written
+[283.727] 32 bytes was reading
+[283.825] 32 bytes have been read
+[284.852] 32 bytes was writing
+[284.852] 32 bytes have been written
+[284.853] 32 bytes was reading
+[284.952] 32 bytes have been read
+[285.975] 32 bytes was writing
+[285.975] 32 bytes have been written
+[285.976] 32 bytes was reading
+[286.075] 32 bytes have been read

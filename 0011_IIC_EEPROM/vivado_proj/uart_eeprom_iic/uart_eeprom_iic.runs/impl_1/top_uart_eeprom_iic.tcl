@@ -65,6 +65,7 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param xicom.use_bs_reader 1
   set_param simulator.questaInstallPath D:/questasim64_10.6c/win64
   open_checkpoint top_uart_eeprom_iic_routed.dcp
   set_property webtalk.parent_dir D:/FPGA_study/projects/0011_IIC_EEPROM/vivado_proj/uart_eeprom_iic/uart_eeprom_iic.cache/wt [current_project]
