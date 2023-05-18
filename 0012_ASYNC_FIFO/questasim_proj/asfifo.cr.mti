@@ -1,0 +1,60 @@
+D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/r2w_sync.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/r2w_sync.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module r2w_sync
+
+Top level modules:
+	r2w_sync
+
+} {} {}} D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/w2r_sync.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/w2r_sync.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module w2r_sync
+
+Top level modules:
+	w2r_sync
+
+} {} {}} D:/FPGA_study/projects/0012_ASYNC_FIFO/src/sim/test_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/sim/test_pkg.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package test_pkg
+-- Importing package access_pkg
+-- Importing package rpt_pkg
+-- Importing package checker_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/full_logic.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/full_logic.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module full_logic
+
+Top level modules:
+	full_logic
+
+} {} {}} D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/empty_logic.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/empty_logic.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module empty_logic
+
+Top level modules:
+	empty_logic
+
+} {} {}} D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/ram.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/ram.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module dualport_ram
+
+Top level modules:
+	dualport_ram
+
+} {} {}} D:/FPGA_study/projects/0012_ASYNC_FIFO/src/sim/rpt_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/sim/rpt_pkg.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package rpt_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/top_asfifo.v {1 {vlog -work work -vopt -stats=none D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/top_asfifo.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module top_asfifo
+
+Top level modules:
+	top_asfifo
+
+} {} {}}
