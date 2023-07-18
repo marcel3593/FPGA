@@ -1,0 +1,418 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA_study/projects/0011_IIC_EEPROM/top_questasim_proj
+Xaccess_pkg
+Z0 !s115 write_intf
+Z1 !s115 read_intf
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 DXx4 work 7 rpt_pkg 0 22 L8MjCOLf6eiS8;;LPogKG2
+Z4 !s110 1684393827
+!i10b 1
+!s100 0coJ=h[hhIV=?zRob82nY2
+I:153Y4XU0e>NgY^fIId`90
+V:153Y4XU0e>NgY^fIId`90
+S1
+Z5 dD:/FPGA_study/projects/0012_ASYNC_FIFO/questasim_proj
+w1684393064
+8../src/sim/access_pkg.sv
+F../src/sim/access_pkg.sv
+L0 1
+Z6 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z7 !s108 1684393827.000000
+!s107 ../src/rtl//clog2.vh|../src/sim/tb_fifo.sv|../src/sim/test_pkg.sv|../src/sim/checker_pkg.sv|../src/sim/access_pkg.sv|../src/sim/rpt_pkg.sv|../src/rtl/top_asfifo.v|../src/rtl/wr_addr_cntl.v|../src/rtl/w2r_sync.v|../src/rtl/rd_addr_cntl.v|../src/rtl/ram.v|../src/rtl/r2w_sync.v|../src/rtl/full_logic.v|../src/rtl/empty_logic.v|
+Z8 !s90 -reportprogress|300|-novopt|-lint|-l|comp.txt|-timescale|1ns/1ps|+incdir+../src/rtl/|+indcdir+../src/sim/|../src/rtl/empty_logic.v|../src/rtl/full_logic.v|../src/rtl/r2w_sync.v|../src/rtl/ram.v|../src/rtl/rd_addr_cntl.v|../src/rtl/w2r_sync.v|../src/rtl/wr_addr_cntl.v|../src/rtl/top_asfifo.v|../src/sim/rpt_pkg.sv|../src/sim/access_pkg.sv|../src/sim/checker_pkg.sv|../src/sim/test_pkg.sv|../src/sim/tb_fifo.sv|
+!i113 1
+Z9 o-lint -timescale 1ns/1ps +indcdir+../src/sim/ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -lint -timescale 1ns/1ps +incdir+../src/rtl/ +indcdir+../src/sim/ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+Xchecker_pkg
+R2
+R3
+Z12 DXx4 work 10 access_pkg 0 22 :153Y4XU0e>NgY^fIId`90
+R4
+!i10b 1
+!s100 SHUjGGaE0DeKG<j0E2Zn61
+I:P9UK_LJ[dM55EK26=zGE2
+V:P9UK_LJ[dM55EK26=zGE2
+S1
+R5
+w1684392089
+8../src/sim/checker_pkg.sv
+F../src/sim/checker_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z13 !s107 ../src/rtl//clog2.vh|../src/sim/tb_fifo.sv|../src/sim/test_pkg.sv|../src/sim/checker_pkg.sv|../src/sim/access_pkg.sv|../src/sim/rpt_pkg.sv|../src/rtl/top_asfifo.v|../src/rtl/wr_addr_cntl.v|../src/rtl/w2r_sync.v|../src/rtl/rd_addr_cntl.v|../src/rtl/ram.v|../src/rtl/r2w_sync.v|../src/rtl/full_logic.v|../src/rtl/empty_logic.v|
+R8
+!i113 1
+R9
+R10
+R11
+vdualport_ram
+R4
+!i10b 1
+!s100 GCC8BTCez>ATPW9z63XZ`2
+I=8d]6X5e5]2P4nAb<5oI01
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+R5
+w1684306867
+8../src/rtl/ram.v
+F../src/rtl/ram.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vempty_logic
+R4
+!i10b 1
+!s100 ?8lC^:dA^V24fd;TXeXI^3
+IH5Z`N?YX;f=:;89lH_M0k1
+R14
+R5
+w1684305527
+8../src/rtl/empty_logic.v
+F../src/rtl/empty_logic.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vfull_logic
+R4
+!i10b 1
+!s100 M;X^J@08F3nkFeEHjLaHn0
+IDUmnm:l>g8m`3EAU070<83
+R14
+R5
+w1684305510
+8../src/rtl/full_logic.v
+F../src/rtl/full_logic.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vr2w_sync
+R4
+!i10b 1
+!s100 YGaM]FTe6;FZbfW1dPjPK2
+IoA8AB7gmA?JA9[@7]>ESQ1
+R14
+R5
+w1684305710
+8../src/rtl/r2w_sync.v
+F../src/rtl/r2w_sync.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vrd_addr_cntl
+R4
+!i10b 1
+!s100 VIP61XQBi2E=C1==hRod?3
+I^Kz0KCT2dA6QUhQcZ=N650
+R14
+R5
+w1684392475
+8../src/rtl/rd_addr_cntl.v
+F../src/rtl/rd_addr_cntl.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+Yread_intf
+R2
+R4
+!i10b 1
+!s100 `jFNhUBJZOSh@]zVG3VBz1
+IVSDJ02<:VIA1?alKTUf000
+R14
+Z15 !s105 tb_fifo_sv_unit
+S1
+R5
+Z16 w1684391823
+Z17 8../src/sim/tb_fifo.sv
+Z18 F../src/sim/tb_fifo.sv
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+Xrpt_pkg
+R2
+R4
+!i10b 1
+!s100 mhPZV9^^@GhN4W35]E8Vi2
+IL8MjCOLf6eiS8;;LPogKG2
+VL8MjCOLf6eiS8;;LPogKG2
+S1
+R5
+w1672311327
+8../src/sim/rpt_pkg.sv
+F../src/sim/rpt_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+4run_test
+R2
+R3
+R12
+Z19 DXx4 work 11 checker_pkg 0 22 :P9UK_LJ[dM55EK26=zGE2
+DXx4 work 8 test_pkg 0 22 PP>aaPBO]NAfR0JV8iUD=0
+R4
+!i10b 1
+!s100 N@BYY2LXWPVdn0<B>4:fC2
+IP<GiTmkWA[]J1WgLYSH9F3
+R14
+R15
+S1
+R5
+R16
+R17
+R18
+L0 108
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vtb_fifo
+R2
+R4
+!i10b 1
+!s100 i:9lPF5dcIBk3iHeidDlP3
+IBjHCK=SALF9Y2H=32QPgZ2
+R14
+R15
+S1
+R5
+R16
+R17
+R18
+L0 60
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+Xtest_pkg
+R0
+R1
+R2
+R3
+R12
+R19
+R4
+!i10b 1
+!s100 iXTML^eGnh=dnciUbcIB=1
+IPP>aaPBO]NAfR0JV8iUD=0
+VPP>aaPBO]NAfR0JV8iUD=0
+S1
+R5
+w1672311768
+8../src/sim/test_pkg.sv
+F../src/sim/test_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vtop_asfifo
+R4
+!i10b 1
+!s100 AakPDzeBn=Dm@F8R<:[X^2
+IKAM6f]Zz81FB@?k5k9iSC1
+R14
+R5
+w1684308032
+8../src/rtl/top_asfifo.v
+F../src/rtl/top_asfifo.v
+F../src/rtl//clog2.vh
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vuserdefine
+!s110 1684307708
+!i10b 1
+!s100 OZ@fVUl:=RikiS:K6BT4Q2
+I2B=V]HOYGkEPY;DfCfOdW1
+R14
+R5
+w1684307592
+8D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/clog2.v
+FD:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/clog2.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1684307708.000000
+!s107 D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/clog2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA_study/projects/0012_ASYNC_FIFO/src/rtl/clog2.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R11
+vw2r_sync
+R4
+!i10b 1
+!s100 Z:RBOZPCGe`oB:6>g[kLm1
+IY6a]6f975ePKU>h5S;jiZ2
+R14
+R5
+w1684305779
+8../src/rtl/w2r_sync.v
+F../src/rtl/w2r_sync.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+vwr_addr_cntl
+R4
+!i10b 1
+!s100 :cV9=cXF^<S4BdbNb]W`z1
+Ia9OSi5b07_PcT>co=Ql9Y0
+R14
+R5
+w1684392465
+8../src/rtl/wr_addr_cntl.v
+F../src/rtl/wr_addr_cntl.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11
+Ywrite_intf
+R2
+R4
+!i10b 1
+!s100 6a9AF3S8ZEFVAhfJM<65L3
+IEi=lVa[TX9iCJZo?VIdE42
+R14
+R15
+S1
+R5
+R16
+R17
+R18
+L0 41
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 1
+R9
+R10
+R11

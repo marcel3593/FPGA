@@ -1,0 +1,22 @@
+# vsim -i -wlf async_fifo.wlf -default_radix hexadecimal -novopt work.tb_fifo -l simlog.txt 
+# Start time: 15:10:27 on May 18,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.tb_fifo
+# Loading work.read_intf
+# Loading work.write_intf
+# Loading work.top_asfifo
+# Loading work.dualport_ram
+# Loading work.wr_addr_cntl
+# Loading work.rd_addr_cntl
+# Loading work.full_logic
+# Loading work.empty_logic
+# Loading work.r2w_sync
+# Loading work.w2r_sync
+# Loading work.rpt_pkg
+# Loading work.access_pkg
+# Loading work.checker_pkg
+# Loading work.test_pkg
+# Loading work.run_test
+# End time: 15:14:27 on May 18,2023, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 1

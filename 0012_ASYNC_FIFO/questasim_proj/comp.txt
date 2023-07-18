@@ -1,0 +1,29 @@
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Start time: 15:10:27 on May 18,2023
+vlog -reportprogress 300 -novopt -lint -l comp.txt -timescale 1ns/1ps "+incdir+../src/rtl/" "+indcdir+../src/sim/" ../src/rtl/empty_logic.v ../src/rtl/full_logic.v ../src/rtl/r2w_sync.v ../src/rtl/ram.v ../src/rtl/rd_addr_cntl.v ../src/rtl/w2r_sync.v ../src/rtl/wr_addr_cntl.v ../src/rtl/top_asfifo.v ../src/sim/rpt_pkg.sv ../src/sim/access_pkg.sv ../src/sim/checker_pkg.sv ../src/sim/test_pkg.sv ../src/sim/tb_fifo.sv 
+-- Compiling module empty_logic
+-- Compiling module full_logic
+-- Compiling module r2w_sync
+-- Compiling module dualport_ram
+-- Compiling module rd_addr_cntl
+-- Compiling module w2r_sync
+-- Compiling module wr_addr_cntl
+-- Compiling module top_asfifo
+-- Compiling package rpt_pkg
+-- Compiling package access_pkg
+-- Importing package rpt_pkg
+-- Compiling package checker_pkg
+-- Importing package access_pkg
+-- Compiling package test_pkg
+-- Importing package checker_pkg
+-- Compiling interface read_intf
+-- Compiling interface write_intf
+-- Compiling module tb_fifo
+** Warning: ../src/sim/tb_fifo.sv(60): (vlog-2605) empty port name in port list.
+-- Compiling program run_test
+-- Importing package test_pkg
+
+Top level modules:
+	tb_fifo
+End time: 15:10:27 on May 18,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
